@@ -137,7 +137,16 @@ div{clear:none;float:left;width:100% }
 .navi_button a{
   text-decoration: none;
 }
-
+.character-info .full_image{
+width:fit-content
+}
+.character-info .full_image img{
+  width:300px
+  }
+  .character-info .detail{
+    width:fit-content;
+    margin-left:10px
+    }
 .navi_teams{
   text-decoration: none;
   height:50px;
