@@ -63,7 +63,8 @@
         "full_image" : "https://gimpact.ml/img/character/full/Bennett.jpg",
         "hex" : "06",
         "weapon" : "Sword",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "fuckable" : "idk"
     },
     {
         "name" : "Chongyun",
