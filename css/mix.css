@@ -41,6 +41,7 @@ div{clear:none;float:left;width:100% }
     height:100px;
     margin:5px;
   }
+
 }
 .filter{
   height:60px;
@@ -58,6 +59,16 @@ div{clear:none;float:left;width:100% }
   transition-duration: 0.2s;
   margin:5px;
   width: 20px;
+}
+@media(max-width: 700px) {
+  .filter a{
+    padding:7px;
+    width: 15px;
+    margin: 1px;
+  }
+  .filter a img{
+    width: 23px;
+  }
 }
 .filter a img{
   width: 28px;
