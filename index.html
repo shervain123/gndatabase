@@ -6,7 +6,7 @@
   <link rel="icon" href="/img/character/head/Bennett.png">
   <link rel="stylesheet" href="/css/mix.css">
   <link rel="preload" href="js/index.js">
-  <title>Gay impact</title>
+  <title>Gimpact</title>
   <meta charset="utf-8"> 
 
   <style>
@@ -19,13 +19,33 @@
       <!-- put the actual code in the below container you dumb fuck-->
       <h2 class="dark-1" id="characters" style="margin:0px;margin-bottom:10px">Character List</h2>
       <div id="filter" class="filter">
-        <a href="javascript:void(0)">All</a>
-        <a href="javascript:void(0)"><img src="img/character/element/anemo.png"></a>
-        <a href="javascript:void(0)"><img src="img/character/element/cryo.png"></a>
-        <a href="javascript:void(0)"><img src="img/character/element/electro.png"></a>
-        <a href="javascript:void(0)"><img src="img/character/element/geo.png"></a>
-        <a href="javascript:void(0)"><img src="img/character/element/hydro.png"></a>
-        <a href="javascript:void(0)"><img src="img/character/element/pyro.png"></a>
+        <div class="selection">
+        <a href="javascript:void(0)" onclick="filter('all','character','a')"><img src="img/icons/reset.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Anemo','character','a')"><img src="img/character/element/anemo.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Cryo','character','a')"><img src="img/character/element/cryo.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Electro','character','a')"><img src="img/character/element/electro.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Geo','character','a')"><img src="img/character/element/geo.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Hydro','character','a')"><img src="img/character/element/hydro.png"></a>
+        <a href="javascript:void(0)" onclick="filter('Pyro','character','a')"><img src="img/character/element/pyro.png"></a>
+        <a href="javascript:void(0)" onclick="extanded_filter()" id="filter_expand_btn"><img src="img/icons/filter.png"></a>
+        <div>
+          <a href="javascript:void(0)" onclick="filter('Bow','character','a')" id="filter_expand_btn"><img src="img/character/weapon/bow.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Catalyst','character','a')" id="filter_expand_btn"><img src="img/character/weapon/catalyst.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Claymore','character','a')" id="filter_expand_btn"><img src="img/character/weapon/claymore.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Polearm','character','a')" id="filter_expand_btn"><img src="img/character/weapon/polearm.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Sword','character','a')" id="filter_expand_btn"><img src="img/character/weapon/sword.png"></a>
+        </div>
+        <div>
+          <a href="javascript:void(0)" onclick="filter('Mondstadt','character','a')" id="filter_expand_btn"><img src="img/character/region/mondstadt.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Liyue','character','a')" id="filter_expand_btn"><img src="img/character/region/liyue.png"></a>
+          <a href="javascript:void(0)" onclick="filter('Inazuma','character','a')" id="filter_expand_btn"><img src="img/character/region/inazuma.png"></a>
+        </div>
+        <div>
+          <a href="javascript:void(0)" onclick="filter('4','character','a')" id="filter_expand_btn">4 ☆</a>
+          <a href="javascript:void(0)" onclick="filter('5','character','a')" id="filter_expand_btn">5 ☆</a>
+        </div>
+        </div>
+        <input id="search" class="search" autocomplete="off" placeholder="Search" onkeyup="search('search','character')" onkeydown="search('search','character')">
       </div>
       <div id="character">
         
@@ -42,7 +62,7 @@
     </div>
     <div id="nav_bar" class="navi dark-1">
       <div class="navi_button" >
-        <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gay impact</h4></a>
+        <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gimpact</h4></a>
       </div>
       <div class="w3-row navi_teams">
         <a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>

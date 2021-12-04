@@ -15,11 +15,15 @@ for (i = 0; i < character.length; i++){
         console.log(character[i].name)
         var vare = Object.keys(character[i])
         var a = character[i]
+        var link = document.querySelector("link[rel~='icon']");
+        link.href = character[i].image
         var text = ""
         for (let x of vare) {
             text += x + ": " + a[x] + "<br>";
         }
         image_creator(character[i].name,character[i].full_image,character[i].rarity,character[i].weapon,character[i].element,character[i].region,text)
+        document.title = "Gimpact "+character[i].name
+
     }
 }
 

@@ -18,7 +18,7 @@ div{clear:none;float:left;width:100% }
   overflow: hidden;
   height:120px;
   transform:translateY(0px);
-  margin:5px 20px;
+  margin:5px 13px;
 }
 .mat_icons{
   font-size: 25px;
@@ -34,48 +34,115 @@ div{clear:none;float:left;width:100% }
 .character_img .img img{
   width:100%;
 }
-@media only screen and (max-width: 700px) {
+
+.filter{
+  height:60px;
+  width:98%;
+  margin-left:10px;
+  margin-top:5px;
+  transition-property: height background-color;
+  transition-duration: 0.2s;
+  margin-bottom:10px;
+}
+
+.filter .selection a{
+  background-color: #303336;
+  border: none;
+display: inline-block;
+padding: 5px 16px;
+vertical-align: middle;
+overflow: hidden;
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+white-space: nowrap;
+margin-top:10px;
+margin-left:5px
+}
+
+.filter .selection a img{
+  width: 30px;
+}
+
+.filter .selection a:hover{
+  background-color: #4e5357;
+}
+.filter .selection{
+  width:570px;
+  overflow: hidden;
+  height:100%;
+  margin-left:5px;
+}
+.search{
+  border:3px #404040;
+  background-color: #303336;
+  color: #ffffff;
+  margin-top:10px;
+  height:40px;
+  width:370px;
+  margin-left:0;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  padding:10px;
+}
+.search:focus{
+  background-color: #4e5357;
+}
+@media only screen and (max-width: 600px) {
   /* For mobile phones: */
-  [class="character_img"] {
+  .character_img{
     width:100px;
-    height:100px;
-    margin:5px;
+
+    margin:10px 0px 0px 3px;
+  
+  }
+  .filter .selection a{
+    padding:5px 5px;
+    width: 4.2vh;
+    margin: 0px;
+    margin-top:5px;
+  }
+  .filter .selection a img{
+    width: 23px;
+  }
+  .filter .selection{
+    width:100%;
+    overflow: hidden;
+  height:100%;
+  margin-left:5px;
+  }
+  .filter{
+    height:44px;
+    width:98%;
+    margin:2px;
+    transition-property: height background-color;
+    transition-duration: 0.3s;
+    margin-bottom:60px;
+  }
+  .search{
+    margin-top:5px;
+    height:40px;
+    width:94%;
+    margin-left:5px;
   }
 
 }
-.filter{
-  height:60px;
-  width:100%;
-  margin-left:10px;
-  margin-top:5px;
-  transition-property: height;
-  transition-duration: 0.2s;
-}
-.filter a{
-  padding:12px;
-  background-color: #292f33;
-  text-decoration: none;
-  transition-property: background-color;
-  transition-duration: 0.2s;
-  margin:5px;
-  width: 20px;
-}
-@media(max-width: 700px) {
-  .filter a{
-    padding:7px;
-    width: 15px;
-    margin: 1px;
+@media (max-width:992px) and (min-width:601px){
+  .filter{
+    margin-bottom:60px;
   }
-  .filter a img{
-    width: 23px;
+  .search{
+    margin-top:0px;
+    margin-left:10px;
+    width:80%;
   }
-}
-.filter a img{
-  width: 28px;
-}
-.filter a:hover{
-  background-color: #4e5357;
+  .character_img{
+    width:120px;
+
+    margin:10px 0px 0px 5px;
   
+  }
 }
 .character_img .name{
   position: fixed;
@@ -119,6 +186,7 @@ div{clear:none;float:left;width:100% }
   width:300px;
   
 }
+
 .navi{
     position:fixed;
     height:100%;
