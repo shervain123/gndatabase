@@ -354,6 +354,7 @@ function teams_selector(){
     var main = document.getElementById("main")
     var selection_container = document.getElementById("add_container")
     var btn = document.getElementById("team_switch")
+    var teams_container = document.getElementById("teams")
     if(main.style.backgroundColor == "rgb(112, 112, 112)"){
         main.style.backgroundColor = ""
         selection_container.innerHTML='<i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items'
@@ -371,7 +372,8 @@ function teams_selector(){
     extand_filter()
     character_list_team()
     load_character_save()
-    document.getElementById("teams").innerHTML=""
+    
+    team_expand(1)
     document.getElementById("characters").innerText = "Character List"
     }
     
@@ -598,7 +600,7 @@ function check_blank(){
 }
 var starting_height
 
-function team_expand(){
+function team_expand(close=0){
     var teams_container = document.getElementById("teams")
     var days = ["monday","tuesday","wednesday","sunday"]
     var btn = document.getElementById("expand")
@@ -614,15 +616,18 @@ function team_expand(){
     var wea_cookie = getCookie("weapon")
     var box = document.querySelector(".teams")
     var box_style = getComputedStyle(box)
+    var cha_empty, wea_empty
     
+    if(cha_cookie == null || cha_cookie == "") cha_empty = 1
+    if(wea_cookie == null || wea_cookie == "") wea_empty=1
     
-    if(btn.getElementsByTagName("i")[0].style.transform == "rotate(180deg)"){
+    if(btn.getElementsByTagName("i")[0].style.transform == "rotate(180deg)" || close == 1){
         teams_container.style.height = starting_height
         setTimeout(function(){
             teams_container.style.height = ""
             teams_container.innerHTML = ""
             btn.innerHTML='<i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand'
-            teams()
+            if(close != 1) teams()
         },200)
     }else{
         btn.innerHTML='<i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;Transform: rotate(180deg)">expand_circle_down</i>Close'
@@ -657,7 +662,7 @@ function team_expand(){
     teams_container.appendChild(tuesday)
     teams_container.appendChild(wednesday)
     teams_container.appendChild(sunday)
-    
+    if(cha_empty != 1){
     for (i = 0; i < character.length; i++){
         if(cha_cookie.search(character[i].hex) >= 1){
             if(character[i].talent == "monday"){
@@ -672,6 +677,8 @@ function team_expand(){
             teams_time_img(character[i].image,character[i].name,character[i].hex,"sunday","/character.html?cha=")
         }
     }
+    }
+    if(wea_empty != 1){
     for (i = 0; i < weapon.length; i++){
         if(wea_cookie.search(weapon[i].hex) >= 1){
             if(weapon[i].talent == "monday"){
@@ -686,7 +693,7 @@ function team_expand(){
             teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"sunday","/weapon.html?wea=")
         }
     }
-
+    }
     for (i = 0; i < days.length; i++){
         var a = document.getElementById(days[i])
         var child = a.getElementsByTagName("div")
