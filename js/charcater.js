@@ -8,7 +8,7 @@ function load_json(file){
 }
 
 var link = window.location.href
-link = link.slice(link.search(".html?")+6,link.length)
+link = link.slice(link.search("cha=")+4,link.search("cha=")+6)
 console.log(link)
 for (i = 0; i < character.length; i++){
     if(character[i].hex == link){
