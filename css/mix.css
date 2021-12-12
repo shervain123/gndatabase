@@ -4,6 +4,114 @@
 .montserrat{font-family: "Montserrat", sans-serif;}
 div{clear:none;float:left;width:100% }
 .hidea{display: none!important}
+.export-input{
+  margin:10px;
+  margin-left:0px !important;
+  margin-right:0px !important;
+  padding:10px 20px;
+  background-color: #303336;
+  color:#ffffff;
+  border:none;
+  width:92%;
+  outline: none;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.options div a{
+  padding:10px 10px;
+  background-color: #303336;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  margin:10px 0px;
+  text-decoration: none;
+  width:fit-content;
+}
+
+.delete a{
+  padding:10px 20px;
+  background-color: #303336;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  margin:0px 5px;
+  text-decoration: none;
+  width:fit-content;
+}
+.delete{
+  margin-bottom:10px;
+  overflow:hidden;
+  height:0px;
+  transition-property: height;
+  transition-duration: 0.2s;
+}
+.delete #yes:hover{
+  background-color: #cc0000 !important;
+}
+.delete a:hover{
+  background-color: #4e5357;
+}
+.options div p{
+  width:fit-content
+}
+.options div{
+  margin:10px;
+  margin-left:0px !important;
+  margin-top:0px !important;
+}
+.options div a:hover{
+  background-color: #4e5357;
+}
+.options{
+  margin:0px;
+  margin-bottom:10px !important;
+  width:100%;
+}
+.export-input:focus{
+  background-color: #4e5357;
+}
+.copy-button{
+  background-color: #303336;
+  padding:10px 10px 10.5px 10px;
+  text-decoration: none;
+  transform: translateY(15%);
+  font-size: 22px !important;
+  margin-left:5px !important;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.copy-button:hover{
+  background-color: #4e5357;
+}
+.import-button{
+  background-color: #303336;
+  padding:12px 10px;
+  text-decoration: none;
+  margin-left:5px !important;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+.import-button:hover{
+  background-color: #4e5357;
+}
+.export_container{
+  width:100%;
+  overflow: hidden;
+}
+.exports p {
+  margin-top:0px;
+  margin-bottom:5px;
+}
+.exports{
+  margin-left:10px
+}
+.share_switch p{
+  width:fit-content;
+  margin-top:10px;
+}
+.share_switch{
+  width:100%;
+
+  margin-bottom: 10px;
+}
 .side-margin{
     margin:0px 10px
 }
@@ -57,7 +165,9 @@ text-align: center;
 cursor: pointer;
 white-space: nowrap;
 margin-top:10px;
-margin-left:5px
+margin-left:5px;
+transition-property: background-color;
+transition-duration: 0.2s;
 }
 
 .filter .selection a img{
@@ -149,7 +259,9 @@ margin-left:5px
     width:94%;
     margin-left:5px;
   }
-
+  .export-input{
+    width:80%;
+  }
 }
 @media (max-width:992px) and (min-width:601px){
   .filter{
@@ -162,9 +274,10 @@ margin-left:5px
   }
   .character_img{
     width:120px;
-
     margin:10px 0px 0px 5px;
-  
+  }
+  .export-input{
+    width:80%;
   }
 }
 .character_img .name{
@@ -262,6 +375,12 @@ margin-left:5px
   transition-property: background-color color;
   transition-duration: 0.2s;  
 }
+.navi_button_dev i{
+  width:fit-content
+}
+.navi_button_dev p{
+  width:fit-content
+}
 .navi_button_dev:hover{
   background-color: #c0c0c0;
   color:#000000;
@@ -286,8 +405,18 @@ width:fit-content
   transition-property: height background-color;
   transition-duration: 0.2s;
 }
+.title_middle{
+  background-color: #292f33;
+  color:#ffffff;
+  width:100%
+}
+.title_middle h3{
+  padding:0px 5px;
+  width:fit-content;
+
+}
 .navi_teams:hover{
-  height:230px;
+  height:275px;
   background-color: #4e5357;
 }
 .navi_teams a{
@@ -306,6 +435,9 @@ text-decoration: none;
   padding:10px 0px;
   text-decoration: none;
   margin-left:10px
+}
+.navi_text p{
+  width:fit-content
 }
 .navi_teams_clear{
   padding:10px 10px;
@@ -891,3 +1023,66 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-border-dark-grey,.w3-hover-border-dark-grey:hover,.w3-border-dark-gray,.w3-hover-border-dark-gray:hover{border-color:#616161!important}
 .w3-border-pale-red,.w3-hover-border-pale-red:hover{border-color:#ffe7e7!important}.w3-border-pale-green,.w3-hover-border-pale-green:hover{border-color:#e7ffe7!important}
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
+
+ /* The switch - the box around the slider */
+ .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  padding:5px;
+  outline: none;
+  border:none;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  outline: none;
+  border:none;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  background-color: #303336;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+  border:none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #707070;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #707070;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}

@@ -8,7 +8,8 @@
         "full_image" : "img/character/full/Albedo.png",
         "hex" : "01",
         "weapon" : "Sword",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "01"
     },
     {
         "name" : "Aloy",
@@ -19,7 +20,8 @@
         "full_image" : "img/character/full/Aloy.png",
         "hex" : "02",
         "weapon" : "Bow",
-        "region" : "Unknown"
+        "region" : "Unknown",
+        "gncode" : "02"
     },
     {
         "name" : "Amber",
@@ -30,7 +32,8 @@
         "full_image" : "img/character/full/Amber.jpg",
         "hex" : "03",
         "weapon" : "Bow",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "03"
     },
     {
         "name" : "Barbara",
@@ -41,7 +44,8 @@
         "full_image" : "img/character/full/Barbara.jpg",
         "hex" : "04",
         "weapon" : "Catalyst",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "05"
     },
     {
         "name" : "Beidou",
@@ -52,7 +56,8 @@
         "full_image" : "img/character/full/Beidou.jpg",
         "hex" : "05",
         "weapon" : "Claymore",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "06"
     },
     {
         "name" : "Bennett",
@@ -64,6 +69,7 @@
         "hex" : "06",
         "weapon" : "Sword",
         "region" : "Mondstadt",
+        "gncode" : "07",
         "fuckable" : "idk"
     },
     {
@@ -75,7 +81,8 @@
         "full_image" : "img/character/full/Chongyun.jpg",
         "hex" : "07",
         "weapon" : "Claymore",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "08"
     },
     {
         "name" : "Diluc",
@@ -86,7 +93,8 @@
         "full_image" : "img/character/full/Diluc.jpg",
         "hex" : "08",
         "weapon" : "Claymore",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "09"
     },
     {
         "name" : "Diona",
@@ -97,7 +105,8 @@
         "full_image" : "img/character/full/Diona.png",
         "hex" : "09",
         "weapon" : "Bow",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "10"
     },
     {
         "name" : "Eula",
@@ -108,7 +117,8 @@
         "full_image" : "img/character/full/Eula.png",
         "hex" : "0a",
         "weapon" : "Claymore",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "11"
     },
     {
         "name" : "Fischl",
@@ -119,7 +129,8 @@
         "full_image" : "img/character/full/Fischl.jpg",
         "hex" : "0b",
         "weapon" : "Bow",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "12"
     },
     {
         "name" : "Ganyu",
@@ -130,7 +141,8 @@
         "full_image" : "img/character/full/Ganyu.png",
         "hex" : "0c",
         "weapon" : "Bow",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "13"
     },
     {
         "name" : "Hu Tao",
@@ -141,7 +153,8 @@
         "full_image" : "img/character/full/HuTao.jpg",
         "hex" : "0d",
         "weapon" : "Polearm",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "14"
     },
     {
         "name" : "Jean",
@@ -152,7 +165,8 @@
         "full_image" : "img/character/full/Jean.jpg",
         "hex" : "0e",
         "weapon" : "Sword",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "15"
     },
     {
         "name" : "Kaedehara Kazuha",
@@ -163,7 +177,8 @@
         "full_image" : "img/character/full/KaedeharaKazuha.png",
         "hex" : "0f",
         "weapon" : "Sword",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "17"
     },
     {
         "name" : "Kaeya",
@@ -174,7 +189,8 @@
         "full_image" : "img/character/full/Kaeya.jpg",
         "hex" : "10",
         "weapon" : "Sword",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "16"
     },
     {
         "name" : "Kamisato Ayaka",
@@ -185,7 +201,8 @@
         "full_image" : "img/character/full/KamisatoAyaka.png",
         "hex" : "11",
         "weapon" : "Sword",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "04"
     },
     {
         "name" : "Keqing",
@@ -196,7 +213,8 @@
         "full_image" : "img/character/full/Keqing.jpg",
         "hex" : "12",
         "weapon" : "Sword",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "18"
     },
     {
         "name" : "Klee",
@@ -207,7 +225,8 @@
         "full_image" : "img/character/full/Klee.jpg",
         "hex" : "13",
         "weapon" : "Catalyst",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "19"
     },
     {
         "name" : "Kujou Sara",
@@ -218,7 +237,8 @@
         "full_image" : "img/character/full/KujouSara.jpg",
         "hex" : "14",
         "weapon" : "Bow",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "29"
     },
     {
         "name" : "Lisa",
@@ -229,7 +249,8 @@
         "full_image" : "img/character/full/Lisa.jpg",
         "hex" : "15",
         "weapon" : "Catalyst",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "21"
     },
     {
         "name" : "Mona",
@@ -240,7 +261,8 @@
         "full_image" : "img/character/full/Mona.jpg",
         "hex" : "16",
         "weapon" : "Catalyst",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "22"
     },
     {
         "name" : "Ningguang",
@@ -251,7 +273,8 @@
         "full_image" : "img/character/full/Ningguang.jpg",
         "hex" : "17",
         "weapon" : "Catalyst",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "23"
     },
     {
         "name" : "Noelle",
@@ -262,7 +285,8 @@
         "full_image" : "img/character/full/Noelle.jpg",
         "hex" : "18",
         "weapon" : "Claymore",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "24"
     },
     {
         "name" : "Qiqi",
@@ -273,7 +297,8 @@
         "full_image" : "img/character/full/Qiqi.jpg",
         "hex" : "19",
         "weapon" : "Sword",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "25"
     },
     {
         "name" : "Raiden Shogun",
@@ -284,7 +309,8 @@
         "full_image" : "img/character/full/RaidenShogun.jpg",
         "hex" : "1a",
         "weapon" : "Polearm",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "26"
     },
     {
         "name" : "Razor",
@@ -295,7 +321,8 @@
         "full_image" : "img/character/full/Razor.jpg",
         "hex" : "1b",
         "weapon" : "Claymore",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "27"
     },
     {
         "name" : "Rosaria",
@@ -306,7 +333,8 @@
         "full_image" : "img/character/full/Rosaria.png",
         "hex" : "1c",
         "weapon" : "Polearm",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "28"
     },
     {
         "name" : "Sangonomiya Kokomi",
@@ -317,7 +345,8 @@
         "full_image" : "img/character/full/SangonomiyaKokomi.jpg",
         "hex" : "1d",
         "weapon" : "Catalyst",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "none"
     },
     {
         "name" : "Sayu",
@@ -328,7 +357,8 @@
         "full_image" : "img/character/full/Sayu.png",
         "hex" : "1e",
         "weapon" : "Claymore",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "30"
     },
     {
         "name" : "Sucrose",
@@ -339,7 +369,8 @@
         "full_image" : "img/character/full/Sucrose.jpg",
         "hex" : "1f",
         "weapon" : "Catalyst",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "31"
     },
     {
         "name" : "Tartaglia",
@@ -350,7 +381,8 @@
         "full_image" : "img/character/full/Tartaglia.png",
         "hex" : "20",
         "weapon" : "Bow",
-        "region" : "Snezhnaya"
+        "region" : "Snezhnaya",
+        "gncode" : "32"
     },
     {
         "name" : "Thoma",
@@ -361,7 +393,8 @@
         "full_image" : "img/character/full/Thoma.jpg",
         "hex" : "21",
         "weapon" : "Polearm",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "33"
     },
     {
         "name" : "Traveler",
@@ -373,7 +406,8 @@
         "full_image_female": "img/character/full/Lummie.jpg",
         "hex" : "22",
         "weapon" : "Sword",
-        "region" : "Unknown"
+        "region" : "Unknown",
+        "gncode" : "34"
     },
     {
         "name" : "Venti",
@@ -384,7 +418,8 @@
         "full_image" : "img/character/full/Venti.jpg",
         "hex" : "23",
         "weapon" : "Bow",
-        "region" : "Mondstadt"
+        "region" : "Mondstadt",
+        "gncode" : "35"
     },
     {
         "name" : "Xiangling",
@@ -395,7 +430,8 @@
         "full_image" : "img/character/full/Xiangling.jpg",
         "hex" : "24",
         "weapon" : "Polearm",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "36"
     },
     {
         "name" : "Xiao",
@@ -406,7 +442,8 @@
         "full_image" : "img/character/full/Xiao.jpg",
         "hex" : "25",
         "weapon" : "Polearm",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "37"
     },
     {
         "name" : "Xingqiu",
@@ -417,7 +454,8 @@
         "full_image" : "img/character/full/Xingqiu.jpg",
         "hex" : "26",
         "weapon" : "Sword",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "38"
     },
     {
         "name" : "Xinyan",
@@ -428,7 +466,8 @@
         "full_image" : "img/character/full/Xinyan.jpg",
         "hex" : "27",
         "weapon" : "Claymore",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "39"
     },
     {
         "name" : "Yanfei",
@@ -439,7 +478,8 @@
         "full_image" : "img/character/full/Yanfei.png",
         "hex" : "28",
         "weapon" : "Catalyst",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "40"
     },
     {
         "name" : "Yoimiya",
@@ -450,7 +490,8 @@
         "full_image" : "img/character/full/Yoimiya.png",
         "hex" : "29",
         "weapon" : "Bow",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "41"
     },
     {
         "name" : "Zhongli",
@@ -461,7 +502,8 @@
         "full_image" : "img/character/full/Zhongli.png",
         "hex" : "2a",
         "weapon" : "Polearm",
-        "region" : "Liyue"
+        "region" : "Liyue",
+        "gncode" : "42"
     },
     {
         "name" : "Arataki Itto",
@@ -472,7 +514,8 @@
         "full_image" : "img/character/full/AratakiItto.jpg",
         "hex" : "2b",
         "weapon" : "Claymore",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "none"
     },
     {
         "name" : "Gorou",
@@ -483,7 +526,8 @@
         "full_image" : "img/character/full/Gorou.jpg",
         "hex" : "2c",
         "weapon" : "Bow",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "none"
     },
     {
         "name" : "Shenhe",
@@ -494,7 +538,8 @@
         "full_image" : "img/character/full/Shenhe.jpg",
         "hex" : "2d",
         "weapon" : "Polearm",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "none"
     },
     {
         "name" : "Yun Jin",
@@ -505,7 +550,8 @@
         "full_image" : "img/character/full/YunJin.jpg",
         "hex" : "2e",
         "weapon" : "Polearm",
-        "region" : "Inazuma"
+        "region" : "Inazuma",
+        "gncode" : "none"
     }
 ]
 

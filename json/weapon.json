@@ -8,7 +8,8 @@
         "image": "/img/weapon/all/PolarStar.png",
         "hex": "01",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "7c"
     },
     {
         "name":"Thundering Pulse",
@@ -19,7 +20,8 @@
         "image": "/img/weapon/all/ThunderingPulse.png",
         "hex": "02",
         "talent": "tuesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "70"
     },
     {
         "name":"Elegy for the End",
@@ -30,7 +32,8 @@
         "image": "/img/weapon/all/ElegyfortheEnd.png",
         "hex": "03",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "19"
     },
     {
         "name":"Skyward Harp",
@@ -41,7 +44,8 @@
         "image": "/img/weapon/all/SkywardHarp.png",
         "hex": "04",
         "talent": "tuesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "5c"
     },
     {
         "name":"Amos%27 Bow",
@@ -52,7 +56,8 @@
         "image": "/img/weapon/all/Amos%27Bow.png",
         "hex": "05",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "03"
     },
     {
         "name":"Alley Hunter",
@@ -63,7 +68,8 @@
         "image": "/img/weapon/all/AlleyHunter.png",
         "hex": "06",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "01"
     },
     {
         "name":"The Viridescent Hunt",
@@ -74,7 +80,8 @@
         "image": "/img/weapon/all/TheViridescentHunt.png",
         "hex": "07",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "6d"
     },
     {
         "name":"The Stringless",
@@ -85,7 +92,8 @@
         "image": "/img/weapon/all/TheStringless.png",
         "hex": "08",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "6b"
     },
     {
         "name":"Sacrificial Bow",
@@ -96,7 +104,8 @@
         "image": "/img/weapon/all/SacrificialBow.png",
         "hex": "09",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "50"
     },
     {
         "name":"Rust",
@@ -107,7 +116,8 @@
         "image": "/img/weapon/all/Rust.png",
         "hex": "0a",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "4f"
     },
     {
         "name":"Royal Bow",
@@ -118,7 +128,8 @@
         "image": "/img/weapon/all/RoyalBow.png",
         "hex": "0b",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "4a"
     },
     {
         "name":"Predator",
@@ -129,7 +140,8 @@
         "image": "/img/weapon/all/Predator.png",
         "hex": "0c",
         "talent": "tuesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "3f"
     },
     {
         "name":"Prototype Crescent",
@@ -140,10 +152,11 @@
         "image": "/img/weapon/all/PrototypeCrescent.png",
         "hex": "0d",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "44"
     },
     {
-        "name":"Mouun%22s Moon",
+        "name":"Mouun%27s Moon",
         "rarity": "4",
         "ability_name": "Watatsumi Wavewalker",
         "ability_detail": "<br>For every point of the entire party%22s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way. ",
@@ -151,7 +164,8 @@
         "image": "/img/weapon/all/Mouun%27sMoon.png",
         "hex": "0e",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "7b"
     },
     {
         "name":"Mitternachts Waltz",
@@ -162,7 +176,8 @@
         "image": "/img/weapon/all/MitternachtsWaltz.png",
         "hex": "0f",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "3b"
     },
     {
         "name":"Hamayumi",
@@ -173,7 +188,8 @@
         "image": "/img/weapon/all/Hamayumi.png",
         "hex": "10",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "2a"
     },
     {
         "name":"Favonius Warbow",
@@ -184,7 +200,8 @@
         "image": "/img/weapon/all/FavoniusWarbow.png",
         "hex": "11",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "22"
     },
     {
         "name":"Compound Bow",
@@ -195,7 +212,8 @@
         "image": "/img/weapon/all/CompoundBow.png",
         "hex": "12",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "0e"
     },
     {
         "name":"Blackcliff Warbow",
@@ -206,7 +224,8 @@
         "image": "/img/weapon/all/BlackcliffWarbow.png",
         "hex": "13",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "0b"
     },
     {
         "name":"Windblume Ode",
@@ -217,7 +236,8 @@
         "image": "/img/weapon/all/WindblumeOde.png",
         "hex": "14",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "78"
     },
     {
         "name":"Raven Bow",
@@ -228,7 +248,8 @@
         "image": "/img/weapon/all/RavenBow.png",
         "hex": "15",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "48"
     },
     {
         "name":"Recurve Bow",
@@ -239,7 +260,8 @@
         "image": "/img/weapon/all/RecurveBow.png",
         "hex": "16",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "49"
     },
     {
         "name":"Messenger",
@@ -250,10 +272,11 @@
         "image": "/img/weapon/all/Messenger.png",
         "hex": "17",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "39"
     },
     {
-        "name":"Sharpshooter%22s Oath",
+        "name":"Sharpshooter%27s Oath",
         "rarity": "3 ",
         "ability_name": "Precise",
         "ability_detail": "<br>Increases DMG against weak spots by 24~48%. ",
@@ -261,7 +284,8 @@
         "image": "/img/weapon/all/Sharpshooter%27sOath.png",
         "hex": "18",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "56"
     },
     {
         "name":"Slingshot",
@@ -272,7 +296,8 @@
         "image": "/img/weapon/all/Slingshot.png",
         "hex": "19",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "5f"
     },
     {
         "ignore": "1",
@@ -284,10 +309,11 @@
         "image": "/img/weapon/all/EbonyBow.png",
         "hex": "1a",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "18"
     },
     {
-        "name":"Seasoned Hunter%22s Bow",
+        "name":"Seasoned Hunter%27s Bow",
         "rarity": "2 ",
         "ability_name": "None ",
         "ability_detail": "<br>None ",
@@ -295,10 +321,11 @@
         "image": "/img/weapon/all/SeasonedHunter%27sBow.png",
         "hex": "1b",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "54"
     },
     {
-        "name":"Hunter%22s Bow",
+        "name":"Hunter%27s Bow",
         "rarity": "1 ",
         "ability_name": "None ",
         "ability_detail": "<br>None",
@@ -306,7 +333,8 @@
         "image": "/img/weapon/all/Hunter%27sBow.png",
         "hex": "1c",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "2c"
     },
     {
         "name":"Lost Prayer to the Sacred Winds",
@@ -317,7 +345,8 @@
         "image": "/img/weapon/all/LostPrayertotheSacredWinds.png",
         "hex": "1d",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "34"
     },
     {
         "name":"Skyward Atlas",
@@ -328,7 +357,8 @@
         "image": "/img/weapon/all/SkywardAtlas.png",
         "hex": "1e",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "5a"
     },
     {
         "name":"Everlasting Moonglow",
@@ -339,7 +369,8 @@
         "image": "/img/weapon/all/EverlastingMoonglow.png",
         "hex": "1f",
         "talent": "monday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "1c"
     },
     {
         "name":"Memory of Dust",
@@ -350,7 +381,8 @@
         "image": "/img/weapon/all/MemoryofDust.png",
         "hex": "20",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "38"
     },
     {
         "name":"Wine and Song",
@@ -361,7 +393,8 @@
         "image": "/img/weapon/all/WineandSong.png",
         "hex": "21",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "79"
     },
     {
         "name":"The Widsith",
@@ -372,7 +405,8 @@
         "image": "/img/weapon/all/TheWidsith.png",
         "hex": "22",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "6e"
     },
     {
         "name":"Solar Pearl",
@@ -383,7 +417,8 @@
         "image": "/img/weapon/all/SolarPearl.png",
         "hex": "23",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "61"
     },
     {
         "name":"Sacrificial Fragments",
@@ -394,7 +429,8 @@
         "image": "/img/weapon/all/SacrificialFragments.png",
         "hex": "24",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "51"
     },
     {
         "name":"Royal Grimoire",
@@ -405,7 +441,8 @@
         "image": "/img/weapon/all/RoyalGrimoire.png",
         "hex": "25",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "4c"
     },
     {
         "name":"Prototype Amber",
@@ -416,7 +453,8 @@
         "image": "/img/weapon/all/PrototypeAmber.png",
         "hex": "26",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "42"
     },
     {
         "name":"Mappa Mare",
@@ -427,7 +465,8 @@
         "image": "/img/weapon/all/MappaMare.png",
         "hex": "27",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "37"
     },
     {
         "name":"Hakushin Ring",
@@ -438,7 +477,8 @@
         "image": "/img/weapon/all/HakushinRing.png",
         "hex": "28",
         "talent": "monday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "28"
     },
     {
         "name":"Frostbearer",
@@ -449,7 +489,8 @@
         "image": "/img/weapon/all/Frostbearer.png",
         "hex": "29",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "27"
     },
     {
         "name":"Favonius Codex",
@@ -460,7 +501,8 @@
         "image": "/img/weapon/all/FavoniusCodex.png",
         "hex": "2a",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "1e"
     },
     {
         "name":"Eye of Perception",
@@ -471,7 +513,8 @@
         "image": "/img/weapon/all/EyeofPerception.png",
         "hex": "2b",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "1d"
     },
     {
         "name":"Dodoco Tales",
@@ -482,7 +525,8 @@
         "image": "/img/weapon/all/DodocoTales.png",
         "hex": "2c",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "14"
     },
     {
         "name":"Blackcliff Agate",
@@ -493,7 +537,8 @@
         "image": "/img/weapon/all/BlackcliffAgate.png",
         "hex": "2d",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "07"
     },
     {
         "name":"Magic Guide",
@@ -504,7 +549,8 @@
         "image": "/img/weapon/all/MagicGuide.png",
         "hex": "2e",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "36"
     },
     {
         "name":"Otherworldly Story",
@@ -515,7 +561,8 @@
         "image": "/img/weapon/all/OtherworldlyStory.png",
         "hex": "2f",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "3d"
     },
     {
         "name":"Emerald Orb",
@@ -526,7 +573,8 @@
         "image": "/img/weapon/all/EmeraldOrb.png",
         "hex": "30",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "1a"
     },
     {
         "name":"Thrilling Tales of Dragon Slayers",
@@ -537,7 +585,8 @@
         "image": "/img/weapon/all/ThrillingTalesofDragonSlayers.png",
         "hex": "31",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "6f"
     },
     {
         "name":"Twin Nephrite",
@@ -548,7 +597,8 @@
         "image": "/img/weapon/all/TwinNephrite.png",
         "hex": "32",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "72"
     },
     {
         "ignore": "1",
@@ -558,7 +608,8 @@
         "ability_detail": "<br>Normal Attack hits increase all Elemental DMG by 6~12% for 6s. Max 2 stacks. ",
         "weapon": "Catalysts",
         "image": "/img/weapon/all/AmberCatalyst.png",
-        "hex": "33"
+        "hex": "33",
+        "gncode": "none"
     },
     {
         "name":"Pocket Grimoire",
@@ -569,10 +620,11 @@
         "image": "/img/weapon/all/PocketGrimoire.png",
         "hex": "34",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "3e"
     },
     {
-        "name":"Apprentice%22s Notes",
+        "name":"Apprentice%27s Notes",
         "rarity": "1 ",
         "ability_name": "None ",
         "ability_detail": "<br>None ",
@@ -580,10 +632,11 @@
         "image": "/img/weapon/all/Apprentice%27sNotes.png",
         "hex": "35",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "04"
     },
     {
-        "name":"Wolf%22s Gravestone",
+        "name":"Wolf%27s Gravestone",
         "rarity": "5",
         "ability_name": "Wolfish Tracker",
         "ability_detail": "<br>Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members%22 ATK by 40~80% for 12s. Can only occur once every 30s. ",
@@ -591,7 +644,8 @@
         "image": "/img/weapon/all/Wolf%27sGravestone.png",
         "hex": "36",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "7a"
     },
     {
         "name":"Skyward Pride",
@@ -602,7 +656,8 @@
         "image": "/img/weapon/all/SkywardPride.png",
         "hex": "37",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "5d"
     },
     {
         "name":"The Unforged",
@@ -613,7 +668,8 @@
         "image": "/img/weapon/all/TheUnforged.png",
         "hex": "38",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "6c"
     },
     {
         "name":"Song of Broken Pines",
@@ -624,7 +680,8 @@
         "image": "/img/weapon/all/SongofBrokenPines.png",
         "hex": "39",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "62"
     },
     {
         "name":"Akuoumaru",
@@ -635,7 +692,8 @@
         "image": "/img/weapon/all/Akuoumaru.png",
         "hex": "3a",
         "talent": "monday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "7e"
     },
     {
         "name":"Royal Greatsword",
@@ -646,7 +704,8 @@
         "image": "/img/weapon/all/RoyalGreatsword.png",
         "hex": "3b",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "4b"
     },
     {
         "name":"Whiteblind",
@@ -657,7 +716,8 @@
         "image": "/img/weapon/all/Whiteblind.png",
         "hex": "3c",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "75"
     },
     {
         "name":"The Bell",
@@ -668,7 +728,8 @@
         "image": "/img/weapon/all/TheBell.png",
         "hex": "3d",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "67"
     },
     {
         "name":"Snow-Tombed Starsilver",
@@ -679,7 +740,8 @@
         "image": "/img/weapon/all/Snow-TombedStarsilver.png",
         "hex": "3e",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "60"
     },
     {
         "name":"Favonius Greatsword",
@@ -690,7 +752,8 @@
         "image": "/img/weapon/all/FavoniusGreatsword.png",
         "hex": "3f",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "1f"
     },
     {
         "name":"Katsuragikiri Nagamasa",
@@ -701,7 +764,8 @@
         "image": "/img/weapon/all/KatsuragikiriNagamasa.png",
         "hex": "40",
         "talent": "tuesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "2f"
     },
     {
         "name":"Sacrificial Greatsword",
@@ -712,7 +776,8 @@
         "image": "/img/weapon/all/SacrificialGreatsword.png",
         "hex": "41",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "52"
     },
     {
         "name":"Serpent Spine",
@@ -723,7 +788,8 @@
         "image": "/img/weapon/all/SerpentSpine.png",
         "hex": "42",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "55"
     },
     {
         "name":"Blackcliff Slasher",
@@ -734,7 +800,8 @@
         "image": "/img/weapon/all/BlackcliffSlasher.png",
         "hex": "43",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "0a"
     },
     {
         "name":"Rainslasher",
@@ -745,7 +812,8 @@
         "image": "/img/weapon/all/Rainslasher.png",
         "hex": "44",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "47"
     },
     {
         "name":"Prototype Archaic",
@@ -756,7 +824,8 @@
         "image": "/img/weapon/all/PrototypeArchaic.png",
         "hex": "45",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "43"
     },
     {
         "name":"Luxurious Sea-Lord",
@@ -767,7 +836,8 @@
         "image": "/img/weapon/all/LuxuriousSea-Lord.png",
         "hex": "46",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "35"
     },
     {
         "name":"Lithic Blade",
@@ -778,7 +848,8 @@
         "image": "/img/weapon/all/LithicBlade.png",
         "hex": "47",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "32"
     },
     {
         "ignore": "1",
@@ -788,7 +859,8 @@
         "ability_detail": "<br>Upon causing an Overloaded, Melt, Burning, Vaporize, or a Pyro-infused Swirl reaction, increases Base ATK by 20~40% for 12s. ",
         "weapon": "Claymore",
         "image": "/img/weapon/all/Quartz.png",
-        "hex": "48"
+        "hex": "48",
+        "gncode": "none"
     },
     {
         "name":"Skyrider Greatsword",
@@ -799,7 +871,8 @@
         "image": "/img/weapon/all/SkyriderGreatsword.png",
         "hex": "49",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "58"
     },
     {
         "name":"Debate Club",
@@ -810,7 +883,8 @@
         "image": "/img/weapon/all/DebateClub.png",
         "hex": "4a",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "13"
     },
     {
         "name":"Bloodtainted Greatsword",
@@ -821,7 +895,8 @@
         "image": "/img/weapon/all/BloodtaintedGreatsword.png",
         "hex": "4b",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "0d"
     },
     {
         "name":"White Iron Greatsword",
@@ -832,7 +907,8 @@
         "image": "/img/weapon/all/WhiteIronGreatsword.png",
         "hex": "4c",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "76"
     },
     {
         "name":"Ferrous Shadow",
@@ -843,10 +919,11 @@
         "image": "/img/weapon/all/FerrousShadow.png",
         "hex": "4d",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "23"
     },
     {
-        "name":"Old Merc%22s Pal",
+        "name":"Old Merc%27s Pal",
         "rarity": "2 ",
         "ability_name": "None ",
         "ability_detail": "<br>None ",
@@ -854,7 +931,8 @@
         "image": "/img/weapon/all/OldMerc%27sPal.png",
         "hex": "4e",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "3c"
     },
     {
         "name":"Waster Greatsword",
@@ -865,7 +943,8 @@
         "image": "/img/weapon/all/WasterGreatsword.png",
         "hex": "4f",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "74"
     },
     {
         "name":"Engulfing Lightning",
@@ -876,7 +955,8 @@
         "image": "/img/weapon/all/EngulfingLightning.png",
         "hex": "50",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "1b"
     },
     {
         "name":"Skyward Spine",
@@ -887,7 +967,8 @@
         "image": "/img/weapon/all/SkywardSpine.png",
         "hex": "51",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "5e"
     },
     {
         "name":"Primordial Jade Winged-Spear",
@@ -898,7 +979,8 @@
         "image": "/img/weapon/all/PrimordialJadeWinged-Spear.png",
         "hex": "52",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "41"
     },
     {
         "name":"Staff of Homa",
@@ -909,7 +991,8 @@
         "image": "/img/weapon/all/StaffofHoma.png",
         "hex": "53",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "63"
     },
     {
         "name":"Vortex Vanquisher",
@@ -920,7 +1003,8 @@
         "image": "/img/weapon/all/VortexVanquisher.png",
         "hex": "54",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "73"
     },
     {
         "name":"Prototype Starglitter",
@@ -931,7 +1015,8 @@
         "image": "/img/weapon/all/PrototypeStarglitter.png",
         "hex": "55",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "46"
     },
     {
         "name":"Lithic Spear",
@@ -942,7 +1027,8 @@
         "image": "/img/weapon/all/LithicSpear.png",
         "hex": "56",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "33"
     },
     {
         "name":"Kitain Cross Spear",
@@ -953,7 +1039,8 @@
         "image": "/img/weapon/all/KitainCrossSpear.png",
         "hex": "57",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "30"
     },
     {
         "name":"%22The Catch%22",
@@ -964,7 +1051,8 @@
         "image": "/img/weapon/all/%27TheCatch%27.png",
         "hex": "58",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "69"
     },
     {
         "name":"Favonius Lance",
@@ -975,7 +1063,8 @@
         "image": "/img/weapon/all/FavoniusLance.png",
         "hex": "59",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "20"
     },
     {
         "name":"Dragonspine Spear",
@@ -986,7 +1075,8 @@
         "image": "/img/weapon/all/DragonspineSpear.png",
         "hex": "5a",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "16"
     },
     {
         "name":"Dragon%27s Bane",
@@ -997,7 +1087,8 @@
         "image": "/img/weapon/all/Dragon%27sBane.png",
         "hex": "5b",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "15"
     },
     {
         "name":"Deathmatch",
@@ -1008,7 +1099,8 @@
         "image": "/img/weapon/all/Deathmatch.png",
         "hex": "5c",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "12"
     },
     {
         "name":"Crescent Pike",
@@ -1019,7 +1111,8 @@
         "image": "/img/weapon/all/CrescentPike.png",
         "hex": "5d",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "10"
     },
     {
         "name":"Blackcliff Pole",
@@ -1030,10 +1123,11 @@
         "image": "/img/weapon/all/BlackcliffPole.png",
         "hex": "5e",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "09"
     },
     {
-        "name":"Wavebreaker%22s Fin",
+        "name":"Wavebreaker%27s Fin",
         "rarity": "4",
         "ability_name": "Watatsumi Wavewalker",
         "ability_detail": "<br>For every point of the entire party%22s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way. ",
@@ -1041,7 +1135,8 @@
         "image": "/img/weapon/all/Wavebreaker%27sFin.png",
         "hex": "5f",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "7d"
     },
     {
         "name":"Royal Spear",
@@ -1052,7 +1147,8 @@
         "image": "/img/weapon/all/RoyalSpear.png",
         "hex": "60",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "4e"
     },
     {
         "name":"White Tassel",
@@ -1063,7 +1159,8 @@
         "image": "/img/weapon/all/WhiteTassel.png",
         "hex": "61",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "77"
     },
     {
         "name":"Black Tassel",
@@ -1074,7 +1171,8 @@
         "image": "/img/weapon/all/BlackTassel.png",
         "hex": "62",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "0c"
     },
     {
         "name":"Halberd",
@@ -1085,7 +1183,8 @@
         "image": "/img/weapon/all/Halberd.png",
         "hex": "63",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "29"
     },
     {
         "name":"Iron Point",
@@ -1096,7 +1195,8 @@
         "image": "/img/weapon/all/IronPoint.png",
         "hex": "64",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "2d"
     },
     {
         "name":"Beginner%22s Protector",
@@ -1107,7 +1207,8 @@
         "image": "/img/weapon/all/Beginner%27sProtector.png",
         "hex": "65",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "06"
     },
     {
         "name":"Mistsplitter Reforged",
@@ -1118,18 +1219,20 @@
         "image": "/img/weapon/all/MistsplitterReforged.png",
         "hex": "66",
         "talent": "monday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "3a"
     },
     {
         "name":"Aquila Favonia",
         "rarity": "5",
-        "ability_name": "Falcon%22s Defiance",
+        "ability_name": "Falcon%27s Defiance",
         "ability_detail": "<br>ATK is increased by 20~40%. Triggers on taking DMG: the soul of the Falcon of the West awakens, holding the banner of the resistance aloft, regenerating HP equal to 100~160% of ATK and dealing 200~320% of ATK as DMG to surrounding opponents. This effect can only occur once every 15s. ",
         "weapon": "Swords",
         "image": "/img/weapon/all/AquilaFavonia.png",
         "hex": "67",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "05"
     },
     {
         "name":"Summit Shaper",
@@ -1140,7 +1243,8 @@
         "image": "/img/weapon/all/SummitShaper.png",
         "hex": "68",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "64"
     },
     {
         "name":"Skyward Blade",
@@ -1151,7 +1255,8 @@
         "image": "/img/weapon/all/SkywardBlade.png",
         "hex": "69",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "5b"
     },
     {
         "name":"Freedom-Sworn",
@@ -1162,7 +1267,8 @@
         "image": "/img/weapon/all/Freedom-Sworn.png",
         "hex": "6a",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "26"
     },
     {
         "name":"Primordial Jade Cutter",
@@ -1173,7 +1279,8 @@
         "image": "/img/weapon/all/PrimordialJadeCutter.png",
         "hex": "6b",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "40"
     },
     {
         "name":"The Flute",
@@ -1184,7 +1291,8 @@
         "image": "/img/weapon/all/TheFlute.png",
         "hex": "6c",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "6a"
     },
     {
         "name":"The Black Sword",
@@ -1195,7 +1303,8 @@
         "image": "/img/weapon/all/TheBlackSword.png",
         "hex": "6d",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "68"
     },
     {
         "name":"The Alley Flash",
@@ -1206,7 +1315,8 @@
         "image": "/img/weapon/all/TheAlleyFlash.png",
         "hex": "6e",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "66"
     },
     {
         "name":"Sword of Descension",
@@ -1217,7 +1327,8 @@
         "image": "/img/weapon/all/SwordofDescension.png",
         "hex": "6f",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "65"
     },
     {
         "name":"Sacrificial Sword",
@@ -1228,7 +1339,8 @@
         "image": "/img/weapon/all/SacrificialSword.png",
         "hex": "70",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "53"
     },
     {
         "name":"Royal Longsword",
@@ -1239,7 +1351,8 @@
         "image": "/img/weapon/all/RoyalLongsword.png",
         "hex": "71",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "4d"
     },
     {
         "name":"Prototype Rancour",
@@ -1250,7 +1363,8 @@
         "image": "/img/weapon/all/PrototypeRancour.png",
         "hex": "72",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "45"
     },
     {
         "name":"Amenoma Kageuchi",
@@ -1261,7 +1375,8 @@
         "image": "/img/weapon/all/AmenomaKageuchi.png",
         "hex": "73",
         "talent": "wednesday",
-        "region": "Inazuma"
+        "region": "Inazuma",
+        "gncode" : "02"
     },
     {
         "name":"Lion%22s Roar",
@@ -1272,7 +1387,8 @@
         "image": "/img/weapon/all/Lion%27sRoar.png",
         "hex": "74",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "31"
     },
     {
         "name":"Iron Sting",
@@ -1283,7 +1399,8 @@
         "image": "/img/weapon/all/IronSting.png",
         "hex": "75",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "2e"
     },
     {
         "name":"Festering Desire",
@@ -1294,7 +1411,8 @@
         "image": "/img/weapon/all/FesteringDesire.png",
         "hex": "76",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "24"
     },
     {
         "name":"Favonius Sword",
@@ -1305,7 +1423,8 @@
         "image": "/img/weapon/all/FavoniusSword.png",
         "hex": "77",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "21"
     },
     {
         "name":"Cinnabar Spindle",
@@ -1316,7 +1435,8 @@
         "image": "/img/weapon/all/CinnabarSpindle.png",
         "hex": "78",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode": "none"
     },
     {
         "name":"Blackcliff Longsword",
@@ -1327,7 +1447,8 @@
         "image": "/img/weapon/all/BlackcliffLongsword.png",
         "hex": "79",
         "talent": "monday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "08"
     },
     {
         "name":"Harbinger of Dawn",
@@ -1338,7 +1459,8 @@
         "image": "/img/weapon/all/HarbingerofDawn.png",
         "hex": "7a",
         "talent": "tuesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "2b"
     },
     {
         "name":"Fillet Blade",
@@ -1349,7 +1471,8 @@
         "image": "/img/weapon/all/FilletBlade.png",
         "hex": "7b",
         "talent": "tuesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "25"
     },
     {
         "name":"Skyrider Sword",
@@ -1360,7 +1483,8 @@
         "image": "/img/weapon/all/SkyriderSword.png",
         "hex": "7c",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "59"
     },
     {
         "name":"Dark Iron Sword",
@@ -1371,7 +1495,8 @@
         "image": "/img/weapon/all/DarkIronSword.png",
         "hex": "7d",
         "talent": "wednesday",
-        "region": "Liyue"
+        "region": "Liyue",
+        "gncode" : "11"
     },
     {
         "name":"Cool Steel",
@@ -1382,10 +1507,11 @@
         "image": "/img/weapon/all/CoolSteel.png",
         "hex": "7e",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "0f"
     },
     {
-        "name":"Traveler%22s Handy Sword",
+        "name":"Traveler%27s Handy Sword",
         "rarity": "3 ",
         "ability_name": "Journey",
         "ability_detail": "<br>Each Elemental Orb or Particle collected restores 1~2% HP. ",
@@ -1393,7 +1519,8 @@
         "image": "/img/weapon/all/Traveler%27sHandySword.png",
         "hex": "7f",
         "talent": "wednesday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "71"
     },
     {
         "name":"Silver Sword",
@@ -1404,7 +1531,8 @@
         "image": "/img/weapon/all/SilverSword.png",
         "hex": "80",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "57"
     },
     {
         "name":"Dull Blade",
@@ -1415,6 +1543,7 @@
         "image": "/img/weapon/all/DullBlade.png",
         "hex": "81",
         "talent": "monday",
-        "region": "Mondstadt"
+        "region": "Mondstadt",
+        "gncode" : "17"
     }
 ]
