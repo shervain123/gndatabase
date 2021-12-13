@@ -974,11 +974,15 @@ function parse_import_teams(remove=0){
                 }
             }
         }
-    }
-    alert_container("Import Success!")
-    setTimeout(() => {
+        alert_container("Import Success!")
+        setTimeout(() => {
         import_teams()
-    }, 3700);
+        setTimeout(() => {
+            window.location.href = "/"
+        }, 500);
+        }, 3700);
+    }
+    
 }
 
 function import_teams_container(link){
