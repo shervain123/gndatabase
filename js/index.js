@@ -562,6 +562,7 @@ function teams(){
     var box_style = getComputedStyle(box)
     team.style.height = "0px"
     export_open = 0
+    import_open = 0
     team.innerHTML = ""
     day_title.classList.add("dark-1")
     day_title.style.margin = "0px"
@@ -688,6 +689,8 @@ function team_expand(close=0){
     var box = document.querySelector(".teams")
     var box_style = getComputedStyle(box)
     var cha_empty, wea_empty
+    export_open = 0
+    import_open = 0
     
     if(cha_cookie == null || cha_cookie == "") cha_empty = 1
     if(wea_cookie == null || wea_cookie == "") wea_empty=1
@@ -825,6 +828,7 @@ function import_teams(){
     teams_container.style.height = box_style.height
     if(import_open == 0){
         import_open = 1
+        export_open = 0
         setTimeout(function(){
             teams_container.style.height = "0px"
             setTimeout(function(){
@@ -971,6 +975,10 @@ function parse_import_teams(remove=0){
             }
         }
     }
+    alert_container("Import Success!")
+    setTimeout(() => {
+        import_teams()
+    }, 3700);
 }
 
 function import_teams_container(link){
@@ -1124,6 +1132,7 @@ function export_teams(){
     teams_container.style.height = box_style.height
     if(export_open == 0){
         export_open = 1
+        import_open = 0
         setTimeout(function(){
             teams_container.style.height = "0px"
             setTimeout(function(){
@@ -1334,4 +1343,32 @@ function searchall(searchStr, str, caseSensitive) {
         startIndex = index + searchStrLen;
     }
     return indices;
+}
+
+function alert_container(text){
+ var main_container = document.createElement("div")
+ var close_btn = document.createElement("span")
+ var text_node = document.createTextNode(text)
+
+ close_btn.classList.add("closebtn")
+ close_btn.onclick = new Function("event", "alert_remove()")
+ close_btn.innerHTML = "&times;"
+
+ main_container.classList.add("alert")
+ main_container.classList.add("slide-in-top")
+ main_container.id="alert"
+ main_container.appendChild(close_btn)
+ main_container.appendChild(text_node)
+ document.getElementById("main").appendChild(main_container)
+ setTimeout(() => {
+     alert_remove()
+ }, 4000);
+}
+function alert_remove(){
+    var al = document.getElementById("alert")
+    al.classList.add("slide-out-top")
+    al.classList.remove("slide-in-top")
+    setTimeout(() => {
+        al.remove()
+    }, 700);
 }
