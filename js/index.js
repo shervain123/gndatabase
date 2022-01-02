@@ -54,7 +54,7 @@ function create_image(name,image,code,region,wepon,element,rare){
     var images = document.createElement("img")
     var names = document.createElement("p")
     var link = document.createElement("a")
-    link.href = "/character.html?cha="+code
+    link.href = "/characters/"+name.replace(" ","_")+".html"
     names.innerText = name
     images.src = image
     name_container.classList.add("name")
@@ -108,7 +108,6 @@ for (i = 0; i < weapon.length; i++){
     var a = weapon[i]
     var text = ""
     var ah = ""
-    text = "gnda: " + numtostrw(weapon[i].gncode) + "<br>"
     for (let x of vare) {
         if(x != "ability_detail"){
         text += x + ": " + decodeURIComponent(a[x]) + "<br>";
@@ -587,9 +586,9 @@ function teams(){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) != -1){
             if(character[i].talent == today){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character.html?cha=")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character/"+character[i].name.replace(" ","_")+".html")
             }else if(today == "sunday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character.html?cha=")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character/"+character[i].name.replace(" ","_")+".html")
             }
         }
         }
@@ -627,7 +626,7 @@ function teams_time_img(image_file,name,hex,container,redir){
     var images = document.createElement("img")
     var names = document.createElement("p")
     var link = document.createElement("a")
-    link.href = redir+hex
+    link.href = redir
     names.innerText = decodeURIComponent(name)
     images.src = image_file
     name_container.classList.add("name")
@@ -644,7 +643,7 @@ function teams_time_img(image_file,name,hex,container,redir){
 
 function reset(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML='<a><div class="navi_text">Are you sure ?</div></a><a><div class="navi_teams_clear" onclick="reset_yes()">yes</div></a><a><div class="navi_teams_cancel" onclick="reset_no()">no</div></a>'
+    menu.innerHTML='<a><div class="navi_text">Are you sure ?</div></a><a><div class="navi_teams_clear" onclick="reset_yes()">Yes</div></a><a><div class="navi_teams_cancel" onclick="reset_no()">no</div></a>'
 }
 
 function reset_yes(){

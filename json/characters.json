@@ -70,7 +70,7 @@
         "weapon" : "Sword",
         "region" : "Mondstadt",
         "gncode" : "07",
-        "fuckable" : "idk"
+        "fuckable" : "yes"
     },
     {
         "name" : "Chongyun",
@@ -507,7 +507,7 @@
     },
     {
         "name" : "Arataki Itto",
-        "talent" : "",
+        "talent" : "tuesday",
         "rarity" : "5",
         "element" : "Geo",
         "image" : "img/character/head/AratakiItto.png",
@@ -515,11 +515,11 @@
         "hex" : "2b",
         "weapon" : "Claymore",
         "region" : "Inazuma",
-        "gncode" : "none"
+        "gncode" : "43"
     },
     {
         "name" : "Gorou",
-        "talent" : "",
+        "talent" : "wednesday",
         "rarity" : "4",
         "element" : "Geo",
         "image" : "img/character/head/Gorou.png",
@@ -527,7 +527,7 @@
         "hex" : "2c",
         "weapon" : "Bow",
         "region" : "Inazuma",
-        "gncode" : "none"
+        "gncode" : "44"
     },
     {
         "name" : "Shenhe",

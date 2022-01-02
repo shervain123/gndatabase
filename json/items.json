@@ -1,0 +1,457 @@
+[
+    {
+        "name":"Amakumo Fruit",
+        "type":"local",
+        "image":"/img/items/local/Amakumo_Fruit.png"
+    },
+    {
+        "name":"Calla Lily",
+        "type":"local",
+        "image":"/img/items/local/Calla_Lily.png"
+    },
+    {
+        "name":"Cecilia",
+        "type":"local",
+        "image":"/img/items/local/Cecilia.png"
+    },
+    {
+        "name":"Cor Lapis",
+        "type":"local",
+        "image":"/img/items/local/Cor_Lapis.png"
+    },
+    {
+        "name":"Crystal Marrow",
+        "type":"local",
+        "image":"/img/items/local/Crystal_Marrow.png"
+    },
+    {
+        "name":"Dandelion Seed",
+        "type":"local",
+        "image":"/img/items/local/Dandelion_Seed.png"
+    },
+    {
+        "name":"Dendrobium",
+        "type":"local",
+        "image":"/img/items/local/Dendrobium.png"
+    },
+    {
+        "name":"Enhancement Ore",
+        "type":"local",
+        "image":"/img/items/local/Enhancement_Ore.png"
+    },
+    {
+        "name":"Festering Dragon Marrow",
+        "type":"local",
+        "image":"/img/items/local/Festering_Dragon_Marrow.png"
+    },
+    {
+        "name":"Fluorescent Fungus",
+        "type":"local",
+        "image":"/img/items/local/Fluorescent_Fungus.png"
+    },
+    {
+        "name":"Glaze Lily",
+        "type":"local",
+        "image":"/img/items/local/Glaze_Lily.png"
+    },
+    {
+        "name":"Iron Chunk",
+        "type":"local",
+        "image":"/img/items/local/Iron_Chunk.png"
+    },
+    {
+        "name":"Jueyun Chili",
+        "type":"local",
+        "image":"/img/items/local/Jueyun_Chili.png"
+    },
+    {
+        "name":"Mist Flower Corolla",
+        "type":"local",
+        "image":"/img/items/local/Mist_Flower_Corolla.png"
+    },
+    {
+        "name":"Mushroom",
+        "type":"local",
+        "image":"/img/items/local/Mushroom.png"
+    },
+    {
+        "name":"Naku Weed",
+        "type":"local",
+        "image":"/img/items/local/Naku_Weed.png"
+    },
+    {
+        "name":"Noctilucous Jade",
+        "type":"local",
+        "image":"/img/items/local/Noctilucous_Jade.png"
+    },
+    {
+        "name":"Onikabuto",
+        "type":"local",
+        "image":"/img/items/local/Onikabuto.png"
+    },
+    {
+        "name":"Philanemo Mushroom",
+        "type":"local",
+        "image":"/img/items/local/Philanemo_Mushroom.png"
+    },
+    {
+        "name":"Qingxin",
+        "type":"local",
+        "image":"/img/items/local/Qingxin.png"
+    },
+    {
+        "name":"Sakura Bloom",
+        "type":"local",
+        "image":"/img/items/local/Sakura_Bloom.png"
+    },
+    {
+        "name":"Sango Pearl",
+        "type":"local",
+        "image":"/img/items/local/Sango_Pearl.png"
+    },
+    {
+        "name":"Sea Ganoderma",
+        "type":"local",
+        "image":"/img/items/local/Sea_Ganoderma.png"
+    },
+    {
+        "name":"Silk Flower",
+        "type":"local",
+        "image":"/img/items/local/Silk_Flower.png"
+    },
+    {
+        "name":"Slime Condensate",
+        "type":"local",
+        "image":"/img/items/local/Slime_Condensate.png"
+    },
+    {
+        "name":"Small Lamp Grass",
+        "type":"local",
+        "image":"/img/items/local/Small_Lamp_Grass.png"
+    },
+    {
+        "name":"Starconch",
+        "type":"local",
+        "image":"/img/items/local/Starconch.png"
+    },
+    {
+        "name":"Valberry",
+        "type":"local",
+        "image":"/img/items/local/Valberry.png"
+    },
+    {
+        "name":"Violetgrass",
+        "type":"local",
+        "image":"/img/items/local/Violetgrass.png"
+    },
+    {
+        "name":"Windwheel Aster",
+        "type":"local",
+        "image":"/img/items/local/Windwheel_Aster.png"
+    },
+    {
+        "name":"Wolfhook",
+        "type":"local",
+        "image":"/img/items/local/Wolfhook.png"
+    },
+    {
+        "name":"Agent%27s Sacrificial Knife",
+        "type":"common",
+        "image":"/img/items/common/Agent%27s_Sacrificial_Knife.png"
+    },
+    {
+        "name":"Black Bronze Horn",
+        "type":"common",
+        "image":"/img/items/common/Black_Bronze_Horn.png"
+    },
+    {
+        "name":"Black Crystal Horn",
+        "type":"common",
+        "image":"/img/items/common/Black_Crystal_Horn.png"
+    },
+    {
+        "name":"Chaos Axis",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Axis.png"
+    },
+    {
+        "name":"Chaos Circuit",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Circuit.png"
+    },
+    {
+        "name":"Chaos Core",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Core.png"
+    },
+    {
+        "name":"Chaos Device",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Device.png"
+    },
+    {
+        "name":"Chaos Gear",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Gear.png"
+    },
+    {
+        "name":"Chaos Oculus",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Oculus.png"
+    },
+    {
+        "name":"Concealed Claw",
+        "type":"common",
+        "image":"/img/items/common/Concealed_Claw.png"
+    },
+    {
+        "name":"Concealed Talon",
+        "type":"common",
+        "image":"/img/items/common/Concealed_Talon.png"
+    },
+    {
+        "name":"Concealed Unguis",
+        "type":"common",
+        "image":"/img/items/common/Concealed_Unguis.png"
+    },
+    {
+        "name":"Crystal Prism",
+        "type":"common",
+        "image":"/img/items/common/Crystal_Prism.png"
+    },
+    {
+        "name":"Damaged Mask",
+        "type":"common",
+        "image":"/img/items/common/Damaged_Mask.png"
+    },
+    {
+        "name":"Dead Ley Line Branch",
+        "type":"common",
+        "image":"/img/items/common/Dead_Ley_Line_Branch.png"
+    },
+    {
+        "name":"Dead Ley Line Leaves",
+        "type":"common",
+        "image":"/img/items/common/Dead_Ley_Line_Leaves.png"
+    },
+    {
+        "name":"Dismal Prism",
+        "type":"common",
+        "image":"/img/items/common/Dismal_Prism.png"
+    },
+    {
+        "name":"Divining Scroll",
+        "type":"common",
+        "image":"/img/items/common/Divining_Scroll.png"
+    },
+    {
+        "name":"Energy Nectar",
+        "type":"common",
+        "image":"/img/items/common/Energy_Nectar.png"
+    },
+    {
+        "name":"Enhancement Ore",
+        "type":"common",
+        "image":"/img/items/common/Enhancement_Ore.png"
+    },
+    {
+        "name":"Famed Handguard",
+        "type":"common",
+        "image":"/img/items/common/Famed_Handguard.png"
+    },
+    {
+        "name":"Festering Dragon Marrow",
+        "type":"common",
+        "image":"/img/items/common/Festering_Dragon_Marrow.png"
+    },
+    {
+        "name":"Firm Arrowhead",
+        "type":"common",
+        "image":"/img/items/common/Firm_Arrowhead.png"
+    },
+    {
+        "name":"Forbidden Curse Scroll",
+        "type":"common",
+        "image":"/img/items/common/Forbidden_Curse_Scroll.png"
+    },
+    {
+        "name":"Fossilized Bone Shard",
+        "type":"common",
+        "image":"/img/items/common/Fossilized_Bone_Shard.png"
+    },
+    {
+        "name":"Fragile Bone Shard",
+        "type":"common",
+        "image":"/img/items/common/Fragile_Bone_Shard.png"
+    },
+    {
+        "name":"Golden Raven Insignia",
+        "type":"common",
+        "image":"/img/items/common/Golden_Raven_Insignia.png"
+    },
+    {
+        "name":"Heavy Horn",
+        "type":"common",
+        "image":"/img/items/common/Heavy_Horn.png"
+    },
+    {
+        "name":"Hunter%27s Sacrificial Knife",
+        "type":"common",
+        "image":"/img/items/common/Hunter%27s_Sacrificial_Knife.png"
+    },
+    {
+        "name":"Inspector%27s Sacrificial Knife",
+        "type":"common",
+        "image":"/img/items/common/Inspector%27s_Sacrificial_Knife.png"
+    },
+    {
+        "name":"Iron Chunk",
+        "type":"common",
+        "image":"/img/items/common/Iron_Chunk.png"
+    },
+    {
+        "name":"Kageuchi Handguard",
+        "type":"common",
+        "image":"/img/items/common/Kageuchi_Handguard.png"
+    },
+    {
+        "name":"Ley Line Sprout",
+        "type":"common",
+        "image":"/img/items/common/Ley_Line_Sprout.png"
+    },
+    {
+        "name":"Lieutenant%27s Insignia",
+        "type":"common",
+        "image":"/img/items/common/Lieutenant%27s_Insignia.png"
+    },
+    {
+        "name":"Mist Flower Corolla",
+        "type":"common",
+        "image":"/img/items/common/Mist_Flower_Corolla.png"
+    },
+    {
+        "name":"Mist Grass",
+        "type":"common",
+        "image":"/img/items/common/Mist_Grass.png"
+    },
+    {
+        "name":"Mist Grass Pollen",
+        "type":"common",
+        "image":"/img/items/common/Mist_Grass_Pollen.png"
+    },
+    {
+        "name":"Mist Grass Wick",
+        "type":"common",
+        "image":"/img/items/common/Mist_Grass_Wick.png"
+    },
+    {
+        "name":"Mushroom",
+        "type":"common",
+        "image":"/img/items/common/Mushroom.png"
+    },
+    {
+        "name":"Old Handguard",
+        "type":"common",
+        "image":"/img/items/common/Old_Handguard.png"
+    },
+    {
+        "name":"Ominous Mask",
+        "type":"common",
+        "image":"/img/items/common/Ominous_Mask.png"
+    },
+    {
+        "name":"Onikabuto",
+        "type":"common",
+        "image":"/img/items/common/Onikabuto.png"
+    },
+    {
+        "name":"Polarizing Prism",
+        "type":"common",
+        "image":"/img/items/common/Polarizing_Prism.png"
+    },
+    {
+        "name":"Recruit%27s Insignia",
+        "type":"common",
+        "image":"/img/items/common/Recruit%27s_Insignia.png"
+    },
+    {
+        "name":"Sealed Scroll",
+        "type":"common",
+        "image":"/img/items/common/Sealed_Scroll.png"
+    },
+    {
+        "name":"Sergeant%27s Insignia",
+        "type":"common",
+        "image":"/img/items/common/Sergeant%27s_Insignia.png"
+    },
+    {
+        "name":"Sharp Arrowhead",
+        "type":"common",
+        "image":"/img/items/common/Sharp_Arrowhead.png"
+    },
+    {
+        "name":"Shimmering Nectar",
+        "type":"common",
+        "image":"/img/items/common/Shimmering_Nectar.png"
+    },
+    {
+        "name":"Silver Raven Insignia",
+        "type":"common",
+        "image":"/img/items/common/Silver_Raven_Insignia.png"
+    },
+    {
+        "name":"Slime Concentrate",
+        "type":"common",
+        "image":"/img/items/common/Slime_Concentrate.png"
+    },
+    {
+        "name":"Slime Condensate",
+        "type":"common",
+        "image":"/img/items/common/Slime_Condensate.png"
+    },
+    {
+        "name":"Slime Secretions",
+        "type":"common",
+        "image":"/img/items/common/Slime_Secretions.png"
+    },
+    {
+        "name":"Spectral Heart",
+        "type":"common",
+        "image":"/img/items/common/Spectral_Heart.png"
+    },
+    {
+        "name":"Spectral Husk",
+        "type":"common",
+        "image":"/img/items/common/Spectral_Husk.png"
+    },
+    {
+        "name":"Spectral Nucleus",
+        "type":"common",
+        "image":"/img/items/common/Spectral_Nucleus.png"
+    },
+    {
+        "name":"Stained Mask",
+        "type":"common",
+        "image":"/img/items/common/Stained_Mask.png"
+    },
+    {
+        "name":"Sturdy Bone Shard",
+        "type":"common",
+        "image":"/img/items/common/Sturdy_Bone_Shard.png"
+    },
+    {
+        "name":"Treasure Hoarder Insignia",
+        "type":"common",
+        "image":"/img/items/common/Treasure_Hoarder_Insignia.png"
+    },
+    {
+        "name":"Weathered Arrowhead",
+        "type":"common",
+        "image":"/img/items/common/Weathered_Arrowhead.png"
+    },
+    {
+        "name":"Whopperflower Nectar",
+        "type":"common",
+        "image":"/img/items/common/Whopperflower_Nectar.png"
+    }
+]

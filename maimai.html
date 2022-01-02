@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <!--style import-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://maimai.sega.com/favicon.png">
+  <link rel="stylesheet" href="/css/maicss.css">
+  <title>maimai song list</title>
+  <meta charset="utf-8"> 
+  
+  <body class="dark-1">
+    <div>
+        <div id="navi" class="dark-2">
+            <h3>Song list</h3>
+            <div id="filter">
+                <div class="button">
+                    <a href="javascript:all()"><div class="all" id="all"><p>All</p></div></a>
+                    <a href="javascript:new_song()"><div class="new" id="new"><p>New Song</p></div></a>
+                    <a href="javascript:pop()"><div class="pop" id="pop"><p>Pops&Anime</p></div></a>
+                    <a href="javascript:vocal()"><div class="vocal" id="vocal"><p>Niconico&Vocaloid</p></div></a>
+                </div>
+                <div class="button">
+                    <a href="javascript:toho()"><div class="toho" id="toho"><p>東方Project</p></div></a>
+                    <a href="javascript:game()"><div class="game" id="game"><p>Game&Variety</p></div></a>
+                    <a href="javascript:maimai()"><div class="maimai" id="maimai"><p>maimai</p></div></a>
+                    <a href="javascript:ongeki()"><div class="ongeki" id="ongeki"><p>Ongeki&Chunithm</p></div></a>
+                </div>
+                <div class="search"><input type="text" id="search" onkeydown="search()" onkeyup="search()" placeholder="Search"></div>
+            </div>
+        </div>
+        <div class="main dark-2">
+            <h3 id="title">Select a category</h3>
+            <div id="songs"></div>
+        </div>
+    </div>
+  </body>
+</html>
+
+
+<script>
+var jason_link = "/json/DXsongs.json"
+var image_link ="https://maimai.sega.com/assets/img/song/DX_jacket/"
+
+var song_list = load_json(jason_link)
+function load_json(file){
+   var request = new XMLHttpRequest();
+   request.open("GET", file, false);
+   request.send(null)
+   var jason = JSON.parse(request.responseText);
+   return jason
+}
+function info_container(title,artist,catcode,image){
+    var parent = document.getElementById("songs")
+    var info = document.createElement("div")
+    var img_container = document.createElement("div")
+    var img = document.createElement("img")
+    var detail = document.createElement("div")
+    var type_info = type(catcode)
+    var song_name = document.createElement("p")
+    var artist_name = document.createElement('p')
+    img.src = image
+    img_container.appendChild(img)
+    img_container.classList.add("img")
+    song_name.innerText = title
+    artist_name.innerHTML = "Artist<br>"+artist
+    detail.appendChild(type_info)
+    detail.appendChild(song_name)
+    detail.appendChild(artist_name)
+    detail.classList.add("detail")
+    info.classList.add("info")
+    parent.appendChild(space(artist,title))
+    info.appendChild(img_container)
+    info.appendChild(detail)
+    info.id=title+" "+artist
+    info.classList.add("filter")
+    parent.appendChild(info)
+}
+function space(artist,title){
+    var spaces = document.createElement("div")
+    spaces.innerHTML="&nbsp;"
+    spaces.classList.add("space")
+    spaces.id=artist + " " + "title"
+    spaces.classList.add("filter")
+    return(spaces)
+}
+function type(text){
+    var class_name,title
+    switch(text){
+        case "POPSアニメ":
+            class_name = "pop"
+            title = "Pops&Anime"
+            break
+        case "niconicoボーカロイド":
+            class_name = "vocal"
+            title = "Niconico&Vocaloid"
+            break
+        case "東方Project":
+            class_name = "toho"
+            title = "東方Project"
+            break
+        case "ゲームバラエティ":
+            class_name = "game"
+            title = "Game&Variety"
+            break
+        case "maimai":
+            class_name = "maimai"
+            title = "maimai"
+            break
+        case "オンゲキCHUNITHM":
+            class_name = "ongeki"
+            title = "Ongeki&Chunithm"
+            break
+    }
+    if(class_name == null){
+        title = "Error!"
+        class_name = "error"
+    }
+    if(title == null){
+        title = "Error!"
+        class_name = "error"
+    }
+
+    var main_container = document.createElement("div")
+    var text = document.createElement("p")
+    text.innerText = title
+    main_container.appendChild(text)
+    main_container.classList.add(class_name)
+    return main_container
+}
+
+function all(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("all")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function new_song(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("new")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.date != null) info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function pop(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("pop")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "POPSアニメ") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function vocal(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("vocal")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "niconicoボーカロイド") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function toho(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("toho")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "東方Project") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function game(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("game")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "ゲームバラエティ") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function maimai(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("maimai")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "maimai") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function ongeki(){
+    var song_list = load_json(jason_link)
+    document.getElementById("songs").innerHTML=""
+    select("ongeki")
+    for (i = 0; i < song_list.length; i++){
+        var songs = song_list[i]
+        if(songs.catcode == "オンゲキCHUNITHM") info_container(songs.title,songs.artist,songs.catcode,image_link+songs.image_url)
+    }
+}
+
+function select(type){
+    var title = document.getElementById("title")
+
+    var all = document.getElementById("all")
+    var news = document.getElementById("new")
+    var pop = document.getElementById("pop")
+    var vocal = document.getElementById("vocal")
+    var toho = document.getElementById("toho")
+    var game = document.getElementById("game")
+    var maimai = document.getElementById("maimai")
+    var ongeki = document.getElementById("ongeki")
+
+    switch(type){
+        case "all": 
+            title.innerText = "All"
+
+            all.classList.add("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "new":
+            title.innerText = "New"
+
+            all.classList.remove("all-on")
+            news.classList.add("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+
+            break
+        case "pop": 
+            title.innerText = "Pops&Anime"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.add("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "vocal": 
+            title.innerText = "Niconico&Vocaloid"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.add("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "toho": 
+            title.innerText = "東方Project"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.add("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "game": 
+            title.innerText = "Game&Variety"
+            title.innerText = "東方Project"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.add("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "maimai": 
+            title.innerText = "maimai"
+            title.innerText = "Game&Variety"
+            title.innerText = "東方Project"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.add("maimai-on")
+            ongeki.classList.remove("ongeki-on")
+            break
+        case "ongeki": 
+            title.innerText = "Ongeki&Chunithm"
+            title.innerText = "Game&Variety"
+            title.innerText = "東方Project"
+            all.classList.remove("all-on")
+            news.classList.remove("new-on")
+            pop.classList.remove("pop-on")
+            vocal.classList.remove("vocal-on")
+            toho.classList.remove("toho-on")
+            game.classList.remove("game-on")
+            maimai.classList.remove("maimai-on")
+            ongeki.classList.add("ongeki-on")
+            break
+    }
+}
+
+function search(){
+    var input = document.getElementById("search")
+    var value = input.value.toUpperCase()
+    var list = document.getElementsByClassName("filter")
+    var txtValue
+    for (i = 0; i < list.length; i++) {
+        txtValue = list[i].id;
+        if (txtValue.toUpperCase().indexOf(value) > -1) {
+          list[i].classList.remove("hidea")
+        } else {
+            list[i].classList.add("hidea")
+        }
+      }
+}
+
+function refresh(){
+    var link = window.location.href
+    window.location.href=link
+}
+</script>

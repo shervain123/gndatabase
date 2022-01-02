@@ -4,6 +4,111 @@
 .montserrat{font-family: "Montserrat", sans-serif;}
 div{clear:none;float:left;width:100% }
 .hidea{display: none!important}
+
+.cha_title{
+  padding-top:10px;
+  padding-left: 10px;
+  line-height: 15px;
+}
+.cha_img{
+  padding:15px;
+  width:fit-content;
+  height:fit-content;
+}
+
+.cha_info{
+  width:70%;
+  margin-top:1.5%;
+  padding:50px;
+}
+
+.cha_img img{
+  width:250px;
+}
+
+.material{
+  overflow:hidden;
+  width:102px;
+  transition-property: width background-color;
+  transition-duration: 0.2s;
+  background-color: #43464a;
+  white-space: nowrap;
+
+}
+.material:hover{
+  width:340px;
+  background-color: #292f33;
+}
+.material img{
+  width:75px
+}
+
+#ascension{
+  padding:10px;
+  width:50%;
+}
+
+.talent{padding:20px;padding-top:10px;}
+
+.talent .talent_name{width:400px;}
+
+.talent .talent_name .talent_img img{width:70px;}
+
+.talent .talent_name .weapon_img img{width:120px;}
+
+.talent .talent_name .talent_img{width:fit-content;}
+
+.talent .talent_name .weapon_img{width:fit-content;}
+
+.talent .talent_name .talent_title{width:fit-content;padding:10px;}
+
+.talent .talent_name .talent_title p{width:fit-content;}
+
+.talent .talent_info p{width:fit-content;}
+
+.talent .talent_info {width:fit-content;max-width: 900px;}
+
+.talent .talent_info .talent_title{width:fit-content;font-weight: bold;}
+
+.talent .talent_info .talent_title{font-weight: bold;}
+
+.talent .talent_info p{width:fit-content;}
+
+.talent .talent_info .talent_list{padding-left:20px}
+
+.build_type{padding-left:10px;}
+
+footer div p{font-size: 12px;}
+
+.resources_btn_container{display:table;border-spacing: 15px;table-layout: fixed;}
+
+.resources_btn_container a{
+  padding:10px 2px;
+  display:table-cell;
+  background-color: #303336;
+  text-align: center;
+  text-decoration: none;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  max-width: 0px;
+}
+
+.resources_btn_container a:hover{background-color: #4e5357;}
+
+.other_cha a{width:fit-content;}
+
+.other_cha a img{
+  width:120px;
+  margin:5px;
+  opacity:1;
+  transition-property: opacity;
+  transition-duration: 0.2s;
+}
+
+.other_cha a img:hover{
+  opacity:0.5;
+}
+
 .alert {
   padding: 10px;
   background-color: #04AA6D;
@@ -287,6 +392,41 @@ transition-duration: 0.2s;
   .export-input{
     width:80%;
   }
+
+  .cha_img{
+    width:100%;
+    height:fit-content;
+  }
+  .cha_img img{
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width:300px;
+  }
+
+  .cha_info{
+    width:100%;
+    padding:23px;
+  }
+
+
+  .material{
+    overflow:visible;
+    width:100%;
+    transition-property: width background-color;
+    transition-duration: 0.2s;
+    background-color: #43464a;
+    white-space: nowrap;
+  
+  }
+  .material:hover{
+    width: 100% !important;
+    background-color: #43464a !important;
+  }
+
+  #ascension{
+    width:100%;
+  }
 }
 @media (max-width:992px) and (min-width:601px){
   .filter{
@@ -304,6 +444,35 @@ transition-duration: 0.2s;
   .export-input{
     width:80%;
   }
+
+  .cha_img{
+    width:fit-content;
+    height:fit-content;
+  }
+
+  .cha_info{
+    width:60%;
+    padding:10px;
+  }
+  .material{
+    overflow:visible;
+    width:100%;
+    transition-property: width background-color;
+    transition-duration: 0.2s;
+    background-color: #43464a;
+    white-space: nowrap;
+  
+  }
+  .material:hover{
+    width: 100% !important;
+    background-color: #43464a !important;
+  }
+
+  #ascension{
+    width:100%;
+  }
+
+
 }
 .character_img .name{
   position: fixed;
@@ -436,6 +605,15 @@ width:fit-content
   width:100%
 }
 .title_middle h3{
+  padding:0px 5px;
+  width:fit-content;
+
+}
+.inner_title{
+  color:#ffffff;
+  width:100%
+}
+.inner_title h4{
   padding:0px 5px;
   width:fit-content;
 
