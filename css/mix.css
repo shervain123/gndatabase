@@ -48,6 +48,24 @@ div{clear:none;float:left;width:100% }
   width:50%;
 }
 
+.btn{
+  border:none;
+  display:inline-block;
+  padding:8px 16px;
+  vertical-align:middle;
+  overflow:hidden;
+  text-decoration:none;
+  color:inherit;
+  background-color: #303336;
+  text-align:center;
+  cursor:pointer;
+  white-space:nowrap;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+.btn:hover{background-color: #4e5357;}
+
 .talent{padding:20px;padding-top:10px;}
 
 .talent .talent_name{width:400px;}
