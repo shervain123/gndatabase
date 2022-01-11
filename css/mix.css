@@ -5,6 +5,16 @@
 div{clear:none;float:left;width:100% }
 .hidea{display: none!important}
 
+.footer_btn{
+  display:table;
+  border-spacing: 15px;
+}
+
+.footer_btn a{
+  display:table-cell;
+  text-align: center;
+}
+
 .cha_title{
   padding-top:10px;
   padding-left: 10px;
@@ -84,7 +94,7 @@ div{clear:none;float:left;width:100% }
 
 .talent .talent_info p{width:fit-content;}
 
-.talent .talent_info {width:fit-content;max-width: 900px;}
+.talent .talent_info {width:fit-content;max-width: 50%;}
 
 .talent .talent_info .talent_title{width:fit-content;font-weight: bold;}
 
@@ -445,6 +455,23 @@ transition-duration: 0.2s;
   #ascension{
     width:100%;
   }
+
+  .footer_btn{
+    display:block !important;
+    border-spacing: none !important;
+  }
+  
+  .footer_btn a{
+    display:block !important;
+    text-align: center;
+  }
+  .talent .talent_name{width:100%;}
+
+.talent .talent_name .weapon_img img{width:80px;}
+
+.other_cha a img{
+  width:100px;
+}
 }
 @media (max-width:992px) and (min-width:601px){
   .filter{
@@ -490,7 +517,7 @@ transition-duration: 0.2s;
     width:100%;
   }
 
-
+  .talent .talent_info {width:fit-content;max-width: 100%;}
 }
 .character_img .name{
   position: fixed;
