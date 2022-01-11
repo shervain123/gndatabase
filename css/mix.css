@@ -465,7 +465,8 @@ transition-duration: 0.2s;
     display:block !important;
     text-align: center;
   }
-  .talent .talent_name{width:100%;}
+  .talent .talent_name{width:100% !important;max-width: 100%!important;}
+  .talent .talent_info{width:100% !important;max-width: 100%!important;}
 
 .talent .talent_name .weapon_img img{width:80px;}
 
@@ -517,7 +518,7 @@ transition-duration: 0.2s;
     width:100%;
   }
 
-  .talent .talent_info {width:fit-content;max-width: 100%;}
+  .talent .talent_info {width:fit-content;max-width: 100% !important;}
 }
 .character_img .name{
   position: fixed;
@@ -604,6 +605,15 @@ transition-duration: 0.2s;
     transition-property: background-color color;
     transition-duration: 0.2s;  
 }
+.navi_button img{
+  width: 30px;
+  margin-left:10px;
+  margin-right:15px;
+}
+.bottom{
+  position: absolute;
+  bottom:0
+}
 .navi_button:hover{
     background-color: #c0c0c0;
     color:#000000;
@@ -650,7 +660,7 @@ width:fit-content
   width:100%
 }
 .title_middle h3{
-  padding:0px 5px;
+  padding:0px 20px;
   width:fit-content;
 
 }
@@ -708,7 +718,7 @@ text-decoration: none;
 text-decoration: none;
 }
 .dev_cha_info{
-  height:200px;
+  height:fit-content;
   width:100%;
   margin:30px 5px;
 }
