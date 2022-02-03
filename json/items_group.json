@@ -1,0 +1,166 @@
+[
+    {
+        "set_1" : "Hunter%27s Sacrificial Knife",
+        "set_2" : "Agent%27s Sacrificial Knife",
+        "set_3" : "Inspector%27s Sacrificial Knife",
+        "name" : "Knife"
+    },
+    {
+        "set_1" : "Heavy Horn",
+        "set_2" : "Black Bronze Horn",
+        "set_3" : "Black Crystal Horn",
+        "name" : "Horn"
+    },
+    {
+        "set_1" : "Dead Ley Line Branch",
+        "set_2" : "Dead Ley Line Leaves",
+        "set_3" : "Ley Line Sprout",
+        "name" : "Ley"
+    },
+    {
+        "set_1" : "Chaos Device",
+        "set_2" : "Chaos Circuit",
+        "set_3" : "Chaos Core",
+        "name" : "RuinG"
+    },
+    {
+        "set_1" : "Mist Grass Pollen",
+        "set_2" : "Mist Grass",
+        "set_3" : "Mist Grass Wick",
+        "name" : "MistGrass"
+    },
+    {
+        "set_1" : "Fragile Bone Shard",
+        "set_2" : "Sturdy Bone Shard",
+        "set_3" : "Fossilized Bone Shard",
+        "name" : "Bone"
+    },
+    {
+        "set_1" : "Chaos Gear",
+        "set_2" : "Chaos Axis",
+        "set_3" : "Chaos Oculus",
+        "name" : "RuinS"
+    },
+    {
+        "set_1" : "Dismal Prism",
+        "set_2" : "Crystal Prism",
+        "set_3" : "Polarizing Prism",
+        "name" : "Prism"
+    },
+    {
+        "set_1" : "Concealed Claw",
+        "set_2" : "Concealed Unguis",
+        "set_3" : "Concealed Talon",
+        "name" : "Concealed"
+    },
+    {
+        "set_1" : "Slime Condensate",
+        "set_2" : "Slime Secretions",
+        "set_3" : "Slime Concentrate",
+        "name" : "Slime"
+    },
+    {
+        "set_1" : "Damaged Mask",
+        "set_2" : "Stained Mask",
+        "set_3" : "Ominous Mask",
+        "name" : "Mask"
+    },
+    {
+        "set_1" : "Divining Scroll",
+        "set_2" : "Sealed Scroll",
+        "set_3" : "Forbidden Curse Scroll",
+        "name" : "Scroll"
+    },
+    {
+        "set_1" : "Firm Arrowhead",
+        "set_2" : "Sharp Arrowhead",
+        "set_3" : "Weathered Arrowhead",
+        "name" : "Arrowhead"
+    },
+    {
+        "set_1" : "Recruit%27s Insignia",
+        "set_2" : "Sergeant%27s Insignia",
+        "set_3" : "Lieutenant%27s Insignia",
+        "name" : "FInsignia"
+    },
+    {
+        "set_1" : "Treasure Hoarder Insignia",
+        "set_2" : "Silver Raven Insignia",
+        "set_3" : "Golden Raven Insignia",
+        "name" : "TInsignia"
+    },
+    {
+        "set_1" : "Whopperflower Nectar",
+        "set_2" : "Shimmering Nectar",
+        "set_3" : "Energy Nectar",
+        "name" : "Nectar"
+    },
+    {
+        "set_1" : "Old Handguard",
+        "set_2" : "Kageuchi Handguard",
+        "set_3" : "Famed Handguard",
+        "name" : "Handguard"
+    },
+    {
+        "set_1" : "Spectral Husk",
+        "set_2" : "Spectral Heart",
+        "set_3" : "Spectral Nucleus",
+        "name" : "Spectral"
+    },
+    {
+        "set_1":"Vayuda Turquoise Sliver",
+        "set_2":"Vayuda Turquoise Fragment",
+        "set_3":"Vayuda Turquoise Chunk",
+        "set_4":"Vayuda Turquoise Gemstone",
+        "name":"Vayuda Turquoise",
+        "element":"Anemo"
+    },
+    {
+        "set_1":"Shivada Jade Sliver",
+        "set_2":"Shivada Jade Fragment",
+        "set_3":"Shivada Jade Chunk",
+        "set_4":"Shivada Jade Gemstone",
+        "name":"Shivada Jade",
+        "element":"Cryo"
+    },
+    {
+        "set_1":"Vajrada Amethyst Sliver",
+        "set_2":"Vajrada Amethyst Fragment",
+        "set_3":"Vajrada Amethyst Chunk",
+        "set_4":"Vajrada Amethyst Gemstone",
+        "name":"Vajrada Amethyst",
+        "element":"Electro"
+    },
+    {
+        "set_1":"Prithiva Topaz Sliver",
+        "set_2":"Prithiva Topaz Fragment",
+        "set_3":"Prithiva Topaz Chunk",
+        "set_4":"Prithiva Topaz Gemstone",
+        "name":"Prithiva Topaz",
+        "element":"Geo"
+    },
+    {
+        "set_1":"Varunada Lazurite Sliver",
+        "set_2":"Varunada Lazurite Fragment",
+        "set_3":"Varunada Lazurite Chunk",
+        "set_4":"Varunada Lazurite Gemstone",
+        "name":"Varunada Lazurite",
+        "element":"Hydro"
+    },
+    {
+        "set_1":"Agnidus Agate Sliver",
+        "set_2":"Agnidus Agate Fragment",
+        "set_3":"Agnidus Agate Chunk",
+        "set_4":"Agnidus Agate Gemstone",
+        "name":"Agnidus Agate",
+        "element":"Pyro"
+    },
+    {
+        "set_1":"Brilliant Diamond Sliver",
+        "set_2":"Brilliant Diamond Fragment",
+        "set_3":"Brilliant Diamond Chunk",
+        "set_4":"Brilliant Diamond Gemstone",
+        "name":"Brilliant Diamond",
+        "element":"Adaptive"
+    }
+]

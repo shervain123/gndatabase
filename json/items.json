@@ -157,7 +157,7 @@
     {
         "name":"Agent%27s Sacrificial Knife",
         "type":"common",
-        "image":"/img/items/common/Agent%27s_Sacrificial_Knife.png"
+        "image":"/img/items/common/Agents_Sacrificial_Knife.png"
     },
     {
         "name":"Black Bronze Horn",
@@ -297,12 +297,12 @@
     {
         "name":"Hunter%27s Sacrificial Knife",
         "type":"common",
-        "image":"/img/items/common/Hunter%27s_Sacrificial_Knife.png"
+        "image":"/img/items/common/Hunters_Sacrificial_Knife.png"
     },
     {
         "name":"Inspector%27s Sacrificial Knife",
         "type":"common",
-        "image":"/img/items/common/Inspector%27s_Sacrificial_Knife.png"
+        "image":"/img/items/common/Inspectors_Sacrificial_Knife.png"
     },
     {
         "name":"Iron Chunk",
@@ -322,7 +322,7 @@
     {
         "name":"Lieutenant%27s Insignia",
         "type":"common",
-        "image":"/img/items/common/Lieutenant%27s_Insignia.png"
+        "image":"/img/items/common/Lieutenants_Insignia.png"
     },
     {
         "name":"Mist Flower Corolla",
@@ -372,7 +372,7 @@
     {
         "name":"Recruit%27s Insignia",
         "type":"common",
-        "image":"/img/items/common/Recruit%27s_Insignia.png"
+        "image":"/img/items/common/Recruits_Insignia.png"
     },
     {
         "name":"Sealed Scroll",
@@ -382,7 +382,7 @@
     {
         "name":"Sergeant%27s Insignia",
         "type":"common",
-        "image":"/img/items/common/Sergeant%27s_Insignia.png"
+        "image":"/img/items/common/Sergeants_Insignia.png"
     },
     {
         "name":"Sharp Arrowhead",
@@ -453,5 +453,295 @@
         "name":"Whopperflower Nectar",
         "type":"common",
         "image":"/img/items/common/Whopperflower_Nectar.png"
+    },
+    {
+        "name":"Agnidus Agate Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Agnidus_Agate_Sliver.png"
+    },
+    {
+        "name":"Agnidus Agate Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Agnidus_Agate_Fragment.png"
+    },
+    {
+        "name":"Agnidus Agate Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Agnidus_Agate_Chunk.png"
+    },
+    {
+        "name":"Agnidus Agate Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Agnidus_Agate_Gemstone.png"
+    },
+    {
+        "name":"Vayuda Turquoise Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vayuda_Turquoise_Sliver.png"
+    },
+    {
+        "name":"Vayuda Turquoise Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vayuda_Turquoise_Fragment.png"
+    },
+    {
+        "name":"Vayuda Turquoise Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vayuda_Turquoise_Chunk.png"
+    },
+    {
+        "name":"Vayuda Turquoise Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vayuda_Turquoise_Gemstone.png"
+    },
+    {
+        "name":"Shivada Jade Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Shivada_Jade_Sliver.png"
+    },
+    {
+        "name":"Shivada Jade Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Shivada_Jade_Fragment.png"
+    },
+    {
+        "name":"Shivada Jade Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Shivada_Jade_Chunk.png"
+    },
+    {
+        "name":"Shivada Jade Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Shivada_Jade_Gemstone.png"
+    },
+    {
+        "name":"Vajrada Amethyst Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vajrada_Amethyst_Sliver.png"
+    },
+    {
+        "name":"Vajrada Amethyst Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vajrada_Amethyst_Fragment.png"
+    },
+    {
+        "name":"Vajrada Amethyst Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vajrada_Amethyst_Chunk.png"
+    },
+    {
+        "name":"Vajrada Amethyst Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Vajrada_Amethyst_Gemstone.png"
+    },
+    {
+        "name":"Prithiva Topaz Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Prithiva_Topaz_Sliver.png"
+    },
+    {
+        "name":"Prithiva Topaz Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Prithiva_Topaz_Fragment.png"
+    },
+    {
+        "name":"Prithiva Topaz Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Prithiva_Topaz_Chunk.png"
+    },
+    {
+        "name":"Prithiva Topaz Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Prithiva_Topaz_Gemstone.png"
+    },
+    {
+        "name":"Varunada Lazurite Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Varunada_Lazurite_Sliver.png"
+    },
+    {
+        "name":"Varunada Lazurite Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Varunada_Lazurite_Fragment.png"
+    },
+    {
+        "name":"Varunada Lazurite Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Varunada_Lazurite_Chunk.png"
+    },
+    {
+        "name":"Varunada Lazurite Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Varunada_Lazurite_Gemstone.png"
+    },
+    {
+        "name":"Brilliant Diamond Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Brilliant_Diamond_Sliver.png"
+    },
+    {
+        "name":"Brilliant Diamond Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Brilliant_Diamond_Fragment.png"
+    },
+    {
+        "name":"Brilliant Diamond Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Brilliant_Diamond_Chunk.png"
+    },
+    {
+        "name":"Brilliant Diamond Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Brilliant_Diamond_Gemstone.png"
+    },
+    {
+        "name":"Basalt Pillar",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Basalt_Pillar.png"
+    },
+    {
+        "name":"Cleansing Heart",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Cleansing_Heart.png"
+    },
+    {
+        "name":"Crystalline Bloom",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Crystalline_Bloom.png"
+    },
+    {
+        "name":"Dew of Repudiation",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Dew_of_Repudiation.png"
+    },
+    {
+        "name":"Everflame Seed",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Everflame_Seed.png"
+    },
+    {
+        "name":"Hoarfrost Core",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Hoarfrost_Core.png"
+    },
+    {
+        "name":"Hurricane Seed",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Hurricane_Seed.png"
+    },
+    {
+        "name":"Juvenile Jade",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Juvenile_Jade.png"
+    },
+    {
+        "name":"Lightning Prism",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Lightning_Prism.png"
+    },
+    {
+        "name":"Marionette Core",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Marionette_Core.png"
+    },
+    {
+        "name":"Perpetual Heart",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Perpetual_Heart.png"
+    },
+    {
+        "name":"Riftborn Regalia",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Riftborn_Regalia.png"
+    },
+    {
+        "name":"Smoldering Pearl",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Smoldering_Pearl.png"
+    },
+    {
+        "name":"Storm Beads",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Storm_Beads.png"
+    },
+    {
+        "name":"Dragonheir%27s False Fin",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Dragonheirs_False_Fin.png"
+    },
+    {
+        "name":"Ashen Heart",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Ashen_Heart.png"
+    },
+    {
+        "name":"Bloodjade Branch",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Bloodjade_Branch.png"
+    },
+    {
+        "name":"Dragon Lord%27s Crown",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Dragon_Lords_Crown.png"
+    },
+    {
+        "name":"Dvalin%27s Claw",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Dvalins_Claw.png"
+    },
+    {
+        "name":"Dvalin%27s Plume",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Dvalins_Plume.png"
+    },
+    {
+        "name":"Dvalin%27s Sigh",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Dvalins_Sigh.png"
+    },
+    {
+        "name":"Gilded Scale",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Gilded_Scale.png"
+    },
+    {
+        "name":"Hellfire Butterfly",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Hellfire_Butterfly.png"
+    },
+    {
+        "name":"Molten Moment",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Molten_Moment.png"
+    },
+    {
+        "name":"Ring of Boreas",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Ring_of_Boreas.png"
+    },
+    {
+        "name":"Shadow of the Warrior",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Shadow_of_the_Warrior.png"
+    },
+    {
+        "name":"Shard of a Foul Legacy",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Shard_of_a_Foul_Legacy.png"
+    },
+    {
+        "name":"Spirit Locket of Boreas",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Spirit_Locket_of_Boreas.png"
+    },
+    {
+        "name":"Tail of Boreas",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Tail_of_Boreas.png"
+    },
+    {
+        "name":"Tusk of Monoceros Caeli",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Tusk_of_Monoceros_Caeli.png"
     }
 ]

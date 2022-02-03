@@ -8,7 +8,7 @@ var export_open = 0
 var import_open = 0
 const weekday = ["sunday","monday","tuesday","wednesday","monday","tuesday","wednesday"];
 const weekday_full = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
-
+const teams_day = ["sunday","monday","tuesday","wednesday"]
 const d = new Date();
 let today = weekday[d.getDay()];
 let today_full = weekday_full[d.getDay()];
@@ -38,7 +38,21 @@ function reload(){
     teams()
     developer_mode = 1
 for (i = 0; i < character.length; i++){
+    if(character[i].element_2 != null){
+        var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3
+        var traveler_image = getCookie("timage")
+        if(traveler_image == "Aether"){
+            traveler_image = character[i].image_male
+        }else if(traveler_image == "Lumine"){
+            traveler_image = character[i].image_female
+        }else{
+            traveler_image = character[i].image
+        }
+        console.log(traveler_image)
+        create_image(character[i].name,traveler_image,character[i].hex,character[i].region,character[i].weapon,ele,character[i].rarity)
+    }else{
     create_image(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
+    }
 }
 }
 
@@ -437,7 +451,21 @@ function teams_selector(){
 function character_list_team(){
     teams_list = 0
     for (i = 0; i < character.length; i++){
-        teams_img(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
+        if(character[i].element_2 != null){
+            var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3
+            var traveler_image = getCookie("timage")
+            if(traveler_image == "Aether"){
+                traveler_image = character[i].image_male
+            }else if(traveler_image == "Lumine"){
+                traveler_image = character[i].image_female
+            }else{
+                traveler_image = character[i].image
+            }
+            console.log(traveler_image)
+            teams_img(character[i].name,traveler_image,character[i].hex,character[i].region,character[i].weapon,ele,character[i].rarity)
+        }else{
+            teams_img(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
+        }
     }
 }
 function weapon_list_team(){
@@ -586,9 +614,17 @@ function teams(){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) != -1){
             if(character[i].talent == today){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character/"+character[i].name.replace(" ","_")+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
             }else if(today == "sunday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/character/"+character[i].name.replace(" ","_")+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+            }else if (character[i].name == "Traveler"){
+                if(getCookie("timage") == "Aether"){
+                    teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                }else if(getCookie("timage") == "Lumine"){
+                    teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                }else{
+                    teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                }
             }
         }
         }
@@ -756,19 +792,33 @@ function team_expand(close=0){
     teams_container.appendChild(tuesday)
     teams_container.appendChild(wednesday)
     teams_container.appendChild(sunday)
+    var character_image 
     if(cha_empty != 1){
     for (i = 0; i < character.length; i++){
         if(cha_cookie.search(character[i].hex) >= 1){
+            if(character[i].name == "Traveler"){
+                if(getCookie("timage") == "Aether"){
+                    character_image = character[i].image_male
+                }else if(getCookie("timage") == "Lumine"){
+                    character_image = character[i].image_female
+                }else{
+                    character_image = character[i].image
+                }
+                for (c = 0; c < 4; c++){
+                    teams_time_img(character_image,character[i].name,character[i].hex,teams_day[c],"/characters/"+character[i].name+".html")
+                }
+            }else{
             if(character[i].talent == "monday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"monday","/character.html?cha=")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"monday","/characters/"+character[i].name+".html")
             }
             if(character[i].talent == "tuesday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"tuesday","/character.html?cha=")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"tuesday","/characters/"+character[i].name+".html")
             }
             if(character[i].talent == "wednesday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"wednesday","/character.html?cha=") 
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"wednesday","/characters/"+character[i].name+".html") 
             }
-            teams_time_img(character[i].image,character[i].name,character[i].hex,"sunday","/character.html?cha=")
+            teams_time_img(character[i].image,character[i].name,character[i].hex,"sunday","/characters/"+character[i].name+".html")
+        }
         }
     }
     }

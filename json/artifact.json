@@ -1,0 +1,226 @@
+[
+    {
+        "name":"Initiate",
+        "set_1":"",
+        "set_2":"",
+        "image":"/img/items/artifact/Initiates_Flower.png"
+    },
+    {
+        "name":"Adventurer",
+        "set_1":"Max HP increased by 1,000.",
+        "set_2":"Opening a chest regenerates 30% Max HP over 5s.",
+        "image":"/img/items/artifact/Adventurers_Flower.png"
+    },
+    {
+        "name":"Lucky Dog",
+        "set_1":"DEF increased by 100.",
+        "set_2":"Picking up Mora restores 300 HP.",
+        "image":"/img/items/artifact/Lucky_Dogs_Clover.png"
+    },
+    {
+        "name":"Traveling Doctor",
+        "set_1":"Increases incoming healing by 20%.",
+        "set_2":"Using Elemental Burst restores 20% HP.",
+        "image":"/img/items/artifact/Traveling_Doctors_Silver_Lotus.png"
+    },
+    {
+        "name":"Resolution of Sojourner",
+        "set_1":"ATK +18%",
+        "set_2":"Increases Charged Attack CRIT Rate by 30%.",
+        "image":"/img/items/artifact/Heart_of_Comradeship.png"
+    },
+    {
+        "name":"Tiny Miracle",
+        "set_1":"All Elemental RES increased by 20%.",
+        "set_2":"Incoming elemental DMG increases corresponding Elemental RES by 30% for 10s. Can only occur once every 10s.",
+        "image":"/img/items/artifact/Tiny_Miracles_Flower.png"
+    },
+    {
+        "name":"Berserker",
+        "set_1":"CRIT Rate +12%",
+        "set_2":"When HP is below 70%, CRIT Rate increases by an additional 24%.",
+        "image":"/img/items/artifact/Berserkers_Rose.png"
+    },
+    {
+        "name":"Instructor",
+        "set_1":"Increases Elemental Mastery by 80.",
+        "set_2":"Upon triggering an Elemental Reaction, increases all party members' Elemental Mastery by 120 for 8s.",
+        "image":"/img/items/artifact/Instructors_Brooch.png"
+    },
+    {
+        "name":"The Exile",
+        "set_1":"Energy Recharge +20%",
+        "set_2":"Using an Elemental Burst regenerates 2 Energy for all party members (excluding the wearer) every 2s for 6s. This effect cannot stack.",
+        "image":"/img/items/artifact/Exiles_Flower.png"
+    },
+    {
+        "name":"Defender's Will",
+        "set_1":"DEF +30%",
+        "set_2":"For each different element present in your own party, the wearer's Elemental RES to that corresponding element is increased by 30%.",
+        "image":"/img/items/artifact/Guardians_Flower.png"
+    },
+    {
+        "name":"Brave Heart",
+        "set_1":"ATK +18%.",
+        "set_2":"Increases DMG by 30% against opponents with more than 50% HP.",
+        "image":"/img/items/artifact/Medal_of_the_Brave.png"
+    },
+    {
+        "name":"Martial Artist",
+        "set_1":"Increases Normal Attack and Charged Attack DMG by 15%.",
+        "set_2":"After using Elemental Skill, increases Normal Attack and Charged Attack DMG by 25% for 8s.",
+        "image":"/img/items/artifact/Martial_Artists_Red_Flower.png"
+    },
+    {
+        "name":"Gambler",
+        "set_1":"Increases Elemental Skill DMG by 20%.",
+        "set_2":"Defeating an opponent has 100% chance to remove Elemental Skill CD. Can only occur once every 15s.",
+        "image":"/img/items/artifact/Gamblers_Brooch.png"
+    },
+    {
+        "name":"Scholar",
+        "set_1":"Energy Recharge +20%",
+        "set_2":"Gaining Elemental Particles or Orbs gives 3 Energy to all party members who have a bow or a catalyst equipped. Can only occur once every 3s.",
+        "image":"/img/items/artifact/Scholars_Bookmark.png"
+    },
+    {
+        "name":"Gladiator's Finale",
+        "set_1":"ATK +18%.",
+        "set_2":"If the wielder of this artifact set uses a Sword, Claymore or Polearm, increases their Normal Attack DMG by 35%.",
+        "image":"/img/items/artifact/Gladiators_Nostalgia.png"
+    },
+    {
+        "name":"Wanderer's Troupe",
+        "set_1":"Increases Elemental Mastery by 80.",
+        "set_2":"Increases Charged Attack DMG by 35% if the character uses a Catalyst or Bow.",
+        "image":"/img/items/artifact/Troupes_Dawnlight.png"
+    },
+    {
+        "name":"Thundersoother",
+        "set_1":"Electro RES increased by 40%.",
+        "set_2":"Increases DMG against opponents affected by Electro by 35%.",
+        "image":"/img/items/artifact/Thundersoothers_Heart.png"
+    },
+    {
+        "name":"Thundering Fury",
+        "set_1":"Electro DMG Bonus +15%",
+        "set_2":"Increases damage caused by Overloaded, Electro-Charged and Superconduct by 40%. Triggering such effects decreases Elemental Skill CD by 1s. Can only occur once every 0.8s.",
+        "image":"/img/items/artifact/Thunderbirds_Mercy.png"
+    },
+    {
+        "name":"Maiden Beloved",
+        "set_1":"Character Healing Effectiveness +15%",
+        "set_2":"Using an Elemental Skill or Burst increases healing received by all party members by 20% for 10s.",
+        "image":"/img/items/artifact/Maidens_Distant_Love.png"
+    },
+    {
+        "name":"Viridescent Venerer",
+        "set_1":"Anemo DMG Bonus +15%",
+        "set_2":"Increases Swirl DMG by 60%. Decreases opponent's Elemental RES to the element infused in the Swirl by 40% for 10s.",
+        "image":"/img/items/artifact/In_Remembrance_of_Viridescent_Fields.png"
+    },
+    {
+        "name":"Crimson Witch of Flames",
+        "set_1":"Pyro DMG Bonus +15%",
+        "set_2":"Increases Overloaded and Burning DMG by 40%. Increases Vaporize and Melt DMG by 15%. Using an Elemental Skill increases the 2-Piece Set Bonus by 50% of its starting value for 10s. Max 3 stacks.",
+        "image":"/img/items/artifact/Witchs_Flower_of_Blaze.png"
+    },
+    {
+        "name":"Lavawalker",
+        "set_1":"Pyro RES increased by 40%.",
+        "set_2":"Increases DMG against opponents affected by Pyro by 35%.",
+        "image":"/img/items/artifact/Lavawalkers_Resolution.png"
+    },
+    {
+        "name":"Noblesse Oblige",
+        "set_1":"Elemental Burst DMG +20%",
+        "set_2":"Using an Elemental Burst increases all party members' ATK by 20% for 12s. This effect cannot stack.",
+        "image":"/img/items/artifact/Royal_Flora.png"
+    },
+    {
+        "name":"Bloodstained Chivalry",
+        "set_1":"Physical DMG +25%",
+        "set_2":"After defeating an opponent, increases Charged Attack DMG by 50%, and reduces its Stamina cost to 0 for 10s. Also triggers with wild animals such as boars, squirrels and frogs.",
+        "image":"/img/items/artifact/Bloodstained_Flower_of_Iron.png"
+    },
+    {
+        "name":"Archaic Petra",
+        "set_1":"Geo DMG Bonus +15%",
+        "set_2":"Upon obtaining an Elemental Shard created through a Crystallize Reaction, all party members gain 35% DMG Bonus for that particular element for 10s. Only one form of Elemental DMG Bonus can be gained in this manner at any one time.",
+        "image":"/img/items/artifact/Flower_of_Creviced_Cliff.png"
+    },
+    {
+        "name":"Retracing Bolide",
+        "set_1":"Increases Shield Strength by 35%.",
+        "set_2":"While protected by a shield, gain an additional 40% Normal and Charged Attack DMG.",
+        "image":"/img/items/artifact/Summer_Nights_Bloom.png"
+    },
+    {
+        "name":"Blizzard Strayer",
+        "set_1":"Cryo DMG Bonus +15%",
+        "set_2":"When a character attacks an opponent affected by Cryo, their CRIT Rate is increased by 20%. If the opponent is Frozen, CRIT Rate is increased by an additional 20%.",
+        "image":"/img/items/artifact/Snowswept_Memory.png"
+    },
+    {
+        "name":"Heart of Depth",
+        "set_1":"Hydro DMG Bonus +15%",
+        "set_2":"After using an Elemental Skill, increases Normal Attack and Charged Attack DMG by 30% for 15s.",
+        "image":"/img/items/artifact/Gilded_Corsage.png"
+    },
+    {
+        "name":"Tenacity of the Millelith",
+        "set_1":"HP +20%",
+        "set_2":"When an Elemental Skill hits an opponent, the ATK of all nearby party members is increased by 20% and their Shield Strength is increased by 30% for 3s. This effect can be triggered once every 0.5s. This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "image":"/img/items/artifact/Flower_of_Accolades.png"
+    },
+    {
+        "name":"Pale Flame",
+        "set_1":"Physical DMG +25%",
+        "set_2":"When an Elemental Skill hits an opponent, ATK is increased by 9% for 7s. This effect stacks up to 2 times and can be triggered once every 0.3s. Once 2 stacks are reached, the 2-set effect is increased by 100%.",
+        "image":"/img/items/artifact/Stainless_Bloom.png"
+    },
+    {
+        "name":"Shimenawa's Reminiscence",
+        "set_1":"ATK +18%",
+        "set_2":"When casting an Elemental Skill, if the character has 15 or more Energy, they lose 15 Energy and Normal/Charged/Plunging Attack DMG is increased by 50% for 10s. This effect will not trigger again during that duration.",
+        "image":"/img/items/artifact/Entangling_Bloom.png"
+    },
+    {
+        "name":"Emblem of Severed Fate",
+        "set_1":"Energy Recharge +20%",
+        "set_2":"Increases Elemental Burst DMG by 25% of Energy Recharge. A maximum of 75% bonus DMG can be obtained in this way.",
+        "image":"/img/items/artifact/Magnificent_Tsuba.png"
+    },
+    {
+        "name":"Husk of Opulent Dreams",
+        "set_1":"DEF +30%",
+        "set_2":"A character equipped with this Artifact set will obtain the Curiosity effect in the following conditions:<br>When on the field, the character gains 1 stack after hitting an opponent with a Geo attack, triggering a maximum of once every 0.3s.<br>When off the field, the character gains 1 stack every 3s.<br>Curiosity can stack up to 4 times, each providing 6% DEF and a 6% Geo DMG Bonus.<br>When 6 seconds pass without gaining a Curiosity stack, 1 stack is lost.",
+        "image":"/img/items/artifact/Bloom_Times.png"
+    },
+    {
+        "name":"Ocean-Hued Clam",
+        "set_1":"Healing Bonus +15%.",
+        "set_2":"When the character equipping this artifact set heals a character in the party, a Sea-Dyed Foam will appear for 3 seconds, accumulating the amount of HP recovered from healing (including overflow healing).<br>At the end of the duration, the Sea-Dyed Foam will explode, dealing DMG to nearby opponents based on 90% of the accumulated healing.<br>(This DMG is calculated similarly to Reactions such as Electro-Charged, and Superconduct, but it is not affected by Elemental Mastery, Character Levels, or Reaction DMG Bonuses).<br>Only one Sea-Dyed Foam can be produced every 3.5 seconds.<br>Each Sea-Dyed Foam can accumulate up to 30,000 HP (including overflow healing).<br>There can be no more than one Sea-Dyed Foam active at any given time.<br>This effect can still be triggered even when the character who is using this artifact set is not on the field.",
+        "image":"/img/items/artifact/Sea-Dyed_Blossom.png"
+    },
+    {
+        "name":"Prayers for Illumination",
+        "1_piece": "Affected by Pyro for 40% less time.",
+        "image":"/img/items/artifact/Tiara_of_Flame.png"
+    },
+    {
+        "name":"Prayers for Destiny ",
+        "1_piece": "Affected by Hydro for 40% less time.",
+        "image":"/img/items/artifact/Tiara_of_Torrents.png"
+    },
+    {
+        "name":"Prayers for Wisdom",
+        "1_piece": "Affected by Electro for 40% less time.",
+        "image":"/img/items/artifact/Tiara_of_Thunder.png"
+    },
+    {
+        "name":"Prayers for Springtime",
+        "1_piece": "Affected by Cryo for 40% less time.",
+        "image":"/img/items/artifact/Tiara_of_Frost.png"
+    }
+]

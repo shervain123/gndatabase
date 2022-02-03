@@ -1,0 +1,110 @@
+[
+    {
+        "region": "Mondstadt",
+        "domain_name": "Forsaken Rift",
+        "time": "monday",
+        "name": "Freedom",
+        "img_1": "/img/items/talent/Teachings_of_Freedom.png",
+        "img_2": "/img/items/talent/Guide_to_Freedom.png",
+        "img_3": "/img/items/talent/Philosophies_of_Freedom.png",
+        "name_1": "Teachings of Freedom",
+        "name_2": "Guide to Freedom",
+        "name_3": "Philosophies of Freedom"
+    },
+    {
+        "region": "Mondstadt",
+        "domain_name": "Forsaken Rift",
+        "time": "tuesday",
+        "name": "Resistance",
+        "img_1": "/img/items/talent/Teachings_of_Resistance.png",
+        "img_2": "/img/items/talent/Guide_to_Resistance.png",
+        "img_3": "/img/items/talent/Philosophies_of_Resistance.png",
+        "name_1": "Teachings of Resistance",
+        "name_2": "Guide to Resistance",
+        "name_3": "Philosophies of Resistance"
+    },
+    {
+        "region": "Mondstadt",
+        "domain_name": "Forsaken Rift",
+        "time": "wednesday",
+        "name": "Ballad",
+        "img_1": "/img/items/talent/Teachings_of_Ballad.png",
+        "img_2": "/img/items/talent/Guide_to_Ballad.png",
+        "img_3": "/img/items/talent/Philosophies_of_Ballad.png",
+        "name_1": "Teachings of Ballad",
+        "name_2": "Guide to Ballad",
+        "name_3": "Philosophies of Ballad"
+    },
+    {
+        "region": "Liyue",
+        "domain_name": "Taishan Mansion",
+        "time": "monday",
+        "name": "Prosperity",
+        "img_1": "/img/items/talent/Teachings_of_Prosperity.png",
+        "img_2": "/img/items/talent/Guide_to_Prosperity.png",
+        "img_3": "/img/items/talent/Philosophies_of_Prosperity.png",
+        "name_1": "Teachings of Prosperity",
+        "name_2": "Guide to Prosperity",
+        "name_3": "Philosophies of Prosperity"
+    },
+    {
+        "region": "Liyue",
+        "domain_name": "Taishan Mansion",
+        "time": "tuesday",
+        "name": "Diligence",
+        "img_1": "/img/items/talent/Teachings_of_Diligence.png",
+        "img_2": "/img/items/talent/Guide_to_Diligence.png",
+        "img_3": "/img/items/talent/Philosophies_of_Diligence.png",
+        "name_1": "Teachings of Diligence",
+        "name_2": "Guide to Diligence",
+        "name_3": "Philosophies of Diligence"
+    },
+    {
+        "region": "Liyue",
+        "domain_name": "Taishan Mansion",
+        "time": "wednesday",
+        "name": "Gold",
+        "img_1": "/img/items/talent/Teachings_of_Gold.png",
+        "img_2": "/img/items/talent/Guide_to_Gold.png",
+        "img_3": "/img/items/talent/Philosophies_of_Gold.png",
+        "name_1": "Teachings of Gold",
+        "name_2": "Guide to Gold",
+        "name_3": "Philosophies of Gold"
+    },
+    {
+        "region": "Inazuma",
+        "domain_name": "Violet Court",
+        "time": "monday",
+        "name": "Transience",
+        "img_1": "/img/items/talent/Teachings_of_Transience.png",
+        "img_2": "/img/items/talent/Guide_to_Transience.png",
+        "img_3": "/img/items/talent/Philosophies_of_Transience.png",
+        "name_1": "Teachings of Transience",
+        "name_2": "Guide to Transience",
+        "name_3": "Philosophies of Transience"
+    },
+    {
+        "region": "Inazuma",
+        "domain_name": "Violet Court",
+        "time": "tuesday",
+        "name": "Elegance",
+        "img_1": "/img/items/talent/Teachings_of_Elegance.png",
+        "img_2": "/img/items/talent/Guide_to_Elegance.png",
+        "img_3": "/img/items/talent/Philosophies_of_Elegance.png",
+        "name_1": "Teachings of Elegance",
+        "name_2": "Guide to Elegance",
+        "name_3": "Philosophies of Elegance"
+    },
+    {
+        "region": "Inazuma",
+        "domain_name": "Violet Court",
+        "time": "wednesday",
+        "name": "Light",
+        "img_1": "/img/items/talent/Teachings_of_Light.png",
+        "img_2": "/img/items/talent/Guide_to_Light.png",
+        "img_3": "/img/items/talent/Philosophies_of_Light.png",
+        "name_1": "Teachings of Light",
+        "name_2": "Guide to Light",
+        "name_3": "Philosophies of Light"
+    }
+]
