@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <!--style import-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="/img/character/head/Bennett.png">
+  <link rel="stylesheet" href="/css/mix.css">
+  <link rel="preload" href="js/color.js">
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gimpact" />
+  <meta name="twitter:description" content="Gimpact is a redesign version of gndatabase and provide character information and our favourite feature is the teams." />
+  <meta name="twitter:image" content="https://gimpact.ml/img/preview/web.png" />
+
+  <meta property="og:title" content="Gimpact" />
+  <meta property="og:description" content="Gimpact is a redesign version of gndatabase and provide character information and our favourite feature is the teams." />
+  <meta property="og:image" itemprop="image" content="https://gimpact.ml/img/preview/small/web.png" />
+  <meta property="og:image:secure_url" itemprop="image" content="https://gimpact.ml/img/preview/small/web.png" />
+  <meta property="og:url" content="https://gimpact.ml"/>
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="gimpact" />
+  <title>Gimpact</title>
+  <meta charset="utf-8"> 
+
+  <style>
+    body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    .color_pick{
+      width:20%;
+      align-content: center;
+      color:initial;
+      
+    }
+    .color_pick input{
+      width:94%;
+      padding:1px;
+      margin-bottom: 10px;
+      margin-left:10px;
+    }
+    .color_pick p{
+      width:100%;
+      text-align: center;
+    }
+    
+  </style>
+  
+  <body class="dark-1">
+    <div>
+    <div style="padding-left:50px" id="main"class="dark-2 color_transistion">
+      <!-- put the actual code in the below container you dumb fuck-->
+        <div class="title_middle"><h3>Settings</h3></div>
+        <div class="warning">
+            <h3>WARNING!</h3>
+            <p>This page is experimental, it might cause the site to break or unusable</p>
+            <p>It is recommended to use this site as it is.</p>
+            <p>The features in this page are not frequently maintained</p>
+            <h3>USE AT YOUR OWN RISK</h3>
+        </div>
+        <div class="title_middle"><h3>Colors</h3></div>
+        <div style="padding:10px">
+        <div class="color_pick" id="color1_con">
+          <p>color 1</p>
+          <input type="color" onchange="color_preview()" id="color1_back">
+          <input type="color" onchange="color_preview()" id="color1">
+        </div>
+        <div class="color_pick" id="color2_con">
+          <p>color 2</p>
+          <input type="color" onchange="color_preview()" id="color2_back">
+          <input type="color" onchange="color_preview()" id="color2">
+        </div>
+        <div class="color_pick" id="color3_con">
+          <p>color 3</p>
+          <input type="color" onchange="color_preview()" id="color3_back">
+          <input type="color" onchange="color_preview()" id="color3">
+        </div>
+        <div class="color_pick" id="color4_con">
+          <p>color 4</p>
+          <input type="color" onchange="color_preview()" id="color4_back">
+          <input type="color" onchange="color_preview()" id="color4">
+        </div>
+        <div class="color_pick" id="color5_con">
+          <p>color 5</p>
+          <input type="color" onchange="color_preview()" id="color5_back">
+          <input type="color" onchange="color_preview()" id="color5">
+        </div>
+        <div class="button" onclick = "apply_color()">
+          <a href="javascript:void(0)" onclick = "apply_color()">Apply</a>
+        </div>
+        <select class="preset" value="0" onchange="preset_select()" id="preset">
+          <option value="1" selected>Select Preset</option>
+          <option value="2">Default</option>
+          <option value="3">Gndatabase</option>
+          <option value="10">Dark mode</option>
+          <option value="4">Blackout</option>
+          <option value="5">Whiteout</option>
+          <option value="6">High Contrast</option>
+          <option value="7">Ocean Blue</option>
+          <option value="8">Forest Green</option>
+          <option value="9">Sky blue</option>
+          <option value="11">Grey</option>
+          <option value="12">Stealth</option>
+        </select>
+        <p>if you want to generate a color palette, you can use <a href="https://coolors.co/292f33-43464a-4e5357-ff4c29-c0c0c0" target="blank">coolors.co</a></p>
+        <p>Or you could use the feedback to ask us to add your color palette as a preset</p>
+        <p>If you see the default color during loading of a page, that is not a bug <br> It load the default color first, then read the custom color</p>
+        </div>
+        
+    <footer style="text-align: center;" class="hidea">
+      <div class="dark-1">
+        <div class="top-margin">
+         <div class="footer_btn">
+            <a href="/tools/other.html#about">About us</a>
+            <a href="/tools/other.html#contact">Contact Us</a>
+            <a href="/">Home</a>
+            
+            <a href="/tools/other.html#privacy">Privacy Policy</a>
+            <a href="/tools/other.html#follow_us">Follow us</a>
+          </div>
+      <p>It's a pain to redisgn the ui but it is worth it</p>
+      </div>
+      </div>
+    </footer>
+    </div>
+    <div id="nav_bar" class="navi dark-1">
+      <div class="navi_button" >
+        <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gimpact</h4></a>
+      </div>
+      <a><div class="w3-row navi_button"><img src="/img/icons/map.png" style="width: 30px;margin-left:10px;margin-right:15px">Interactive Map</div></a>
+      <a href="/tools/other.html#contact"><div class="w3-row navi_button" style="position: absolute;bottom:0"><img src="/img/icons/feedback.png" style="width: 30px;margin-left:10px;margin-right:15px">Feedback</div></a>
+    </div>
+    
+    </div>
+  </body>
+</html>
+
+
+
+
+<script src="/js/color.js"></script> 
+<script>
+  set_preview_color()
+</script>

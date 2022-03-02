@@ -15,9 +15,9 @@
         "local_asc" : "Cecilia",
         "boss_asc" : "Basalt Pillar",
         "boss_talent" : "Tusk of Monoceros Caeli",
-        "weapon_build" : "Skyward Blade",
-        "artifact_build" : "Noblesse Oblige",
-        "build_type" : "Sub Dps / Support"
+        "weapon_build" : "Primordial Jade Cutter",
+        "artifact_build" : "Husk of Opulent Dreams",
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Aloy",
@@ -36,7 +36,9 @@
         "local_asc" : "Crystal Marrow",
         "boss_asc" : "Crystalline Bloom",
         "boss_talent" : "Molten Moment",
-        "build" : "0"
+        "weapon_build" : "Thundering Pulse",
+        "artifact_build" : "Blizzard Strayer",
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Amber",
@@ -54,9 +56,9 @@
         "local_asc" : "Small Lamp Grass",
         "boss_asc" : "Everflame Seed",
         "boss_talent" : "Dvalin%27s Sigh",
-        "weapon_build" : "Skyward Harp",
-        "artifact_build" : "Wanderer's Troupe",
-        "build_type" : "Main DPS"
+        "weapon_build" : "Elegy for the End",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support"
     },
     {
         "name" : "Barbara",
@@ -74,9 +76,9 @@
         "local_asc" : "Philanemo Mushroom",
         "boss_asc" : "Cleansing Heart",
         "boss_talent" : "Ring of Boreas",
-        "weapon_build" : "Prototype Amber",
-        "artifact_build" : "Maiden Beloved",
-        "build_type" : "Hydro Healer"
+        "weapon_build" : "Thrilling Tales of Dragon Slayers",
+        "artifact_build" : "Ocean-Hued Clam",
+        "build_type" : "Support"
     },
     {
         "name" : "Beidou",
@@ -96,7 +98,7 @@
         "boss_talent" : "Dvalin%27s Sigh",
         "weapon_build" : "Wolf%27s Gravestone",
         "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Sub DPS / Support"
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Bennett",
@@ -115,9 +117,9 @@
         "local_asc" : "Windwheel Aster",
         "boss_asc" : "Everflame Seed",
         "boss_talent" : "Dvalin%27s Plume",
-        "weapon_build" : "Primordial Jade Cutter",
-        "artifact_build" : "Crimson Witch of Flames",
-        "build_type" : "Main DPS"
+        "weapon_build" : "Mistsplitter Reforged",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Chongyun",
@@ -137,6 +139,7 @@
         "boss_talent" : "Dvalin%27s Sigh",
         "weapon_build" : "Wolf%27s Gravestone",
         "artifact_build" : "Noblesse Oblige",
+        "artifact_build_2":"Blizzard Strayer",
         "build_type" : "Cryo DPS"
     },
     {
@@ -157,7 +160,7 @@
         "boss_talent" : "Dvalin%27s Plume",
         "weapon_build" : "Wolf%27s Gravestone",
         "artifact_build" : "Crimson Witch of Flames",
-        "build_type" : "Pyro DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Diona",
@@ -176,8 +179,8 @@
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Shard of a Foul Legacy",
         "weapon_build" : "Sacrificial Bow",
-        "artifact_build" : "Maiden Beloved",
-        "build_type" : "Cryo Support"
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support"
     },
     {
         "name" : "Eula",
@@ -197,7 +200,7 @@
         "boss_talent" : "Dragon Lord%27s Crown",
         "weapon_build" : "Song of Broken Pines",
         "artifact_build" : "Pale Flame",
-        "build_type" : "Main DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Fischl",
@@ -215,9 +218,9 @@
         "local_asc" : "Small Lamp Grass",
         "boss_asc" : "Lightning Prism",
         "boss_talent" : "Spirit Locket of Boreas",
-        "weapon_build" : "Skyward Harp",
-        "artifact_build" : "Pale Flame",
-        "build_type" : "Main DPS Physical"
+        "weapon_build" : "Polar Star",
+        "artifact_build" : "Thundersoothers",
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Ganyu",
@@ -236,8 +239,8 @@
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Shadow of the Warrior",
         "weapon_build" : "Amos%27 Bow",
-        "artifact_build" : "Wanderer's Troupe",
-        "build_type" : "Cryo DPS"
+        "artifact_build" : "Shimenawa's Reminiscence",
+        "build_type" : "Melt DPS"
     },
     {
         "name" : "Hu Tao",
@@ -258,7 +261,7 @@
         "boss_talent" : "Shard of a Foul Legacy",
         "weapon_build" : "Staff of Homa",
         "artifact_build" : "Crimson Witch of Flames",
-        "build_type" : "Pyro DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Jean",
@@ -276,9 +279,9 @@
         "local_asc" : "Dandelion Seed",
         "boss_asc" : "Hurricane Seed",
         "boss_talent" : "Dvalin%27s Plume",
-        "weapon_build" : "Aquila Favonia",
-        "artifact_build" : "Gladiator's Finale",
-        "build_type" : "Physical DPS / Main DPS"
+        "weapon_build" : "Primordial Jade Cutter",
+        "artifact_build" : "Viridescent Venerer",
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Kaedehara Kazuha",
@@ -299,7 +302,7 @@
         "boss_talent" : "Gilded Scale",
         "weapon_build" : "Freedom-Sworn",
         "artifact_build" : "Viridescent Venerer",
-        "build_type" : "Anemo Support"
+        "build_type" : "Elemental Mastery Build"
     },
     {
         "name" : "Kaeya",
@@ -317,9 +320,9 @@
         "local_asc" : "Calla Lily",
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Spirit Locket of Boreas",
-        "weapon_build" : "Skyward Blade",
-        "artifact_build" : "Blizzard Strayer",
-        "build_type" : "Cryo DPS"
+        "weapon_build" : "Primordial Jade Cutter",
+        "artifact_build" : "Emblem of Severed Fate",
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Kamisato Ayaka",
@@ -340,7 +343,7 @@
         "boss_talent" : "Bloodjade Branch",
         "weapon_build" : "Mistsplitter Reforged",
         "artifact_build" : "Blizzard Strayer",
-        "build_type" : "Main DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Keqing",
@@ -358,9 +361,9 @@
         "local_asc" : "Cor Lapis",
         "boss_asc" : "Lightning Prism",
         "boss_talent" : "Ring of Boreas",
-        "weapon_build" : "Primordial Jade Cutter",
-        "artifact_build" : "Thundersoother",
-        "build_type" : "Electro DPS"
+        "weapon_build" : "Aquila Favonia",
+        "artifact_build" : "Pale Flame",
+        "build_type" : "DPS"
     },
     {
         "name" : "Klee",
@@ -380,7 +383,8 @@
         "boss_talent" : "Ring of Boreas",
         "weapon_build" : "Skyward Atlas",
         "artifact_build" : "Crimson Witch of Flames",
-        "build_type" : "Pyro DPS"
+        "artifact_build_2": "Noblesse Oblige",
+        "build_type" : "DPS"
     },
     {
         "name" : "Kujou Sara",
@@ -401,7 +405,7 @@
         "boss_talent" : "Ashen Heart",
         "weapon_build" : "Skyward Harp",
         "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Support / Sub DPS"
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Lisa",
@@ -420,8 +424,9 @@
         "boss_asc" : "Lightning Prism",
         "boss_talent" : "Dvalin%27s Claw",
         "weapon_build" : "Skyward Atlas",
-        "artifact_build" : "Thundersoother",
-        "build_type" : "Main DPS"
+        "artifact_build" : "Thundering Fury",
+        "artifact_build_2":"Noblesse Oblige",
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Mona",
@@ -439,9 +444,9 @@
         "local_asc" : "Philanemo Mushroom",
         "boss_asc" : "Cleansing Heart",
         "boss_talent" : "Ring of Boreas",
-        "weapon_build" : "Skyward Atlas",
-        "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Hydro Support / Sub DPS"
+        "weapon_build" : "Thrilling Tales of Dragon Slayers",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support"
     },
     {
         "name" : "Ningguang",
@@ -459,10 +464,10 @@
         "local_asc" : "Cor Lapis",
         "boss_asc" : "Basalt Pillar",
         "boss_talent" : "Spirit Locket of Boreas",
-        "weapon_build" : "Lost Prayer to the Sacred Winds",
+        "weapon_build" : "Skyward Atlas",
         "artifact_build" : "Archaic Petra",
-        "artifact_build_2" : "Gladiator's Finale",
-        "build_type" : "Geo DPS"
+        "artifact_build_2" : "Noblesse Oblige",
+        "build_type" : "DPS"
     },
     {
         "name" : "Noelle",
@@ -480,9 +485,9 @@
         "local_asc" : "Valberry",
         "boss_asc" : "Basalt Pillar",
         "boss_talent" : "Dvalin%27s Claw",
-        "weapon_build" : "Serpent Spine",
-        "artifact_build" : "Retracing Bolide",
-        "build_type" : "Main DPS"
+        "weapon_build" : "Redhorn Stonethresher",
+        "artifact_build" : "Husk of Opulent Dreams",
+        "build_type" : "DPS"
     },
     {
         "name" : "Qiqi",
@@ -500,9 +505,9 @@
         "local_asc" : "Violetgrass",
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Tail of Boreas",
-        "weapon_build" : "Skyward Blade",
-        "artifact_build" : "Noblesse Oblige",
-        "build_type" : "Cryo Support"
+        "weapon_build" : "Sacrificial Sword",
+        "artifact_build" : "Tenacity of the Millelith",
+        "build_type" : "Support"
     },
     {
         "name" : "Raiden Shogun",
@@ -523,7 +528,7 @@
         "boss_talent" : "Molten Moment",
         "weapon_build" : "Engulfing Lightning",
         "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Support / Sub DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Razor",
@@ -543,7 +548,7 @@
         "boss_talent" : "Dvalin%27s Claw",
         "weapon_build" : "Wolf%27s Gravestone",
         "artifact_build" : "Pale Flame",
-        "build_type" : "Physical DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Rosaria",
@@ -561,9 +566,9 @@
         "local_asc" : "Valberry",
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Shadow of the Warrior",
-        "weapon_build" : "Primordial Jade Winged-Spear",
-        "artifact_build" : "Blizzard Strayer",
-        "build_type" : "Cryo DPS"
+        "weapon_build" : "Staff of Homa",
+        "artifact_build" : "Emblem of Severed Fate",
+        "build_type" : "Burst Support"
     },
     {
         "name" : "Sangonomiya Kokomi",
@@ -582,9 +587,9 @@
         "local_asc" : "Sango Pearl",
         "boss_asc" : "Dew of Repudiation",
         "boss_talent" : "Hellfire Butterfly",
-        "weapon_build" : "Everlasting Moonglow",
-        "artifact_build" : "Heart of Depth",
-        "build_type" : "Main DPS"
+        "weapon_build" : "Thrilling Tales of Dragon Slayers",
+        "artifact_build" : "Tenacity of the Millelith",
+        "build_type" : "Support"
     },
     {
         "name" : "Sayu",
@@ -604,7 +609,7 @@
         "boss_talent" : "Gilded Scale",
         "weapon_build" : "Wolf%27s Gravestone",
         "artifact_build" : "Viridescent Venerer",
-        "build_type" : "Support / Sub DPS"
+        "build_type" : "Support"
     },
     {
         "name" : "Sucrose",
@@ -624,7 +629,7 @@
         "boss_talent" : "Spirit Locket of Boreas",
         "weapon_build" : "Sacrificial Fragments",
         "artifact_build" : "Viridescent Venerer",
-        "build_type" : "Anemo Support"
+        "build_type" : "Elemental Mastery Build"
     },
     {
         "name" : "Tartaglia",
@@ -642,9 +647,9 @@
         "local_asc" : "Starconch",
         "boss_asc" : "Cleansing Heart",
         "boss_talent" : "Shard of a Foul Legacy",
-        "weapon_build" : "Skyward Harp",
+        "weapon_build" : "Polar Star",
         "artifact_build" : "Heart of Depth",
-        "build_type" : "Hydro DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Thoma",
@@ -662,9 +667,9 @@
         "local_asc" : "Fluorescent Fungus",
         "boss_asc" : "Smoldering Pearl",
         "boss_talent" : "Hellfire Butterfly",
-        "weapon_build" : "Engulfing Lightning",
-        "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Pyro DPS"
+        "weapon_build" : "Favonius Lance",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support"
     },
     {
         "name" : "Traveler",
@@ -704,12 +709,12 @@
         "inazuma_talent_boss" : "Dragon Lord%27s Crown",
         "anemo_build_weapon" : "Freedom-Sworn",
         "anemo_build_artifact" : "Viridescent Venerer",
-        "anemo_build_type" : "Anemo DPS",
+        "anemo_build_type" : "DPS",
 
         "geo_build_weapon" : "Mistsplitter Reforged",
         "geo_build_artifact" : "Archaic Petra",
         "geo_build_artifact_2" : "Noblesse Oblige",
-        "geo_build_type" : "Geo DPS",
+        "geo_build_type" : "DPS",
 
         "electro_build_weapon" : "Favonius Sword",
         "electro_build_artifact" : "Noblesse Oblige",
@@ -731,9 +736,9 @@
         "local_asc" : "Cecilia",
         "boss_asc" : "Hurricane Seed",
         "boss_talent" : "Tail of Boreas",
-        "weapon_build" : "Skyward Harp",
+        "weapon_build" : "Elegy for the End",
         "artifact_build" : "Viridescent Venerer",
-        "build_type" : "Sub DPS"
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Xiangling",
@@ -751,9 +756,9 @@
         "local_asc" : "Jueyun Chili",
         "boss_asc" : "Everflame Seed",
         "boss_talent" : "Dvalin%27s Claw",
-        "weapon_build" : "%22The Catch%22",
+        "weapon_build" : "Staff of Homa",
         "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Pyro DPS"
+        "build_type" : "Off-Field DPS "
     },
     {
         "name" : "Xiao",
@@ -774,7 +779,7 @@
         "weapon_build" : "Primordial Jade Winged-Spear",
         "artifact_build" : "Gladiator's Finale",
         "artifact_build_2" : "Viridescent Venerer",
-        "build_type" : "Anemo DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Xingqiu",
@@ -792,9 +797,9 @@
         "local_asc" : "Silk Flower",
         "boss_asc" : "Cleansing Heart",
         "boss_talent" : "Tail of Boreas",
-        "weapon_build" : "Sacrificial Sword",
+        "weapon_build" : "Primordial Jade Cutter",
         "artifact_build" : "Emblem of Severed Fate",
-        "build_type" : "Sub DPS"
+        "build_type" : "Off-Field DPS"
     },
     {
         "name" : "Xinyan",
@@ -812,9 +817,10 @@
         "local_asc" : "Violetgrass",
         "boss_asc" : "Everflame Seed",
         "boss_talent" : "Tusk of Monoceros Caeli",
-        "weapon_build" : "Wolf%27s Gravestone",
-        "artifact_build" : "Gladiator's Finale",
-        "build_type" : "Physical DPS / Main DPS"
+        "weapon_build" : "Skyward Pride",
+        "artifact_build" : "Pale Flame",
+        "artifact_build_2": "Bloodstained Chivalry",
+        "build_type" : "DPS"
     },
     {
         "name" : "Yanfei",
@@ -832,9 +838,9 @@
         "local_asc" : "Noctilucous Jade",
         "boss_asc" : "Juvenile Jade",
         "boss_talent" : "Bloodjade Branch",
-        "weapon_build" : "Lost Prayer to the Sacred Winds",
+        "weapon_build" : "Skyward Atlas",
         "artifact_build" : "Crimson Witch of Flames",
-        "build_type" : "Pyro DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Yoimiya",
@@ -854,7 +860,7 @@
         "boss_talent" : "Dragon Lord%27s Crown",
         "weapon_build" : "Thundering Pulse",
         "artifact_build" : "Shimenawa's Reminiscence",
-        "build_type" : "Pyro DPS"
+        "build_type" : "DPS"
     },
     {
         "name" : "Zhongli",
@@ -872,9 +878,9 @@
         "local_asc" : "Cor Lapis",
         "boss_asc" : "Basalt Pillar",
         "boss_talent" : "Tusk of Monoceros Caeli",
-        "weapon_build" : "Staff of Homa",
-        "artifact_build" : "Archaic Petra",
-        "build_type" : "Geo DPS"
+        "weapon_build" : "Black Tassel",
+        "artifact_build" : "Tenacity of the Millelith",
+        "build_type" : "Shiled Support"
     },
     {
         "name" : "Arataki Itto",
@@ -896,7 +902,7 @@
         "boss_talent" : "Ashen Heart",
         "weapon_build" : "Redhorn Stonethresher",
         "artifact_build" : "Husk of Opulent Dreams",
-        "build_type" : "Geo DPS "
+        "build_type" : "DPS "
     },
     {
         "name" : "Gorou",
@@ -917,7 +923,7 @@
         "boss_talent" : "Molten Moment",
         "weapon_build" : "Favonius Warbow",
         "artifact_build" : "The Exile",
-        "build_type" : "Geo support"
+        "build_type" : "Support"
     },
     {
         "name" : "Shenhe",
@@ -936,9 +942,8 @@
         "local_asc" : "Qingxin",
         "boss_asc" : "Dragonheir%27s False Fin",
         "boss_talent" : "Hellfire Butterfly",
-        "weapon_build" : "Engulfing Lightning",
-        "artifact_build" : "Gladiator's Finale",
-        "artifact_build_2" : "Shimenawa's Reminiscence",
+        "weapon_build" : "Calamity Queller",
+        "artifact_build" : "Noblesse Oblige",
         "build_type" : "Cryo support"
     },
     {
@@ -961,7 +966,52 @@
         "boss_talent" : "Ashen Heart",
         "weapon_build" : "Favonius Lance",
         "artifact_build" : "Husk of Opulent Dreams",
-        "build_type" : "Geo support"
+        "build_type" : "Support"
+    },
+    {
+        "name" : "Yae Miko",
+        "talent" : "",
+        "rarity" : "5",
+        "element" : "Electro",
+        "image" : "/img/character/head/YaeMiko.png",
+        "full_image" : "/img/character/full/YaeMiko.png",
+        "hex" : "2f",
+        "weapon" : "Catalyst",
+        "region" : "Inazuma",
+        "talent_region" : "Inazuma",
+        "gncode" : "47",
+        "lore" : "1",
+        "name_gengg" : "",
+        "common_asc" : "",
+        "local_asc" : "",
+        "boss_asc" : "",
+        "boss_talent" : "",
+        "weapon_build" : "",
+        "artifact_build" : "",
+        "build_type" : ""
+    },
+    {
+        "name" : "Kamisato Ayato",
+        "talent" : "",
+        "rarity" : "5",
+        "element" : "Hydro",
+        "image" : "/img/character/head/KamisatoAyato.png",
+        "full_image" : "/img/character/full/KamisatoAyato.png",
+        "hex" : "30",
+        "weapon" : "Sword",
+        "region" : "Inazuma",
+        "talent_region" : "Inazuma",
+        "gncode" : "48",
+        "lore" : "1",
+        "name_gengg" : "",
+        "common_asc" : "",
+        "local_asc" : "",
+        "boss_asc" : "",
+        "boss_talent" : "",
+        "weapon_build" : "",
+        "artifact_build" : "",
+        "build_type" : "",
+        "unrelease": "1"
     }
 ]
 

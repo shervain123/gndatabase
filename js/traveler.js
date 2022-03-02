@@ -436,12 +436,12 @@ function load(){
         }
     }
     if(win != "Anemo" && win != "Geo" && win != "Electro"){
-        if(getCookie("telement") == null){
+        if(localStorage.getItem("telement") == null){
             console.log("last element was not found, using default...")
             element = "Anemo"
-            document.cookie = "telement="+element+"; path=/"
+            localStorage.setItem("telement",element)
         }else{
-            element = getCookie("telement")
+            element = localStorage.getItem("telement")
             console.log(element)
         }
     }else{
@@ -459,14 +459,14 @@ function load(){
     
     preloadImage(character_json.full_image)
     preloadImage(character_json.full_image_female)
-    if(getCookie("timage") == null){
-        document.cookie = "timage=Aether; path=/"
+    if(localStorage.getItem("timage") == null){
+      localStorage.setItem("timage","Aether")
         console.log("Last character image not found, using default")
         aether()
-    }else if(getCookie("timage") == "Aether"){
+    }else if(localStorage.getItem("timage") == "Aether"){
         aether()
         console.log("Aether")
-    }else if(getCookie("timage") == "Lumine"){
+    }else if(localStorage.getItem("timage") == "Lumine"){
         lumine()
         console.log("Lumine")
     }
@@ -502,7 +502,7 @@ function aether(){
     var img = document.getElementById("cha_img_full")
     var link = document.querySelector("link[rel~='icon']");
     link.href = character_json.image_male
-    document.cookie = "timage=Aether; path=/"
+    localStorage.setItem("timage","Aether")
     if(img.src.includes(character_json.full_image) == false){
         var btn_con = document.getElementById("selector")
         var btn = btn_con.getElementsByTagName("a")
@@ -522,7 +522,7 @@ function lumine(){
     var img = document.getElementById("cha_img_full")
     var link = document.querySelector("link[rel~='icon']");
     link.href = character_json.image_female
-    document.cookie = "timage=Lumine; path=/"
+    localStorage.setItem("timage","Lumine")
     if(img.src.includes(character_json.full_image_female) == false){
         var btn_con = document.getElementById("selector")
         var btn = btn_con.getElementsByTagName("a")
@@ -586,7 +586,7 @@ function anemo(){
     var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = anemo_detail
     if(btn[0].style.backgroundColor != "rgb(112, 112, 112)"){
-        document.cookie = "telement=Anemo; path=/"
+      localStorage.setItem("telement","Anemo")
         element = "Anemo"
         element_reload()
     }
@@ -601,7 +601,7 @@ function geo(){
     var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = geo_detail
     if(btn[1].style.backgroundColor != "rgb(112, 112, 112)"){
-        document.cookie = "telement=Geo; path=/"
+      localStorage.setItem("telement","Geo")
         element = "Geo"
         element_reload()
     }
@@ -617,7 +617,7 @@ function electro(){
     var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = electro_detail
     if(btn[2].style.backgroundColor != "rgb(112, 112, 112)"){
-        document.cookie = "telement=Electro; path=/"
+      localStorage.setItem("telement","Electro")
         element = "Electro"
         element_reload()
     }

@@ -5,7 +5,101 @@
 div{clear:none;float:left;width:100% }
 .hidea{display: none!important}
 
+:root{
+  --color1-back:#292f33;
+  --color1:#ffffff;
 
+  --color2-back:#43464a;
+  --color2:#ffffff;
+
+  --color3-back:#4e5357;
+  --color3:#ffffff;
+
+  --color4-back:#FF4C29;
+  --color4:#ffffff;
+
+  --color-hover:#c0c0c0;
+  --color-hover-text:#000000;
+
+  --hover-invert: invert(0);
+}
+
+.preset{
+  width: 280px;
+  margin:5px;
+  margin-top:20px
+}
+
+.button{
+  width: 293.5px;
+height: 40px;
+background-color: var(--color1-back);
+color: var(--color1);
+margin-top: 10px;
+text-align: center;
+padding: 10px;
+}
+
+.button:hover{
+  background-color: var(--color-hover);
+color: var(--color-hover-text);
+}
+
+.button a{
+  text-decoration: none;
+}
+
+.warning{
+  background-color: var(--color4-back);
+  color: var(--color4);
+  font-family: "Roboto Mono" !important;
+  width:100%;
+  padding:0px 10px;
+  
+  text-align: center;
+  
+}
+
+.warning h3{
+  
+  font-family: "Roboto Mono" !important;
+}
+
+.domain{
+  width:50%;
+  padding-top:10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.domain h3{
+  margin:5px;
+  margin-left:0px;
+}
+
+.domain .con .domain_img{
+  width:50%
+}
+.domain .con .domain_img img{
+  width:100%
+}
+.domain .con .detail{
+  width: 50%;
+}
+
+.domain .con .detail .artifact{
+  width: 100%;
+}
+.domain .con .detail .artifact img{
+  width: 80px;
+}
+.domain .con .detail .artifact div{
+  width: fit-content;
+}
+
+.domain .con .detail .artifact div p{
+  padding-top:10px
+}
 
 .item_dis_s{
   display:table;
@@ -239,13 +333,15 @@ table-layout: fixed;
   width:102px;
   transition-property: width background-color;
   transition-duration: 0.2s;
-  background-color: #43464a;
+  background-color: var(--color2-back);
+  color: var(--color2);
   white-space: nowrap;
 
 }
 .material:hover{
   width:340px;
-  background-color: #292f33;
+  background-color: var(--color1-back);
+  color: var(--color1);
 }
 .material img{
   width:75px
@@ -277,7 +373,7 @@ div{
   transition-duration: 0.2s;
 }
 
-.btn:hover{background-color: #4e5357;}
+.btn:hover{background-color: var(--color3-back)}
 
 .talent{padding:20px;padding-top:10px;}
 
@@ -316,7 +412,8 @@ footer div p{font-size: 12px;}
 .resources_btn_container a{
   padding:10px 2px;
   display:table-cell;
-  background-color: #303336;
+  background-color: var(--color1-back);
+  color: var(--color1);
   text-align: center;
   text-decoration: none;
   transition-property: background-color;
@@ -324,7 +421,7 @@ footer div p{font-size: 12px;}
   max-width: 0px;
 }
 
-.resources_btn_container a:hover{background-color: #4e5357;}
+.resources_btn_container a:hover{background-color: var(--color-hover);color: var(--color-hover-text)}
 
 .other_cha a{width:fit-content;}
 
@@ -408,7 +505,7 @@ footer div p{font-size: 12px;}
   background-color: #cc0000 !important;
 }
 .delete a:hover{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
 }
 .options div p{
   width:fit-content
@@ -419,7 +516,7 @@ footer div p{font-size: 12px;}
   margin-top:0px !important;
 }
 .options div a:hover{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
 }
 .options{
   margin:0px;
@@ -427,7 +524,7 @@ footer div p{font-size: 12px;}
   width:100%;
 }
 .export-input:focus{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
 }
 .copy-button{
   background-color: #303336;
@@ -440,7 +537,7 @@ footer div p{font-size: 12px;}
   transition-duration: 0.2s;
 }
 .copy-button:hover{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
 }
 .import-button{
   background-color: #303336;
@@ -451,7 +548,7 @@ footer div p{font-size: 12px;}
   transition-duration: 0.2s;
 }
 .import-button:hover{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
 }
 .export_container{
   width:100%;
@@ -515,7 +612,8 @@ footer div p{font-size: 12px;}
 }
 
 .filter .selection a{
-  background-color: #303336;
+  background-color: var(--color1-back);
+  color: var(--color1);
   border: none;
 display: inline-block;
 padding: 5px 16px;
@@ -535,8 +633,14 @@ transition-duration: 0.2s;
   width: 30px;
 }
 
+.filter .selection a:hover img{
+  filter: var(--hover-invert);
+}
+
 .filter .selection a:hover{
-  background-color: #4e5357;
+  background-color: var(--color3-back);
+  color: var(--color3);
+  
 }
 .filter .selection{
   width:570px;
@@ -546,8 +650,8 @@ transition-duration: 0.2s;
 }
 .search{
   border:3px #404040;
-  background-color: #303336;
-  color: #ffffff;
+  background-color: var(--color1-back);
+  color: var(--color1);
   margin-top:10px;
   height:40px;
   width:370px;
@@ -558,7 +662,7 @@ transition-duration: 0.2s;
   padding:10px;
 }
 .search:focus{
-  background-color: #4e5357;
+  background-color: var(--color3-back);;
 }
 .rotate_ani{
   transform: rotate(0deg);
@@ -859,8 +963,8 @@ transition-duration: 0.2s;
   opacity:1;
 }
 .character_img .name p{
-  color:#ffffff;
-  background-color: #61656b;
+  color:var(--color3);
+  background-color: var(--color3-back);
   position: fixed;
   bottom:0;
   margin:0 auto;
@@ -943,9 +1047,10 @@ transition-duration: 0.2s;
   bottom:0
 }
 .navi_button:hover{
-    background-color: #c0c0c0;
-    color:#000000;
+    background-color: var(--color-hover) !important;
+    color:var(--color-hover-text);
 }
+
 .navi_button_dev{
   padding:0px 0px;
   text-decoration: none;
@@ -983,8 +1088,8 @@ width:fit-content
   transition-duration: 0.2s;
 }
 .title_middle{
-  background-color: #292f33;
-  color:#ffffff;
+  background-color: var(--color1-back);
+    color:var(--color1);
   width:100%
 }
 .title_middle h3{
@@ -1001,7 +1106,7 @@ width:fit-content
 
 }
 .inner_title{
-  color:#ffffff;
+  color:var(--color2);
   width:100%
 }
 .inner_title h4{
@@ -1011,7 +1116,8 @@ width:fit-content
 }
 .navi_teams:hover{
   height:275px;
-  background-color: #4e5357;
+  background-color: var(--color3-back);
+  color: var(--color3);
 }
 .navi_teams a{
 text-decoration: none;
@@ -1039,7 +1145,7 @@ text-decoration: none;
   transition-duration: 0.2s;
 }
 .navi_teams_clear:hover{
-  background-color: #cc0000;
+  background-color: var(--color4-back);
 }
 .navi_teams_cancel{
   padding:10px 10px;
@@ -1078,25 +1184,25 @@ and it has been modify to fit gndatabase */
 /*for background*/
 .dark-1{
     /*background-color: #082032;*/
-    background-color: #292f33;
-    color:#ffffff;
+    background-color: var(--color1-back);
+    color:var(--color1);
     
 }
 /*for a container needs to show difrent from background*/
 .dark-2{
     /*background-color: #2C394B;*/
-    background-color: #43464a;
-    color:#ffffff
+    background-color: var(--color2-back);
+    color:var(--color2);
 }
 /*interactable*/
 .dark-3{
     /*background-color: #334756;*/
-    background-color: #4e5357;
-    color:#ffffff
+    background-color: var(--color3-back);
+    color:var(--color3);
 }/*neeeds user attenction*/
 .dark-4{
-    background-color: #FF4C29;
-    color:#ffffff
+    background-color: var(--color4-back);
+    color:var(--color4);
 }
 
 ::-webkit-scrollbar {

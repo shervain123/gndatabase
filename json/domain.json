@@ -1,0 +1,113 @@
+[
+    {
+        "name":"Midsummer Courtyard",
+        "type":"artifact",
+        "item1":"Adventurer",
+        "item2":"Resolution of Sojourner",
+        "item3":"Thundering Fury",
+        "item4":"Thundersoother",
+        "image":"/img/location/midsummer_courtyard.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Valley of Remembrance",
+        "type":"artifact",
+        "item1":"Traveling Doctor",
+        "item2":"Tiny Miracle",
+        "item3":"Viridescent Venerer",
+        "item4":"Maiden Beloved",
+        "image":"/img/location/valley_of_remembrance.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Peak of Vindagnyr",
+        "type":"artifact",
+        "item1":"Defender's Will",
+        "item2":"Gambler",
+        "item3":"Blizzard Strayer",
+        "item4":"Heart of Depth",
+        "image":"/img/location/peak_of_vindagnyr.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Ridge Watch",
+        "type":"artifact",
+        "item1":"Brave Heart",
+        "item2":"Martial Artist",
+        "item3":"Tenacity of the Millelith",
+        "item4":"Pale Flame",
+        "image":"/img/location/ridge_watch.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Domain of Guyun",
+        "type":"artifact",
+        "item1":"Brave Heart",
+        "item2":"Lucky Dog",
+        "item3":"Archaic Petra",
+        "item4":"Retracing Bolide",
+        "image":"/img/location/domain_of_guyun.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Hidden Palace of Zhou Formula",
+        "type":"artifact",
+        "item1":"Defender's will",
+        "item2":"Martial Artist",
+        "item3":"Crimson Witch of Flames",
+        "item4":"Lavawalker",
+        "image":"/img/location/hidden_palace_of_zhou_formula.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Clear Pool and Mountain Cavern",
+        "type":"artifact",
+        "item1":"Gambler",
+        "item2":"Scholar",
+        "item3":"Bloodstained Chivalry",
+        "item4":"Noblesse Oblige",
+        "image":"/img/location/clear_pool_and_mountain_cavern.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Momiji-Dyed Court",
+        "type":"artifact",
+        "item1":"Resolution of Sojourner",
+        "item2":"Tiny Miracle",
+        "item3":"Shimenawa's Reminiscence",
+        "item4":"Emblem of Severed Fate",
+        "image":"/img/location/momiji-dyed_court.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Slumbering Court",
+        "type":"artifact",
+        "item1":"Defender's will",
+        "item2":"Brave Heart",
+        "item3":"Husk of Opulent Dreams",
+        "item4":"Ocean-Hued Clam",
+        "image":"/img/location/slumbering_court.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Confront Stormterror",
+        "type":"weekly",
+        "num_item":"3",
+        "num_element":"3",
+        "element1":"anemo",
+        "element2":"electro",
+        "element3":"hyro",
+        "item1":"aaaaaa",
+        "item2":"aaaaaa",
+        "item3":"aaaaaa",
+        "image":"/asd;jh"
+    },
+    {
+        "name":"Anemo Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"anemo",
+        "item":"aaaaaa",
+        "image":""
+    }
+]

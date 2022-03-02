@@ -276,13 +276,13 @@ function cha_build_artifact(){
     weapon_img_name_container.appendChild(weapon_name_container)
 
     if(artifact_2 != 1){
-    artifact_info.innerText = "(2) "+weapons.set_1
-    artifact_info_2.innerText = "(4) "+weapons.set_2
+    artifact_info.innerHTML = "(2) "+weapons.set_1
+    artifact_info_2.innerHTML = "(4) "+weapons.set_2
     weapon_info_container.classList.add("talent_info")
     weapon_info_container.appendChild(artifact_info)
     weapon_info_container.appendChild(artifact_info_2)
     }else{
-    artifact_info.innerText = "(2) "+weapons.set_1
+    artifact_info.innerHTML = "(2) "+weapons.set_1
     weapon_info_container.classList.add("talent_info")
     weapon_info_container.appendChild(artifact_info)
     }
@@ -328,7 +328,7 @@ function cha_build_artifact(){
     weapon_img_name_container.appendChild(weapon_image_container)
     weapon_img_name_container.appendChild(weapon_name_container)
 
-    artifact_info.innerText = "(2) "+weapons.set_1
+    artifact_info.innerHTML = "(2) "+weapons.set_1
     weapon_info_container.classList.add("talent_info")
     weapon_info_container.appendChild(artifact_info)
 

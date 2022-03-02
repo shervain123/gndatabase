@@ -6,6 +6,7 @@ var weapon = load_json("/json/weapon.json")
 var teams_list = 0
 var export_open = 0
 var import_open = 0
+var unrelease_show = localStorage.getItem("all")
 const weekday = ["sunday","monday","tuesday","wednesday","monday","tuesday","wednesday"];
 const weekday_full = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 const teams_day = ["sunday","monday","tuesday","wednesday"]
@@ -21,7 +22,7 @@ function load_json(file){
    var jason = JSON.parse(request.responseText);
    return jason
 }
-if(getCookie("load") != 1){
+if(localStorage.getItem("load") != 1){
 reload()
 var imp = window.location.href
 if(imp.includes("import") == true){
@@ -29,7 +30,7 @@ if(imp.includes("import") == true){
 }
 
 }
-if(getCookie("developer") == 1){
+if(localStorage.getItem("developer") == 1){
     developer_mode = 9
     dev()
 }
@@ -40,7 +41,7 @@ function reload(){
 for (i = 0; i < character.length; i++){
     if(character[i].element_2 != null){
         var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3
-        var traveler_image = getCookie("timage")
+        var traveler_image = localStorage.getItem("timage")
         if(traveler_image == "Aether"){
             traveler_image = character[i].image_male
         }else if(traveler_image == "Lumine"){
@@ -50,6 +51,8 @@ for (i = 0; i < character.length; i++){
         }
         console.log(traveler_image)
         create_image(character[i].name,traveler_image,character[i].hex,character[i].region,character[i].weapon,ele,character[i].rarity)
+    }else if(character[i].unrelease != null){
+        if(unrelease_show == "1") create_image(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
     }else{
     create_image(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
     }
@@ -453,7 +456,7 @@ function character_list_team(){
     for (i = 0; i < character.length; i++){
         if(character[i].element_2 != null){
             var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3
-            var traveler_image = getCookie("timage")
+            var traveler_image = localStorage.getItem("timage")
             if(traveler_image == "Aether"){
                 traveler_image = character[i].image_male
             }else if(traveler_image == "Lumine"){
@@ -463,6 +466,8 @@ function character_list_team(){
             }
             console.log(traveler_image)
             teams_img(character[i].name,traveler_image,character[i].hex,character[i].region,character[i].weapon,ele,character[i].rarity)
+        }else if(character[i].unrelease != null){
+            if(unrelease_show == "1") create_image(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
         }else{
             teams_img(character[i].name,character[i].image,character[i].hex,character[i].region,character[i].weapon,character[i].element,character[i].rarity)
         }
@@ -499,15 +504,15 @@ function team_switch(){
     }
 }
 function save_character(save_character){
-    var last_save = getCookie("character")
+    var last_save = localStorage.getItem("character")
     for (i = 0; i < character.length; i++){
         if(save_character.replace("_"," ") == character[i].name){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) == -1){
-                document.cookie = "character="+last_save + "&" + character[i].hex
+                localStorage.setItem("character",last_save + "&" + character[i].hex)
             }else{
                 last_save = last_save.replace("&"+character[i].hex,"")
-                document.cookie = "character="+last_save
+                localStorage.setItem("character",last_save)
             }
             
         }
@@ -532,7 +537,7 @@ function searchall(searchStr, str, caseSensitive) {
 }
 
 function load_character_save(){
-    var last_save = getCookie("character")
+    var last_save = localStorage.getItem("character")
     for (i = 0; i < character.length; i++){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) != -1){
@@ -555,7 +560,7 @@ function select_weapon(code){
     save_weapon(code)
     }
 function load_weapon_save(){
-        var last_save = getCookie("weapon")
+        var last_save = localStorage.getItem("weapon")
         for (i = 0; i < weapon.length; i++){
                 if(last_save == null){last_save = ""}
                 if(last_save.search(weapon[i].hex) != -1){
@@ -564,15 +569,15 @@ function load_weapon_save(){
         }
     }
 function save_weapon(code){
-        var last_save = getCookie("weapon")
+        var last_save = localStorage.getItem("weapon")
         for (i = 0; i < weapon.length; i++){
             if(code == weapon[i].hex){
                 if(last_save == null){last_save = ""}
                 if(last_save.search(weapon[i].hex) == -1){
-                    document.cookie = "weapon="+last_save + "&" + weapon[i].hex
+                    localStorage.setItem("weapon",last_save + "&" + weapon[i].hex)
                 }else{
                     last_save = last_save.replace("&"+weapon[i].hex,"")
-                    document.cookie = "weapon="+last_save
+                    localStorage.setItem("weapon",last_save)
                 }
                 
             }
@@ -582,8 +587,8 @@ function save_weapon(code){
 function teams(){
     var team = document.getElementById("teams")
     var day_title = document.createElement("h2")
-    var cha_cookie = getCookie("character")
-    var wea_cookie = getCookie("weapon")
+    var cha_cookie = localStorage.getItem("character")
+    var wea_cookie = localStorage.getItem("weapon")
     var cookie_empty = 0
     var box = document.querySelector(".teams")
     var box_style = getComputedStyle(box)
@@ -609,7 +614,7 @@ function teams(){
         team.appendChild(none)
         
     }else{
-        var last_save = getCookie("character")
+        var last_save = localStorage.getItem("character")
         for (i = 0; i < character.length; i++){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) != -1){
@@ -618,9 +623,9 @@ function teams(){
             }else if(today == "sunday"){
                 teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
             }else if (character[i].name == "Traveler"){
-                if(getCookie("timage") == "Aether"){
+                if(localStorage.getItem("timage") == "Aether"){
                     teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
-                }else if(getCookie("timage") == "Lumine"){
+                }else if(localStorage.getItem("timage") == "Lumine"){
                     teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
                 }else{
                     teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
@@ -628,7 +633,7 @@ function teams(){
             }
         }
         }
-        var last_save = getCookie("weapon")
+        var last_save = localStorage.getItem("weapon")
         for (i = 0; i < weapon.length; i++){
             if(last_save == null){last_save = ""}
             if(last_save.search(weapon[i].hex) != -1){
@@ -685,8 +690,8 @@ function reset(){
 function reset_yes(){
     var menu = document.getElementById("team_btn")
     menu.innerHTML='<a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a><a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a><a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a><a href="javascript:void(0)" onclick="export_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">file_upload</i>Export</div></a><a href="javascript:void(0)" onclick="import_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">download</i>Import</div></a><a href="javascript:void(0)" onclick="reset()"><div class="navi_button"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">clear</i>Clear</div></a>'
-    document.cookie = "character="
-    document.cookie = "weapon="
+    localStorage.setItem("character","")
+    localStorage.setItem("weapon","")
     teams()
 }
 
@@ -719,8 +724,8 @@ function team_expand(close=0){
     var day_tuesday = document.createElement("h2")
     var day_wednesday = document.createElement("h2")
     var day_sunday = document.createElement("h2")
-    var cha_cookie = getCookie("character")
-    var wea_cookie = getCookie("weapon")
+    var cha_cookie = localStorage.getItem("character")
+    var wea_cookie = localStorage.getItem("weapon")
     var box = document.querySelector(".teams")
     var box_style = getComputedStyle(box)
     var cha_empty, wea_empty
@@ -797,9 +802,9 @@ function team_expand(close=0){
     for (i = 0; i < character.length; i++){
         if(cha_cookie.search(character[i].hex) >= 1){
             if(character[i].name == "Traveler"){
-                if(getCookie("timage") == "Aether"){
+                if(localStorage.getItem("timage") == "Aether"){
                     character_image = character[i].image_male
-                }else if(getCookie("timage") == "Lumine"){
+                }else if(localStorage.getItem("timage") == "Lumine"){
                     character_image = character[i].image_female
                 }else{
                     character_image = character[i].image
@@ -966,8 +971,8 @@ function parse_import_teams(remove=0){
     if(check_remove.checked == true && remove == 0){
         document.getElementById("delete").style.height = "100px"
     }else if(check_remove.checked == true && remove == 1){
-        document.cookie = "character="
-        gdocument.cookie = "weapon="
+        localStorage.setItem("character","")
+        localStorage.setItem("weapon","")
     }else{
         if(link.includes("import.html") == true){
             //gndatabase import
@@ -977,22 +982,22 @@ function parse_import_teams(remove=0){
             var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
             var wea_in = strip.slice(strip.search("wea")+3,strip.length)
             for (i = 0; i < character.length; i++){
-                var cha_cookie = getCookie("character")
+                var cha_cookie = localStorage.getItem("character")
                 if(cha_in == null) cha_in = ""
                 if(cha_cookie == null) cha_cookie = ""
                 if(cha_in.search(character[i].gncode) != -1){
                     if(cha_cookie.includes(character[i].hex) == false){
-                        document.cookie = "character="+cha_cookie +"&"+character[i].hex
+                        localStorage.setItem("character",cha_cookie +"&"+character[i].hex)
                     }
                 }
             }
             for (i = 0; i < weapon.length; i++){
-                var wea_cookie = getCookie("weapon")
+                var wea_cookie = localStorage.getItem("weapon")
                 if(wea_in == null) wea_in = ""
                 if(wea_cookie == null) wea_cookie = ""
                 if(wea_in.search(weapon[i].gncode) != -1){
                     if(wea_cookie.includes(weapon[i].hex) == false){
-                        document.cookie = "weapon="+wea_cookie+"&"+weapon[i].hex
+                        localStorage.setItem("weapon",wea_cookie+"&"+weapon[i].hex)
                     }
                 }
             }
@@ -1003,22 +1008,22 @@ function parse_import_teams(remove=0){
             var cha_in = strip.slice(split_in[0]+4,split_in[1])
             var wea_in = strip.slice(split_in[1]+4,split_in[2])
             for (i = 0; i < character.length; i++){
-                var cha_cookie = getCookie("character")
+                var cha_cookie = localStorage.getItem("character")
                 if(cha_in == null) cha_in = ""
                 if(cha_cookie == null) cha_cookie = ""
                 if(cha_in.search(character[i].hex) != -1){
                     if(cha_cookie.includes(character[i].hex) == false){
-                        document.cookie = "character="+cha_cookie +"&"+character[i].hex
+                        localStorage.setItem("character",cha_cookie +"&"+character[i].hex)
                     }
                 }
             }
             for (i = 0; i < weapon.length; i++){
-                var wea_cookie = getCookie("weapon")
+                var wea_cookie = localStorage.getItem("weapon")
                 if(wea_in == null) wea_in = ""
                 if(wea_cookie == null) wea_cookie = ""
                 if(wea_in.search(weapon[i].hex) != -1){
                     if(wea_cookie.includes(weapon[i].hex) == false){
-                        document.cookie = "weapon="+wea_cookie+"&"+weapon[i].hex
+                        localStorage.setItem("weapon",wea_cookie+"&"+weapon[i].hex)
                     }
                 }
             }
@@ -1180,8 +1185,8 @@ function export_teams(){
     var teams_container = document.getElementById("teams")
     var box = document.querySelector(".teams")
     var box_style = getComputedStyle(box)
-    var cha = getCookie("character")
-    var wea = getCookie("weapon")
+    var cha = localStorage.getItem("character")
+    var wea = localStorage.getItem("weapon")
     teams_container.style.height = box_style.height
     if(export_open == 0){
         export_open = 1
@@ -1241,8 +1246,8 @@ function copy(container,buttons){
 }
 
 function link(){
-    var cha = getCookie("character")
-    var wea = getCookie("weapon")
+    var cha = localStorage.getItem("character")
+    var wea = localStorage.getItem("weapon")
     var name = document.getElementById("export_name")
     var out_name, share_export
     var output = document.getElementById("export")
