@@ -262,6 +262,7 @@ function preset_select(){
     else if(preset.value == 10) preset_preview("#000000","#141516","#1b1c1d","#6a1300","#191919","#ffffff","#ffffff","#ffffff","#ffffff","#ffffff")
     else if(preset.value == 11) preset_preview("#333333","#1e1e1e","#252526","#FF4C29","#ffffff","#ffffff","#ffffff","#ffffff","#ffffff","#000000")
     else if(preset.value == 12) preset_preview("#000000","#000000","#000000","#000000","#4b4b4b","#4b4b4b","#4b4b4b","#4b4b4b","#4b4b4b","#000000")
+    else if(preset.value == 13) preset_preview("#ff0000","#ff0000","#ff0000","#ff0000","#ff0000","#ffffff","#ffffff","#ffffff","#ffffff","#ffffff")
 }
 
 
