@@ -1569,5 +1569,29 @@
         "talent": "wednesday",
         "region": "Inazuma",
         "gncode" : "7f"
+    },
+    {
+        "name":"Kagura's Verity",
+        "rarity": "5",
+        "ability_name": "Kagura Dance of the Sacred Sakura",
+        "ability_detail": "Gains the Kagura Dance effect when using an Elemental Skill, causing the Elemental Skill DMG of the character wielding this weapon to increase by 12~24% for 16s. Max 3 stacks. This character will gain 12~24% All Elemental DMG Bonus when they possess 3 stacks. ",
+        "weapon": "Catalysts",
+        "image": "/img/weapon/all/Kagura%27sVerity.png",
+        "hex": "84",
+        "talent": "wednesday",
+        "region": "Inazuma",
+        "gncode" : ""
+    },
+    {
+        "name":"Oathsworn Eye",
+        "rarity": "4",
+        "ability_name": "People of the Faltering Light",
+        "ability_detail": "Increases Energy Recharge by 24~48% for 10s after using an Elemental Skill. ",
+        "weapon": "Catalysts",
+        "image": "/img/weapon/all/OathswornEye.png",
+        "hex": "85",
+        "talent": "monday",
+        "region": "Inazuma",
+        "gncode" : ""
     }
 ]

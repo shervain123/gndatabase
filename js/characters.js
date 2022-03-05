@@ -37,7 +37,7 @@ function all(){
     other_btn()
     other_cha()
     other_info()
-    build_link()
+    
     material()
     if(character_json.build != 0){
     cha_build_artifact()
@@ -165,7 +165,7 @@ function name_info(){
     story.innerText = "Story"
     }
     voicepver.href = "https://genshin-impact.fandom.com/wiki/"+character_json.name.replace(" ","_")+"/Voice-Overs"
-    build.href = "https://genshin-builds.com/character/"+character_json.name.toLowerCase().replace(" ","-")
+    build.href = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRq-sQxkvdbvaJtQAGG6iVz2q2UN9FCKZ8Mkyis87QHFptcOU3ViLh0_PJyMxFSgwJZrd10kbYpQFl1/pubhtml#"
     media.href = "https://genshin-impact.fandom.com/wiki/"+character_json.name.replace(" ","_")+"/Media"
 
     

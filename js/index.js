@@ -609,11 +609,10 @@ function teams(){
     }
 
     if(cookie_empty == 2){
-        var none = document.createElement("p")
-        none.innerText = "No items was selected, please select it from side menu."
-        team.appendChild(none)
+        team.style.display = "none"
         
     }else{
+        team.style.display = ""
         var last_save = localStorage.getItem("character")
         for (i = 0; i < character.length; i++){
             if(last_save == null){last_save = ""}
@@ -638,9 +637,9 @@ function teams(){
             if(last_save == null){last_save = ""}
             if(last_save.search(weapon[i].hex) != -1){
             if(weapon[i].talent == today){
-                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/weapon.html?wea=")
+                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/tools/weapon.html?wea="+weapon[i].hex)
             }else if(today == "sunday"){
-                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/weapon.html?wea=")
+                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/tools/weapon.html?wea="+weapon[i].hex)
             }
         }
     }
@@ -1251,7 +1250,6 @@ function link(){
     var name = document.getElementById("export_name")
     var out_name, share_export
     var output = document.getElementById("export")
-    var switch_check = document.getElementById("switch-share-teams")
     var links = "gimpact.ml?"
 
     if(cha == "" || cha == null) cha = ""
@@ -1261,8 +1259,7 @@ function link(){
     else out_name = name.value
     out_name = encodeURI(out_name)
 
-    if(switch_check.checked == true) share_export = "share"
-    else share_export = "import"
+    share_export = "import"
     links = links + share_export + ";cha" + cha + ";wea" + wea +";name=" +out_name
     output.value = links
 }
@@ -1299,11 +1296,6 @@ function export_container(){
     var info_2 = document.createElement("h3")
     var info_3 = document.createElement("p")
     var team_name = document.createElement("input")
-    var switch_container = document.createElement("div")
-    var switch_label = document.createElement("p")
-    var toggle_label = document.createElement("label")
-    var toggle_checkbox = document.createElement("input")
-    var toggle_span = document.createElement("span")
     var info_4 = document.createElement("p")
     var export_preview = document.createElement("div")
 
@@ -1352,22 +1344,6 @@ function export_container(){
     team_name.onkeydown = new Function("event", "link() ")
     team_name.classList.add("export-input")
 
-    //switch container
-        //p
-        switch_label.innerText = "Export "
-            //switch
-            toggle_span.classList.add("slider")
-            toggle_checkbox.type="checkbox"
-            toggle_checkbox.id = "switch-share-teams"
-            toggle_checkbox.onclick = new Function("event", "link() ")
-            toggle_label.classList.add("switch")
-            toggle_label.appendChild(toggle_checkbox)
-            toggle_label.appendChild(toggle_span)
-        switch_label.appendChild(toggle_label)
-        switch_label.appendChild(document.createTextNode(" Share teams"))
-    switch_container.classList.add("share_switch")
-    switch_container.appendChild(switch_label)
-
     //info 4
     info_4.innerText="Items that would be exported"
 
@@ -1379,7 +1355,6 @@ function export_container(){
     main_container.appendChild(info_2_container)
     main_container.appendChild(info_3)
     main_container.appendChild(team_name)
-    main_container.appendChild(switch_container)
     main_container.appendChild(info_4)
     main_container.appendChild(export_preview)
     main_container.classList.add("exports")

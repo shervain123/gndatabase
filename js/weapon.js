@@ -33,6 +33,7 @@ function load(){
     character_load()
     day_check()
     talent_detail()
+    redirect()
 }
 
 function character_load(){
@@ -177,4 +178,18 @@ function talent_detail(){
         }
     }
 
+}
+
+function redirect() {
+    var link = window.location.href
+    if(link.indexOf("?wea=")){
+        var split = link.slice(link.search("wea=")+4,link.length)
+        console.log(split)
+        for (i = 0; i < character.length; i++){
+            if(character[i].hex == split){
+                var redir = character[i].name
+                window.location.href = "https://genshin-impact.fandom.com/wiki/"+redir.replaceAll(" ","_")
+            }
+        }
+    }
 }

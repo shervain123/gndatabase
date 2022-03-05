@@ -24,6 +24,37 @@ div{clear:none;float:left;width:100% }
   --hover-invert: invert(0);
 }
 
+.element_group{
+  overflow: hidden;
+  height:80px;
+  
+  width:98%;
+  word-wrap: none;
+  margin-right:200px;
+}
+
+.element_group:hover{
+  height:320px;
+  width:98%;
+  background-color: var(--color1-back);
+  color:var(--color1);
+  margin-right:0px;
+}
+
+.element_group div{
+  width:361px;
+  overflow: hidden;
+}
+
+.element_group div img{
+  width:80px;
+  overflow: hidden;
+}
+
+.element_group div p{
+  width:100%;
+}
+
 .preset{
   width: 280px;
   margin:5px;
@@ -81,10 +112,12 @@ color: var(--color-hover-text);
   width:50%
 }
 .domain .con .domain_img img{
-  width:100%
+  width:100%;
+  margin-bottom:45px;
 }
 .domain .con .detail{
   width: 50%;
+  padding-left: 10px;
 }
 
 .domain .con .detail .artifact{
@@ -689,6 +722,46 @@ transition-duration: 0.2s;
 }
 @media only screen and (max-width: 600px) {
 
+  .element_group{
+    height:320px;
+  }
+
+  .element_group:hover{
+    background-color: var(--color2-back);
+    color: var(--color2)
+  }
+
+  .domain{
+    width:100%;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+  }
+  
+  .domain .con .domain_img{
+    width:100%;
+    margin-bottom:5px;
+  }
+  .domain .con .domain_img img{
+    width:100%;
+    margin-bottom:0px;
+  }
+  .domain .con .detail{
+    width: 100%;
+    padding-left: 5px;
+  }
+  
+  .domain .con .detail .artifact{
+    width: 100%;
+  }
+  .domain .con .detail .artifact img{
+    width: 80px;
+  }
+
+
+
+
   .item_dis_s div img{
     width: 70px !important;
   }
@@ -1119,6 +1192,7 @@ width:fit-content
   background-color: var(--color3-back);
   color: var(--color3);
 }
+
 .navi_teams a{
 text-decoration: none;
 }

@@ -92,22 +92,197 @@
     {
         "name":"Confront Stormterror",
         "type":"weekly",
-        "num_item":"3",
-        "num_element":"3",
-        "element1":"anemo",
-        "element2":"electro",
-        "element3":"hyro",
-        "item1":"aaaaaa",
-        "item2":"aaaaaa",
-        "item3":"aaaaaa",
-        "image":"/asd;jh"
+        "item1":"Dvalin%27s Plume",
+        "item2":"Dvalin%27s Claw",
+        "item3":"Dvalin%27s Sigh",
+        "image":"/img/location/Confront_stormterror.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Lupus Boreas",
+        "type":"weekly",
+        "item1":"Tail of Boreas",
+        "item2":"Ring of Boreas",
+        "item3":"Spirit Locket of Boreas",
+        "image":"/img/location/Lupus_Boreas.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"The Golden House",
+        "type":"weekly",
+        "item1":"Tusk of Monoceros Caeli",
+        "item2":"Shard of a Foul Legacy",
+        "item3":"Shadow of the Warrior",
+        "image":"/img/location/The_Golden_House.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Beneath the Drangon-Queller",
+        "type":"weekly",
+        "item1":"Drangon Load%27s Crown",
+        "item2":"Bloodjade Branch",
+        "item3":"Gilded Scale",
+        "image":"/img/location/Beneath_the_Drangon-Queller.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Narukami Island: Tenshukaku",
+        "type":"weekly",
+        "item1":"Molten Moment",
+        "item2":"Hellfire Butterfly",
+        "item3":"Ashen Heart",
+        "image":"/img/location/Narukami_Island_Tenshukaku.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"End of the Oneiric Euthymia ",
+        "type":"weekly",
+        "item1":"Mudra of the Malefic General",
+        "item2":"Tears of the Calamitous God",
+        "item3":"The Meaning of Aeons",
+        "image":"/img/location/End_of_the_Oneiric_Euthymia.png",
+        "region":"Inazuma"
     },
     {
         "name":"Anemo Hypostasis",
         "type":"boss",
         "num_element":"1",
-        "element1":"anemo",
-        "item":"aaaaaa",
-        "image":""
+        "element1":"Anemo",
+        "item":"Hurricane Seed",
+        "image":"/img/location/anemo_hypostasis.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Electro Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Electro",
+        "item":"Lightning Prism",
+        "image":"/img/location/electro_hypostasis.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Cryo Regisvine",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Cryo",
+        "item":"Hoarfrost Core",
+        "image":"/img/location/cryo_regisvine.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Cryo Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Cryo",
+        "item":"Crystalline Bloom",
+        "image":"/img/location/cryo_hypostasis.png",
+        "region":"Mondstadt"
+    },
+    {
+        "name":"Oceanid",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Hydro",
+        "item":"Cleansing Heart",
+        "image":"/img/location/oceanid.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Pyro Regisvine",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Pyro",
+        "item":"Everflame Seed",
+        "image":"/img/location/pyro_regisvine.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Geo Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Geo",
+        "item":"Basalt Pillar",
+        "image":"/img/location/geo_hypostasis.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Primo Geovishap",
+        "type":"boss",
+        "num_element":"5",
+        "element1":"Geo",
+        "element2":"Electro",
+        "element3":"Cryo",
+        "element4":"Pyro",
+        "element5":"Hydro",
+        "item":"Juvenile Jade",
+        "image":"/img/location/primo_geovishap.png",
+        "region":"Liyue"
+    },
+    {
+        "name":"Maguu Kenki",
+        "type":"boss",
+        "num_element":"2",
+        "element1":"Anemo",
+        "element2":"Cryo",
+        "item":"Marionette Core",
+        "image":"/img/location/maguu_kenki.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Pyro Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Pyro",
+        "item":"Smoldering Pearl",
+        "image":"/img/location/pyro_hypostasis.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Perpetual Mechanical Array",
+        "type":"boss",
+        "num_element":"2",
+        "element1":"Geo",
+        "element2":"Cryo",
+        "item":"Perpetual Heart",
+        "image":"/img/location/perpetual_mechanical_array.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Hydro Hypostasis",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Hydro",
+        "item":"Dew of Repudiation",
+        "image":"/img/location/hydro_hypostasis.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Thunder Manifestation",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Electro",
+        "item":"Storm Beads",
+        "image":"/img/location/thunder_manifestation.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Golden Wolflord ",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Geo",
+        "item":"Riftborn Regalia ",
+        "image":"/img/location/golden_wolflord.png",
+        "region":"Inazuma"
+    },
+    {
+        "name":"Bathysmal Vishap Herd",
+        "type":"boss",
+        "num_element":"2",
+        "element1":"Electro",
+        "element2":"Cryo",
+        "item":"Dragonheir's False Fin",
+        "image":"/img/location/bathysmal_vishap_herd.png",
+        "region":"Inazuma"
     }
 ]

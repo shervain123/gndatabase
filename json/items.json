@@ -743,5 +743,21 @@
         "name":"Tusk of Monoceros Caeli",
         "type":"weekly_boss",
         "image":"/img/items/weeklyboss/Tusk_of_Monoceros_Caeli.png"
+    },
+    {
+        "name":"Mudra of the Malefic General",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Mudra_of_the_Malefic_General.png"
+    },
+    {
+        "name":"Tears of the Calamitous God",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/Tears_of_the_Calamitous_God.png"
+    },
+    {
+        "name":"The Meaning of Aeons",
+        "type":"weekly_boss",
+        "image":"/img/items/weeklyboss/The_Meaning_of_Aeons.png"
     }
+
 ]
