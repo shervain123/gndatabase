@@ -947,15 +947,163 @@ transition-duration: 0.2s;
 }
 }
 @media (max-width:1080px) and (min-width:993px){
+  .total .material{
+    width:50%;
+  }
+
+  .total .material:hover{
+    width:50% !important
+  }
   .talent_detail .material_detail .material_img{
     width:100%;
   }
   .talent_detail_s .material_detail_s .material_img_s{
     width:100%;
   }
+  .material{
+    overflow:visible;
+    width:100%;
+    transition-property: width background-color;
+    transition-duration: 0.2s;
+    background-color: #43464a;
+    white-space: nowrap;
+  
+  }
+  .material:hover{
+    width: 100%;
+    background-color: #43464a !important;
+  }
 
+  #ascension{
+    width:50%;
+  }
+  .talent .talent_info {width:fit-content;min-width: 100% !important;}
+  .talent .talent_img {width:100% !important}
+
+  
+  .item_dis div{
+    width:100% !important
+  }
+
+  .item_dis{
+    width:100% !important
+  }
+
+  .mat_detail div{
+    width:50%
+  }
+
+  .lo_img{
+    width:50% !important
+  }
+
+  .item_dis_s div{
+    width:100% !important
+  }
+
+  .item_dis_s{
+    width:100% !important
+  }
+
+  .mat_detail_s div{
+    width:50%
+  }
+
+  .lo_img_s{
+    width:50% !important
+  }
+
+  .domain{
+    width:100%;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+  }
+  
+  .domain .con .domain_img{
+    width:50%;
+    margin-bottom:5px;
+  }
+  .domain .con .domain_img img{
+    width:100%;
+    margin-bottom:0px;
+  }
+  .domain .con .detail{
+    width: 50%;
+    padding-left: 5px;
+  }
+  
+  .domain .con .detail .artifact{
+    width: 100%;
+  }
+  .domain .con .detail .artifact img{
+    width: 80px;
+  }
+  .total .material{
+    width:50%;
+  }
+
+  .total .material:hover{
+    width:50% !important
+  }
+
+  .element_group{
+    height:320px;
+  }
+
+  .element_group:hover{
+    background-color: var(--color2-back);
+    color: var(--color2)
+  }
+  
 }
 @media (max-width:992px) and (min-width:601px){
+
+  .total .material{
+    width:50%;
+  }
+
+  .total .material:hover{
+    width:50% !important
+  }
+
+  .element_group{
+    height:320px;
+  }
+
+  .element_group:hover{
+    background-color: var(--color2-back);
+    color: var(--color2)
+  }
+
+  .domain{
+    width:100%;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+  }
+  
+  .domain .con .domain_img{
+    width:50%;
+    margin-bottom:5px;
+  }
+  .domain .con .domain_img img{
+    width:100%;
+    margin-bottom:0px;
+  }
+  .domain .con .detail{
+    width: 50%;
+    padding-left: 5px;
+  }
+  
+  .domain .con .detail .artifact{
+    width: 100%;
+  }
+  .domain .con .detail .artifact img{
+    width: 80px;
+  }
   .talent_detail .material_detail .material_img{
     width:100%;
   }
@@ -1035,12 +1183,12 @@ transition-duration: 0.2s;
   
   }
   .material:hover{
-    width: 100% !important;
+    width: 100%;
     background-color: #43464a !important;
   }
 
   #ascension{
-    width:100%;
+    width:50%;
   }
 
   .talent .talent_info {width:fit-content;max-width: 100% !important;}
