@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
   <!--style import-->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7HQBV97PF1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7HQBV97PF1');
+</script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="genshin impact, genshin, genshin database, genshin impact database, gimpact">
+  <meta name="keywords" content="genshin impact, genshin, genshin database, genshin impact database, gndatabase">
   <link rel="icon" href="/img/character/head/Bennett.png">
   <link rel="stylesheet" href="/css/mix.css">
   <link rel="preload" href="js/index.js">
   <link rel="preload" href="js/color.js">
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Gimpact" />
-  <meta name="twitter:description" content="Gimpact is a redesign version of gndatabase and provide character information and our favourite feature is the teams." />
-  <meta name="twitter:image" content="https://gimpact.ml/img/preview/web.png" />
-
-  <meta property="og:title" content="Gimpact" />
-  <meta property="og:description" content="Gimpact is a redesign version of gndatabase and provide character information and our favourite feature is the teams." />
-  <meta property="og:image" itemprop="image" content="https://gimpact.ml/img/preview/small/web.png" />
-  <meta property="og:image:secure_url" itemprop="image" content="https://gimpact.ml/img/preview/small/web.png" />
-  <meta property="og:url" content="https://gimpact.ml"/>
+  <meta name="twitter:title" content="Gndatabase" />
+  <meta name="twitter:description" content="Get infromation about characters, builds, talent materials and more!" />
+  <meta name="twitter:image" content="https://Gndatabase.ml/img/preview/web.png" />
+  <meta name="description" content="A simple genshin impact database that contains all kinds of information such as characters, talents and more" />
+  <meta property="og:title" content="Gndatabase" />
+  <meta property="og:description" content="Get infromation about characters, builds, talent materials and more!" />
+  <meta property="og:image" itemprop="image" content="https://Gndatabase.ml/img/preview/small/web.png" />
+  <meta property="og:image:secure_url" itemprop="image" content="https://Gndatabase.ml/img/preview/small/web.png" />
+  <meta property="og:url" content="https://Gndatabase.ml"/>
   <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="gimpact" />
+  <meta property="og:site_name" content="Gndatabase" />
 
-  <title>Gimpact</title>
+  <title>Gndatabase</title>
   <meta charset="utf-8"> 
 
   <style>
     body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+    
   </style>
   
   <body class="dark-1">
@@ -34,6 +44,10 @@
       <!-- put the actual code in the below container you dumb fuck-->
       
       <div id="teams" class="dark-2 teams"></div>
+      <div class="countdown">
+        <h6>Time till next update</h6>
+        <h2 id="updatetime"></h2>
+      </div>
       <h2 class="dark-1" id="characters" style="margin:0px;margin-bottom:10px">Character List</h2>
       <div id="filter" class="filter">
         <div class="selection">
@@ -85,7 +99,7 @@
     </div>
     <div id="nav_bar" class="navi dark-1">
       <div class="navi_button" >
-        <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gimpact</h4></a>
+        <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gndatabase</h4></a>
       </div>
       <div class="w3-row navi_teams" id="team_btn">
         <a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
@@ -112,6 +126,4 @@
 
 <script src="/js/index.js"></script> 
 <script src="/js/color.js"></script> 
-
-
-
+<script src="/js/gndatabase_conv.js"></script>

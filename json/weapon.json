@@ -1580,7 +1580,7 @@
         "hex": "84",
         "talent": "wednesday",
         "region": "Inazuma",
-        "gncode" : ""
+        "gncode" : "null"
     },
     {
         "name":"Oathsworn Eye",
@@ -1592,6 +1592,6 @@
         "hex": "85",
         "talent": "monday",
         "region": "Inazuma",
-        "gncode" : ""
+        "gncode" : "null"
     }
 ]

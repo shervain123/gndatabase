@@ -24,6 +24,28 @@ div{clear:none;float:left;width:100% }
   --hover-invert: invert(0);
 }
 
+.total{
+  width: 100% !important;
+}
+
+.countdown{
+  width:100%;
+}
+.countdown h6{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color1-back);
+  color: var(--color1);
+}
+
+.countdown h2{
+  width: 100%;
+  text-align: center;
+  background-color: var(--color2-back);
+  color: var(--color2);
+}
+
 .element_group{
   overflow: hidden;
   height:80px;
@@ -363,7 +385,7 @@ table-layout: fixed;
 
 .material{
   overflow:hidden;
-  width:102px;
+  width:107px;
   transition-property: width background-color;
   transition-duration: 0.2s;
   background-color: var(--color2-back);

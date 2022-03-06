@@ -337,7 +337,35 @@ function search(id,filter_id){
             list[i].classList.add("hidea")
         }
       }
+    if(value == "DEVIL" || value == "DEMON" || value == "SHINRARIN"){
+        remove_easter()
+        teams_img("Rin Okumura","/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+        teams_img("Shinra Kusakabe","/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+    }else if(value == "SHINRA" || value == "KUSAKABE" || value == "SHINRA KUSAKABE"){
+        remove_easter()
+        teams_img("Shinra Kusakabe","/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+
+    }else if(value == "RIN" || value == "OKUMURA" || value == "RIN OKUMURA"){
+        remove_easter()
+        teams_img("Rin Okumura","/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+    }else{
+        remove_easter()
+    }
 }
+
+function remove_easter(){
+    var rin = document.getElementsByClassName("Rin_Okumura")
+    var shi = document.getElementsByClassName("Shinra_Kusakabe")
+    var le = rin.length
+    var la = shi.length
+    for(i = 0; i < le; i++){
+        rin[0].remove()
+    }
+    for(i = 0; i < la; i++){
+        shi[0].remove()
+    }
+}
+
 function select_team(character){
 var character_parent = document.getElementsByClassName(character)
 var child_container = character_parent[0].getElementsByClassName("character_img")
@@ -942,7 +970,7 @@ function import_teams_preview(){
         
 
     }else if(link.includes("?import") == true){
-        //gimpact import
+        //Gndatabase import
         var strip = link.slice(link.search("import;"),link.length)
         var split_in = searchall(";",strip)
         var cha_in = strip.slice(split_in[0]+4,split_in[1])
@@ -1001,7 +1029,7 @@ function parse_import_teams(remove=0){
                 }
             }
         }else if(link.includes("?import") == true){
-            //gimpact import
+            //Gndatabase import
             var strip = link.slice(link.search("import;"),link.length)
             var split_in = searchall(";",strip)
             var cha_in = strip.slice(split_in[0]+4,split_in[1])
@@ -1081,7 +1109,7 @@ function import_teams_container(link){
             //input
                 import_input.type = "text"
                 import_input.id="import"
-                import_input.placeholder = "gimpact.ml?import..."
+                import_input.placeholder = "Gndatabase.ml?import..."
                 import_input.classList.add("roboto-mono")
                 import_input.classList.add("export-input")
                 import_input.onkeyup = new Function("event", "import_teams_preview()")
@@ -1097,13 +1125,13 @@ function import_teams_container(link){
             import_input_container.classList.add("export_container")
 
         //info 1
-            info_1.innerText = "Paste the import link here, gndatabase export link are supported"
+            info_1.innerText = "Paste the import link here, v1 of gndatabase export link are supported"
 
-        //convert gndatabase to gimpact alert container
+        //convert gndatabase to Gndatabase alert container
             //title
-                upgrade.innerText = "We encourage you to convert gndatabase import link to gimpact"
+                upgrade.innerText = "We encourage you to convert V1 import link to V2"
             //why
-                upgrade_why.innerHTML = "because we will not continue supporting gndatabase in the future <br> as last time we were making gndatabase, we use a much simple method of storing character but it cannot hold more than 99 items. In short our developer is a fucking idiot"
+                upgrade_why.innerHTML = "because we will not continue supporting V1 of gndatabase in the future <br> as last time we were making gndatabase, we use a much simple method of storing character but it cannot hold more than 99 items. In short our developer is a fucking idiot"
             upgrade_container.appendChild(upgrade)
             upgrade_container.appendChild(upgrade_why)
             upgrade_container.style.display = "none"
@@ -1150,8 +1178,8 @@ function import_teams_container(link){
             
             //import from gn container
                 //import from gn button
-                    import_from_gn_btn.href = "https:\\\\gndatabase.ml\\export_to_gimpact.html"
-                    import_from_gn_btn.innerText = "Import from gndatabase"
+                    import_from_gn_btn.href = "javascript:generate_link_gn()"
+                    import_from_gn_btn.innerText = "Import from V1"
                 options_container_3.appendChild(import_from_gn_btn)
             options_container.appendChild(options_container_2)
             options_container.appendChild(options_container_3)
@@ -1179,6 +1207,7 @@ function import_teams_container(link){
 
 
 }
+
 
 function export_teams(){
     var teams_container = document.getElementById("teams")
@@ -1250,7 +1279,7 @@ function link(){
     var name = document.getElementById("export_name")
     var out_name, share_export
     var output = document.getElementById("export")
-    var links = "gimpact.ml?"
+    var links = "Gndatabase.ml?"
 
     if(cha == "" || cha == null) cha = ""
     if(wea == "" || wea == null) wea = ""
@@ -1405,3 +1434,35 @@ function alert_remove(){
         al.remove()
     }, 700);
 }
+
+gettime()
+var succ_time = 0
+var countDownDate 
+  function gettime() {
+    var rawFile = new XMLHttpRequest();
+    rawFile.open("GET", "https://gndatabase.ml/time.txt", true);
+    rawFile.onreadystatechange = function() {
+      if (rawFile.readyState === 4) {
+        var allText = rawFile.responseText;
+        countDownDate = new Date(allText).getTime();
+        succ_time = 1
+      }
+  }
+  rawFile.send();
+  }
+  
+var x = setInterval(function() {
+var now = new Date().getTime();
+var distance = countDownDate - now;
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+if (distance < 0) {
+  document.getElementById("updatetime").innerHTML = "EXPIRED";
+  gettime()
+}else if(succ_time == 1){
+  document.getElementById("updatetime").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
+}
+}, 1000);
+  
