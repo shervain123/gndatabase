@@ -24,7 +24,7 @@ jobs:
         python -m pip install tweepy
     - name: Update time
       run: |
-        python "time updater.py" ${{ secrets.CONSUMER_KEY }} ${{ secrets.CONSUMER_SECRET }} ${{ secrets.access_token }} ${{ secrets.access_token_secret }} ${{ secrets.gitsecret }}
+        python "time updater.py" ${{ secrets.CONSUMER_KEY }} ${{ secrets.CONSUMER_SECRET }} ${{ secrets.access_token }} ${{ secrets.access_token_secret }}
     - name: Update time on Github
       uses: test-room-7/action-update-file@v1
       with:
