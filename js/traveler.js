@@ -1017,8 +1017,8 @@ function linkOptions(){
 
 function linkOptionsChange(options){
     var link = document.location.href
-    var split = link.slice(0,link.search(".html?")+6)
-    window.history.pushState('', 'New Page Title', split+options);
+    var split = link.slice(0,link.search(".html?")+5)
+    window.history.pushState('', 'New Page Title', split+"?"+options);
 }
 
 function cha_build_wea(){
