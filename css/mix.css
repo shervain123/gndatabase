@@ -744,6 +744,10 @@ transition-duration: 0.2s;
 }
 @media only screen and (max-width: 600px) {
 
+  .import-input{
+    width:70%
+  }
+
   .element_group{
     height:320px;
   }
@@ -1161,6 +1165,10 @@ transition-duration: 0.2s;
     margin:10px 0px 0px 5px;
   }
   .export-input{
+    width:80%;
+  }
+
+  .import-input{
     width:80%;
   }
 

@@ -910,8 +910,10 @@ function import_teams(){
     if(import_open == 0){
         import_open = 1
         export_open = 0
+        
         setTimeout(function(){
             teams_container.style.height = "0px"
+            teams_container.style.display = "block"
             setTimeout(function(){
             teams_container.innerHTML = ""
             teams_container.style.height = ""
@@ -945,7 +947,6 @@ function import_teams_preview(){
     var link = input.value
     var title = document.getElementById("team_name")
     document.getElementById("importing").innerHTML = ""
-    document.getElementById("end_support").style.display = "none"
     if(link.includes("import.html") == true){
         //gndatabase import
         var remove = link.slice(link.search("gndatabase.ml"),link.length)
@@ -954,7 +955,6 @@ function import_teams_preview(){
         var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
         var wea_in = strip.slice(strip.search("wea")+3,strip.length)
         var namu = strip.slice(strip.search("name=")+5,split_in[2])
-        document.getElementById("end_support").style.display = "block"
         input.value = "https://"+remove
         title.innerText = "Team name: "+decodeURI(namu)
         for (i = 0; i < character.length; i++){
@@ -1091,9 +1091,6 @@ function import_teams_container(link){
     var import_from_gn_btn = document.createElement("a")
     var info_3 = document.createElement("p")
     var import_preview = document.createElement("div")
-    var upgrade_container = document.createElement("div")
-    var upgrade = document.createElement("h4")
-    var upgrade_why = document.createElement("p")
 
     //title
     title_text.innerText = "Import Teams"
@@ -1114,6 +1111,7 @@ function import_teams_container(link){
                 import_input.classList.add("export-input")
                 import_input.onkeyup = new Function("event", "import_teams_preview()")
                 import_input.value = link
+                import_input.classList.add("import-input")
             //import button
                 import_btn.href = "javascript:void(0)"
                 import_btn.classList.add("import-button")
@@ -1125,17 +1123,8 @@ function import_teams_container(link){
             import_input_container.classList.add("export_container")
 
         //info 1
-            info_1.innerText = "Paste the import link here, v1 of gndatabase export link are supported"
+            info_1.innerText = "Paste the import link here, legacy version of gndatabase export link are supported"
 
-        //convert gndatabase to Gndatabase alert container
-            //title
-                upgrade.innerText = "We encourage you to convert V1 import link to V2"
-            //why
-                upgrade_why.innerHTML = "because we will not continue supporting V1 of gndatabase in the future <br> as last time we were making gndatabase, we use a much simple method of storing character but it cannot hold more than 99 items. In short our developer is a fucking idiot"
-            upgrade_container.appendChild(upgrade)
-            upgrade_container.appendChild(upgrade_why)
-            upgrade_container.style.display = "none"
-            upgrade_container.id="end_support"
 
 
         //delete
@@ -1194,7 +1183,6 @@ function import_teams_container(link){
         main_container.appendChild(team_name)
         main_container.appendChild(import_input_container)
         main_container.appendChild(info_1)
-        main_container.appendChild(upgrade_container)
         main_container.appendChild(delete_container)
         main_container.appendChild(info_2)
         main_container.appendChild(options_container)
@@ -1221,6 +1209,7 @@ function export_teams(){
         import_open = 0
         setTimeout(function(){
             teams_container.style.height = "0px"
+            teams_container.style.display = "block"
             setTimeout(function(){
             teams_container.innerHTML = ""
             teams_container.style.height = ""
