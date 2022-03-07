@@ -5,13 +5,11 @@ CONSUMER_KEY=sys.argv[1]
 CONSUMER_SECRET=sys.argv[2]
 access_token = sys.argv[3]
 access_token_secret = sys.argv[4]
-tester = sys.argv[5]
 ass = open("time.txt","r")
 arse = ass.read()
 x = arse[:arse.find(" ")]
 today = date.today()
 ass.close()
-print(tester)
 print("\n\n\n\nTime get from git        : {}\nCurrent Time             : {}".format(x,today.strftime("%m/%d/%Y")))
 if(x == today.strftime("%m/%d/%Y")):
     date_1 = datetime.strptime(x, "%m/%d/%Y")
