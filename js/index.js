@@ -1344,7 +1344,7 @@ function export_container(){
     export_container.appendChild(copy_btn)
 
     //info text
-    info_1.innerText = "Paste this link on any devices you want to import, or sleect share teams below to just share your teams with anyone."
+    info_1.innerText = "Paste this link on any devices you want to import."
 
     //options title
     info_2.innerText = "Options"
