@@ -1,6 +1,6 @@
 https://gndatabase.ml/index.html
 https://gndatabase.ml/tools/artifact.html
-https://gndatabase.ml/boss.html
-https://gndatabase.ml/normal_boss.html
-https://gndatabase.ml/talent.html
-https://gndatabase.ml/weapon.html
+https://gndatabase.ml/tools/boss.html
+https://gndatabase.ml/tools/normal_boss.html
+https://gndatabase.ml/tools/talent.html
+https://gndatabase.ml/tools/weapon.html
