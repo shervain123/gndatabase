@@ -614,7 +614,8 @@ function save_weapon(code){
 
 function teams(){
     var team = document.getElementById("teams")
-    var day_title = document.createElement("h2")
+    var day_title_con = document.createElement("div")
+    var day_title = document.createElement("h3")
     var cha_cookie = localStorage.getItem("character")
     var wea_cookie = localStorage.getItem("weapon")
     var cookie_empty = 0
@@ -624,10 +625,10 @@ function teams(){
     export_open = 0
     import_open = 0
     team.innerHTML = ""
-    day_title.classList.add("dark-1")
-    day_title.style.margin = "0px"
     day_title.innerText = capitalize(today_full)
-    team.appendChild(day_title)
+    day_title_con.appendChild(day_title)
+    day_title_con.classList.add("title_middle")
+    team.appendChild(day_title_con)
 
     if(cha_cookie == null || cha_cookie === ""){
         cookie_empty = cookie_empty + 1
@@ -645,18 +646,18 @@ function teams(){
         for (i = 0; i < character.length; i++){
             if(last_save == null){last_save = ""}
             if(last_save.search(character[i].hex) != -1){
-            if(character[i].talent == today){
+                if (character[i].name == "Traveler"){
+                    if(localStorage.getItem("timage") == "Aether"){
+                        teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                    }else if(localStorage.getItem("timage") == "Lumine"){
+                        teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                    }else{
+                        teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                    }
+                }else if(character[i].talent == today){
                 teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
             }else if(today == "sunday"){
                 teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
-            }else if (character[i].name == "Traveler"){
-                if(localStorage.getItem("timage") == "Aether"){
-                    teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
-                }else if(localStorage.getItem("timage") == "Lumine"){
-                    teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
-                }else{
-                    teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
-                }
             }
         }
         }
@@ -747,10 +748,16 @@ function team_expand(close=0){
     var tuesday = document.createElement("div")
     var wednesday = document.createElement("div")
     var sunday = document.createElement("div")
-    var day_monday = document.createElement("h2")    
-    var day_tuesday = document.createElement("h2")
-    var day_wednesday = document.createElement("h2")
-    var day_sunday = document.createElement("h2")
+    var day_monday = document.createElement("h3")    
+    var day_tuesday = document.createElement("h3")
+    var day_wednesday = document.createElement("h3")
+    var day_sunday = document.createElement("h3")
+
+    var day_monday_con = document.createElement("div")    
+    var day_tuesday_con = document.createElement("div")
+    var day_wednesday_con = document.createElement("div")
+    var day_sunday_con = document.createElement("div")
+
     var cha_cookie = localStorage.getItem("character")
     var wea_cookie = localStorage.getItem("weapon")
     var box = document.querySelector(".teams")
@@ -794,15 +801,6 @@ function team_expand(close=0){
             teams_container.style.height = "0px"
         }, 1);
     setTimeout(() => {
-        day_monday.classList.add("dark-1")    
-    day_tuesday.classList.add("dark-1")    
-    day_wednesday.classList.add("dark-1")    
-    day_sunday.classList.add("dark-1")    
-
-    day_monday.style.margin = "0px"    
-    day_tuesday.style.margin = "0px"
-    day_wednesday.style.margin = "0px"
-    day_sunday.style.margin = "0px"  
 
     day_monday.innerText = "Monday / Thursday"
     day_tuesday.innerText = "Tuesday / Friday"
@@ -815,10 +813,20 @@ function team_expand(close=0){
     wednesday.id="wednesday"
     sunday.id="sunday"    
 
-    monday.appendChild(day_monday)    
-    tuesday.appendChild(day_tuesday)        
-    wednesday.appendChild(day_wednesday)    
-    sunday.appendChild(day_sunday)        
+    day_monday_con.classList.add("title_middle")    
+    day_tuesday_con.classList.add("title_middle")    
+    day_wednesday_con.classList.add("title_middle")    
+    day_sunday_con.classList.add("title_middle")    
+    
+    day_monday_con.appendChild(day_monday)    
+    day_tuesday_con.appendChild(day_tuesday)    
+    day_wednesday_con.appendChild(day_wednesday)    
+    day_sunday_con.appendChild(day_sunday)    
+
+    monday.appendChild(day_monday_con)    
+    tuesday.appendChild(day_tuesday_con)        
+    wednesday.appendChild(day_wednesday_con)    
+    sunday.appendChild(day_sunday_con)        
 
     teams_container.appendChild(monday)
     teams_container.appendChild(tuesday)
@@ -946,6 +954,7 @@ function import_teams_preview(){
     var input = document.getElementById("import")
     var link = input.value
     var title = document.getElementById("team_name")
+    var traveler_image = localStorage.getItem("timage")
     document.getElementById("importing").innerHTML = ""
     if(link.includes("import.html") == true){
         //gndatabase import
@@ -960,7 +969,16 @@ function import_teams_preview(){
         for (i = 0; i < character.length; i++){
             if(cha_in == null) cha_in = ""
             if(cha_in.search(character[i].gncode) != -1){
-                export_img(character[i].image,character[i].name,"importing")}
+                if(character[i].name == "Traveler" && traveler_image == "Aether"){
+                    export_img(character[i].image_male,character[i].name,"importing")
+                }else if(character[i].name == "Traveler" && traveler_image == "Lumine"){
+                    export_img(character[i].image_female,character[i].name,"importing")
+                }else if(character[i].name == "Traveler"){
+                    export_img(character[i].image,character[i].name,"importing")
+                }else{
+                    export_img(character[i].image,character[i].name,"importing")
+                }
+            }
         }
         for (i = 0; i < weapon.length; i++){
             if(wea_in == null) wea_in = ""
@@ -980,7 +998,16 @@ function import_teams_preview(){
         for (i = 0; i < character.length; i++){
             if(cha_in == null) cha_in = ""
             if(cha_in.search(character[i].hex) != -1){
-                export_img(character[i].image,character[i].name,"importing")}
+                if(character[i].name == "Traveler" && traveler_image == "Aether"){
+                    export_img(character[i].image_male,character[i].name,"importing")
+                }else if(character[i].name == "Traveler" && traveler_image == "Lumine"){
+                    export_img(character[i].image_female,character[i].name,"importing")
+                }else if(character[i].name == "Traveler"){
+                    export_img(character[i].image,character[i].name,"importing")
+                }else{
+                    export_img(character[i].image,character[i].name,"importing")
+                }
+            }
         }
         for (i = 0; i < weapon.length; i++){
             if(wea_in == null) wea_in = ""
@@ -1203,6 +1230,7 @@ function export_teams(){
     var box_style = getComputedStyle(box)
     var cha = localStorage.getItem("character")
     var wea = localStorage.getItem("weapon")
+    var traveler_image = localStorage.getItem("timage")
     teams_container.style.height = box_style.height
     if(export_open == 0){
         export_open = 1
@@ -1217,7 +1245,17 @@ function export_teams(){
             for (i = 0; i < character.length; i++){
                 if(cha == null){cha = ""}
                 if(cha.search(character[i].hex) != -1){
-                    export_img(character[i].image,character[i].name,"exporting")}
+                   
+                if(character[i].name == "Traveler" && traveler_image == "Aether"){
+                    export_img(character[i].image_male,character[i].name,"exporting")
+                }else if(character[i].name == "Traveler" && traveler_image == "Lumine"){
+                    export_img(character[i].image_female,character[i].name,"exporting")
+                }else if(character[i].name == "Traveler"){
+                    export_img(character[i].image,character[i].name,"exporting")
+                }else{
+                    export_img(character[i].image,character[i].name,"exporting")
+                }
+                }
             }
             for (i = 0; i < weapon.length; i++){
                 if(wea == null){wea = ""}
