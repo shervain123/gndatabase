@@ -40,7 +40,7 @@
       <!-- put the actual code in the below container you dumb fuck-->
       <div class="title_middle"><h3>Error 404</h3></div>
       <div style="padding:20px;padding-top:5px">
-        <h3>Page not found</h3>
+        <h3 class="hide-mobile">Page not found</h3>
         <p>It seems like you have cross the Gehenna and you shouldn't be here.</p>
         <p>If you were redirected from our page, please use the feedback button and report it as a bug</p>
         <p>Anyways here's a pic of rin</p>
@@ -64,19 +64,24 @@
       </div>
     </footer>
     </div>
-    <div id="nav_bar" class="navi dark-1">
-      <div class="navi_button" >
+    <div id="nav_bar" class="navi dark-1" onclick="side_menu()">
+      <div class="navi_button">
         <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gndatabase</h4></a>
       </div>
-    <a href="/"><div class="navi_button"><img src="/img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
-      <a href="/"><div class="navi_button"><img src="/img/icons/character.png" style="width: 30px;margin-left:10px;margin-right:15px">Character</div>
-      <a><div class="w3-row navi_button"><img src="/img/icons/Talent.png" style="width: 30px;margin-left:10px;margin-right:15px">Talent Materials</div></a>
-      <a><div class="w3-row navi_button"><img src="/img/icons/weapon.png" style="width: 30px;margin-left:10px;margin-right:15px">Weapon Materials</div></a>
-      <a><div class="w3-row navi_button"><img src="/img/icons/Artifacts.png" style="width: 30px;margin-left:10px;margin-right:15px">Artifact Domains</div></a>
-      <a><div class="w3-row navi_button"><img src="/img/icons/WeeklyMission.png" style="width: 30px;margin-left:10px;margin-right:15px">Weekly Boss</div></a>
-      <a><div class="w3-row navi_button"><img src="/img/icons/dailymission.png" style="width: 30px;margin-left:10px;margin-right:15px">Normal Boss</div></a>
-      <a><div class="w3-row navi_button"><img src="/img/icons/map.png" style="width: 30px;margin-left:10px;margin-right:15px">Interactive Map</div></a>
-      <a href="/tools/other.html#contact"><div class="w3-row navi_button" style="position: absolute;bottom:0"><img src="/img/icons/feedback.png" style="width: 30px;margin-left:10px;margin-right:15px">Feedback</div></a>
+      <a href="/"><div class="navi_button"><img src="img/icons/character.png" style="width: 30px;margin-left:10px;margin-right:15px">Character</div>
+        <a href="/tools/talent.html"><div class="w3-row navi_button"><img src="img/icons/Talent.png" style="width: 30px;margin-left:10px;margin-right:15px">Talent Materials</div></a>
+        <a href="/tools/weapon.html"><div class="w3-row navi_button"><img src="img/icons/weapon.png" style="width: 30px;margin-left:10px;margin-right:15px">Weapon Materials</div></a>
+        <a href="/tools/artifact.html"><div class="w3-row navi_button"><img src="img/icons/Artifacts.png" style="width: 30px;margin-left:10px;margin-right:15px">Artifact Domains</div></a>
+        <a href="/tools/boss.html"><div class="w3-row navi_button"><img src="img/icons/WeeklyMission.png" style="width: 30px;margin-left:10px;margin-right:15px">Weekly Boss</div></a>
+        <a href="/tools/normal_boss.html"><div class="w3-row navi_button"><img src="img/icons/dailymission.png" style="width: 30px;margin-left:10px;margin-right:15px">Normal Boss</div></a>
+        <a href="/tools/other.html#contact"><div class="w3-row navi_button" style="position: absolute;bottom:0"><img src="/img/icons/feedback.png" style="width: 30px;margin-left:10px;margin-right:15px">Feedback</div></a>
+    </div>
+
+    <div class="top_bar">
+      <div>
+      <h3 onclick="tothetop()">Page not found</h3>
+      <a id="r" href="javascript:side_menu()"><div><span class="material-icons-outlined">menu</span></div></a>
+      </div>
     </div>
     
     </div>
@@ -100,5 +105,6 @@ var num = Math.floor(Math.random() * text.length)
 con.innerText = text[num]
 </script>
 
+<script src="/js/color.js"></script>
 
 

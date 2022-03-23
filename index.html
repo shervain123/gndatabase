@@ -40,14 +40,11 @@
   
   <body class="dark-1">
     <div>
+      
     <div style="padding-left:50px" id="main"class="dark-2 color_transistion">
       <!-- put the actual code in the below container you dumb fuck-->
       
       <div id="teams" class="dark-2 teams"></div>
-      <div class="countdown">
-        <h6>Time till next update</h6>
-        <h2 id="updatetime"></h2>
-      </div>
       <h2 class="dark-1" id="characters" style="margin:0px;margin-bottom:10px">Character List</h2>
       <div id="filter" class="filter">
         <div class="selection">
@@ -80,7 +77,10 @@
         <input id="search" class="search" title="Search with name, region, rarity, element and weapon type" autocomplete="off" placeholder="Search" onkeyup="search('search','character')" onkeydown="search('search','character')">
       </div>
       <div id="character"> </div>
-      
+      <div class="countdown">
+        <h6>Time till next update</h6>
+        <h2 id="updatetime"></h2>
+      </div>
     <footer style="text-align: center;" class="">
       <div class="dark-1">
         <div class="top-margin">
@@ -97,12 +97,14 @@
       </div>
     </footer>
     </div>
-    <div id="nav_bar" class="navi dark-1">
+    
+
+    <div id="nav_bar" class="navi dark-1" onclick="side_menu()">
       <div class="navi_button" >
         <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gndatabase</h4></a>
       </div>
       <div class="w3-row navi_teams" id="team_btn">
-        <a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
+        <a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
   
         <a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a>
         <a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a>
@@ -120,6 +122,13 @@
       <a href="/tools/settings.html"><div class="w3-row navi_button navi_teams_hide" style="position: absolute;bottom:50px"><img src="/img/icons/setting.png" style="width: 30px;margin-left:10px;margin-right:15px">Settings</div></a>
     </div>
     
+    <div class="top_bar">
+      <div>
+        <h3 onclick="tothetop()">Gndatabase</h3>
+      <a id="r" href="javascript:side_menu()"><div><span class="material-icons-outlined">menu</span></div></a>
+      </div>
+    </div>
+
     </div>
   </body>
 </html>
@@ -127,3 +136,4 @@
 <script src="/js/index.js"></script> 
 <script src="/js/color.js"></script> 
 <script src="/js/gndatabase_conv.js"></script>
+<script src="/extras/in.js"></script>

@@ -39,7 +39,7 @@
     <div style="padding-left:50px" id="main"class="dark-2 color_transistion">
       <!-- put the actual code in the below container you dumb fuck-->
       <!-- this website is created in months, why? i procrastinate too much like times where i just code once per month-->
-      <div class="title_middle"><h3>Weekly Boss</h3></div>
+      <div class="title_middle hide-mobile"><h3>Weekly Boss</h3></div>
       <div id="domain_mondstadt"><div class="title_middle"><h3>Mondstadt</h3></div></div>
       <div id="domain_liyue"><div class="title_middle"><h3>Liyue</h3></div></div>
       <div id="domain_inazuma"><div class="title_middle"><h3>Inazuma</h3></div></div>
@@ -60,14 +60,21 @@
       </div>
     </footer>
     </div>
-    <div id="nav_bar" class="navi dark-1">
-      <div class="navi_button" >
+    <div id="nav_bar" class="navi dark-1" onclick="side_menu()">
+      <div class="navi_button">
         <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gndatabase</h4></a>
       </div>
       <a href="#domain_mondstadt"><div class="navi_button"><img src="/img/character/region/mondstadt.png" style="width: 30px;margin-left:10px;margin-right:15px">Mondstadt</div>
         <a href="#domain_liyue"><div class="w3-row navi_button"><img src="/img/character/region/liyue.png" style="width: 30px;margin-left:10px;margin-right:15px">Liyue</div></a>
         <a href="#domain_inazuma"><div class="w3-row navi_button"><img src="/img/character/region/inazuma.png" style="width: 30px;margin-left:10px;margin-right:15px">Inazuma</div></a>
       <a href="/tools/other.html#contact"><div class="w3-row navi_button" style="position: absolute;bottom:0"><img src="/img/icons/feedback.png" style="width: 30px;margin-left:10px;margin-right:15px">Feedback</div></a>
+    </div>
+
+    <div class="top_bar">
+      <div>
+      <h3 onclick="tothetop()">Weekly Boss</h3>
+      <a id="r" href="javascript:side_menu()"><div><span class="material-icons-outlined">menu</span></div></a>
+      </div>
     </div>
     
     </div>

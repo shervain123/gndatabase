@@ -38,7 +38,7 @@
     <div>
     <div style="padding-left:50px" id="main"class="dark-2 color_transistion">
       <!-- put the actual code in the below container you dumb fuck-->
-        <div class="title_middle"><h3>Talent Materials</h3></div>
+        <div class="title_middle hide-mobile"><h3>Weapon Materials</h3></div>
         <div id="monday" class="title_middle"><h3>Monday</h3></div>
         <div id="monday_con" class="talent_mat">
 
@@ -594,14 +594,13 @@
             <a href="/tools/other.html#follow_us">Follow us</a>
           </div>
       <p>It's a pain to redisgn the ui but it is worth it</p>
-      <p>We know in ipad, landscape mode is a bit broken but we can't fix it without messing up on desktop</p>
       </div>
       </div>
     </footer>
     </div>
 
-    <div id="nav_bar" class="navi dark-1">
-      <div class="navi_button" >
+    <div id="nav_bar" class="navi dark-1" onclick="side_menu()">
+      <div class="navi_button">
         <a href="/" class="w3-row"><i class="fa fa-home w3-quarter" style="font-size: 25px;width:fit-content;margin-left:15px;margin-top:10px"></i><h4 style="margin-top:10px;margin-left:50px">Gndatabase</h4></a>
       </div>
       <a href="#monday"><div class="navi_button"><img id="mon_btn" src="/img/icons/cal.png" style="width: 30px;margin-left:10px;margin-right:15px">Monday</div></a>
@@ -615,6 +614,13 @@
       <a href="#material_info"><div class="navi_button"><img id="sun_btn" src="/img/icons/weapon.png" style="width: 30px;margin-left:10px;margin-right:15px">Material Info</div></a>
       <a href="/tools/other.html#contact"><div class="navi_button" style="position: absolute;bottom:0"><img src="/img/icons/feedback.png" style="width: 30px;margin-left:10px;margin-right:15px">Feedback</div></a>
     </div>
+
+    <div class="top_bar">
+        <div>
+        <h3 onclick="tothetop()">Weapon Materials</h3>
+        <a id="r" href="javascript:side_menu()"><div><span class="material-icons-outlined">menu</span></div></a>
+        </div>
+      </div>
     
     </div>
   </body>

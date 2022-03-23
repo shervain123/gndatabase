@@ -477,17 +477,27 @@ function load(){
 function name_info(){
     var name_title = document.createElement("h2")
     var name_detail = document.createElement("p")
+    var name_title2 = document.createElement("h2")
+    var name_detail2 = document.createElement("p")
+    var parent = document.getElementById("character_info")
+    var top = document.getElementById("character_info_top")
     var parent = document.getElementById("character_info")
     for (i = 0; i < character.length; i++){
         if(character[i].name == cha_name){
             name_title.innerText = character[i].name
             name_detail.innerText = character[i].rarity+" ☆ "+element+" • "+character[i].weapon+" • "+character[i].region
+            name_title2.innerText = character[i].name
+            name_detail2.innerText = character[i].rarity+" ☆ "+character[i].element+" • "+character[i].weapon+" • "+character[i].region
         }
     }
     name_detail.id = "cha_detail"
     parent.innerHTML=""
     parent.appendChild(name_title)
     parent.appendChild(name_detail)
+    name_detail2.id = "cha_detail2"
+    top.innerHTML=""
+    top.appendChild(name_title2)
+    top.appendChild(name_detail2)
 }
 
 function load_json(file){
@@ -631,16 +641,19 @@ function electro(){
 function element_reload(){
     var other_element = document.getElementById("element_cha")
     var cha_detail = document.getElementById("cha_detail")
+    var top = document.getElementById("cha_detail2")
     cha_build_wea()
     cha_build_artifact()
     material()
     if(cha_detail == null){
         name_info();
         cha_detail = document.getElementById("cha_detail")
+        top = document.getElementById("cha_detail2")
     }
     material_talent()
     other_element.style.opacity = "0"
     cha_detail.style.opacity = "0"
+    top.style.opacity = "0"
     other_info()
     setTimeout(() => {
         other_btn()
@@ -650,14 +663,17 @@ function element_reload(){
     setTimeout(() => {
         other_element.style.opacity = "1"
         cha_detail.style.opacity = "1"
+        top.style.opacity = "1"
     }, 350);
 }
 
 function change_cha_detail_element(){
     var name_detail = document.getElementById("cha_detail")
+    var top = document.getElementById("cha_detail2")
     for (i = 0; i < character.length; i++){
         if(character[i].name == cha_name){
             name_detail.innerText = character[i].rarity+" ☆ "+element+" • "+character[i].weapon+" • "+character[i].region
+            top.innerText = character[i].rarity+" ☆ "+element+" • "+character[i].weapon+" • "+character[i].region
         }
     }
 }

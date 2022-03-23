@@ -22,6 +22,12 @@ div{clear:none;float:left;width:100% }
   --color-hover-text:#000000;
 
   --hover-invert: invert(0);
+
+  --mobile: false;
+}
+
+.top_bar{
+  display:none;
 }
 
 .total{
@@ -30,6 +36,8 @@ div{clear:none;float:left;width:100% }
 
 .countdown{
   width:100%;
+  background-color: var(--color1-back);
+  color: var(--color1);
 }
 .countdown h6{
   width: fit-content;
@@ -742,7 +750,16 @@ transition-duration: 0.2s;
 .teams p{
   margin-left:5px;
 }
+
+.hide-mobile{
+  display: block;
+}
+
 @media only screen and (max-width: 600px) {
+
+  .hide-mobile{
+    display: none !important;
+  }
 
   .import-input{
     width:70%
@@ -859,14 +876,14 @@ transition-duration: 0.2s;
     }
     
   .character_img{
-    width:100px;
-
+    width:90px;
+    height:90px;
     margin:10px 0px 0px 3px;
   
   }
   .filter .selection a{
     padding:5px 5px;
-    width: 4.2vh;
+    width: 11.1vw;
     margin: 0px;
     margin-top:5px;
   }
@@ -890,7 +907,7 @@ transition-duration: 0.2s;
   .search{
     margin-top:5px;
     height:40px;
-    width:94%;
+    width:98%;
     margin-left:5px;
   }
   .export-input{
@@ -949,6 +966,52 @@ transition-duration: 0.2s;
 .other_cha a img{
   width:100px;
 }
+
+.navi{
+  width:0px !important;
+}
+
+#main{
+  padding-left:0px !important;
+  padding-top:60px;
+}
+.top_bar div{
+  width: 100vw;
+  float: right;
+}
+.top_bar{
+  display:block;
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: var(--color1-back);
+  overflow: hidden;
+  padding-top: 5px;
+}
+.top_bar h3{
+  width:fit-content;
+  float:left;
+  margin-left:10px;
+}
+.top_bar a div{
+  width: fit-content;
+  float: right;
+  padding:15px;
+}
+
+:root{
+  --mobile: true;
+}
+.cha_title{
+  width:fit-content !important;
+  float: left !important;
+}
+}
+
+
+
+.navi_bar_full{
+  width: 100% !important;
 }
 @media (max-width:1080px) and (min-width:993px){
   .total .material{
@@ -1341,7 +1404,8 @@ width:fit-content
 .title_middle{
   background-color: var(--color1-back);
     color:var(--color1);
-  width:100%
+  width:100%;
+  padding-left:10px;
 }
 .title_middle h3{
   padding:0px 12px;

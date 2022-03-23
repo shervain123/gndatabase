@@ -60,16 +60,24 @@ function all_name(name){
 function name_info(){
     var name_title = document.createElement("h2")
     var name_detail = document.createElement("p")
+    var name_title2 = document.createElement("h2")
+    var name_detail2 = document.createElement("p")
     var parent = document.getElementById("character_info")
+    var top = document.getElementById("character_info_top")
     for (i = 0; i < character.length; i++){
         if(character[i].name == cha_name){
             name_title.innerText = character[i].name
             name_detail.innerText = character[i].rarity+" ☆ "+character[i].element+" • "+character[i].weapon+" • "+character[i].region
+            name_title2.innerText = character[i].name
+            name_detail2.innerText = character[i].rarity+" ☆ "+character[i].element+" • "+character[i].weapon+" • "+character[i].region
         }
     }
     parent.innerHTML=""
     parent.appendChild(name_title)
     parent.appendChild(name_detail)
+    top.innerHTML=""
+    top.appendChild(name_title2)
+    top.appendChild(name_detail2)
 }
 
 

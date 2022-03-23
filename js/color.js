@@ -1,3 +1,25 @@
+//this is here because all of pages has this file
+function side_menu(){
+    var bar = document.getElementById("nav_bar")
+    var top = document.getElementsByClassName("top_bar")[0]
+    var mobile = getComputedStyle(top).getPropertyValue("--mobile")
+    if(mobile == "true"){
+    if(bar.classList.contains("navi_bar_full")) {
+        bar.classList.remove("navi_bar_full")
+        top.style.width = ""
+    }
+    else{
+        bar.classList.add("navi_bar_full")
+        top.style.width = "55px"
+    }
+}
+}
+
+function tothetop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  } 
+
 function color_change(color,pos_num,type,save){
     var clo_class
     if(type == 0){
@@ -66,7 +88,10 @@ function get_save_color(){
     color_change(clo4,4,1)
     color_change(clo5,5,1)
   }
-  set_preview_color()
+  try {
+    set_preview_color()
+  }catch{}
+  
 }
 
 function default_color(){
