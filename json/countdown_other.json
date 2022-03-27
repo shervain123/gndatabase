@@ -1,0 +1,88 @@
+[
+    {
+        "info":"This status feature is expermintal, status might not be accurate.",
+        "com":"Most of the 'i' is pointed to the developer, we are a 2 people team, one of them is the developer"
+    },
+    {
+        "info":"Do you enjoy using gndatabase? if so give us a feedback or feature you would like to be added!"
+    },
+    {
+        "info":"Fun fact: gndatabase v1 load more slowly than v2!"
+    },
+    {
+        "info":"Do you know that we have a expermintal features? like this one for example"
+    },
+    {
+        "info":"The developer likes to code at 1 A.M. for some reason.",
+        "com":"I really need sleep"
+    },
+    {
+        "info":"Do you like fireforce? Then you might like one of our project, check out @EveryFireforce on twitter!"
+    },
+    {
+        "info":"Follow us on twitter for newest feature, fun facts, tips are more!"
+    },
+    {
+        "info":"We have hid some easter egg in this site, can you find all of them ?"
+    },
+    {
+        "info":"Anyone wants to buy a genshin smart toaster? we really don't need it anymore."
+    },
+    {
+        "info":"Fun fact: The developer has makes a lot of small projects in his spare times."
+    },
+    {
+        "info":"Fun fact: The developer actually learn how to code web pages from website sample on w3school.com"
+    },
+    {
+        "info":"Gives us some feedback using the contact us page, any feedback, suggestion are welcome."
+    },
+    {
+        "info":"Tip: On mobile tap the top text to return to the top."
+    },
+    {
+        "info":"This idea actually came out when I was trying to sleep."
+    },
+    {
+        "info":"Tip: sometimes the text on the bottom might give you some info"
+    },
+    {
+        "info":"Developer notes: If anyone wants a api to get info, contact us and we could give you a guide",
+        "com":"Actually there is no api, i use json go to https://github.com/shervain123/gndatabase/tree/main/json for the list of json you can use on https://gndatabase.ml/json"
+    },
+    {
+        "info":"Developer notes: The sidebar animation on mobile looks like phigros loading screen. I can't unsee it now."
+    },
+    {
+        "info":"Developer notes: There are some feature in this site are not probably tested."
+    },
+    {
+        "info":"Tip: Teams import function support older version of gndatabase, just paste your link and it should work."
+    },
+    {
+        "info":"Tip: If you are a dark mode user you can try out the 'Stealth' preset on the colors settings.",
+        "com":"no one probably will see this but this preset is inspire by monkeytype.com stealth preset"
+    },
+    {
+        "info":"Fun fact: The color theme on this page are generate using a site",
+        "com":"a color palette makes a HUGE diffrence so if you are designing a website, don't make the mistake i did using #000000, #505050, #909090, #c0c0c0",
+        "coms":"like really you can see the diffrence by using the gndatabase v1 preset in the color settings"
+    },
+    {
+        "info":"Developer notes: One of my favourite font are Roboto",
+        "com":"you can find other fonts on fonts.google.com"
+    },
+    {
+        "info":"Developer notes: If you want to get some high quality images shown on this site, you could right click and save them.",
+        "com":"They are much higher quality than fandom.com"
+    },
+    {
+        "info":"Developer notes: this sems like a feature that is wanted to implement when this project started",
+        "com":"yes this is a feature i wanted but, there is only 1 page that have the feature. That is the 404 page",
+        "coms":"Also this feature looks too much like phigros tip system"
+    },
+    {
+        "info":"Have you did your daily commission yet?",
+        "com":"it seems like i made some phigros refrence, anyways heres a list of rythem games i recommand ['phigros','maimai','osu!']"
+    }
+]

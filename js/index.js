@@ -3,10 +3,13 @@ var developer_mode = 0
 var closes = 0
 var character = load_json("/json/characters.json")
 var weapon = load_json("/json/weapon.json")
+var countdown_info = load_json("/json/countdown.json")
+var countdown_info_o = load_json("/json/countdown_other.json")
 var teams_list = 0
 var export_open = 0
 var import_open = 0
 var unrelease_show = localStorage.getItem("all")
+var other_tip = Math.floor(Math.random() * countdown_info_o.length);
 const weekday = ["sunday","monday","tuesday","wednesday","monday","tuesday","wednesday"];
 const weekday_full = ["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
 const teams_day = ["sunday","monday","tuesday","wednesday"]
@@ -1480,11 +1483,21 @@ var countDownDate
   
 var x = setInterval(function() {
 var now = new Date().getTime();
+var info = document.getElementById("countdown_info")
 var distance = countDownDate - now;
 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+info.innerHTML = ""
+for (let i = 0; i < countdown_info.length; i++) {
+    var cur = countdown_info[i]
+    if(cur.type == "h" && cur.more_h >= hours && cur.less_h <= hours){ info.innerHTML = cur.info; break;}
+    else if(cur.type == "dh" && cur.more_h >= hours && cur.less_h <= hours && cur.more_d >= days && cur.less_d <= days) {info.innerHTML = cur.info; break}
+    else if(cur.type == "d" && cur.more_d >= days && cur.less_d <= days) {info.innerHTML = cur.info; break}
+    else info.innerHTML = countdown_info_o[other_tip].info
+
+}
 if (distance < 0) {
   document.getElementById("updatetime").innerHTML = "EXPIRED";
   gettime()
@@ -1492,4 +1505,3 @@ if (distance < 0) {
   document.getElementById("updatetime").innerHTML = days + "d " + hours + "h "+ minutes + "m " + seconds + "s ";
 }
 }, 1000);
-  

@@ -1,0 +1,48 @@
+[
+    {
+        "info":"Pre-installation is available!",
+        "more_h":"13",
+        "more_d":"1",
+        "less_h":"16",
+        "less_d":"0",
+        "type":"dh"
+    },
+    {
+        "info":"Server reset in less than an hour! (UTC+8)",
+        "more_h":"0",
+        "less_h":"0",
+        "type":"h"
+    },
+    {
+        "info":"Halfway through the version update",
+        "more_d":"21",
+        "less_d":"20",
+        "type":"d"
+    },
+    {
+        "info":"Server maintenance should be completed",
+        "more_d":"47",
+        "less_d":"46",
+        "more_h":"14",
+        "less_h":"13",
+        "type":"dh"
+    },
+    {
+        "info":"Server reset in less than 2 hours! (UTC+8)",
+        "more_h":"1",
+        "less_h":"0",
+        "type":"h"
+    },
+    {
+        "info":"Now is the best time to start saving primogens for the next character.",
+        "more_d":"47",
+        "less_d":"46",
+        "type":"d"
+    },
+    {
+        "info":"Now is not a bad time to start saving primogens for the next character.",
+        "more_d":"30",
+        "less_d":"38",
+        "type":"d"
+    }
+]

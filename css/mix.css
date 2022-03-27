@@ -46,6 +46,14 @@ div{clear:none;float:left;width:100% }
   background-color: var(--color1-back);
   color: var(--color1);
 }
+.countdown p{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color1-back);
+  color: var(--color1);
+  font-size: 12px;
+}
 
 .countdown h2{
   width: 100%;
@@ -53,6 +61,7 @@ div{clear:none;float:left;width:100% }
   background-color: var(--color2-back);
   color: var(--color2);
 }
+
 
 .element_group{
   overflow: hidden;
