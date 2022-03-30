@@ -433,7 +433,7 @@ function material(){
 
     var asc_4 =  material_container()
     asc_4.appendChild(material_title("Ascension 4"))
-    asc_4.appendChild(material_creator(gemstone_img_3,"3x \u00A0\u00A0"+gemstone_3))
+    asc_4.appendChild(material_creator(gemstone_img_3,"3x \u00A0\u00A0\u00A0"+gemstone_3))
     asc_4.appendChild(material_creator(local_asc_img,"30x \u00A0\u00A0"+local_asc))
     asc_4.appendChild(material_creator(comasc_img_2,"18x \u00A0\u00A0"+comasc_2))
     asc_4.appendChild(material_creator(boss_asc_img,"8x \u00A0\u00A0\u00A0"+boss_asc))
