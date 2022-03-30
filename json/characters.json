@@ -987,7 +987,7 @@
     },
     {
         "name" : "Kamisato Ayato",
-        "talent" : "",
+        "talent" : "tuesday",
         "rarity" : "5",
         "element" : "Hydro",
         "image" : "/img/character/head/KamisatoAyato.png",
@@ -996,16 +996,12 @@
         "weapon" : "Sword",
         "region" : "Inazuma",
         "talent_region" : "Inazuma",
-        "gncode" : "null",
-        "lore" : "1",
-        "common_asc" : "",
-        "local_asc" : "",
-        "boss_asc" : "",
-        "boss_talent" : "",
-        "weapon_build" : "",
-        "artifact_build" : "",
-        "build_type" : "",
-        "unrelease": "1"
+        "common_asc" : "Handguard",
+        "local_asc" : "Sakura Bloom",
+        "boss_asc" : "Dew of Repudiation",
+        "boss_talent" : "Mudra of the Malefic General",
+        "build":"0",
+        "lore":"1"
     }
 ]
 
