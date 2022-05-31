@@ -1593,5 +1593,38 @@
         "talent": "monday",
         "region": "Inazuma",
         "gncode" : "null"
+    },
+    {
+        "name":"Haran Geppaku Futsu",
+        "rarity": "5",
+        "ability_name": "Honed Flow",
+        "ability_detail": "Obtain 12% All Elemental DMG Bonus. When other nearby party members use Elemental Skills, the character equipping this weapon will gain 1 Wavespike stack. Max 2 stacks. This effect can be triggered once every 0.3s. When the character equipping this weapon uses an Elemental Skill, all stacks of Wavespike will be consumed to gain Rippling Upheaval: each stack of Wavespike consumed will increase Normal Attack DMG by 20% for 8s. ",
+        "weapon": "Swords",
+        "image": "/img/weapon/all/HaranGeppakuFutsu.png",
+        "hex": "86",
+        "talent": "tuesday",
+        "region": "Inazuma"
+    },
+    {
+        "name":"Aqua Simulacra",
+        "rarity": "5",
+        "ability_name": "The Cleansing Form",
+        "ability_detail": "HP is increased by 16~32%. When there are opponents nearby, the DMG dealt by the wielder of this weapon is increased by 20~40%. This will take effect whether the character is on-field or not. ",
+        "weapon": "Bow",
+        "image": "/img/weapon/all/AquaSimulacra.png",
+        "hex": "87",
+        "talent": "monday",
+        "region": "Liyue"
+    },
+    {
+        "name":"Fading Twilight",
+        "rarity": "4",
+        "ability_name": "Radiance of the Deeps",
+        "ability_detail": "Has three states, Evengleam, Afterglow, and Dawnblaze, which increase DMG dealt by 6%/10%/14%~12%/20%/28% respectively. When attacks hit opponents, this weapon will switch to the next state. This weapon can change states once every 7s. The character equipping this weapon can still trigger the state switch while not on the field. ",
+        "weapon": "Bow",
+        "image": "/img/weapon/all/FadingTwilight.png",
+        "hex": "87",
+        "talent": "wednesday",
+        "region": "Liyue"
     }
 ]

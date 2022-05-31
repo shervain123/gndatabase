@@ -758,6 +758,11 @@
         "name":"The Meaning of Aeons",
         "type":"weekly_boss",
         "image":"/img/items/weeklyboss/The_Meaning_of_Aeons.png"
+    },
+    {
+        "name":"Runic Fang",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Runic_Fang.png"
     }
 
 ]

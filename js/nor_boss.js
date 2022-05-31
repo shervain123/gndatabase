@@ -49,6 +49,9 @@ function domain_detail(){
 
             for(var a = 0; a < item.length; a++){
                 if(domain[i].item == item[a].name) {item1 = item[a].name; item1_img = item[a].image}
+                if(domain[i].item == "Storm Beads"){
+                    console.log("pause")
+                }
             }
 
             detail.appendChild(artifact_container(item1,item1_img))

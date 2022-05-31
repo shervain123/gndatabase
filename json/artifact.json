@@ -222,5 +222,17 @@
         "name":"Prayers for Springtime",
         "1_piece": "Affected by Cryo for 40% less time.",
         "image":"/img/items/artifact/Tiara_of_Frost.png"
+    },
+    {
+        "name":"Vermillion Hereafter",
+        "set_1":"ATK +18%.",
+        "set_2":"After using an Elemental Burst. this character will gain the Nascent Light effect, increasing their ATK by 8% for 16s. When the character's HP decreases, their ATK will further increase by 10%. This increase can occur this way maximum of 4 times. This effect can be triggered once every 0.8s. Nascent Light will be dispelled when the character leaves the field. If an Elemental Burst is used again during the duration of Nascent Light, the original Nascent Light will be dispelled.",
+        "image":"/img/items/artifact/Flowering_Life.png"
+    },
+    {
+        "name":"Echoes of an Offering",
+        "set_1":"ATK +18%.",
+        "set_2":"When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.This effect will be dispelled 0.05s after a Normal Attack deals DMG.If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.This trigger can occur once every 0.2s.",
+        "image":"/img/items/artifact/Soulscent_Bloom.png"
     }
 ]

@@ -271,7 +271,7 @@
         "type":"boss",
         "num_element":"1",
         "element1":"Geo",
-        "item":"Riftborn Regalia ",
+        "item":"Riftborn Regalia",
         "image":"/img/location/golden_wolflord.png",
         "region":"Inazuma"
     },
@@ -281,8 +281,18 @@
         "num_element":"2",
         "element1":"Electro",
         "element2":"Cryo",
-        "item":"Dragonheir's False Fin",
+        "item":"Dragonheir%27s False Fin",
         "image":"/img/location/bathysmal_vishap_herd.png",
         "region":"Inazuma"
+    },
+    {
+        "name":"Ruin Serpent",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Geo",
+        "item":"Runic Fang",
+        "image":"/img/location/Ruin_Serpent.png",
+        "region":"Liyue"
     }
+        
 ]

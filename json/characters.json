@@ -1000,7 +1000,26 @@
         "local_asc" : "Sakura Bloom",
         "boss_asc" : "Dew of Repudiation",
         "boss_talent" : "Mudra of the Malefic General",
-        "build":"0",
+        "weapon_build" : "Haran Geppaku Futsu",
+        "artifact_build" : "Heart of Depth",
+        "lore":"1"
+    },
+    {
+        "name" : "Yelan",
+        "talent" : "monday",
+        "rarity" : "5",
+        "element" : "Hydro",
+        "image" : "/img/character/head/Yelan.png",
+        "full_image" : "/img/character/full/Yelan.jpg",
+        "hex" : "31",
+        "weapon" : "Bow",
+        "region" : "Liyue",
+        "talent_region" : "Liyue",
+        "common_asc" : "FInsignia",
+        "local_asc" : "Starconch",
+        "boss_asc" : "Runic Fang",
+        "boss_talent" : "Gilded Scale",
+        "build" : "0",
         "lore":"1"
     }
 ]
