@@ -651,16 +651,16 @@ function teams(){
             if(last_save.search(character[i].hex) != -1){
                 if (character[i].name == "Traveler"){
                     if(localStorage.getItem("timage") == "Aether"){
-                        teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                        teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }else if(localStorage.getItem("timage") == "Lumine"){
-                        teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                        teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }else{
-                        teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                        teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }
                 }else if(character[i].talent == today){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
             }else if(today == "sunday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
             }
         }
         }
