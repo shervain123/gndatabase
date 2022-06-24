@@ -1019,8 +1019,27 @@
         "local_asc" : "Starconch",
         "boss_asc" : "Runic Fang",
         "boss_talent" : "Gilded Scale",
-        "build" : "0",
+        "weapon_build" : "Aqua Simulacra",
+        "artifact_build" : "Emblem of Severed Fate",
         "lore":"1"
+    },
+    {
+        "name" : "Kuki Shinobu",
+        "talent" : "tuesday",
+        "rarity" : "4",
+        "element" : "Electro",
+        "image" : "/img/character/head/KukiShinobu.png",
+        "full_image" : "/img/character/full/KukiShinobu.jpg",
+        "hex" : "32",
+        "weapon" : "Sword",
+        "region" : "Inazuma",
+        "talent_region" : "Inazuma",
+        "common_asc" : "Spectral",
+        "local_asc" : "Naku Weed",
+        "boss_asc" : "Runic Fang",
+        "boss_talent" : "Tears of the Calamitous God",
+        "build":"0",
+        "lore" : "1"
     }
 ]
 
