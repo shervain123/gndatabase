@@ -1002,7 +1002,8 @@
         "boss_talent" : "Mudra of the Malefic General",
         "weapon_build" : "Haran Geppaku Futsu",
         "artifact_build" : "Heart of Depth",
-        "lore":"1"
+        "lore":"1",
+        "build_type":"DPS"
     },
     {
         "name" : "Yelan",
@@ -1021,6 +1022,7 @@
         "boss_talent" : "Gilded Scale",
         "weapon_build" : "Aqua Simulacra",
         "artifact_build" : "Emblem of Severed Fate",
+        "build_type":"Off-Field DPS",
         "lore":"1"
     },
     {
@@ -1038,7 +1040,9 @@
         "local_asc" : "Naku Weed",
         "boss_asc" : "Runic Fang",
         "boss_talent" : "Tears of the Calamitous God",
-        "build":"0",
+        "weapon_build" : "Favonius Sword",
+        "artifact_build" : "Tenacity of the Millelith",
+        "build_type":"Support",
         "lore" : "1"
     }
 ]
