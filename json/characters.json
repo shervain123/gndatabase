@@ -1044,6 +1044,26 @@
         "artifact_build" : "Tenacity of the Millelith",
         "build_type":"Support",
         "lore" : "1"
+    },
+    {
+        "name" : "Shikanoin Heizou",
+        "talent" : "monday",
+        "rarity" : "4",
+        "element" : "Anemo",
+        "image" : "/img/character/head/ShikanoinHeizou.png",
+        "full_image" : "/img/character/full/ShikanoinHeizou.jpg",
+        "hex" : "33",
+        "weapon" : "Catalyst",
+        "region" : "Inazuma",
+        "talent_region" : "Inazuma",
+        "common_asc" : "TInsignia",
+        "local_asc" : "Onikabuto",
+        "boss_asc" : "Runic Fang",
+        "boss_talent" : "The Meaning of Aeons",
+        "weapon_build" : "Kagura's Verity",
+        "artifact_build" : "Viridescent Venerer",
+        "build_type" : "Anemo DPS",
+        "lore" : "1"
     }
 ]
 

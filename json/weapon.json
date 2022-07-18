@@ -1626,5 +1626,16 @@
         "hex": "88",
         "talent": "wednesday",
         "region": "Liyue"
+    },
+    {
+        "name":"Kagotsurube Isshin ",
+        "rarity": "4",
+        "ability_name": "Isshin Art Clarity",
+        "ability_detail": "When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s. ",
+        "weapon": "Swords",
+        "image": "/img/weapon/all/KagotsurubeIsshin.png",
+        "hex": "89",
+        "talent": "wednesday",
+        "region": "Inazuma"
     }
 ]
