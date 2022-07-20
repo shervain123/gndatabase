@@ -3,7 +3,7 @@ function side_menu(){
     var bar = document.getElementById("nav_bar")
     var top = document.getElementsByClassName("top_bar")[0]
     var mobile = getComputedStyle(top).getPropertyValue("--mobile")
-    if(mobile == "true"){
+    if(mobile.indexOf("true")){
     if(bar.classList.contains("navi_bar_full")) {
         bar.classList.remove("navi_bar_full")
         top.style.width = ""
