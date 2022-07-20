@@ -25,6 +25,9 @@ div{clear:none;float:left;width:100% }
 
   --mobile: false;
 }
+a{
+  -webkit-tap-highlight-color: transparent;
+}
 
 .top_bar{
   display:none;
