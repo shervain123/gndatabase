@@ -1,9 +1,10 @@
-//this is here because all of pages has this file
+//this is here because all of pages has this filebb                        j7
 function side_menu(){
     var bar = document.getElementById("nav_bar")
     var top = document.getElementsByClassName("top_bar")[0]
     var mobile = getComputedStyle(top).getPropertyValue("--mobile")
-    if(mobile.indexOf("true")){
+    var what = mobile.indexOf("true")
+    if(mobile.indexOf("true")!= -1){
     if(bar.classList.contains("navi_bar_full")) {
         bar.classList.remove("navi_bar_full")
         top.style.width = ""
@@ -14,7 +15,6 @@ function side_menu(){
     }
 }
 }
-
 function tothetop() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
