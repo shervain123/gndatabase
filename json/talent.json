@@ -106,5 +106,41 @@
         "name_1": "Teachings of Light",
         "name_2": "Guide to Light",
         "name_3": "Philosophies of Light"
+    },
+    {
+        "region": "Sumeru",
+        "domain_name": "Steeple of Ignorance",
+        "time": "monday",
+        "name": "Admonition",
+        "img_1": "/img/items/talent/Teachings_of_Admonition.png",
+        "img_2": "/img/items/talent/Guide_to_Admonition.png",
+        "img_3": "/img/items/talent/Philosophies_of_Admonition.png",
+        "name_1": "Teachings of Admonition",
+        "name_2": "Guide to Admonition",
+        "name_3": "Philosophies of Admonition"
+    },
+    {
+        "region": "Sumeru",
+        "domain_name": "Steeple of Ignorance",
+        "time": "tuesday",
+        "name": "Ingenuity",
+        "img_1": "/img/items/talent/Teachings_of_Ingenuity.png",
+        "img_2": "/img/items/talent/Guide_to_Ingenuity.png",
+        "img_3": "/img/items/talent/Philosophies_of_Ingenuity.png",
+        "name_1": "Teachings of Ingenuity",
+        "name_2": "Guide to Ingenuity",
+        "name_3": "Philosophies of Ingenuity"
+    },
+    {
+        "region": "Sumeru",
+        "domain_name": "Steeple of Ignorance",
+        "time": "wednesday",
+        "name": "Praxis",
+        "img_1": "/img/items/talent/Teachings_of_Praxis.png",
+        "img_2": "/img/items/talent/Guide_to_Praxis.png",
+        "img_3": "/img/items/talent/Philosophies_of_Praxis.png",
+        "name_1": "Teachings of Praxis",
+        "name_2": "Guide to Praxis",
+        "name_3": "Philosophies of Praxis"
     }
 ]

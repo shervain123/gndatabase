@@ -595,6 +595,26 @@
         "image":"/img/items/gemstone/Brilliant_Diamond_Gemstone.png"
     },
     {
+        "name":"Nagadus Emerald Sliver",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Nagadus_Emerald_Sliver.png"
+    },
+    {
+        "name":"Nagadus Emerald Fragment",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Nagadus_Emerald_Fragment.png"
+    },
+    {
+        "name":"Nagadus Emerald Chunk",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Nagadus_Emerald_Chunk.png"
+    },
+    {
+        "name":"Nagadus Emerald Gemstone",
+        "type":"gemstone",
+        "image":"/img/items/gemstone/Nagadus_Emerald_Gemstone.png"
+    },
+    {
         "name":"Basalt Pillar",
         "type":"normal_boss",
         "image":"/img/items/boss/Basalt_Pillar.png"
@@ -763,6 +783,111 @@
         "name":"Runic Fang",
         "type":"normal_boss",
         "image":"/img/items/boss/Runic_Fang.png"
+    },
+    {
+        "name":"Chaos Storage",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Storage.png"
+    },
+    {
+        "name":"Chaos Module",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Module.png"
+    },
+    {
+        "name":"Chaos Bolt",
+        "type":"common",
+        "image":"/img/items/common/Chaos_Bolt.png"
+    },
+    {
+        "name":"Inactivated Fungal Nucleus",
+        "type":"common",
+        "image":"/img/items/common/Inactivated_Fungal_Nucleus.png"
+    },
+    {
+        "name":"Dormant Fungal Nucleus",
+        "type":"common",
+        "image":"/img/items/common/Dormant_Fungal_Nucleus.png"
+    },
+    {
+        "name":"Robust Fungal Nucleus",
+        "type":"common",
+        "image":"/img/items/common/Robust_Fungal_Nucleus.png"
+    },
+    {
+        "name":"Fungal Spores",
+        "type":"common",
+        "image":"/img/items/common/Fungal_Spores.png"
+    },
+    {
+        "name":"Luminescent Pollen",
+        "type":"common",
+        "image":"/img/items/common/Luminescent_Pollen.png"
+    },
+    {
+        "name":"Crystalline Cyst Dust",
+        "type":"common",
+        "image":"/img/items/common/Crystalline_Cyst_Dust.png"
+    },
+    {
+        "name":"Kalpalata Lotus",
+        "type":"local",
+        "image":"/img/items/local/Kalpalata_Lotus.png"
+    },
+    {
+        "name":"Nilotpala Lotus",
+        "type":"local",
+        "image":"/img/items/local/Nilotpala_Lotus.png"
+    },
+    {
+        "name":"Padisarah",
+        "type":"local",
+        "image":"/img/items/local/Padisarah.png"
+    },
+    {
+        "name":"Faded Red Satin",
+        "type":"common",
+        "image":"/img/items/common/Faded_Red_Satin.png"
+    },
+    {
+        "name":"Trimmed Red Silk",
+        "type":"common",
+        "image":"/img/items/common/Trimmed_Red_Silk.png"
+    },
+    {
+        "name":"Rich Red Brocade",
+        "type":"common",
+        "image":"/img/items/common/Rich_Red_Brocade.png"
+    },
+    {
+        "name":"Rukkhashava Mushrooms",
+        "type":"local",
+        "image":"/img/items/local/Rukkhashava_Mushrooms.png"
+    },
+    {
+        "name":"Gloomy Statuette",
+        "type":"common",
+        "image":"/img/items/common/Gloomy_Statuette.png"
+    },
+    {
+        "name":"Dark Statuette",
+        "type":"common",
+        "image":"/img/items/common/Dark_Statuette.png"
+    },
+    {
+        "name":"Deathly Statuette",
+        "type":"common",
+        "image":"/img/items/common/Deathly_Statuette.png"
+    },
+    {
+        "name":"Thunderclap Fruitcore",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Thunderclap_Fruitcore.png"
+    },
+    {
+        "name":"Majestic Hooked Beak",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Majestic_Hooked_Beak.png"
     }
 
 ]

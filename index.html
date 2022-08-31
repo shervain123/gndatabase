@@ -35,6 +35,7 @@
 
   <style>
     body,h1,h2,h3,h4,h5,h6,.w3-wide {font-family: "Montserrat", sans-serif;}
+   
     
   </style>
   
@@ -48,13 +49,14 @@
       <div class="title_middle"><h3 id="characters">Character List</h3></div>
       <div id="filter" class="filter">
         <div class="selection">
-        <a href="javascript:void(0)" title="Reset filter" onclick="filter('all','character','a')"><img src="img/icons/reset.png"></a>
+        
         <a href="javascript:void(0)" title="Anemo" onclick="filter('Anemo','character','a')"><img src="img/character/element/anemo.png"></a>
         <a href="javascript:void(0)" title="Cryo" onclick="filter('Cryo','character','a')"><img src="img/character/element/cryo.png"></a>
         <a href="javascript:void(0)" title="Electro" onclick="filter('Electro','character','a')"><img src="img/character/element/electro.png"></a>
         <a href="javascript:void(0)" title="Geo" onclick="filter('Geo','character','a')"><img src="img/character/element/geo.png"></a>
         <a href="javascript:void(0)" title="Hydro" onclick="filter('Hydro','character','a')"><img src="img/character/element/hydro.png"></a>
         <a href="javascript:void(0)" title="Pyro" onclick="filter('Pyro','character','a')"><img src="img/character/element/pyro.png"></a>
+        <a href="javascript:void(0)" title="Dendro" onclick="filter('Dendro','character','a')"><img src="img/character/element/dendro.png"></a>
         <a href="javascript:void(0)" title="More filters" onclick="extanded_filter()" id="filter_expand_btn"><img src="img/icons/filter.png"></a>
         <div>
           <a href="javascript:void(0)" title="Bow" onclick="filter('Bow','character','a')" id="filter_expand_btn"><img src="img/character/weapon/bow.png"></a>
@@ -68,6 +70,7 @@
           <a href="javascript:void(0)" title="Mondstadt" onclick="filter('Mondstadt','character','a')" id="filter_expand_btn"><img src="img/character/region/mondstadt.png"></a>
           <a href="javascript:void(0)" title="Liyue" onclick="filter('Liyue','character','a')" id="filter_expand_btn"><img src="img/character/region/liyue.png"></a>
           <a href="javascript:void(0)" title="Inazuma" onclick="filter('Inazuma','character','a')" id="filter_expand_btn"><img src="img/character/region/inazuma.png"></a>
+          <a href="javascript:void(0)" title="Sumeru" onclick="filter('Sumeru','character','a')" id="filter_expand_btn"><img src="img/character/region/sumeru.png"></a>
         </div>
         <div>
           <a href="javascript:void(0)" title="4 Stars" onclick="filter('4☆','character','a')" id="filter_expand_btn">4 ☆</a>
@@ -75,6 +78,7 @@
         </div>
         </div>
         <input id="search" class="search" title="Search with name, region, rarity, element and weapon type" autocomplete="off" placeholder="Search" onkeyup="search('search','character')" onkeydown="search('search','character')">
+        <a href="javascript:void(0)" title="Reset filter" class="reset" onclick="filter('all','character','a')"><img src="img/icons/reset.png"></a>
       </div>
       <div id="character"> </div>
       <div class="countdown">

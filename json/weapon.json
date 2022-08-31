@@ -48,7 +48,7 @@
         "gncode" : "5c"
     },
     {
-        "name":"Amos%27 Bow",
+        "name":"Amos' Bow",
         "rarity": "5",
         "ability_name": "Strong-Willed",
         "ability_detail": "Increases Normal Attack and Charged Attack DMG by 12~24%. After a Normal or Charged Attack is fired, DMG dealt increases by a further 8~16% every 0.1 seconds the arrow is in the air for up to 5times. ",
@@ -156,7 +156,7 @@
         "gncode" : "44"
     },
     {
-        "name":"Mouun%27s Moon",
+        "name":"Mouun's Moon",
         "rarity": "4",
         "ability_name": "Watatsumi Wavewalker",
         "ability_detail": "For every point of the entire party%22s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way. ",
@@ -276,7 +276,7 @@
         "gncode" : "39"
     },
     {
-        "name":"Sharpshooter%27s Oath",
+        "name":"Sharpshooter's Oath",
         "rarity": "3 ",
         "ability_name": "Precise",
         "ability_detail": "Increases DMG against weak spots by 24~48%. ",
@@ -313,7 +313,7 @@
         "gncode" : "18"
     },
     {
-        "name":"Seasoned Hunter%27s Bow",
+        "name":"Seasoned Hunter's Bow",
         "rarity": "2 ",
         "ability_name": "None ",
         "ability_detail": "None ",
@@ -325,7 +325,7 @@
         "gncode" : "54"
     },
     {
-        "name":"Hunter%27s Bow",
+        "name":"Hunter's Bow",
         "rarity": "1 ",
         "ability_name": "None ",
         "ability_detail": "None",
@@ -624,7 +624,7 @@
         "gncode" : "3e"
     },
     {
-        "name":"Apprentice%27s Notes",
+        "name":"Apprentice's Notes",
         "rarity": "1 ",
         "ability_name": "None",
         "ability_detail": "None",
@@ -636,7 +636,7 @@
         "gncode" : "04"
     },
     {
-        "name":"Wolf%27s Gravestone",
+        "name":"Wolf's Gravestone",
         "rarity": "5",
         "ability_name": "Wolfish Tracker",
         "ability_detail": "Increases ATK by 20~40%. On hit, attacks against opponents with less than 30% HP increase all party members%22 ATK by 40~80% for 12s. Can only occur once every 30s. ",
@@ -923,7 +923,7 @@
         "gncode" : "23"
     },
     {
-        "name":"Old Merc%27s Pal",
+        "name":"Old Merc's Pal",
         "rarity": "2 ",
         "ability_name": "None ",
         "ability_detail": "None ",
@@ -1079,7 +1079,7 @@
         "gncode" : "16"
     },
     {
-        "name":"Dragon%27s Bane",
+        "name":"Dragon's Bane",
         "rarity": "4",
         "ability_name": "Bane of Flame and Water",
         "ability_detail": "Increases DMG against opponents affected by Hydro or Pyro by 20~36%. ",
@@ -1127,7 +1127,7 @@
         "gncode" : "09"
     },
     {
-        "name":"Wavebreaker%27s Fin",
+        "name":"Wavebreaker's Fin",
         "rarity": "4",
         "ability_name": "Watatsumi Wavewalker",
         "ability_detail": "For every point of the entire party%22s combined maximum Energy capacity, the Elemental Burst DMG of the character equipping this weapon is increased by 0.12~0.24%. A maximum of 40~80% increased Elemental Burst DMG can be achieved this way. ",
@@ -1199,7 +1199,7 @@
         "gncode" : "2d"
     },
     {
-        "name":"Beginner%22s Protector",
+        "name":"Beginner's Protector",
         "rarity": "1 ",
         "ability_name": "None ",
         "ability_detail": "None",
@@ -1379,7 +1379,7 @@
         "gncode" : "02"
     },
     {
-        "name":"Lion%22s Roar",
+        "name":"Lion's Roar",
         "rarity": "4",
         "ability_name": "Bane of Fire and Thunder",
         "ability_detail": "Increases DMG against enemies affected by Pyro or Electro by 20~36%. ",
@@ -1511,7 +1511,7 @@
         "gncode" : "0f"
     },
     {
-        "name":"Traveler%27s Handy Sword",
+        "name":"Traveler's Handy Sword",
         "rarity": "3 ",
         "ability_name": "Journey",
         "ability_detail": "Each Elemental Orb or Particle collected restores 1~2% HP. ",
@@ -1637,5 +1637,93 @@
         "hex": "89",
         "talent": "wednesday",
         "region": "Inazuma"
+    },
+    {
+        "name":"End of the Line",
+        "rarity": "4",
+        "ability_name": "Net Snapper",
+        "ability_detail": "Triggers the Flowrider effect after using an Elemental Skill, dealing 80~160% ATK as AoE DMG upon hitting an opponent with an attack. Flowrider will be removed after 15s or after causing 3 instances of AoE DMG. Only 1 instance of AoE DMG can be caused every 2s in this way. Flowrider can be triggered once every 12s. ",
+        "weapon": "Bow",
+        "image": "/img/weapon/all/EndoftheLine.png",
+        "hex": "8a",
+        "talent": "wednesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"King's Squire",
+        "rarity": "4",
+        "ability_name": "Labyrinth Lord's Instruction",
+        "ability_detail": "Obtain the Teachings of the Forest effect when unleashing Elemental Skills and Bursts, increasing Elemental Mastery by 60~140 for 12s. This effect will be removed when switching characters. When the Teachings of the Forest effect ends or is removed, it will deal 100~180% of ATK as DMG to 1 nearby opponent. The Teachings of the Forest effect can be triggered once every 20s.",
+        "weapon": "Bow",
+        "image": "/img/weapon/all/King'sSquire.png",
+        "hex": "8b",
+        "talent": "wednesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Hunter's Path",
+        "rarity": "5",
+        "ability_name": "At the End of the Beast-Paths",
+        "ability_detail": "Gain 12~24% All Elemental DMG Bonus. Obtain the Tireless Hunt effect after hitting an opponent with a Charged Attack. This effect increases Charged Attack DMG by 160~320% of Elemental Mastery. This effect will be removed after 12 Charged Attacks or 10s. Only 1 instance of Tireless Hunt can be gained every 12s.",
+        "weapon": "Bow",
+        "image": "/img/weapon/all/Hunter'sPath.png",
+        "hex": "8c",
+        "talent": "wednesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Forest Regalia",
+        "rarity": "4",
+        "ability_name": "Forest Sanctuary",
+        "ability_detail": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack. ",
+        "weapon": "Claymore",
+        "image": "/img/weapon/all/ForestRegalia.png",
+        "hex": "8d",
+        "talent": "monday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Sapwood Blade",
+        "rarity": "4",
+        "ability_name": "Forest Sanctuary",
+        "ability_detail": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Consciousness will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 60~120 Elemental Mastery for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. The Leaf of Consciousness' effect cannot stack. ",
+        "weapon": "Swords",
+        "image": "/img/weapon/all/SapwoodBlade.png",
+        "hex": "8e",
+        "talent": "monday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Moonpiercer",
+        "rarity": "4",
+        "ability_name": "Stillwood Moonshadow",
+        "ability_detail": "After triggering Burning, Quicken, Aggravate, Spread, Bloom, Hyperbloom, or Burgeon, a Leaf of Revival will be created around the character for a maximum of 10s. When picked up, the Leaf will grant the character 16~32% ATK for 12s. Only 1 Leaf can be generated this way every 20s. This effect can still be triggered if the character is not on the field. ",
+        "weapon": "Polearms",
+        "image": "/img/weapon/all/Moonpiercer.png",
+        "hex": "8f",
+        "talent": "tuesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Fruit of Fulfillment",
+        "rarity": "4",
+        "ability_name": "Full Circle",
+        "ability_detail": "Obtain the 'Wax and Wane' effect after an Elemental Reaction is triggered, gaining 24~36 Elemental Mastery while losing 5% ATK. For every 0.3s, 1 stack of Wax and Wane can be gained. Max 5 stacks. For every 6s that go by without an Elemental Reaction being triggered, 1 stack will be lost. This effect can be triggered even when the character is off-field. ",
+        "weapon": "Catalysts",
+        "image": "/img/weapon/all/FruitofFulfillment.png",
+        "hex": "90",
+        "talent": "tuesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Kagotsurube Isshin",
+        "rarity": "4",
+        "ability_name": "Isshin Art Clarity",
+        "ability_detail": "When a Normal, Charged, or Plunging Attack hits an opponent, it will whip up a Hewing Gale, dealing AoE DMG equal to 180% of ATK and increasing ATK by 15% for 8s. This effect can be triggered once every 8s. ",
+        "weapon": "Swords",
+        "image": "/img/weapon/all/KagotsurubeIsshin.png",
+        "hex": "91",
+        "talent": "wednesday",
+        "region": "Liyue"
     }
 ]

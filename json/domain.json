@@ -293,6 +293,33 @@
         "item":"Runic Fang",
         "image":"/img/location/Ruin_Serpent.png",
         "region":"Liyue"
-    }
-        
+    },
+    {
+        "name":"Jadeplume Terrorshroom",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Dendro",
+        "item":"Majestic Hooked Beak",
+        "image":"/img/location/Jadeplume_Terrorshroom.png",
+        "region":"Sumeru"
+    },
+    {
+        "name":"Electro Regisvine",
+        "type":"boss",
+        "num_element":"1",
+        "element1":"Electro",
+        "item":"Thunderclap Fruitcore",
+        "image":"/img/location/Electro_Regisvine.png",
+        "region":"Sumeru"
+    },
+    {
+        "name":"The Lost Valley",
+        "type":"artifact",
+        "item1":"Martial Artist",
+        "item2":"Gambler",
+        "item3":"Vermillion Hereafter",
+        "item4":"Echoes of an Offering",
+        "image":"/img/location/The_Lost_Valley.png",
+        "region":"Liyue"
+    }   
 ]

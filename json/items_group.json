@@ -162,5 +162,43 @@
         "set_4":"Brilliant Diamond Gemstone",
         "name":"Brilliant Diamond",
         "element":"Adaptive"
+    },
+    {
+        "set_1":"Nagadus Emerald Sliver",
+        "set_2":"Nagadus Emerald Fragment",
+        "set_3":"Nagadus Emerald Chunk",
+        "set_4":"Nagadus Emerald Gemstone",
+        "name":"Nagadus Emerald",
+        "element":"Dendro"
+    },
+    {
+        "set_1" : "Chaos Storage",
+        "set_2" : "Chaos Module",
+        "set_3" : "Chaos Bolt",
+        "name" : "Chaos_mod"
+    },
+    {
+        "set_1" : "Inactivated Fungal Nucleus",
+        "set_2" : "Dormant Fungal Nucleus",
+        "set_3" : "Robust Fungal Nucleus",
+        "name" : "Fungal_Nucleus"
+    },
+    {
+        "set_1" : "Fungal Spores",
+        "set_2" : "Luminescent Pollen",
+        "set_3" : "Crystalline Cyst Dust",
+        "name" : "Fungal"
+    },
+    {
+        "set_1" : "Faded Red Satin",
+        "set_2" : "Trimmed Red Silk",
+        "set_3" : "Rich Red Brocade",
+        "name" : "red_cloth"
+    },
+    {
+        "set_1" : "Gloomy Statuette",
+        "set_2" : "Dark Statuette",
+        "set_3" : "Deathly Statuette",
+        "name" : "Statuette"
     }
 ]

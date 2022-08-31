@@ -454,9 +454,9 @@ function material(){
 
     var total =  material_container()
     total.appendChild(material_title("Total"))
-    total.appendChild(material_creator(gemstone_img_1,"1x \u00A0\u00A0\u00A0\u00A0"+gemstone_4))
-    total.appendChild(material_creator(gemstone_img_2,"9x \u00A0\u00A0\u00A0"+gemstone_4))
-    total.appendChild(material_creator(gemstone_img_3,"9x \u00A0\u00A0\u00A0"+gemstone_4))
+    total.appendChild(material_creator(gemstone_img_1,"1x \u00A0\u00A0\u00A0\u00A0"+gemstone_1))
+    total.appendChild(material_creator(gemstone_img_2,"9x \u00A0\u00A0\u00A0"+gemstone_2))
+    total.appendChild(material_creator(gemstone_img_3,"9x \u00A0\u00A0\u00A0"+gemstone_3))
     total.appendChild(material_creator(gemstone_img_4,"6x \u00A0\u00A0\u00A0"+gemstone_4))
     total.appendChild(material_creator(local_asc_img,"168x \u00A0\u00A0"+local_asc))
     total.appendChild(material_creator(comasc_img_1,"18x \u00A0\u00A0"+comasc_3))

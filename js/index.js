@@ -43,7 +43,7 @@ function reload(){
     developer_mode = 1
 for (i = 0; i < character.length; i++){
     if(character[i].element_2 != null){
-        var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3
+        var ele = character[i].element +" " + character[i].element_2+" "+character[i].element_3+" "+character[i].element_4+" "+character[i].element_5+" "+character[i].element_6+" "+character[i].element_7
         var traveler_image = localStorage.getItem("timage")
         if(traveler_image == "Aether"){
             traveler_image = character[i].image_male

@@ -32,6 +32,7 @@ function domain_detail(){
     var mondstadt_container = document.getElementById("domain_mondstadt")
     var liyue_container = document.getElementById("domain_liyue")
     var inazuma_container = document.getElementById("domain_inazuma")
+    var sumeru_container = document.getElementById("domain_sumeru")
     for(var i = 0; i < domain.length; i++){
         if(domain[i].type == "artifact"){
             var do_container = document.createElement("div")
@@ -70,7 +71,7 @@ function domain_detail(){
             if(domain[i].region == "Mondstadt") mondstadt_container.appendChild(do_container)
             else if(domain[i].region == "Liyue") liyue_container.appendChild(do_container)
             else if(domain[i].region == "Inazuma") inazuma_container.appendChild(do_container)
-
+            else if(domain[i].region == "Sumeru") sumeru_container.appendChild(do_container)
             
         }
     }

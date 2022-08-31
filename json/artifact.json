@@ -234,5 +234,29 @@
         "set_1":"ATK +18%.",
         "set_2":"When Normal Attacks hit opponents, there is a 36% chance that it will trigger Valley Rite, which will increase Normal Attack DMG by 70% of ATK.This effect will be dispelled 0.05s after a Normal Attack deals DMG.If a Normal Attack fails to trigger Valley Rite, the odds of it triggering the next time will increase by 20%.This trigger can occur once every 0.2s.",
         "image":"/img/items/artifact/Soulscent_Bloom.png"
+    },
+    {
+        "name":"Deepwood Memories",
+        "set_1":"Dendro DMG Bonus +15%",
+        "set_2":"After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+        "image":"/img/items/artifact/Labyrinth_Wayfarer.png"
+    },
+    {
+        "name":"Gilded Dreams",
+        "set_1":"Elemental Mastery +80",
+        "set_2":"Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members, ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+        "image":"/img/items/artifact/Dreaming_Steelbloom.png"
+    },
+    {
+        "name":" Deepwood Memories",
+        "set_1":"Dendro DMG Bonus +15%",
+        "set_2":"After Elemental Skills or Bursts hit opponents, the targets' Dendro RES will be decreased by 30% for 8s. This effect can be triggered even if the equipping character is not on the field.",
+        "image":"/img/items/artifact/Labyrinth_Wayfarer.png"
+    },
+    {
+        "name":"Gilded Dreams",
+        "set_1":"Elemental Mastery +80",
+        "set_2":"Within 8s of triggering an Elemental Reaction, the character equipping this will obtain buffs based on the Elemental Type of the other party members, ATK is increased by 14% for each party member whose Elemental Type is the same as the equipping character, and Elemental Mastery is increased by 50 for every party member with a different Elemental Type. Each of the aforementioned buffs will count up to 3 characters. This effect can be triggered once every 8s. The character who equips this can still trigger its effects when not on the field.",
+        "image":"/img/items/artifact/Dreaming_Steelbloom.png"
     }
 ]
