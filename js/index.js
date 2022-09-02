@@ -304,7 +304,7 @@ function extanded_filter(){
         filterbtn.style.backgroundColor = "#707070";
         filter.style.backgroundColor = "#232323"
     }
-    else if(style.height == "44px"){
+    else if(style.height == "43px"){
         filter.style.height = "165px";
         filterbtn.style.backgroundColor = "#707070";
         filter.style.backgroundColor = "#232323"

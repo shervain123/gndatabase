@@ -97,7 +97,7 @@
         "local_asc" : "Noctilucous Jade",
         "boss_asc" : "Lightning Prism",
         "boss_talent" : "Dvalin%27s Sigh",
-        "weapon_build" : "Wolf%27s Gravestone",
+        "weapon_build" : "Wolf's Gravestone",
         "artifact_build" : "Emblem of Severed Fate",
         "build_type" : "Off-Field DPS"
     },
@@ -138,7 +138,7 @@
         "local_asc" : "Cor Lapis",
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Dvalin%27s Sigh",
-        "weapon_build" : "Wolf%27s Gravestone",
+        "weapon_build" : "Wolf's Gravestone",
         "artifact_build" : "Noblesse Oblige",
         "artifact_build_2":"Blizzard Strayer",
         "build_type" : "Cryo DPS"
@@ -159,7 +159,7 @@
         "local_asc" : "Small Lamp Grass",
         "boss_asc" : "Everflame Seed",
         "boss_talent" : "Dvalin%27s Plume",
-        "weapon_build" : "Wolf%27s Gravestone",
+        "weapon_build" : "Wolf's Gravestone",
         "artifact_build" : "Crimson Witch of Flames",
         "build_type" : "DPS"
     },
@@ -240,7 +240,7 @@
         "local_asc" : "Qingxin",
         "boss_asc" : "Hoarfrost Core",
         "boss_talent" : "Shadow of the Warrior",
-        "weapon_build" : "Amos%27 Bow",
+        "weapon_build" : "Amos' Bow",
         "artifact_build" : "Shimenawa's Reminiscence",
         "build_type" : "Melt DPS"
     },
@@ -545,7 +545,7 @@
         "local_asc" : "Wolfhook",
         "boss_asc" : "Lightning Prism",
         "boss_talent" : "Dvalin%27s Claw",
-        "weapon_build" : "Wolf%27s Gravestone",
+        "weapon_build" : "Wolf's Gravestone",
         "artifact_build" : "Pale Flame",
         "build_type" : "DPS"
     },
@@ -605,7 +605,7 @@
         "local_asc" : "Crystal Marrow",
         "boss_asc" : "Marionette Core",
         "boss_talent" : "Gilded Scale",
-        "weapon_build" : "Wolf%27s Gravestone",
+        "weapon_build" : "Wolf's Gravestone",
         "artifact_build" : "Viridescent Venerer",
         "build_type" : "Support"
     },
