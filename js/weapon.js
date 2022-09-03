@@ -40,26 +40,32 @@ function character_load(){
     var mon_mondstadt = document.getElementById("mon_mondstadt")
     var mon_liyue = document.getElementById("mon_liyue")
     var mon_inazuma = document.getElementById("mon_inazuma")
+    var mon_sumeru = document.getElementById("mon_sumeru")
 
     var tue_mondstadt = document.getElementById("tue_mondstadt")
     var tue_liyue = document.getElementById("tue_liyue")
     var tue_inazuma = document.getElementById("tue_inazuma")
+    var tue_sumeru = document.getElementById("tue_sumeru")
 
     var wed_mondstadt = document.getElementById("wed_mondstadt")
     var wed_liyue = document.getElementById("wed_liyue")
     var wed_inazuma = document.getElementById("wed_inazuma")
+    var wed_sumeru = document.getElementById("wed_sumeru")
 
     var thu_mondstadt = document.getElementById("thu_mondstadt")
     var thu_liyue = document.getElementById("thu_liyue")
     var thu_inazuma = document.getElementById("thu_inazuma")
+    var thu_sumeru = document.getElementById("thu_sumeru")
 
     var fri_mondstadt = document.getElementById("fri_mondstadt")
     var fri_liyue = document.getElementById("fri_liyue")
     var fri_inazuma = document.getElementById("fri_inazuma")
+    var fri_sumeru = document.getElementById("fri_sumeru")
 
     var sat_mondstadt = document.getElementById("sat_mondstadt")
     var sat_liyue = document.getElementById("sat_liyue")
     var sat_inazuma = document.getElementById("sat_inazuma")
+    var sat_sumeru = document.getElementById("sat_sumeru")
 
     for (i = 0; i < character.length; i++){
         if(character[i].talent == "monday"){
@@ -74,6 +80,10 @@ function character_load(){
             if(character[i].region == "Liyue"){
                 mon_liyue.appendChild(create_image(character[i].name,character[i].image))
                 thu_liyue.appendChild(create_image(character[i].name,character[i].image))
+            }
+            if(character[i].region == "Sumeru"){
+                mon_sumeru.appendChild(create_image(character[i].name,character[i].image))
+                thu_sumeru.appendChild(create_image(character[i].name,character[i].image))
             }
         }
 
@@ -90,6 +100,10 @@ function character_load(){
                 tue_liyue.appendChild(create_image(character[i].name,character[i].image))
                 fri_liyue.appendChild(create_image(character[i].name,character[i].image))
             }
+            if(character[i].region == "Sumeru"){
+                tue_sumeru.appendChild(create_image(character[i].name,character[i].image))
+                fri_sumeru.appendChild(create_image(character[i].name,character[i].image))
+            }
         }
 
         if(character[i].talent == "wednesday"){
@@ -104,6 +118,10 @@ function character_load(){
             if(character[i].region == "Liyue"){
                 wed_liyue.appendChild(create_image(character[i].name,character[i].image))
                 sat_liyue.appendChild(create_image(character[i].name,character[i].image))
+            }
+            if(character[i].region == "Sumeru"){
+                wed_sumeru.appendChild(create_image(character[i].name,character[i].image))
+                sat_sumeru.appendChild(create_image(character[i].name,character[i].image))
             }
         }
     }
@@ -174,6 +192,18 @@ function talent_detail(){
             }
             else if(character[i].talent == "wednesday"){
                 document.getElementById("oni_mask").appendChild(create_image(character[i].name,character[i].image))
+            }
+        }
+        if(character[i].region == "Sumeru"){
+
+            if(character[i].talent == "monday"){
+                document.getElementById("talisman_of_the_forest_dew").appendChild(create_image(character[i].name,character[i].image))
+            }
+            else if(character[i].talent == "tuesday"){
+                document.getElementById("oasis_gardens").appendChild(create_image(character[i].name,character[i].image))
+            }
+            else if(character[i].talent == "wednesday"){
+                document.getElementById("scorching_might").appendChild(create_image(character[i].name,character[i].image))
             }
         }
     }
