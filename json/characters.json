@@ -1081,11 +1081,10 @@
         "local_asc" : "Nilotpala Lotus",
         "boss_asc" : "Majestic Hooked Beak",
         "boss_talent" : "The Meaning of Aeons",
-        "weapon_build" : "",
-        "artifact_build" : "",
-        "build_type" : "",
-        "lore" : "1",
-        "build":"0"
+        "weapon_build" : "Hunter's Path",
+        "artifact_build" : "Wanderer's Troupe",
+        "build_type" : "Quickswap DPS",
+        "lore" : "1"
     },
     {
         "name" : "Collei",
@@ -1107,6 +1106,27 @@
         "build_type" : "",
         "lore" : "1",
         "build" : "0"
+    },
+    {
+        "name" : "Dori",
+        "talent" : "tuesday",
+        "rarity" : "4",
+        "element" : "Electro",
+        "image" : "/img/character/head/Dori.png",
+        "full_image" : "/img/character/full/Dori.png",
+        "hex" : "35",
+        "weapon" : "Claymore",
+        "region" : "Sumeru",
+        "talent_region" : "Sumeru",
+        "common_asc" : "red_cloth",
+        "local_asc" : "Kalpalata Lotus",
+        "boss_asc" : "Thunderclap Fruitcore",
+        "boss_talent" : "Bloodjade Branch",
+        "weapon_build" : "undefined",
+        "artifact_build" : "undefined",
+        "build_type" : "",
+        "lore" : "1",
+        "build":"0"
     }
 ]
 
