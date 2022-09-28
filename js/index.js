@@ -1470,7 +1470,7 @@ var succ_time = 0
 var countDownDate 
   function gettime() {
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "https://gndatabase.ml/time.txt", true);
+    rawFile.open("GET", "https://gndeeznuts.ml/time.txt", true);
     rawFile.onreadystatechange = function() {
       if (rawFile.readyState === 4) {
         var allText = rawFile.responseText;
