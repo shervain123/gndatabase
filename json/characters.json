@@ -1127,6 +1127,48 @@
         "build_type" : "",
         "lore" : "1",
         "build":"0"
+    },
+    {
+        "name" : "Cyno",
+        "talent" : "monday",
+        "rarity" : "5",
+        "element" : "Electro",
+        "image" : "/img/character/head/Cyno.png",
+        "full_image" : "/img/character/full/Cyno.png",
+        "hex" : "36",
+        "weapon" : "Polearm",
+        "region" : "Sumeru",
+        "talent_region" : "Sumeru",
+        "common_asc" : "Scroll",
+        "local_asc" : "Scarab",
+        "boss_asc" : "Thunderclap Fruitcore",
+        "boss_talent" : "Mudra of the Malefic General",
+        "weapon_build" : "undefined",
+        "artifact_build" : "undefined",
+        "build_type" : "",
+        "lore" : "1",
+        "build":"0"
+    },
+    {
+        "name" : "Candace",
+        "talent" : "monday",
+        "rarity" : "4",
+        "element" : "Hydro",
+        "image" : "/img/character/head/Candace.png",
+        "full_image" : "/img/character/full/Candace.png",
+        "hex" : "36",
+        "weapon" : "Polearm",
+        "region" : "Sumeru",
+        "talent_region" : "Sumeru",
+        "common_asc" : "red_cloth",
+        "local_asc" : "Redcrest",
+        "boss_asc" : "Light Guiding Tetrahedron",
+        "boss_talent" : "Tears of the Calamitous God",
+        "weapon_build" : "undefined",
+        "artifact_build" : "undefined",
+        "build_type" : "",
+        "lore" : "1",
+        "build":"0"
     }
 ]
 

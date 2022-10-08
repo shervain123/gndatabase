@@ -1725,5 +1725,38 @@
         "hex": "91",
         "talent": "wednesday",
         "region": "Liyue"
+    },
+    {
+        "name":"Missive Windspear",
+        "rarity": "4",
+        "ability_name": "The Wind Unattained",
+        "ability_detail": "Within 10s after an Elemental Reaction is triggered, ATK is increased by 12~24% and Elemental Mastery is increased by 48~96. ",
+        "weapon": "Polearms",
+        "image": "/img/weapon/all/MissiveWindspear.png",
+        "hex": "92",
+        "talent": "tuesday",
+        "region": "Mondstadt"
+    },
+    {
+        "name":"Staff of the Scarlet Sands",
+        "rarity": "5",
+        "ability_name": "Heat Haze at Horizon's End",
+        "ability_detail": "The equipping character gains 52~104% of their Elemental Mastery as bonus ATK. When an Elemental Skill hits opponents, the Dream of the Scarlet Sands effect will be gained for 10s: The equipping character will gain 28~56% of their Elemental Mastery as bonus ATK. Max 3 stacks. ",
+        "weapon": "Polearms",
+        "image": "/img/weapon/all/StaffoftheScarletSands.png",
+        "hex": "93",
+        "talent": "tuesday",
+        "region": "Sumeru"
+    },
+    {
+        "name":"Makhaira Aquamarine",
+        "rarity": "4",
+        "ability_name": "Desert Pavilion",
+        "ability_detail": "The following effect will trigger every 10s: The equipping character will gain 24~48% of their Elemental Mastery as bonus ATK for 12s, with nearby party members gaining 30% of this buff for the same duration. Multiple instances of this weapon can allow this buff to stack. This effect will still trigger even if the character is not on the field. ",
+        "weapon": "Claymore",
+        "image": "/img/weapon/all/MakhairaAquamarine.png",
+        "hex": "94",
+        "talent": "wednesday",
+        "region": "Sumeru"
     }
 ]

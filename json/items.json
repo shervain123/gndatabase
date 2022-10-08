@@ -888,6 +888,21 @@
         "name":"Majestic Hooked Beak",
         "type":"normal_boss",
         "image":"/img/items/boss/Majestic_Hooked_Beak.png"
+    },
+    {
+        "name":"Scarab",
+        "type":"local",
+        "image":"/img/items/local/Scarab.png"
+    },
+    {
+        "name":"Redcrest",
+        "type":"local",
+        "image":"/img/items/local/Redcrest.png"
+    },
+    {
+        "name":"Light Guiding Tetrahedron",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Light_Guiding_Tetrahedron.png"
     }
 
 ]
