@@ -84,5 +84,19 @@
     {
         "info":"Have you did your daily commission yet?",
         "com":"it seems like i made some phigros refrence, anyways heres a list of rythem games i recommand ['phigros','maimai','osu!']"
+    },
+    {
+        "info":"There is some easter egg that may need a color change.",
+        "com":"If you are seeing this heres a hint, a 3.0 4 star character"
+    },
+    {
+        "info":"Random thing but if you use dark reader, it will just darken a little but you could try using dark mode preset in settings !"
+    },
+    {
+        "info":"Have you claim your battle pass yet ?"
+    },
+
+    {
+        "info":"Have you check in on HoYoLab ?"
     }
 ]

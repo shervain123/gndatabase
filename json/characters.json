@@ -909,6 +909,7 @@
         "element" : "Geo",
         "image" : "/img/character/head/Gorou.png",
         "full_image" : "/img/character/full/Gorou.jpg",
+        "eas_eg" :"Doggie general",
         "hex" : "2c",
         "weapon" : "Bow",
         "region" : "Inazuma",
@@ -1101,11 +1102,10 @@
         "local_asc" : "Rukkhashava Mushrooms",
         "boss_asc" : "Majestic Hooked Beak",
         "boss_talent" : "Tears of the Calamitous God",
-        "weapon_build" : "undefined",
-        "artifact_build" : "undefined",
-        "build_type" : "",
-        "lore" : "1",
-        "build" : "0"
+        "weapon_build" : "Elegy for the End",
+        "artifact_build" : "Deepwood Memories",
+        "build_type" : "Support",
+        "lore" : "1"
     },
     {
         "name" : "Dori",
@@ -1122,11 +1122,10 @@
         "local_asc" : "Kalpalata Lotus",
         "boss_asc" : "Thunderclap Fruitcore",
         "boss_talent" : "Bloodjade Branch",
-        "weapon_build" : "undefined",
-        "artifact_build" : "undefined",
-        "build_type" : "",
-        "lore" : "1",
-        "build":"0"
+        "weapon_build" : "Favonius Greatsword",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support",
+        "lore" : "1"
     },
     {
         "name" : "Cyno",
@@ -1143,11 +1142,10 @@
         "local_asc" : "Scarab",
         "boss_asc" : "Thunderclap Fruitcore",
         "boss_talent" : "Mudra of the Malefic General",
-        "weapon_build" : "undefined",
-        "artifact_build" : "undefined",
-        "build_type" : "",
-        "lore" : "1",
-        "build":"0"
+        "weapon_build" : "Staff of the Scarlet Sands",
+        "artifact_build" : "Gladiator's Finale",
+        "build_type" : "DPS",
+        "lore" : "1"
     },
     {
         "name" : "Candace",
@@ -1164,11 +1162,31 @@
         "local_asc" : "Redcrest",
         "boss_asc" : "Light Guiding Tetrahedron",
         "boss_talent" : "Tears of the Calamitous God",
-        "weapon_build" : "undefined",
-        "artifact_build" : "undefined",
+        "weapon_build" : "Favonius Lance",
+        "artifact_build" : "Noblesse Oblige",
+        "build_type" : "Support",
+        "lore" : "1"
+    },
+    {
+        "name" : "Nilou",
+        "talent" : "wednesday",
+        "rarity" : "5",
+        "element" : "Hydro",
+        "image" : "/img/character/head/Nilou.png",
+        "full_image" : "/img/character/full/Nilou.png",
+        "hex" : "37",
+        "weapon" : "Sword",
+        "region" : "Sumeru",
+        "talent_region" : "Sumeru",
+        "common_asc" : "Fungal",
+        "local_asc" : "Padisarah",
+        "boss_asc" : "Perpetual Caliber",
+        "boss_talent" : "Tears of the Calamitous God",
+        "weapon_build" : "",
+        "artifact_build" : "",
         "build_type" : "",
-        "lore" : "1",
-        "build":"0"
+        "build": "0",
+        "lore" : "1"
     }
 ]
 

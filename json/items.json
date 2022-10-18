@@ -903,6 +903,11 @@
         "name":"Light Guiding Tetrahedron",
         "type":"normal_boss",
         "image":"/img/items/boss/Light_Guiding_Tetrahedron.png"
+    },
+    {
+        "name":"Perpetual Caliber",
+        "type":"normal_boss",
+        "image":"/img/items/boss/Perpetual_Caliber.png"
     }
 
 ]
