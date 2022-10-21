@@ -5,6 +5,11 @@ var item = load_json("/json/items.json")
 var item_group = load_json("/json/items_group.json")
 var talent = load_json("/json/talent.json")
 var element, character_json
+var selector = document.getElementById("eselector")
+  var selector_1 = document.getElementById("eselector1")
+  var btn = selector.getElementsByTagName("a")
+  var btn1 = selector_1.getElementsByTagName("a")
+
 var anemo_detail = `<div id="talent_detail">
 <div class="title_middle"><h3>Talent Detail</h3></div>
 
@@ -420,6 +425,150 @@ var electro_detail = `<div id="talent_detail">
 </div>
 </div>
 </div>`
+
+var dendro_detail = `
+<div id="talent_detail">
+  <div class="title_middle"><h3>Talent Detail</h3></div>
+
+  <div class="talent">
+    <h4>Normal Attack</h4>
+    <div class="talent_name">
+      <div class="talent_img"><img src="/img/character/talent/Foreign_Fieldcleaver.png"></div>
+      <div class="talent_title"><p>Foreign Fieldcleaver</p></div>
+    </div>
+    <div class="talent_info">
+      <p class="talent_title">Normal Attack</p>
+      <p>Performs up to 5 rapid strikes.</p>
+      
+      <p class="talent_title">Charged Attack</p>
+      <p>Consumes a certain amount of Stamina to unleash 2 rapid sword strikes.</p>
+      
+      <p class="talent_title">Plunging Attack</p>
+      <p>Plunges from mid-air to strike the ground below, damaging opponents along the path and dealing AoE DMG upon impact. </p>
+    
+    </div>
+    </div>
+
+    <div class="talent">
+      <h4>Elemental Skill</h4>
+      <div class="talent_name">
+        <div class="talent_img"><img src="/img/character/talent/Razorgrass_Blade.png"></div>
+        <div class="talent_title"><p>Razorgrass Blade</p></div>
+      </div>
+      <div class="talent_info">
+        <p>With a flourish of your blade, you unleash a spray of razor-sharp leaves that go before you and deal Dendro DMG. </p>
+      </div>
+    
+  </div>
+
+  <div class="talent">
+    <h4>Elemental Burst</h4>
+    <div class="talent_name">
+      <div class="talent_img"><img src="/img/character/talent/Surgent_Manifestation.png"></div>
+      <div class="talent_title"><p>Surgent Manifestation</p></div>
+    </div>
+    <div class="talent_info">
+      <p>Calling upon the might of the flora all around you, you create a Lea Lotus Lamp. This Lamp will deal continuous Dendro DMG to opponents within its AoE.</p>
+      <p class="talent_title">Lotuslight Transfiguration</p>
+      <p>The Lea Lotus Lamp will undergo the following changes after it comes into contact with Hydro/Electro/Pyro:</p>
+      <ul>
+        <li>Hydro: the Lamp's AoE and the AoE of its attacks are increased.</li>
+        <li>Electro: the Lamp's ATK SPD is increased.</li>
+        <li>Pyro: the Lamp will explode after a short delay and then disappear, dealing AoE Dendro DMG.</li>
+      </ul>
+      <p>The Lea Lotus Lamp can only undergo one Lotuslight Transfiguration in its duration.</p>
+      <p>Only one Lamp created by the Traveler can exist at any one time. </p>
+    </div>
+  
+</div>
+<div class="talent">
+  <h4>Passive Talent</h4>
+  <div class="talent_name">
+    <div class="talent_img"><img src="/img/character/talent/Verdant_Overgrowth.png"></div>
+    <div class="talent_title"><p>Verdant Overgrowth</p></div>
+  </div>
+  <div class="talent_info">
+    <p>Lea Lotus Lamp will obtain one level of Overflowing Lotuslight every second it is on the field, increasing the Elemental Mastery of active character(s) within its AoE by 6. Overflowing Lotuslight has a maximum of 10 stacks. </p>
+  </div>
+</div>
+<div class="talent">
+<div class="talent_name">
+  <div class="talent_img"><img src="/img/character/talent/Verdant_Luxury.png"></div>
+  <div class="talent_title"><p>Verdant Luxury</p></div>
+</div>
+<div class="talent_info">
+  <p>Every point of Elemental Mastery the Traveler possesses increases the DMG dealt by Razorgrass Blade by 0.15% and the DMG dealt by Surgent Manifestation by 0.1%. </p>
+</div>
+</div>
+</div>
+<div id="constellation_detail">
+  <!--Ingore the class name they are pretty much the same-->
+  <div class="title_middle"><h3>Constellation</h3></div>
+  <div class="talent">
+    <h4>Level 1</h4>
+    <div class="talent_name">
+      <div class="talent_img"><img src="/img/character/constellation/Symbiotic_Creeper.png"></div>
+      <div class="talent_title"><p>Symbiotic Creeper</p></div>
+    </div>
+    <div class="talent_info">
+      <p>After Razorgrass Blade hits an opponent, it will regenerate 3.5 Energy for the Traveler. </p>
+    </div>
+    </div>
+  <div class="talent">
+      <h4>Level 2</h4>
+      <div class="talent_name">
+        <div class="talent_img"><img src="/img/character/constellation/Green_Resilience.png"></div>
+        <div class="talent_title"><p>Green Resilience</p></div>
+      </div>
+      <div class="talent_info">
+        <p>Lea Lotus Lamp's duration is increased by 3s. </p>
+      </div>
+    </div>
+  <div class="talent">
+      <h4>Level 3</h4>
+      <div class="talent_name">
+        <div class="talent_img"><img src="/img/character/constellation/Whirling_Weeds.png"></div>
+        <div class="talent_title"><p>Whirling Weeds</p></div>
+      </div>
+      <div class="talent_info">
+        <p>Increases the Level of Razorgrass Blade by 3.<br>
+Maximum upgrade level is 15. </p>
+      </div>
+  </div>
+  <div class="talent">
+    <h4>Level 4</h4>
+    <div class="talent_name">
+      <div class="talent_img"><img src="/img/character/constellation/Treacle_Grass.png"></div>
+      <div class="talent_title"><p>Treacle Grass</p></div>
+    </div>
+    <div class="talent_info">
+      <p>After the Lea Lotus Lamp triggers a Lotuslight Transfiguration, it will obtain 5 stacks of the Overflowing Lotuslight effect from the Passive Talent "Verdant Overgrowth."<br>
+You must have unlocked this Passive Talent first. </p>
+    </div>
+</div>
+<div class="talent">
+  <h4>Level 5</h4>
+  <div class="talent_name">
+    <div class="talent_img"><img src="/img/character/constellation/Viridian_Transience.png"></div>
+    <div class="talent_title"><p>Viridian Transience</p></div>
+  </div>
+  <div class="talent_info">
+    <p>Increases the Level of Surgent Manifestation by 3.<br>
+Maximum upgrade level is 15. </p>
+  </div>
+</div>
+<div class="talent">
+<h4>Level 6</h4>
+<div class="talent_name">
+  <div class="talent_img"><img src="/img/character/constellation/Withering_Aggregation.png"></div>
+  <div class="talent_title"><p>Withering Aggregation</p></div>
+</div>
+<div class="talent_info">
+  <p>The Dendro DMG Bonus of the character under the effect of Overflowing Lotuslight as created by the Lea Lotus Lamp is increased by 12%. If the Lamp has experienced a Lotuslight Transfiguration previously, the character will also gain 12% DMG Bonus for the corresponding element.  </p>
+</div>
+</div>
+</div>
+`
 function getCookie(name) {
     const value = `; ${document.cookie}`;
     const parts = value.split(`; ${name}=`);
@@ -435,7 +584,7 @@ function load(){
             character_json = character[i]
         }
     }
-    if(win != "Anemo" && win != "Geo" && win != "Electro"){
+    if(win != "Anemo" && win != "Geo" && win != "Electro"  && win != "Dendro"){
         if(localStorage.getItem("telement") == null){
             console.log("last element was not found, using default...")
             element = "Anemo"
@@ -454,7 +603,9 @@ function load(){
         geo()
     }else if(element == "Electro"){
         electro()
-    }
+    }else if(element == "Dendro"){
+      dendro()
+  }
     name_info()
     
     preloadImage(character_json.full_image)
@@ -592,8 +743,6 @@ function other_btn(){
 function preloadImage(url){new Image().src=url;}
 
 function anemo(){
-    var selector = document.getElementById("eselector")
-    var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = anemo_detail
     if(btn[0].style.backgroundColor != "rgb(112, 112, 112)"){
       localStorage.setItem("telement","Anemo")
@@ -603,12 +752,14 @@ function anemo(){
     btn[0].style.backgroundColor = "#707070"
     btn[1].style.backgroundColor = ""
     btn[2].style.backgroundColor = ""
+
+    btn1[0].style.backgroundColor = ""
+    btn1[1].style.backgroundColor = ""
+    btn1[2].style.backgroundColor = ""
     linkOptionsChange("Anemo")
 }
 
 function geo(){
-    var selector = document.getElementById("eselector")
-    var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = geo_detail
     if(btn[1].style.backgroundColor != "rgb(112, 112, 112)"){
       localStorage.setItem("telement","Geo")
@@ -618,13 +769,15 @@ function geo(){
     btn[0].style.backgroundColor = ""
     btn[1].style.backgroundColor = "#707070"
     btn[2].style.backgroundColor = ""
+
+    btn1[0].style.backgroundColor = ""
+    btn1[1].style.backgroundColor = ""
+    btn1[2].style.backgroundColor = ""
     linkOptionsChange("Geo")
     
 }
 
 function electro(){
-    var selector = document.getElementById("eselector")
-    var btn = selector.getElementsByTagName("a")
     document.getElementById("detail_main").innerHTML = electro_detail
     if(btn[2].style.backgroundColor != "rgb(112, 112, 112)"){
       localStorage.setItem("telement","Electro")
@@ -634,8 +787,31 @@ function electro(){
     btn[0].style.backgroundColor = ""
     btn[1].style.backgroundColor = ""
     btn[2].style.backgroundColor = "#707070"
+
+    btn1[0].style.backgroundColor = ""
+    btn1[1].style.backgroundColor = ""
+    btn1[2].style.backgroundColor = ""
     linkOptionsChange("Electro")
     
+}
+
+function dendro(){
+  
+  document.getElementById("detail_main").innerHTML = dendro_detail
+  if(btn1[0].style.backgroundColor != "rgb(112, 112, 112)"){
+    localStorage.setItem("telement","Dendro")
+      element = "Dendro"
+      element_reload()
+  }
+  btn[0].style.backgroundColor = ""
+  btn[1].style.backgroundColor = ""
+  btn[2].style.backgroundColor = ""
+
+  btn1[0].style.backgroundColor = "#707070"
+  btn1[1].style.backgroundColor = ""
+  btn1[2].style.backgroundColor = ""
+  linkOptionsChange("Dendro")
+  
 }
 
 function element_reload(){
@@ -767,39 +943,57 @@ function material(){
     parent_ascension.appendChild(title("Ascension Materials"))
     var asc_1 =  material_container()
     asc_1.appendChild(material_title("Ascension 1"))
-    asc_1.appendChild(material_creator(gemstone_img_1,"1x \u00A0\u00A0\u00A0"+gemstone_1))
-    asc_1.appendChild(material_creator(local_asc_img,"3x \u00A0\u00A0"+local_asc))
-    asc_1.appendChild(material_creator(comasc_img_1,"3x \u00A0\u00A0"+comasc_1))
+    asc_1.appendChild(material_creator(gemstone_img_1,"1x \u00A0\u00A0\u00A0\u00A0"+gemstone_1))
+    asc_1.appendChild(material_creator(local_asc_img,"3x \u00A0\u00A0\u00A0"+local_asc))
+    asc_1.appendChild(material_creator(comasc_img_1,"3x \u00A0\u00A0\u00A0"+comasc_1))
 
     var asc_2 =  material_container()
     asc_2.appendChild(material_title("Ascension 2"))
-    asc_2.appendChild(material_creator(gemstone_img_2,"3x \u00A0\u00A0"+gemstone_2))
+    asc_2.appendChild(material_creator(gemstone_img_2,"3x\u00A0 \u00A0\u00A0"+gemstone_2))
     asc_2.appendChild(material_creator(local_asc_img,"10x \u00A0\u00A0"+local_asc))
     asc_2.appendChild(material_creator(comasc_img_1,"15x \u00A0\u00A0"+comasc_1))
+    
 
     var asc_3 =  material_container()
     asc_3.appendChild(material_title("Ascension 3"))
-    asc_3.appendChild(material_creator(gemstone_img_2,"6x \u00A0\u00A0"+gemstone_2))
+    asc_3.appendChild(material_creator(gemstone_img_2,"6x \u00A0\u00A0\u00A0"+gemstone_2))
     asc_3.appendChild(material_creator(local_asc_img,"20x \u00A0\u00A0"+local_asc))
     asc_3.appendChild(material_creator(comasc_img_2,"12x \u00A0\u00A0"+comasc_2))
+    
 
     var asc_4 =  material_container()
     asc_4.appendChild(material_title("Ascension 4"))
-    asc_4.appendChild(material_creator(gemstone_img_3,"3x \u00A0\u00A0"+gemstone_3))
+    asc_4.appendChild(material_creator(gemstone_img_3,"3x \u00A0\u00A0\u00A0"+gemstone_3))
     asc_4.appendChild(material_creator(local_asc_img,"30x \u00A0\u00A0"+local_asc))
     asc_4.appendChild(material_creator(comasc_img_2,"18x \u00A0\u00A0"+comasc_2))
+    
 
     var asc_5 =  material_container()
     asc_5.appendChild(material_title("Ascension 5"))
-    asc_5.appendChild(material_creator(gemstone_img_3,"6x \u00A0\u00A0"+gemstone_3))
+    asc_5.appendChild(material_creator(gemstone_img_3,"6x \u00A0\u00A0\u00A0"+gemstone_3))
     asc_5.appendChild(material_creator(local_asc_img,"45x \u00A0\u00A0"+local_asc))
     asc_5.appendChild(material_creator(comasc_img_3,"12x \u00A0\u00A0"+comasc_3))
+    
 
     var asc_6 =  material_container()
-    asc_6.appendChild(material_title("Ascension 5"))
-    asc_6.appendChild(material_creator(gemstone_img_4,"6x \u00A0\u00A0"+gemstone_4))
+    asc_6.appendChild(material_title("Ascension 6"))
+    asc_6.appendChild(material_creator(gemstone_img_4,"6x \u00A0\u00A0\u00A0"+gemstone_4))
     asc_6.appendChild(material_creator(local_asc_img,"60x \u00A0\u00A0"+local_asc))
     asc_6.appendChild(material_creator(comasc_img_3,"24x \u00A0\u00A0"+comasc_3))
+    
+
+    var total =  material_container()
+    total.appendChild(material_title("Total"))
+    total.appendChild(material_creator(gemstone_img_1,"1x \u00A0\u00A0\u00A0\u00A0"+gemstone_1))
+    total.appendChild(material_creator(gemstone_img_2,"9x \u00A0\u00A0\u00A0"+gemstone_2))
+    total.appendChild(material_creator(gemstone_img_3,"9x \u00A0\u00A0\u00A0"+gemstone_3))
+    total.appendChild(material_creator(gemstone_img_4,"6x \u00A0\u00A0\u00A0"+gemstone_4))
+    total.appendChild(material_creator(local_asc_img,"168x \u00A0\u00A0"+local_asc))
+    total.appendChild(material_creator(comasc_img_1,"18x \u00A0\u00A0"+comasc_3))
+    total.appendChild(material_creator(comasc_img_2,"30x \u00A0\u00A0"+comasc_3))
+    total.appendChild(material_creator(comasc_img_3,"36x \u00A0\u00A0"+comasc_3))
+    
+    total.classList.add("total")
 
     parent_ascension.appendChild(asc_1)
     parent_ascension.appendChild(asc_2)
@@ -807,6 +1001,7 @@ function material(){
     parent_ascension.appendChild(asc_4)
     parent_ascension.appendChild(asc_5)
     parent_ascension.appendChild(asc_6)
+    parent_ascension.appendChild(total)
 }
 
 function material_talent(){
@@ -930,6 +1125,45 @@ function material_talent(){
         else if(item[i].name == local_3) local_3_image = item[i].image
         else if(item[i].name == talent_boss) talent_boss_image = item[i].image
     }
+}else if(element == "Dendro"){
+  talent_boss = character_json.sumeru_talent_boss
+  for(i = 0; i < item_group.length; i++){
+      if(item_group[i].name == character_json.sumeru_talent){
+          local_1 = item_group[i].set_1
+          local_2 = item_group[i].set_2
+          local_3 = item_group[i].set_3
+      }
+  }
+  for(i = 0; i < talent.length; i++){
+      if(character_json.sumeru_talent_1 == talent[i].name){
+          talent_1_1 = talent[i].name_1
+          talent_1_2 = talent[i].name_2
+          talent_1_3 = talent[i].name_3
+          talent_1_1_image = talent[i].img_1
+          talent_1_2_image = talent[i].img_2
+          talent_1_3_image = talent[i].img_3
+      }else if(character_json.sumeru_talent_2 == talent[i].name){
+          talent_2_1 = talent[i].name_1
+          talent_2_2 = talent[i].name_2
+          talent_2_3 = talent[i].name_3
+          talent_2_1_image = talent[i].img_1
+          talent_2_2_image = talent[i].img_2
+          talent_2_3_image = talent[i].img_3
+      }else if(character_json.sumeru_talent_3 == talent[i].name){
+          talent_3_1 = talent[i].name_1
+          talent_3_2 = talent[i].name_2
+          talent_3_3 = talent[i].name_3
+          talent_3_1_image = talent[i].img_1
+          talent_3_2_image = talent[i].img_2
+          talent_3_3_image = talent[i].img_3
+      }
+  }
+  for(i = 0; i < item.length; i++){
+      if(item[i].name == local_1) local_1_image = item[i].image
+      else if(item[i].name == local_2) local_2_image = item[i].image
+      else if(item[i].name == local_3) local_3_image = item[i].image
+      else if(item[i].name == talent_boss) talent_boss_image = item[i].image
+  }
 }
     parent_talent.innerHTML = ""
     talent_1_1 = decodeURIComponent(talent_1_1)
@@ -950,53 +1184,74 @@ function material_talent(){
 
     var asc_1 =  material_container()
     asc_1.appendChild(material_title("Ascension 1"))
-    asc_1.appendChild(material_creator(talent_1_1_image,"3x \u00A0\u00A0\u00A0"+talent_1_1))
-    asc_1.appendChild(material_creator(local_1_image,"6x \u00A0\u00A0"+local_1))
+    asc_1.appendChild(material_creator(talent_1_1_image,"3x \u00A0\u00A0\u00A0\u00A0"+talent_1_1))
+    asc_1.appendChild(material_creator(local_1_image,"6x \u00A0\u00A0\u00A0\u00A0"+local_1))
 
     var asc_2 =  material_container()
     asc_2.appendChild(material_title("Ascension 2"))
     asc_2.appendChild(material_creator(talent_2_2_image,"2x \u00A0\u00A0\u00A0"+talent_2_2))
-    asc_2.appendChild(material_creator(local_2_image,"3x \u00A0\u00A0"+local_2))
+    asc_2.appendChild(material_creator(local_2_image,"3x \u00A0\u00A0\u00A0"+local_2))
 
     var asc_3 =  material_container()
     asc_3.appendChild(material_title("Ascension 3"))
     asc_3.appendChild(material_creator(talent_3_2_image,"4x \u00A0\u00A0\u00A0"+talent_3_2))
-    asc_3.appendChild(material_creator(local_2_image,"4x \u00A0\u00A0"+local_2))
+    asc_3.appendChild(material_creator(local_2_image,"4x \u00A0\u00A0\u00A0"+local_2))
 
     var asc_4 =  material_container()
     asc_4.appendChild(material_title("Ascension 4"))
     asc_4.appendChild(material_creator(talent_1_2_image,"6x \u00A0\u00A0\u00A0"+talent_1_2))
-    asc_4.appendChild(material_creator(local_2_image,"6x \u00A0\u00A0"+local_2))
+    asc_4.appendChild(material_creator(local_2_image,"6x \u00A0\u00A0\u00A0"+local_2))
 
     var asc_5 =  material_container()
     asc_5.appendChild(material_title("Ascension 5"))
     asc_5.appendChild(material_creator(talent_2_2_image,"9x \u00A0\u00A0\u00A0"+talent_2_2))
-    asc_5.appendChild(material_creator(local_2_image,"9x \u00A0\u00A0"+local_2))
+    asc_5.appendChild(material_creator(local_2_image,"9x \u00A0\u00A0\u00A0"+local_2))
 
     var asc_6 =  material_container()
     asc_6.appendChild(material_title("Ascension 6"))
     asc_6.appendChild(material_creator(talent_3_3_image,"4x \u00A0\u00A0\u00A0"+talent_3_3))
-    asc_6.appendChild(material_creator(local_3_image,"4x \u00A0\u00A0"+local_3))
-    asc_6.appendChild(material_creator(talent_boss_image,"1x \u00A0\u00A0\u00A0"+talent_boss))
+    asc_6.appendChild(material_creator(local_3_image,"4x \u00A0\u00A0\u00A0"+local_3))
+    /asc_6.appendChild(material_creator(talent_boss_image,"1x \u00A0\u00A0\u00A0\u00A0"+talent_boss))
 
     var asc_7 =  material_container()
     asc_7.appendChild(material_title("Ascension 7"))
     asc_7.appendChild(material_creator(talent_1_3_image,"6x \u00A0\u00A0\u00A0"+talent_1_3))
-    asc_7.appendChild(material_creator(local_3_image,"6x \u00A0\u00A0"+local_3))
-    asc_7.appendChild(material_creator(talent_boss_image,"1x \u00A0\u00A0\u00A0"+talent_boss))
+    asc_7.appendChild(material_creator(local_3_image,"6x \u00A0\u00A0\u00A0"+local_3))
+    asc_7.appendChild(material_creator(talent_boss_image,"1x \u00A0\u00A0\u00A0\u00A0"+talent_boss))
 
     var asc_8 =  material_container()
     asc_8.appendChild(material_title("Ascension 8"))
     asc_8.appendChild(material_creator(talent_2_3_image,"12x \u00A0\u00A0\u00A0"+talent_2_3))
-    asc_8.appendChild(material_creator(local_3_image,"9x \u00A0\u00A0"+local_3))
-    asc_8.appendChild(material_creator(talent_boss_image,"2x \u00A0\u00A0"+talent_boss))
+    asc_8.appendChild(material_creator(local_3_image,"9x \u00A0\u00A0\u00A0"+local_3))
+    asc_8.appendChild(material_creator(talent_boss_image,"2x \u00A0\u00A0\u00A0"+talent_boss))
 
     var asc_9 =  material_container()
     asc_9.appendChild(material_title("Ascension 9"))
     asc_9.appendChild(material_creator(talent_3_3_image,"16x \u00A0\u00A0\u00A0"+talent_3_3))
-    asc_9.appendChild(material_creator(local_3_image,"12x \u00A0\u00A0"+local_3))
-    asc_9.appendChild(material_creator(talent_boss_image,"2x \u00A0\u00A0"+talent_boss))
-    asc_9.appendChild(material_creator("/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0"+"Crown of Insight"))
+    asc_9.appendChild(material_creator(local_3_image,"12x \u00A0\u00A0\u00A0"+local_3))
+    asc_9.appendChild(material_creator(talent_boss_image,"2x \u00A0\u00A0\u00A0"+talent_boss))
+    asc_9.appendChild(material_creator("/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+
+    var total =  material_container()
+    total.appendChild(material_title("Total"))
+
+    total.appendChild(material_creator(talent_1_1_image,"3x \u00A0\u00A0\u00A0\u00A0"+talent_1_1))
+    total.appendChild(material_creator(talent_1_2_image,"6x \u00A0\u00A0\u00A0"+talent_1_2))
+    total.appendChild(material_creator(talent_2_2_image,"11x \u00A0\u00A0\u00A0"+talent_2_2))
+    total.appendChild(material_creator(talent_3_2_image,"4x \u00A0\u00A0\u00A0"+talent_3_2))
+    total.appendChild(material_creator(talent_1_3_image,"6x \u00A0\u00A0\u00A0"+talent_1_3))
+    total.appendChild(material_creator(talent_2_3_image,"12x \u00A0\u00A0\u00A0"+talent_2_3))
+    total.appendChild(material_creator(talent_3_3_image,"20x \u00A0\u00A0\u00A0"+talent_3_3))
+    
+    total.appendChild(material_creator(local_1_image,"6x \u00A0\u00A0\u00A0\u00A0"+local_1))
+    total.appendChild(material_creator(local_2_image,"22x \u00A0\u00A0\u00A0"+local_2))
+    total.appendChild(material_creator(local_3_image,"31x \u00A0\u00A0\u00A0"+local_3))
+
+    total.appendChild(material_creator(talent_boss_image,"6x \u00A0\u00A0\u00A0\u00A0"+talent_boss))
+
+    total.appendChild(material_creator("/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+
+    total.classList.add("total")
 
     parent_talent.appendChild(asc_1)
     parent_talent.appendChild(asc_2)
@@ -1007,6 +1262,7 @@ function material_talent(){
     parent_talent.appendChild(asc_7)
     parent_talent.appendChild(asc_8)
     parent_talent.appendChild(asc_9)
+    parent_talent.appendChild(total)
 }
 
 function title(text){
@@ -1063,10 +1319,17 @@ function cha_build_wea(){
                 weapons = weapon[i]
             }
         }
-    }if(element == "Electro"){
+    }else if(element == "Electro"){
       document.getElementById("build_type").innerText = character_json.electro_build_type
         for (i = 0; i < weapon.length; i++){
             if(weapon[i].name == character_json.electro_build_weapon){
+                weapons = weapon[i]
+            }
+        }
+    }else if(element == "Dendro"){
+      document.getElementById("build_type").innerText = character_json.dendro_build_type
+        for (i = 0; i < weapon.length; i++){
+            if(weapon[i].name == character_json.dendro_build_weapon){
                 weapons = weapon[i]
             }
         }
@@ -1131,7 +1394,14 @@ function cha_build_artifact(){
                 weapons = artifact[i]
             }
         }
-    }
+    }else if(element == "Dendro"){
+      if(character_json.dendro_build_artifact_2 != null) artifact_2 = 1
+      for (i = 0; i < artifact.length; i++){
+          if(artifact[i].name == character_json.dendro_build_artifact){
+              weapons = artifact[i]
+          }
+      }
+  }
     weapon_image.src=weapons.image
     weapon_image_container.classList.add("weapon_img")
     weapon_image_container.appendChild(weapon_image)
@@ -1198,7 +1468,13 @@ function cha_build_artifact(){
                     weapons = artifact[i]
                 }
             }
-        }
+        }else if(element == "Dendro"){
+          for (i = 0; i < artifact.length; i++){
+              if(artifact[i].name == character_json.dendro_build_artifact_2){
+                  weapons = artifact[i]
+              }
+          }
+      }
     weapon_image.src=weapons.image
     weapon_image_container.classList.add("weapon_img")
     weapon_image_container.appendChild(weapon_image)

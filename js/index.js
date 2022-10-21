@@ -715,12 +715,18 @@ function teams_time_img(image_file,name,hex,container,redir){
 
 function reset(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML='<a><div class="navi_text">Are you sure ?</div></a><a><div class="navi_teams_clear" onclick="reset_yes()">Yes</div></a><a><div class="navi_teams_cancel" onclick="reset_no()">no</div></a>'
+    menu.innerHTML='<a><div class="navi_text" onclick="side_menu()">Are you sure ?</div></a><a><div class="navi_teams_clear" onclick="reset_yes()">Yes</div></a><a><div class="navi_teams_cancel" onclick="reset_no()">no</div></a>'
 }
 
 function reset_yes(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML='<a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a><a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a><a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a><a href="javascript:void(0)" onclick="export_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">file_upload</i>Export</div></a><a href="javascript:void(0)" onclick="import_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">download</i>Import</div></a><a href="javascript:void(0)" onclick="reset()"><div class="navi_button"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">clear</i>Clear</div></a>'
+    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
+  
+    <a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a>
+    <a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a>
+    <a href="javascript:void(0)" onclick="export_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">file_upload</i>Export</div></a>
+    <a href="javascript:void(0)" onclick="import_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">download</i>Import</div></a>
+    <a href="javascript:void(0)" onclick="reset();side_menu()"><div class="navi_button"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">clear</i>Clear</div></a>`
     localStorage.setItem("character","")
     localStorage.setItem("weapon","")
     teams()
@@ -728,7 +734,13 @@ function reset_yes(){
 
 function reset_no(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML='<a href="#teams"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a><a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a><a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a><a href="javascript:void(0)" onclick="export_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">file_upload</i>Export</div></a><a href="javascript:void(0)" onclick="import_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">download</i>Import</div></a><a href="javascript:void(0)" onclick="reset()"><div class="navi_button"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">clear</i>Clear</div></a>'
+    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
+  
+    <a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a>
+    <a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a>
+    <a href="javascript:void(0)" onclick="export_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">file_upload</i>Export</div></a>
+    <a href="javascript:void(0)" onclick="import_teams()"><div class="navi_button"><i class="material-icons"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">download</i>Import</div></a>
+    <a href="javascript:void(0)" onclick="reset();side_menu()"><div class="navi_button"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">clear</i>Clear</div></a>`
     teams()
 }
 
@@ -971,7 +983,7 @@ function import_teams_preview(){
         title.innerText = "Team name: "+decodeURI(namu)
         for (i = 0; i < character.length; i++){
             if(cha_in == null) cha_in = ""
-            if(cha_in.search(character[i].gncode) != -1){
+            if(cha_in.search(character[i].gncode) != -1 && character[i].gncode != null){
                 if(character[i].name == "Traveler" && traveler_image == "Aether"){
                     export_img(character[i].image_male,character[i].name,"importing")
                 }else if(character[i].name == "Traveler" && traveler_image == "Lumine"){
@@ -985,7 +997,7 @@ function import_teams_preview(){
         }
         for (i = 0; i < weapon.length; i++){
             if(wea_in == null) wea_in = ""
-            if(wea_in.search(weapon[i].gncode) != -1){
+            if(wea_in.search(weapon[i].gncode) != -1 && weapon[i].gncode != null){
                 export_img(weapon[i].image,weapon[i].name,"importing")}
         }
         

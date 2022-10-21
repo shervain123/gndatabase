@@ -691,21 +691,31 @@
         "lore" : "1",
         "common_asc" : "Mask",
         "local_asc" : "Windwheel Aster",
+
         "mondstadt_talent_1" : "Freedom",
         "mondstadt_talent_2" : "Resistance",
         "mondstadt_talent_3" : "Ballad",
         "mondstadt_talent" : "Scroll",
         "mondstadt_talent_boss" : "Dvalin%27s Sigh",
+
         "liyue_talent_1" : "Prosperity",
         "liyue_talent_2" : "Diligence",
         "liyue_talent_3" : "Gold",
         "liyue_talent" : "Arrowhead",
         "liyue_talent_boss" : "Tail of Boreas",
+
         "inazuma_talent_1" : "Transience",
         "inazuma_talent_2" : "Elegance",
         "inazuma_talent_3" : "Light",
         "inazuma_talent" : "Handguard",
         "inazuma_talent_boss" : "Dragon Lord%27s Crown",
+
+        "sumeru_talent_1" : "Admonition",
+        "sumeru_talent_2" : "Ingenuity",
+        "sumeru_talent_3" : "Praxis",
+        "sumeru_talent" : "Fungal",
+        "sumeru_talent_boss" : "Mudra of the Malefic General",
+
         "anemo_build_weapon" : "Freedom-Sworn",
         "anemo_build_artifact" : "Viridescent Venerer",
         "anemo_build_type" : "DPS",
@@ -717,7 +727,11 @@
 
         "electro_build_weapon" : "Favonius Sword",
         "electro_build_artifact" : "Noblesse Oblige",
-        "electro_build_type" : "Support"
+        "electro_build_type" : "Support",
+
+        "dendro_build_weapon" : "Freedom-Sworn",
+        "dendro_build_artifact" : "Deepwood Memories",
+        "dendro_build_type" : "Support"
     },
     {
         "name" : "Venti",
