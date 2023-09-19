@@ -1,6 +1,6 @@
-https://gndatabase.ml/index.html
-https://gndatabase.ml/tools/artifact.html
-https://gndatabase.ml/tools/boss.html
-https://gndatabase.ml/tools/normal_boss.html
-https://gndatabase.ml/tools/talent.html
-https://gndatabase.ml/tools/weapon.html
+https://shervain123.github.io/gndatabase/index.html
+https://shervain123.github.io/gndatabasetools/artifact.html
+https://shervain123.github.io/gndatabasetools/boss.html
+https://shervain123.github.io/gndatabasetools/normal_boss.html
+https://shervain123.github.io/gndatabasetools/talent.html
+https://shervain123.github.io/gndatabasetools/weapon.html

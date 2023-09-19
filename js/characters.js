@@ -195,7 +195,7 @@ function name_info(){
     var images = document.createElement("img")
     var names = document.createElement("p")
     var link = document.createElement("a")
-    link.href = "/characters/"+name.replace(" ","_")+".html"
+    link.href = "characters/"+name.replace(" ","_")+".html"
     names.innerText = name
     images.src = image
     name_container.classList.add("name")

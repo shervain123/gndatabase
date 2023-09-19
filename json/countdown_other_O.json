@@ -48,7 +48,7 @@
     },
     {
         "info":"Developer notes: If anyone wants a api to get info, contact us and we could give you a guide",
-        "com":"Actually there is no api, i use json go to https://github.com/shervain123/gndatabase/tree/main/json for the list of json you can use on https://gndatabase.ml/json"
+        "com":"Actually there is no api, i use json go to https://github.com/shervain123/gndatabase/tree/main/json for the list of json you can use on https://shervain123.github.io/gndatabase/json"
     },
     {
         "info":"Developer notes: The sidebar animation on mobile looks like phigros loading screen. I can't unsee it now."

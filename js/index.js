@@ -74,7 +74,7 @@ function create_image(name,image,code,region,wepon,element,rare){
     var images = document.createElement("img")
     var names = document.createElement("p")
     var link = document.createElement("a")
-    link.href = "/characters/"+name.replace(" ","_")+".html"
+    link.href = "characters/"+name.replace(" ","_")+".html"
     names.innerText = name
     images.src = image
     name_container.classList.add("name")
@@ -651,16 +651,16 @@ function teams(){
             if(last_save.search(character[i].hex) != -1){
                 if (character[i].name == "Traveler"){
                     if(localStorage.getItem("timage") == "Aether"){
-                        teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
+                        teams_time_img(character[i].image_male,character[i].name,character[i].hex,"teams","characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }else if(localStorage.getItem("timage") == "Lumine"){
-                        teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
+                        teams_time_img(character[i].image_female,character[i].name,character[i].hex,"teams","characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }else{
-                        teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
+                        teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
                     }
                 }else if(character[i].talent == today){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
             }else if(today == "sunday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","/characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"teams","characters/"+character[i].name.replace(" ","_")+".html#talent_detail")
             }
         }
         }
@@ -669,9 +669,9 @@ function teams(){
             if(last_save == null){last_save = ""}
             if(last_save.search(weapon[i].hex) != -1){
             if(weapon[i].talent == today){
-                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/tools/weapon.html?wea="+weapon[i].hex)
+                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","tools/weapon.html?wea="+weapon[i].hex)
             }else if(today == "sunday"){
-                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","/tools/weapon.html?wea="+weapon[i].hex)
+                teams_time_img(weapon[i].image,weapon[i].name,weapon[i].hex,"teams","tools/weapon.html?wea="+weapon[i].hex)
             }
         }
     }
@@ -860,19 +860,19 @@ function team_expand(close=0){
                     character_image = character[i].image
                 }
                 for (c = 0; c < 4; c++){
-                    teams_time_img(character_image,character[i].name,character[i].hex,teams_day[c],"/characters/"+character[i].name+".html")
+                    teams_time_img(character_image,character[i].name,character[i].hex,teams_day[c],"characters/"+character[i].name+".html")
                 }
             }else{
             if(character[i].talent == "monday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"monday","/characters/"+character[i].name+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"monday","characters/"+character[i].name+".html")
             }
             if(character[i].talent == "tuesday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"tuesday","/characters/"+character[i].name+".html")
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"tuesday","characters/"+character[i].name+".html")
             }
             if(character[i].talent == "wednesday"){
-                teams_time_img(character[i].image,character[i].name,character[i].hex,"wednesday","/characters/"+character[i].name+".html") 
+                teams_time_img(character[i].image,character[i].name,character[i].hex,"wednesday","characters/"+character[i].name+".html") 
             }
-            teams_time_img(character[i].image,character[i].name,character[i].hex,"sunday","/characters/"+character[i].name+".html")
+            teams_time_img(character[i].image,character[i].name,character[i].hex,"sunday","characters/"+character[i].name+".html")
         }
         }
     }
@@ -973,7 +973,7 @@ function import_teams_preview(){
     document.getElementById("importing").innerHTML = ""
     if(link.includes("import.html") == true){
         //gndatabase import
-        var remove = link.slice(link.search("gndatabase.ml"),link.length)
+        var remove = link.slice(link.search("shervain123.github.io/gndatabase"),link.length)
         var strip = link.slice(link.search("import.html")+12,link.length)
         var split_in = searchall(";",strip)
         var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
@@ -1045,7 +1045,7 @@ function parse_import_teams(remove=0){
     }else{
         if(link.includes("import.html") == true){
             //gndatabase import
-            var remove = link.slice(link.search("gndatabase.ml"),link.length)
+            var remove = link.slice(link.search("shervain123.github.io/gndatabase"),link.length)
             var strip = link.slice(link.search("import.html")+12,link.length)
             var split_in = searchall(";",strip)
             var cha_in = strip.slice(split_in[2]+4,strip.search("wea"))
@@ -1148,7 +1148,7 @@ function import_teams_container(link){
             //input
                 import_input.type = "text"
                 import_input.id="import"
-                import_input.placeholder = "Gndatabase.ml?import..."
+                import_input.placeholder = "shervain123.github.io/gndatabase?import..."
                 import_input.classList.add("roboto-mono")
                 import_input.classList.add("export-input")
                 import_input.onkeyup = new Function("event", "import_teams_preview()")
@@ -1321,7 +1321,7 @@ function link(){
     var name = document.getElementById("export_name")
     var out_name, share_export
     var output = document.getElementById("export")
-    var links = "Gndatabase.ml?"
+    var links = "shervain123.github.io/gndatabase?"
 
     if(cha == "" || cha == null) cha = ""
     if(wea == "" || wea == null) wea = ""
@@ -1482,7 +1482,7 @@ var succ_time = 0
 var countDownDate 
   function gettime() {
     var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", "https://gndatabase.ml/time.txt", true);
+    rawFile.open("GET", "https://shervain123.github.io/gndatabase/time.txt", true);
     rawFile.onreadystatechange = function() {
       if (rawFile.readyState === 4) {
         var allText = rawFile.responseText;

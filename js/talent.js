@@ -7,7 +7,7 @@ function create_image(name,image){
     var images = document.createElement("img")
     var names = document.createElement("p")
     var link = document.createElement("a")
-    link.href = "/characters/"+name.replace(" ","_")+".html#talent_ascension_mat"
+    link.href = "characters/"+name.replace(" ","_")+".html#talent_ascension_mat"
     names.innerText = name
     images.src = image
     name_container.classList.add("name")

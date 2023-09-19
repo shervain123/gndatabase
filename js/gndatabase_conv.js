@@ -219,7 +219,7 @@ function generate_link_gn(){
   }
   var temname = "Team1"
   var exporti = "import=0;viewonly=1"
-  var exporttext = "https://gndatabase.ml/import.html?" + exporti + ";name=" + temname + ";cha" + concharacter + "wea" + conweapon
+  var exporttext = "https://shervain123.github.io/gndatabase/import.html?" + exporti + ";name=" + temname + ";cha" + concharacter + "wea" + conweapon
   input.value = encodeURI(exporttext) 
   import_teams_preview()
 }
