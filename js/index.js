@@ -342,15 +342,15 @@ function search(id,filter_id){
       }
     if(value == "DEVIL" || value == "DEMON" || value == "SHINRARIN"){
         remove_easter()
-        teams_img("Rin Okumura","img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
-        teams_img("Shinra Kusakabe","img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+        teams_img("Rin Okumura","/gndatabase/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+        teams_img("Shinra Kusakabe","/gndatabase/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
     }else if(value == "SHINRA" || value == "KUSAKABE" || value == "SHINRA KUSAKABE"){
         remove_easter()
-        teams_img("Shinra Kusakabe","img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+        teams_img("Shinra Kusakabe","/gndatabase/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
 
     }else if(value == "RIN" || value == "OKUMURA" || value == "RIN OKUMURA"){
         remove_easter()
-        teams_img("Rin Okumura","img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+        teams_img("Rin Okumura","/gndatabase/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
     }else{
         remove_easter()
     }
@@ -398,7 +398,7 @@ function teams_img(name,image,code,region,wepon,element,rare){
     var selected_container = document.createElement("div")
     var selected = document.createElement("img")
     var without_space = name.replaceAll(" ","_")
-    selected.src="img/character/head/selected.png"
+    selected.src="/gndatabase/img/character/head/selected.png"
     link.href = "javascript:void(0)"
     link.onclick = new Function("event", "select_team('"+without_space+"')")
     names.innerText = name
@@ -430,7 +430,7 @@ function teams_weapon_img(name,image,code,region,wepon,rare){
     var selected = document.createElement("img")
     name = decodeURIComponent(name)
     var without_space = name.replaceAll(" ","_")
-    selected.src="img/character/head/selected.png"
+    selected.src="/gndatabase/img/character/head/selected.png"
     link.href = "javascript:void(0)"
     link.onclick = new Function("event", "select_weapon('"+code+"')")
     names.innerText = name
@@ -517,7 +517,7 @@ function team_switch(){
     var btn = document.getElementById("team_switch")
     if(teams_list == 0){
         teams_list = 1
-        btn.innerHTML='<img src="img/icons/character.png">'
+        btn.innerHTML='<img src="/gndatabase/img/icons/character.png">'
         btn.title = "Select Character"
         unload()
         weapon_list_team()
@@ -526,7 +526,7 @@ function team_switch(){
     }else if(teams_list == 1){
         teams_list = 0
         
-        btn.innerHTML='<img src="img/icons/weapon.png">'
+        btn.innerHTML='<img src="/gndatabase/img/icons/weapon.png">'
         btn.title = "Select Weapon"
         unload()
         character_list_team()
@@ -720,7 +720,7 @@ function reset(){
 
 function reset_yes(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
+    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="/gndatabase/img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
   
     <a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a>
     <a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a>
@@ -734,7 +734,7 @@ function reset_yes(){
 
 function reset_no(){
     var menu = document.getElementById("team_btn")
-    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
+    menu.innerHTML=`<a href="#teams" onclick="side_menu()"><div class="navi_button"><img src="/gndatabase/img/icons/teams.png" style="width: 35px;margin-left:8px;margin-right:15px">Teams</div></a>
   
     <a href="javascript:void(0)" onclick="teams_selector()"><div class="navi_button" id="add_container"><i class="material-icons-outlined"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">add_circle_outline</i>Add items</div></a>
     <a href="javascript:void(0)" onclick="team_expand()"><div class="navi_button" id="expand"><i class="material-icons-outlined rotate_ani"style="font-size: 24px;margin-left:10px;margin-right:15px;vertical-align: bottom;">expand_circle_down</i>Expand</div></a>

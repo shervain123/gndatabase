@@ -16,7 +16,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Normal Attack</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Foreign_Ironwind.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Foreign_Ironwind.png"></div>
     <div class="talent_title"><p>Foreign Ironwind</p></div>
   </div>
   <div class="talent_info">
@@ -35,7 +35,7 @@ var anemo_detail = `<div id="talent_detail">
   <div class="talent">
     <h4>Elemental Skill</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/talent/Palm_Vortex.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/talent/Palm_Vortex.png"></div>
       <div class="talent_title"><p>Palm Vortex</p></div>
     </div>
     <div class="talent_info">
@@ -54,7 +54,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Elemental Burst</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Gust_Surge.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Gust_Surge.png"></div>
     <div class="talent_title"><p>Gust Surge</p></div>
   </div>
   <div class="talent_info">
@@ -67,7 +67,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Passive Talent</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/talent/Slitting_Wind.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/talent/Slitting_Wind.png"></div>
   <div class="talent_title"><p>Slitting Wind</p></div>
 </div>
 <div class="talent_info">
@@ -76,7 +76,7 @@ var anemo_detail = `<div id="talent_detail">
 </div>
 <div class="talent">
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/talent/Second_Wind.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/talent/Second_Wind.png"></div>
 <div class="talent_title"><p>Second Wind</p></div>
 </div>
 <div class="talent_info">
@@ -90,7 +90,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 1</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Raging_Vortex.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Raging_Vortex.png"></div>
     <div class="talent_title"><p>Raging Vortex</p></div>
   </div>
   <div class="talent_info">
@@ -100,7 +100,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 2</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Uprising_Whirlwind.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Uprising_Whirlwind.png"></div>
       <div class="talent_title"><p>Uprising Whirlwind</p></div>
     </div>
     <div class="talent_info">
@@ -110,7 +110,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 3</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Sweeping_Gust.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Sweeping_Gust.png"></div>
       <div class="talent_title"><p>Sweeping Gust</p></div>
     </div>
     <div class="talent_info">
@@ -120,7 +120,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 4</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Cherishing_Breezes.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Cherishing_Breezes.png"></div>
     <div class="talent_title"><p>Cherishing Breezes</p></div>
   </div>
   <div class="talent_info">
@@ -130,7 +130,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 5</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/constellation/Vortex_Stellaris.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/constellation/Vortex_Stellaris.png"></div>
   <div class="talent_title"><p>Vortex Stellaris</p></div>
 </div>
 <div class="talent_info">
@@ -140,7 +140,7 @@ var anemo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 6</h4>
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/constellation/Intertwined_Winds.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/constellation/Intertwined_Winds.png"></div>
 <div class="talent_title"><p>Intertwined Winds</p></div>
 </div>
 <div class="talent_info">
@@ -155,7 +155,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Normal Attack</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Foreign_Rockblade.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Foreign_Rockblade.png"></div>
     <div class="talent_title"><p>Foreign Rockblade</p></div>
   </div>
   <div class="talent_info">
@@ -174,7 +174,7 @@ var geo_detail = `<div id="talent_detail">
   <div class="talent">
     <h4>Elemental Skill</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/talent/Starfell_Sword.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/talent/Starfell_Sword.png"></div>
       <div class="talent_title"><p>Starfell Sword</p></div>
     </div>
     <div class="talent_info">
@@ -190,7 +190,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Elemental Burst</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Wake_of_Earth.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Wake_of_Earth.png"></div>
     <div class="talent_title"><p>Wake of Earth</p></div>
   </div>
   <div class="talent_info">
@@ -202,7 +202,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Passive Talent</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/talent/Shattered_Darkrock.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/talent/Shattered_Darkrock.png"></div>
   <div class="talent_title"><p>Shattered Darkrock</p></div>
 </div>
 <div class="talent_info">
@@ -211,7 +211,7 @@ var geo_detail = `<div id="talent_detail">
 </div>
 <div class="talent">
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/talent/Frenzied_Rockslide.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/talent/Frenzied_Rockslide.png"></div>
 <div class="talent_title"><p>Frenzied Rockslide</p></div>
 </div>
 <div class="talent_info">
@@ -225,7 +225,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 1</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Invincible_Stonewall.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Invincible_Stonewall.png"></div>
     <div class="talent_title"><p>Invincible Stonewall</p></div>
   </div>
   <div class="talent_info">
@@ -235,7 +235,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 2</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Rockcore_Meltdown.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Rockcore_Meltdown.png"></div>
       <div class="talent_title"><p>Rockcore Meltdown</p></div>
     </div>
     <div class="talent_info">
@@ -245,7 +245,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 3</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Will_of_the_Rock.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Will_of_the_Rock.png"></div>
       <div class="talent_title"><p>Will of the Rock</p></div>
     </div>
     <div class="talent_info">
@@ -255,7 +255,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 4</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Reaction_Force.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Reaction_Force.png"></div>
     <div class="talent_title"><p>Reaction Force</p></div>
   </div>
   <div class="talent_info">
@@ -265,7 +265,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 5</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/constellation/Meteorite_Impact.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/constellation/Meteorite_Impact.png"></div>
   <div class="talent_title"><p>Meteorite Impact</p></div>
 </div>
 <div class="talent_info">
@@ -275,7 +275,7 @@ var geo_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 6</h4>
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/constellation/Everlasting_Boulder.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/constellation/Everlasting_Boulder.png"></div>
 <div class="talent_title"><p>Everlasting Boulder</p></div>
 </div>
 <div class="talent_info">
@@ -290,7 +290,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Normal Attack</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Foreign_Thundershock.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Foreign_Thundershock.png"></div>
     <div class="talent_title"><p>Foreign Thundershock</p></div>
   </div>
   <div class="talent_info">
@@ -309,7 +309,7 @@ var electro_detail = `<div id="talent_detail">
   <div class="talent">
     <h4>Elemental Skill</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/talent/Lightning_Blade.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/talent/Lightning_Blade.png"></div>
       <div class="talent_title"><p>Lightning Blade</p></div>
     </div>
     <div class="talent_info">
@@ -332,7 +332,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Elemental Burst</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Bellowing_Thunder.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Bellowing_Thunder.png"></div>
     <div class="talent_title"><p>Bellowing Thunder</p></div>
   </div>
   <div class="talent_info">
@@ -345,7 +345,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Passive Talent</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/talent/Thunderflash.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/talent/Thunderflash.png"></div>
   <div class="talent_title"><p>Thunderflash</p></div>
 </div>
 <div class="talent_info">
@@ -354,7 +354,7 @@ var electro_detail = `<div id="talent_detail">
 </div>
 <div class="talent">
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/talent/Resounding_Roar.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/talent/Resounding_Roar.png"></div>
 <div class="talent_title"><p>Resounding Roar</p></div>
 </div>
 <div class="talent_info">
@@ -367,7 +367,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 1</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Spring_Thunder_of_Fertility.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Spring_Thunder_of_Fertility.png"></div>
     <div class="talent_title"><p>Spring Thunder of Fertility</p></div>
   </div>
   <div class="talent_info">
@@ -377,7 +377,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 2</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Violet_Vehemence.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Violet_Vehemence.png"></div>
       <div class="talent_title"><p>Violet Vehemence</p></div>
     </div>
     <div class="talent_info">
@@ -387,7 +387,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
     <h4>Level 3</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Distant_Crackling.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Distant_Crackling.png"></div>
       <div class="talent_title"><p>Distant Crackling</p></div>
     </div>
     <div class="talent_info">
@@ -397,7 +397,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
   <h4>Level 4</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Fickle_Cloudstrike.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Fickle_Cloudstrike.png"></div>
     <div class="talent_title"><p>Fickle Cloudstrike</p></div>
   </div>
   <div class="talent_info">
@@ -407,7 +407,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 5</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/constellation/Clamor_in_the_Wilds.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/constellation/Clamor_in_the_Wilds.png"></div>
   <div class="talent_title"><p>Clamor in the Wilds</p></div>
 </div>
 <div class="talent_info">
@@ -417,7 +417,7 @@ var electro_detail = `<div id="talent_detail">
 <div class="talent">
 <h4>Level 6</h4>
 <div class="talent_name">
-<div class="talent_img"><img src="img/character/constellation/World-Shaker.png"></div>
+<div class="talent_img"><img src="/gndatabase/img/character/constellation/World-Shaker.png"></div>
 <div class="talent_title"><p>World-Shaker</p></div>
 </div>
 <div class="talent_info">
@@ -433,7 +433,7 @@ var dendro_detail = `
   <div class="talent">
     <h4>Normal Attack</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/talent/Foreign_Fieldcleaver.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/talent/Foreign_Fieldcleaver.png"></div>
       <div class="talent_title"><p>Foreign Fieldcleaver</p></div>
     </div>
     <div class="talent_info">
@@ -452,7 +452,7 @@ var dendro_detail = `
     <div class="talent">
       <h4>Elemental Skill</h4>
       <div class="talent_name">
-        <div class="talent_img"><img src="img/character/talent/Razorgrass_Blade.png"></div>
+        <div class="talent_img"><img src="/gndatabase/img/character/talent/Razorgrass_Blade.png"></div>
         <div class="talent_title"><p>Razorgrass Blade</p></div>
       </div>
       <div class="talent_info">
@@ -464,7 +464,7 @@ var dendro_detail = `
   <div class="talent">
     <h4>Elemental Burst</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/talent/Surgent_Manifestation.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/talent/Surgent_Manifestation.png"></div>
       <div class="talent_title"><p>Surgent Manifestation</p></div>
     </div>
     <div class="talent_info">
@@ -484,7 +484,7 @@ var dendro_detail = `
 <div class="talent">
   <h4>Passive Talent</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/talent/Verdant_Overgrowth.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/talent/Verdant_Overgrowth.png"></div>
     <div class="talent_title"><p>Verdant Overgrowth</p></div>
   </div>
   <div class="talent_info">
@@ -493,7 +493,7 @@ var dendro_detail = `
 </div>
 <div class="talent">
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/talent/Verdant_Luxury.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/talent/Verdant_Luxury.png"></div>
   <div class="talent_title"><p>Verdant Luxury</p></div>
 </div>
 <div class="talent_info">
@@ -507,7 +507,7 @@ var dendro_detail = `
   <div class="talent">
     <h4>Level 1</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Symbiotic_Creeper.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Symbiotic_Creeper.png"></div>
       <div class="talent_title"><p>Symbiotic Creeper</p></div>
     </div>
     <div class="talent_info">
@@ -517,7 +517,7 @@ var dendro_detail = `
   <div class="talent">
       <h4>Level 2</h4>
       <div class="talent_name">
-        <div class="talent_img"><img src="img/character/constellation/Green_Resilience.png"></div>
+        <div class="talent_img"><img src="/gndatabase/img/character/constellation/Green_Resilience.png"></div>
         <div class="talent_title"><p>Green Resilience</p></div>
       </div>
       <div class="talent_info">
@@ -527,7 +527,7 @@ var dendro_detail = `
   <div class="talent">
       <h4>Level 3</h4>
       <div class="talent_name">
-        <div class="talent_img"><img src="img/character/constellation/Whirling_Weeds.png"></div>
+        <div class="talent_img"><img src="/gndatabase/img/character/constellation/Whirling_Weeds.png"></div>
         <div class="talent_title"><p>Whirling Weeds</p></div>
       </div>
       <div class="talent_info">
@@ -538,7 +538,7 @@ Maximum upgrade level is 15. </p>
   <div class="talent">
     <h4>Level 4</h4>
     <div class="talent_name">
-      <div class="talent_img"><img src="img/character/constellation/Treacle_Grass.png"></div>
+      <div class="talent_img"><img src="/gndatabase/img/character/constellation/Treacle_Grass.png"></div>
       <div class="talent_title"><p>Treacle Grass</p></div>
     </div>
     <div class="talent_info">
@@ -549,7 +549,7 @@ You must have unlocked this Passive Talent first. </p>
 <div class="talent">
   <h4>Level 5</h4>
   <div class="talent_name">
-    <div class="talent_img"><img src="img/character/constellation/Viridian_Transience.png"></div>
+    <div class="talent_img"><img src="/gndatabase/img/character/constellation/Viridian_Transience.png"></div>
     <div class="talent_title"><p>Viridian Transience</p></div>
   </div>
   <div class="talent_info">
@@ -560,7 +560,7 @@ Maximum upgrade level is 15. </p>
 <div class="talent">
 <h4>Level 6</h4>
 <div class="talent_name">
-  <div class="talent_img"><img src="img/character/constellation/Withering_Aggregation.png"></div>
+  <div class="talent_img"><img src="/gndatabase/img/character/constellation/Withering_Aggregation.png"></div>
   <div class="talent_title"><p>Withering Aggregation</p></div>
 </div>
 <div class="talent_info">
@@ -702,7 +702,7 @@ function lumine(){
 function other_btn(){
     var parent = document.getElementById("element_cha")
     parent.innerHTML = ""
-    parent.innerHTML = '<img src="img/character/element/' + element.toLowerCase() + '.png">Other '+ element+' Character'
+    parent.innerHTML = '<img src="/gndatabase/img/character/element/' + element.toLowerCase() + '.png">Other '+ element+' Character'
  }
 
  function other_info(){
@@ -1230,7 +1230,7 @@ function material_talent(){
     asc_9.appendChild(material_creator(talent_3_3_image,"16x \u00A0\u00A0\u00A0"+talent_3_3))
     asc_9.appendChild(material_creator(local_3_image,"12x \u00A0\u00A0\u00A0"+local_3))
     asc_9.appendChild(material_creator(talent_boss_image,"2x \u00A0\u00A0\u00A0"+talent_boss))
-    asc_9.appendChild(material_creator("img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+    asc_9.appendChild(material_creator("/gndatabase/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
 
     var total =  material_container()
     total.appendChild(material_title("Total"))
@@ -1249,7 +1249,7 @@ function material_talent(){
 
     total.appendChild(material_creator(talent_boss_image,"6x \u00A0\u00A0\u00A0\u00A0"+talent_boss))
 
-    total.appendChild(material_creator("img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+    total.appendChild(material_creator("/gndatabase/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
 
     total.classList.add("total")
 

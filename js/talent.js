@@ -114,25 +114,25 @@ function day_check(){
     console.log(day)
     switch(day){
         case 1 :
-            document.getElementById("mon_btn").src = "img/icons/cal_today.png"
+            document.getElementById("mon_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 2 :
-            document.getElementById("tue_btn").src = "img/icons/cal_today.png"
+            document.getElementById("tue_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 3 :
-            document.getElementById("wed_btn").src = "img/icons/cal_today.png"
+            document.getElementById("wed_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 4 :
-            document.getElementById("thu_btn").src = "img/icons/cal_today.png"
+            document.getElementById("thu_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 5 :
-            document.getElementById("fri_btn").src = "img/icons/cal_today.png"
+            document.getElementById("fri_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 6 :
-            document.getElementById("sat_btn").src = "img/icons/cal_today.png"
+            document.getElementById("sat_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
         case 0 :
-            document.getElementById("sun_btn").src = "img/icons/cal_today.png"
+            document.getElementById("sun_btn").src = "/gndatabase/img/icons/cal_today.png"
             break
     }
 }

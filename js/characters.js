@@ -86,7 +86,7 @@ function name_info(){
     parent.innerHTML = ""
     for (i = 0; i < character.length; i++){
         if(character[i].name == cha_name){
-            parent.innerHTML = '<img src="img/character/element/' + character[i].element.toLowerCase() + '.png">Other '+ character[i].element+' Character'
+            parent.innerHTML = '<img src="/gndatabase/img/character/element/' + character[i].element.toLowerCase() + '.png">Other '+ character[i].element+' Character'
         }
     }
  }
@@ -523,7 +523,7 @@ function material(){
     asc_9.appendChild(material_creator(talent_img_3,"16x \u00A0\u00A0\u00A0"+talent_3))
     asc_9.appendChild(material_creator(comasc_img_3,"12x \u00A0\u00A0\u00A0"+comasc_3))
     asc_9.appendChild(material_creator(talent_asc_img,"2x \u00A0\u00A0\u00A0"+talent_asc))
-    asc_9.appendChild(material_creator("img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+    asc_9.appendChild(material_creator("/gndatabase/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
     
     var total =  material_container()
     total.appendChild(material_title("Total"))
@@ -534,7 +534,7 @@ function material(){
     total.appendChild(material_creator(comasc_img_2,"22x \u00A0\u00A0"+comasc_3))
     total.appendChild(material_creator(comasc_img_3,"31x \u00A0\u00A0"+comasc_3))
     total.appendChild(material_creator(talent_asc_img,"6x \u00A0\u00A0\u00A0"+talent_asc))
-    total.appendChild(material_creator("img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
+    total.appendChild(material_creator("/gndatabase/img/items/talent/Crown_of_Insight.png","1x \u00A0\u00A0\u00A0\u00A0"+"Crown of Insight"))
     total.classList.add("total")
 
     parent_talent.appendChild(asc_1)

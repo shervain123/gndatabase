@@ -2,912 +2,912 @@
     {
         "name":"Amakumo Fruit",
         "type":"local",
-        "image":"img/items/local/Amakumo_Fruit.png"
+        "image":"/gndatabase/img/items/local/Amakumo_Fruit.png"
     },
     {
         "name":"Calla Lily",
         "type":"local",
-        "image":"img/items/local/Calla_Lily.png"
+        "image":"/gndatabase/img/items/local/Calla_Lily.png"
     },
     {
         "name":"Cecilia",
         "type":"local",
-        "image":"img/items/local/Cecilia.png"
+        "image":"/gndatabase/img/items/local/Cecilia.png"
     },
     {
         "name":"Cor Lapis",
         "type":"local",
-        "image":"img/items/local/Cor_Lapis.png"
+        "image":"/gndatabase/img/items/local/Cor_Lapis.png"
     },
     {
         "name":"Crystal Marrow",
         "type":"local",
-        "image":"img/items/local/Crystal_Marrow.png"
+        "image":"/gndatabase/img/items/local/Crystal_Marrow.png"
     },
     {
         "name":"Dandelion Seed",
         "type":"local",
-        "image":"img/items/local/Dandelion_Seed.png"
+        "image":"/gndatabase/img/items/local/Dandelion_Seed.png"
     },
     {
         "name":"Dendrobium",
         "type":"local",
-        "image":"img/items/local/Dendrobium.png"
+        "image":"/gndatabase/img/items/local/Dendrobium.png"
     },
     {
         "name":"Enhancement Ore",
         "type":"local",
-        "image":"img/items/local/Enhancement_Ore.png"
+        "image":"/gndatabase/img/items/local/Enhancement_Ore.png"
     },
     {
         "name":"Festering Dragon Marrow",
         "type":"local",
-        "image":"img/items/local/Festering_Dragon_Marrow.png"
+        "image":"/gndatabase/img/items/local/Festering_Dragon_Marrow.png"
     },
     {
         "name":"Fluorescent Fungus",
         "type":"local",
-        "image":"img/items/local/Fluorescent_Fungus.png"
+        "image":"/gndatabase/img/items/local/Fluorescent_Fungus.png"
     },
     {
         "name":"Glaze Lily",
         "type":"local",
-        "image":"img/items/local/Glaze_Lily.png"
+        "image":"/gndatabase/img/items/local/Glaze_Lily.png"
     },
     {
         "name":"Iron Chunk",
         "type":"local",
-        "image":"img/items/local/Iron_Chunk.png"
+        "image":"/gndatabase/img/items/local/Iron_Chunk.png"
     },
     {
         "name":"Jueyun Chili",
         "type":"local",
-        "image":"img/items/local/Jueyun_Chili.png"
+        "image":"/gndatabase/img/items/local/Jueyun_Chili.png"
     },
     {
         "name":"Mist Flower Corolla",
         "type":"local",
-        "image":"img/items/local/Mist_Flower_Corolla.png"
+        "image":"/gndatabase/img/items/local/Mist_Flower_Corolla.png"
     },
     {
         "name":"Mushroom",
         "type":"local",
-        "image":"img/items/local/Mushroom.png"
+        "image":"/gndatabase/img/items/local/Mushroom.png"
     },
     {
         "name":"Naku Weed",
         "type":"local",
-        "image":"img/items/local/Naku_Weed.png"
+        "image":"/gndatabase/img/items/local/Naku_Weed.png"
     },
     {
         "name":"Noctilucous Jade",
         "type":"local",
-        "image":"img/items/local/Noctilucous_Jade.png"
+        "image":"/gndatabase/img/items/local/Noctilucous_Jade.png"
     },
     {
         "name":"Onikabuto",
         "type":"local",
-        "image":"img/items/local/Onikabuto.png"
+        "image":"/gndatabase/img/items/local/Onikabuto.png"
     },
     {
         "name":"Philanemo Mushroom",
         "type":"local",
-        "image":"img/items/local/Philanemo_Mushroom.png"
+        "image":"/gndatabase/img/items/local/Philanemo_Mushroom.png"
     },
     {
         "name":"Qingxin",
         "type":"local",
-        "image":"img/items/local/Qingxin.png"
+        "image":"/gndatabase/img/items/local/Qingxin.png"
     },
     {
         "name":"Sakura Bloom",
         "type":"local",
-        "image":"img/items/local/Sakura_Bloom.png"
+        "image":"/gndatabase/img/items/local/Sakura_Bloom.png"
     },
     {
         "name":"Sango Pearl",
         "type":"local",
-        "image":"img/items/local/Sango_Pearl.png"
+        "image":"/gndatabase/img/items/local/Sango_Pearl.png"
     },
     {
         "name":"Sea Ganoderma",
         "type":"local",
-        "image":"img/items/local/Sea_Ganoderma.png"
+        "image":"/gndatabase/img/items/local/Sea_Ganoderma.png"
     },
     {
         "name":"Silk Flower",
         "type":"local",
-        "image":"img/items/local/Silk_Flower.png"
+        "image":"/gndatabase/img/items/local/Silk_Flower.png"
     },
     {
         "name":"Slime Condensate",
         "type":"local",
-        "image":"img/items/local/Slime_Condensate.png"
+        "image":"/gndatabase/img/items/local/Slime_Condensate.png"
     },
     {
         "name":"Small Lamp Grass",
         "type":"local",
-        "image":"img/items/local/Small_Lamp_Grass.png"
+        "image":"/gndatabase/img/items/local/Small_Lamp_Grass.png"
     },
     {
         "name":"Starconch",
         "type":"local",
-        "image":"img/items/local/Starconch.png"
+        "image":"/gndatabase/img/items/local/Starconch.png"
     },
     {
         "name":"Valberry",
         "type":"local",
-        "image":"img/items/local/Valberry.png"
+        "image":"/gndatabase/img/items/local/Valberry.png"
     },
     {
         "name":"Violetgrass",
         "type":"local",
-        "image":"img/items/local/Violetgrass.png"
+        "image":"/gndatabase/img/items/local/Violetgrass.png"
     },
     {
         "name":"Windwheel Aster",
         "type":"local",
-        "image":"img/items/local/Windwheel_Aster.png"
+        "image":"/gndatabase/img/items/local/Windwheel_Aster.png"
     },
     {
         "name":"Wolfhook",
         "type":"local",
-        "image":"img/items/local/Wolfhook.png"
+        "image":"/gndatabase/img/items/local/Wolfhook.png"
     },
     {
         "name":"Agent%27s Sacrificial Knife",
         "type":"common",
-        "image":"img/items/common/Agents_Sacrificial_Knife.png"
+        "image":"/gndatabase/img/items/common/Agents_Sacrificial_Knife.png"
     },
     {
         "name":"Black Bronze Horn",
         "type":"common",
-        "image":"img/items/common/Black_Bronze_Horn.png"
+        "image":"/gndatabase/img/items/common/Black_Bronze_Horn.png"
     },
     {
         "name":"Black Crystal Horn",
         "type":"common",
-        "image":"img/items/common/Black_Crystal_Horn.png"
+        "image":"/gndatabase/img/items/common/Black_Crystal_Horn.png"
     },
     {
         "name":"Chaos Axis",
         "type":"common",
-        "image":"img/items/common/Chaos_Axis.png"
+        "image":"/gndatabase/img/items/common/Chaos_Axis.png"
     },
     {
         "name":"Chaos Circuit",
         "type":"common",
-        "image":"img/items/common/Chaos_Circuit.png"
+        "image":"/gndatabase/img/items/common/Chaos_Circuit.png"
     },
     {
         "name":"Chaos Core",
         "type":"common",
-        "image":"img/items/common/Chaos_Core.png"
+        "image":"/gndatabase/img/items/common/Chaos_Core.png"
     },
     {
         "name":"Chaos Device",
         "type":"common",
-        "image":"img/items/common/Chaos_Device.png"
+        "image":"/gndatabase/img/items/common/Chaos_Device.png"
     },
     {
         "name":"Chaos Gear",
         "type":"common",
-        "image":"img/items/common/Chaos_Gear.png"
+        "image":"/gndatabase/img/items/common/Chaos_Gear.png"
     },
     {
         "name":"Chaos Oculus",
         "type":"common",
-        "image":"img/items/common/Chaos_Oculus.png"
+        "image":"/gndatabase/img/items/common/Chaos_Oculus.png"
     },
     {
         "name":"Concealed Claw",
         "type":"common",
-        "image":"img/items/common/Concealed_Claw.png"
+        "image":"/gndatabase/img/items/common/Concealed_Claw.png"
     },
     {
         "name":"Concealed Talon",
         "type":"common",
-        "image":"img/items/common/Concealed_Talon.png"
+        "image":"/gndatabase/img/items/common/Concealed_Talon.png"
     },
     {
         "name":"Concealed Unguis",
         "type":"common",
-        "image":"img/items/common/Concealed_Unguis.png"
+        "image":"/gndatabase/img/items/common/Concealed_Unguis.png"
     },
     {
         "name":"Crystal Prism",
         "type":"common",
-        "image":"img/items/common/Crystal_Prism.png"
+        "image":"/gndatabase/img/items/common/Crystal_Prism.png"
     },
     {
         "name":"Damaged Mask",
         "type":"common",
-        "image":"img/items/common/Damaged_Mask.png"
+        "image":"/gndatabase/img/items/common/Damaged_Mask.png"
     },
     {
         "name":"Dead Ley Line Branch",
         "type":"common",
-        "image":"img/items/common/Dead_Ley_Line_Branch.png"
+        "image":"/gndatabase/img/items/common/Dead_Ley_Line_Branch.png"
     },
     {
         "name":"Dead Ley Line Leaves",
         "type":"common",
-        "image":"img/items/common/Dead_Ley_Line_Leaves.png"
+        "image":"/gndatabase/img/items/common/Dead_Ley_Line_Leaves.png"
     },
     {
         "name":"Dismal Prism",
         "type":"common",
-        "image":"img/items/common/Dismal_Prism.png"
+        "image":"/gndatabase/img/items/common/Dismal_Prism.png"
     },
     {
         "name":"Divining Scroll",
         "type":"common",
-        "image":"img/items/common/Divining_Scroll.png"
+        "image":"/gndatabase/img/items/common/Divining_Scroll.png"
     },
     {
         "name":"Energy Nectar",
         "type":"common",
-        "image":"img/items/common/Energy_Nectar.png"
+        "image":"/gndatabase/img/items/common/Energy_Nectar.png"
     },
     {
         "name":"Enhancement Ore",
         "type":"common",
-        "image":"img/items/common/Enhancement_Ore.png"
+        "image":"/gndatabase/img/items/common/Enhancement_Ore.png"
     },
     {
         "name":"Famed Handguard",
         "type":"common",
-        "image":"img/items/common/Famed_Handguard.png"
+        "image":"/gndatabase/img/items/common/Famed_Handguard.png"
     },
     {
         "name":"Festering Dragon Marrow",
         "type":"common",
-        "image":"img/items/common/Festering_Dragon_Marrow.png"
+        "image":"/gndatabase/img/items/common/Festering_Dragon_Marrow.png"
     },
     {
         "name":"Firm Arrowhead",
         "type":"common",
-        "image":"img/items/common/Firm_Arrowhead.png"
+        "image":"/gndatabase/img/items/common/Firm_Arrowhead.png"
     },
     {
         "name":"Forbidden Curse Scroll",
         "type":"common",
-        "image":"img/items/common/Forbidden_Curse_Scroll.png"
+        "image":"/gndatabase/img/items/common/Forbidden_Curse_Scroll.png"
     },
     {
         "name":"Fossilized Bone Shard",
         "type":"common",
-        "image":"img/items/common/Fossilized_Bone_Shard.png"
+        "image":"/gndatabase/img/items/common/Fossilized_Bone_Shard.png"
     },
     {
         "name":"Fragile Bone Shard",
         "type":"common",
-        "image":"img/items/common/Fragile_Bone_Shard.png"
+        "image":"/gndatabase/img/items/common/Fragile_Bone_Shard.png"
     },
     {
         "name":"Golden Raven Insignia",
         "type":"common",
-        "image":"img/items/common/Golden_Raven_Insignia.png"
+        "image":"/gndatabase/img/items/common/Golden_Raven_Insignia.png"
     },
     {
         "name":"Heavy Horn",
         "type":"common",
-        "image":"img/items/common/Heavy_Horn.png"
+        "image":"/gndatabase/img/items/common/Heavy_Horn.png"
     },
     {
         "name":"Hunter%27s Sacrificial Knife",
         "type":"common",
-        "image":"img/items/common/Hunters_Sacrificial_Knife.png"
+        "image":"/gndatabase/img/items/common/Hunters_Sacrificial_Knife.png"
     },
     {
         "name":"Inspector%27s Sacrificial Knife",
         "type":"common",
-        "image":"img/items/common/Inspectors_Sacrificial_Knife.png"
+        "image":"/gndatabase/img/items/common/Inspectors_Sacrificial_Knife.png"
     },
     {
         "name":"Iron Chunk",
         "type":"common",
-        "image":"img/items/common/Iron_Chunk.png"
+        "image":"/gndatabase/img/items/common/Iron_Chunk.png"
     },
     {
         "name":"Kageuchi Handguard",
         "type":"common",
-        "image":"img/items/common/Kageuchi_Handguard.png"
+        "image":"/gndatabase/img/items/common/Kageuchi_Handguard.png"
     },
     {
         "name":"Ley Line Sprout",
         "type":"common",
-        "image":"img/items/common/Ley_Line_Sprout.png"
+        "image":"/gndatabase/img/items/common/Ley_Line_Sprout.png"
     },
     {
         "name":"Lieutenant%27s Insignia",
         "type":"common",
-        "image":"img/items/common/Lieutenants_Insignia.png"
+        "image":"/gndatabase/img/items/common/Lieutenants_Insignia.png"
     },
     {
         "name":"Mist Flower Corolla",
         "type":"common",
-        "image":"img/items/common/Mist_Flower_Corolla.png"
+        "image":"/gndatabase/img/items/common/Mist_Flower_Corolla.png"
     },
     {
         "name":"Mist Grass",
         "type":"common",
-        "image":"img/items/common/Mist_Grass.png"
+        "image":"/gndatabase/img/items/common/Mist_Grass.png"
     },
     {
         "name":"Mist Grass Pollen",
         "type":"common",
-        "image":"img/items/common/Mist_Grass_Pollen.png"
+        "image":"/gndatabase/img/items/common/Mist_Grass_Pollen.png"
     },
     {
         "name":"Mist Grass Wick",
         "type":"common",
-        "image":"img/items/common/Mist_Grass_Wick.png"
+        "image":"/gndatabase/img/items/common/Mist_Grass_Wick.png"
     },
     {
         "name":"Mushroom",
         "type":"common",
-        "image":"img/items/common/Mushroom.png"
+        "image":"/gndatabase/img/items/common/Mushroom.png"
     },
     {
         "name":"Old Handguard",
         "type":"common",
-        "image":"img/items/common/Old_Handguard.png"
+        "image":"/gndatabase/img/items/common/Old_Handguard.png"
     },
     {
         "name":"Ominous Mask",
         "type":"common",
-        "image":"img/items/common/Ominous_Mask.png"
+        "image":"/gndatabase/img/items/common/Ominous_Mask.png"
     },
     {
         "name":"Onikabuto",
         "type":"common",
-        "image":"img/items/common/Onikabuto.png"
+        "image":"/gndatabase/img/items/common/Onikabuto.png"
     },
     {
         "name":"Polarizing Prism",
         "type":"common",
-        "image":"img/items/common/Polarizing_Prism.png"
+        "image":"/gndatabase/img/items/common/Polarizing_Prism.png"
     },
     {
         "name":"Recruit%27s Insignia",
         "type":"common",
-        "image":"img/items/common/Recruits_Insignia.png"
+        "image":"/gndatabase/img/items/common/Recruits_Insignia.png"
     },
     {
         "name":"Sealed Scroll",
         "type":"common",
-        "image":"img/items/common/Sealed_Scroll.png"
+        "image":"/gndatabase/img/items/common/Sealed_Scroll.png"
     },
     {
         "name":"Sergeant%27s Insignia",
         "type":"common",
-        "image":"img/items/common/Sergeants_Insignia.png"
+        "image":"/gndatabase/img/items/common/Sergeants_Insignia.png"
     },
     {
         "name":"Sharp Arrowhead",
         "type":"common",
-        "image":"img/items/common/Sharp_Arrowhead.png"
+        "image":"/gndatabase/img/items/common/Sharp_Arrowhead.png"
     },
     {
         "name":"Shimmering Nectar",
         "type":"common",
-        "image":"img/items/common/Shimmering_Nectar.png"
+        "image":"/gndatabase/img/items/common/Shimmering_Nectar.png"
     },
     {
         "name":"Silver Raven Insignia",
         "type":"common",
-        "image":"img/items/common/Silver_Raven_Insignia.png"
+        "image":"/gndatabase/img/items/common/Silver_Raven_Insignia.png"
     },
     {
         "name":"Slime Concentrate",
         "type":"common",
-        "image":"img/items/common/Slime_Concentrate.png"
+        "image":"/gndatabase/img/items/common/Slime_Concentrate.png"
     },
     {
         "name":"Slime Condensate",
         "type":"common",
-        "image":"img/items/common/Slime_Condensate.png"
+        "image":"/gndatabase/img/items/common/Slime_Condensate.png"
     },
     {
         "name":"Slime Secretions",
         "type":"common",
-        "image":"img/items/common/Slime_Secretions.png"
+        "image":"/gndatabase/img/items/common/Slime_Secretions.png"
     },
     {
         "name":"Spectral Heart",
         "type":"common",
-        "image":"img/items/common/Spectral_Heart.png"
+        "image":"/gndatabase/img/items/common/Spectral_Heart.png"
     },
     {
         "name":"Spectral Husk",
         "type":"common",
-        "image":"img/items/common/Spectral_Husk.png"
+        "image":"/gndatabase/img/items/common/Spectral_Husk.png"
     },
     {
         "name":"Spectral Nucleus",
         "type":"common",
-        "image":"img/items/common/Spectral_Nucleus.png"
+        "image":"/gndatabase/img/items/common/Spectral_Nucleus.png"
     },
     {
         "name":"Stained Mask",
         "type":"common",
-        "image":"img/items/common/Stained_Mask.png"
+        "image":"/gndatabase/img/items/common/Stained_Mask.png"
     },
     {
         "name":"Sturdy Bone Shard",
         "type":"common",
-        "image":"img/items/common/Sturdy_Bone_Shard.png"
+        "image":"/gndatabase/img/items/common/Sturdy_Bone_Shard.png"
     },
     {
         "name":"Treasure Hoarder Insignia",
         "type":"common",
-        "image":"img/items/common/Treasure_Hoarder_Insignia.png"
+        "image":"/gndatabase/img/items/common/Treasure_Hoarder_Insignia.png"
     },
     {
         "name":"Weathered Arrowhead",
         "type":"common",
-        "image":"img/items/common/Weathered_Arrowhead.png"
+        "image":"/gndatabase/img/items/common/Weathered_Arrowhead.png"
     },
     {
         "name":"Whopperflower Nectar",
         "type":"common",
-        "image":"img/items/common/Whopperflower_Nectar.png"
+        "image":"/gndatabase/img/items/common/Whopperflower_Nectar.png"
     },
     {
         "name":"Agnidus Agate Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Agnidus_Agate_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Agnidus_Agate_Sliver.png"
     },
     {
         "name":"Agnidus Agate Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Agnidus_Agate_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Agnidus_Agate_Fragment.png"
     },
     {
         "name":"Agnidus Agate Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Agnidus_Agate_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Agnidus_Agate_Chunk.png"
     },
     {
         "name":"Agnidus Agate Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Agnidus_Agate_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Agnidus_Agate_Gemstone.png"
     },
     {
         "name":"Vayuda Turquoise Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vayuda_Turquoise_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Vayuda_Turquoise_Sliver.png"
     },
     {
         "name":"Vayuda Turquoise Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vayuda_Turquoise_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Vayuda_Turquoise_Fragment.png"
     },
     {
         "name":"Vayuda Turquoise Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vayuda_Turquoise_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Vayuda_Turquoise_Chunk.png"
     },
     {
         "name":"Vayuda Turquoise Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vayuda_Turquoise_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Vayuda_Turquoise_Gemstone.png"
     },
     {
         "name":"Shivada Jade Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Shivada_Jade_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Shivada_Jade_Sliver.png"
     },
     {
         "name":"Shivada Jade Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Shivada_Jade_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Shivada_Jade_Fragment.png"
     },
     {
         "name":"Shivada Jade Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Shivada_Jade_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Shivada_Jade_Chunk.png"
     },
     {
         "name":"Shivada Jade Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Shivada_Jade_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Shivada_Jade_Gemstone.png"
     },
     {
         "name":"Vajrada Amethyst Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vajrada_Amethyst_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Vajrada_Amethyst_Sliver.png"
     },
     {
         "name":"Vajrada Amethyst Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vajrada_Amethyst_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Vajrada_Amethyst_Fragment.png"
     },
     {
         "name":"Vajrada Amethyst Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vajrada_Amethyst_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Vajrada_Amethyst_Chunk.png"
     },
     {
         "name":"Vajrada Amethyst Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Vajrada_Amethyst_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Vajrada_Amethyst_Gemstone.png"
     },
     {
         "name":"Prithiva Topaz Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Prithiva_Topaz_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Prithiva_Topaz_Sliver.png"
     },
     {
         "name":"Prithiva Topaz Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Prithiva_Topaz_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Prithiva_Topaz_Fragment.png"
     },
     {
         "name":"Prithiva Topaz Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Prithiva_Topaz_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Prithiva_Topaz_Chunk.png"
     },
     {
         "name":"Prithiva Topaz Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Prithiva_Topaz_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Prithiva_Topaz_Gemstone.png"
     },
     {
         "name":"Varunada Lazurite Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Varunada_Lazurite_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Varunada_Lazurite_Sliver.png"
     },
     {
         "name":"Varunada Lazurite Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Varunada_Lazurite_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Varunada_Lazurite_Fragment.png"
     },
     {
         "name":"Varunada Lazurite Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Varunada_Lazurite_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Varunada_Lazurite_Chunk.png"
     },
     {
         "name":"Varunada Lazurite Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Varunada_Lazurite_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Varunada_Lazurite_Gemstone.png"
     },
     {
         "name":"Brilliant Diamond Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Brilliant_Diamond_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Brilliant_Diamond_Sliver.png"
     },
     {
         "name":"Brilliant Diamond Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Brilliant_Diamond_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Brilliant_Diamond_Fragment.png"
     },
     {
         "name":"Brilliant Diamond Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Brilliant_Diamond_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Brilliant_Diamond_Chunk.png"
     },
     {
         "name":"Brilliant Diamond Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Brilliant_Diamond_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Brilliant_Diamond_Gemstone.png"
     },
     {
         "name":"Nagadus Emerald Sliver",
         "type":"gemstone",
-        "image":"img/items/gemstone/Nagadus_Emerald_Sliver.png"
+        "image":"/gndatabase/img/items/gemstone/Nagadus_Emerald_Sliver.png"
     },
     {
         "name":"Nagadus Emerald Fragment",
         "type":"gemstone",
-        "image":"img/items/gemstone/Nagadus_Emerald_Fragment.png"
+        "image":"/gndatabase/img/items/gemstone/Nagadus_Emerald_Fragment.png"
     },
     {
         "name":"Nagadus Emerald Chunk",
         "type":"gemstone",
-        "image":"img/items/gemstone/Nagadus_Emerald_Chunk.png"
+        "image":"/gndatabase/img/items/gemstone/Nagadus_Emerald_Chunk.png"
     },
     {
         "name":"Nagadus Emerald Gemstone",
         "type":"gemstone",
-        "image":"img/items/gemstone/Nagadus_Emerald_Gemstone.png"
+        "image":"/gndatabase/img/items/gemstone/Nagadus_Emerald_Gemstone.png"
     },
     {
         "name":"Basalt Pillar",
         "type":"normal_boss",
-        "image":"img/items/boss/Basalt_Pillar.png"
+        "image":"/gndatabase/img/items/boss/Basalt_Pillar.png"
     },
     {
         "name":"Cleansing Heart",
         "type":"normal_boss",
-        "image":"img/items/boss/Cleansing_Heart.png"
+        "image":"/gndatabase/img/items/boss/Cleansing_Heart.png"
     },
     {
         "name":"Crystalline Bloom",
         "type":"normal_boss",
-        "image":"img/items/boss/Crystalline_Bloom.png"
+        "image":"/gndatabase/img/items/boss/Crystalline_Bloom.png"
     },
     {
         "name":"Dew of Repudiation",
         "type":"normal_boss",
-        "image":"img/items/boss/Dew_of_Repudiation.png"
+        "image":"/gndatabase/img/items/boss/Dew_of_Repudiation.png"
     },
     {
         "name":"Everflame Seed",
         "type":"normal_boss",
-        "image":"img/items/boss/Everflame_Seed.png"
+        "image":"/gndatabase/img/items/boss/Everflame_Seed.png"
     },
     {
         "name":"Hoarfrost Core",
         "type":"normal_boss",
-        "image":"img/items/boss/Hoarfrost_Core.png"
+        "image":"/gndatabase/img/items/boss/Hoarfrost_Core.png"
     },
     {
         "name":"Hurricane Seed",
         "type":"normal_boss",
-        "image":"img/items/boss/Hurricane_Seed.png"
+        "image":"/gndatabase/img/items/boss/Hurricane_Seed.png"
     },
     {
         "name":"Juvenile Jade",
         "type":"normal_boss",
-        "image":"img/items/boss/Juvenile_Jade.png"
+        "image":"/gndatabase/img/items/boss/Juvenile_Jade.png"
     },
     {
         "name":"Lightning Prism",
         "type":"normal_boss",
-        "image":"img/items/boss/Lightning_Prism.png"
+        "image":"/gndatabase/img/items/boss/Lightning_Prism.png"
     },
     {
         "name":"Marionette Core",
         "type":"normal_boss",
-        "image":"img/items/boss/Marionette_Core.png"
+        "image":"/gndatabase/img/items/boss/Marionette_Core.png"
     },
     {
         "name":"Perpetual Heart",
         "type":"normal_boss",
-        "image":"img/items/boss/Perpetual_Heart.png"
+        "image":"/gndatabase/img/items/boss/Perpetual_Heart.png"
     },
     {
         "name":"Riftborn Regalia",
         "type":"normal_boss",
-        "image":"img/items/boss/Riftborn_Regalia.png"
+        "image":"/gndatabase/img/items/boss/Riftborn_Regalia.png"
     },
     {
         "name":"Smoldering Pearl",
         "type":"normal_boss",
-        "image":"img/items/boss/Smoldering_Pearl.png"
+        "image":"/gndatabase/img/items/boss/Smoldering_Pearl.png"
     },
     {
         "name":"Storm Beads",
         "type":"normal_boss",
-        "image":"img/items/boss/Storm_Beads.png"
+        "image":"/gndatabase/img/items/boss/Storm_Beads.png"
     },
     {
         "name":"Dragonheir%27s False Fin",
         "type":"normal_boss",
-        "image":"img/items/boss/Dragonheirs_False_Fin.png"
+        "image":"/gndatabase/img/items/boss/Dragonheirs_False_Fin.png"
     },
     {
         "name":"Ashen Heart",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Ashen_Heart.png"
+        "image":"/gndatabase/img/items/weeklyboss/Ashen_Heart.png"
     },
     {
         "name":"Bloodjade Branch",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Bloodjade_Branch.png"
+        "image":"/gndatabase/img/items/weeklyboss/Bloodjade_Branch.png"
     },
     {
         "name":"Dragon Lord%27s Crown",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Dragon_Lords_Crown.png"
+        "image":"/gndatabase/img/items/weeklyboss/Dragon_Lords_Crown.png"
     },
     {
         "name":"Dvalin%27s Claw",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Dvalins_Claw.png"
+        "image":"/gndatabase/img/items/weeklyboss/Dvalins_Claw.png"
     },
     {
         "name":"Dvalin%27s Plume",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Dvalins_Plume.png"
+        "image":"/gndatabase/img/items/weeklyboss/Dvalins_Plume.png"
     },
     {
         "name":"Dvalin%27s Sigh",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Dvalins_Sigh.png"
+        "image":"/gndatabase/img/items/weeklyboss/Dvalins_Sigh.png"
     },
     {
         "name":"Gilded Scale",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Gilded_Scale.png"
+        "image":"/gndatabase/img/items/weeklyboss/Gilded_Scale.png"
     },
     {
         "name":"Hellfire Butterfly",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Hellfire_Butterfly.png"
+        "image":"/gndatabase/img/items/weeklyboss/Hellfire_Butterfly.png"
     },
     {
         "name":"Molten Moment",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Molten_Moment.png"
+        "image":"/gndatabase/img/items/weeklyboss/Molten_Moment.png"
     },
     {
         "name":"Ring of Boreas",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Ring_of_Boreas.png"
+        "image":"/gndatabase/img/items/weeklyboss/Ring_of_Boreas.png"
     },
     {
         "name":"Shadow of the Warrior",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Shadow_of_the_Warrior.png"
+        "image":"/gndatabase/img/items/weeklyboss/Shadow_of_the_Warrior.png"
     },
     {
         "name":"Shard of a Foul Legacy",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Shard_of_a_Foul_Legacy.png"
+        "image":"/gndatabase/img/items/weeklyboss/Shard_of_a_Foul_Legacy.png"
     },
     {
         "name":"Spirit Locket of Boreas",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Spirit_Locket_of_Boreas.png"
+        "image":"/gndatabase/img/items/weeklyboss/Spirit_Locket_of_Boreas.png"
     },
     {
         "name":"Tail of Boreas",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Tail_of_Boreas.png"
+        "image":"/gndatabase/img/items/weeklyboss/Tail_of_Boreas.png"
     },
     {
         "name":"Tusk of Monoceros Caeli",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Tusk_of_Monoceros_Caeli.png"
+        "image":"/gndatabase/img/items/weeklyboss/Tusk_of_Monoceros_Caeli.png"
     },
     {
         "name":"Mudra of the Malefic General",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Mudra_of_the_Malefic_General.png"
+        "image":"/gndatabase/img/items/weeklyboss/Mudra_of_the_Malefic_General.png"
     },
     {
         "name":"Tears of the Calamitous God",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/Tears_of_the_Calamitous_God.png"
+        "image":"/gndatabase/img/items/weeklyboss/Tears_of_the_Calamitous_God.png"
     },
     {
         "name":"The Meaning of Aeons",
         "type":"weekly_boss",
-        "image":"img/items/weeklyboss/The_Meaning_of_Aeons.png"
+        "image":"/gndatabase/img/items/weeklyboss/The_Meaning_of_Aeons.png"
     },
     {
         "name":"Runic Fang",
         "type":"normal_boss",
-        "image":"img/items/boss/Runic_Fang.png"
+        "image":"/gndatabase/img/items/boss/Runic_Fang.png"
     },
     {
         "name":"Chaos Storage",
         "type":"common",
-        "image":"img/items/common/Chaos_Storage.png"
+        "image":"/gndatabase/img/items/common/Chaos_Storage.png"
     },
     {
         "name":"Chaos Module",
         "type":"common",
-        "image":"img/items/common/Chaos_Module.png"
+        "image":"/gndatabase/img/items/common/Chaos_Module.png"
     },
     {
         "name":"Chaos Bolt",
         "type":"common",
-        "image":"img/items/common/Chaos_Bolt.png"
+        "image":"/gndatabase/img/items/common/Chaos_Bolt.png"
     },
     {
         "name":"Inactivated Fungal Nucleus",
         "type":"common",
-        "image":"img/items/common/Inactivated_Fungal_Nucleus.png"
+        "image":"/gndatabase/img/items/common/Inactivated_Fungal_Nucleus.png"
     },
     {
         "name":"Dormant Fungal Nucleus",
         "type":"common",
-        "image":"img/items/common/Dormant_Fungal_Nucleus.png"
+        "image":"/gndatabase/img/items/common/Dormant_Fungal_Nucleus.png"
     },
     {
         "name":"Robust Fungal Nucleus",
         "type":"common",
-        "image":"img/items/common/Robust_Fungal_Nucleus.png"
+        "image":"/gndatabase/img/items/common/Robust_Fungal_Nucleus.png"
     },
     {
         "name":"Fungal Spores",
         "type":"common",
-        "image":"img/items/common/Fungal_Spores.png"
+        "image":"/gndatabase/img/items/common/Fungal_Spores.png"
     },
     {
         "name":"Luminescent Pollen",
         "type":"common",
-        "image":"img/items/common/Luminescent_Pollen.png"
+        "image":"/gndatabase/img/items/common/Luminescent_Pollen.png"
     },
     {
         "name":"Crystalline Cyst Dust",
         "type":"common",
-        "image":"img/items/common/Crystalline_Cyst_Dust.png"
+        "image":"/gndatabase/img/items/common/Crystalline_Cyst_Dust.png"
     },
     {
         "name":"Kalpalata Lotus",
         "type":"local",
-        "image":"img/items/local/Kalpalata_Lotus.png"
+        "image":"/gndatabase/img/items/local/Kalpalata_Lotus.png"
     },
     {
         "name":"Nilotpala Lotus",
         "type":"local",
-        "image":"img/items/local/Nilotpala_Lotus.png"
+        "image":"/gndatabase/img/items/local/Nilotpala_Lotus.png"
     },
     {
         "name":"Padisarah",
         "type":"local",
-        "image":"img/items/local/Padisarah.png"
+        "image":"/gndatabase/img/items/local/Padisarah.png"
     },
     {
         "name":"Faded Red Satin",
         "type":"common",
-        "image":"img/items/common/Faded_Red_Satin.png"
+        "image":"/gndatabase/img/items/common/Faded_Red_Satin.png"
     },
     {
         "name":"Trimmed Red Silk",
         "type":"common",
-        "image":"img/items/common/Trimmed_Red_Silk.png"
+        "image":"/gndatabase/img/items/common/Trimmed_Red_Silk.png"
     },
     {
         "name":"Rich Red Brocade",
         "type":"common",
-        "image":"img/items/common/Rich_Red_Brocade.png"
+        "image":"/gndatabase/img/items/common/Rich_Red_Brocade.png"
     },
     {
         "name":"Rukkhashava Mushrooms",
         "type":"local",
-        "image":"img/items/local/Rukkhashava_Mushrooms.png"
+        "image":"/gndatabase/img/items/local/Rukkhashava_Mushrooms.png"
     },
     {
         "name":"Gloomy Statuette",
         "type":"common",
-        "image":"img/items/common/Gloomy_Statuette.png"
+        "image":"/gndatabase/img/items/common/Gloomy_Statuette.png"
     },
     {
         "name":"Dark Statuette",
         "type":"common",
-        "image":"img/items/common/Dark_Statuette.png"
+        "image":"/gndatabase/img/items/common/Dark_Statuette.png"
     },
     {
         "name":"Deathly Statuette",
         "type":"common",
-        "image":"img/items/common/Deathly_Statuette.png"
+        "image":"/gndatabase/img/items/common/Deathly_Statuette.png"
     },
     {
         "name":"Thunderclap Fruitcore",
         "type":"normal_boss",
-        "image":"img/items/boss/Thunderclap_Fruitcore.png"
+        "image":"/gndatabase/img/items/boss/Thunderclap_Fruitcore.png"
     },
     {
         "name":"Majestic Hooked Beak",
         "type":"normal_boss",
-        "image":"img/items/boss/Majestic_Hooked_Beak.png"
+        "image":"/gndatabase/img/items/boss/Majestic_Hooked_Beak.png"
     },
     {
         "name":"Scarab",
         "type":"local",
-        "image":"img/items/local/Scarab.png"
+        "image":"/gndatabase/img/items/local/Scarab.png"
     },
     {
         "name":"Redcrest",
         "type":"local",
-        "image":"img/items/local/Redcrest.png"
+        "image":"/gndatabase/img/items/local/Redcrest.png"
     },
     {
         "name":"Light Guiding Tetrahedron",
         "type":"normal_boss",
-        "image":"img/items/boss/Light_Guiding_Tetrahedron.png"
+        "image":"/gndatabase/img/items/boss/Light_Guiding_Tetrahedron.png"
     },
     {
         "name":"Perpetual Caliber",
         "type":"normal_boss",
-        "image":"img/items/boss/Perpetual_Caliber.png"
+        "image":"/gndatabase/img/items/boss/Perpetual_Caliber.png"
     }
 
 ]
