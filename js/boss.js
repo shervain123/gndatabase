@@ -1,5 +1,5 @@
-var item = load_json("json/items.json")
-var domain = load_json("json/domain.json")
+var item = load_json("/gndatabase/json/items.json")
+var domain = load_json("/gndatabase/json/domain.json")
 domain_detail()
 function load_json(file){
     var request = new XMLHttpRequest();

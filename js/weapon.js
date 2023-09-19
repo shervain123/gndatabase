@@ -1,4 +1,4 @@
-var character = load_json("json/weapon.json")
+var character = load_json("/gndatabase/json/weapon.json")
 //yes it is using the same code as the talent because they are the same
 load()
 function create_image(name,image){

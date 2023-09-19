@@ -1,5 +1,5 @@
-var artifact = load_json("json/artifact.json")
-var domain = load_json("json/domain.json")
+var artifact = load_json("/gndatabase/json/artifact.json")
+var domain = load_json("/gndatabase/json/domain.json")
 domain_detail()
 function load_json(file){
     var request = new XMLHttpRequest();

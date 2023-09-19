@@ -1,28 +1,28 @@
-var character = load_json("json/characters.json")
-var weapon = load_json("json/weapon.json")
-var artifact = load_json("json/artifact.json")
-var item = load_json("json/items.json")
-var item_group = load_json("json/items_group.json")
-var talent = load_json("json/talent.json")
+var character = load_json("/gndatabase/json/characters.json")
+var weapon = load_json("/gndatabase/json/weapon.json")
+var artifact = load_json("/gndatabase/json/artifact.json")
+var item = load_json("/gndatabase/json/items.json")
+var item_group = load_json("/gndatabase/json/items_group.json")
+var talent = load_json("/gndatabase/json/talent.json")
 var character_json
 all()
 
 function reload_json(){
-    character = load_json("json/characters.json")
-    weapon = load_json("json/weapon.json")
-    artifact = load_json("json/artifact.json")
-    item = load_json("json/items.json")
-    item_group = load_json("json/items_group.json")
-    talent = load_json("json/talent.json")
+    character = load_json("/gndatabase/json/characters.json")
+    weapon = load_json("/gndatabase/json/weapon.json")
+    artifact = load_json("/gndatabase/json/artifact.json")
+    item = load_json("/gndatabase/json/items.json")
+    item_group = load_json("/gndatabase/json/items_group.json")
+    talent = load_json("/gndatabase/json/talent.json")
 }
 
 function reload_name(name){
-    character = load_json("json/characters.json")
-    weapon = load_json("json/weapon.json")
-    artifact = load_json("json/artifact.json")
-    item = load_json("json/items.json")
-    item_group = load_json("json/items_group.json")
-    talent = load_json("json/talent.json")
+    character = load_json("/gndatabase/json/characters.json")
+    weapon = load_json("/gndatabase/json/weapon.json")
+    artifact = load_json("/gndatabase/json/artifact.json")
+    item = load_json("/gndatabase/json/items.json")
+    item_group = load_json("/gndatabase/json/items_group.json")
+    talent = load_json("/gndatabase/json/talent.json")
     all_name(name)
 }
 
