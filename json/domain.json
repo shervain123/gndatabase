@@ -6,7 +6,7 @@
         "item2":"Resolution of Sojourner",
         "item3":"Thundering Fury",
         "item4":"Thundersoother",
-        "image":"/img/location/midsummer_courtyard.png",
+        "image":"img/location/midsummer_courtyard.png",
         "region":"Mondstadt"
     },
     {
@@ -16,7 +16,7 @@
         "item2":"Tiny Miracle",
         "item3":"Viridescent Venerer",
         "item4":"Maiden Beloved",
-        "image":"/img/location/valley_of_remembrance.png",
+        "image":"img/location/valley_of_remembrance.png",
         "region":"Mondstadt"
     },
     {
@@ -26,7 +26,7 @@
         "item2":"Gambler",
         "item3":"Blizzard Strayer",
         "item4":"Heart of Depth",
-        "image":"/img/location/peak_of_vindagnyr.png",
+        "image":"img/location/peak_of_vindagnyr.png",
         "region":"Mondstadt"
     },
     {
@@ -36,7 +36,7 @@
         "item2":"Martial Artist",
         "item3":"Tenacity of the Millelith",
         "item4":"Pale Flame",
-        "image":"/img/location/ridge_watch.png",
+        "image":"img/location/ridge_watch.png",
         "region":"Mondstadt"
     },
     {
@@ -46,7 +46,7 @@
         "item2":"Lucky Dog",
         "item3":"Archaic Petra",
         "item4":"Retracing Bolide",
-        "image":"/img/location/domain_of_guyun.png",
+        "image":"img/location/domain_of_guyun.png",
         "region":"Liyue"
     },
     {
@@ -56,7 +56,7 @@
         "item2":"Martial Artist",
         "item3":"Crimson Witch of Flames",
         "item4":"Lavawalker",
-        "image":"/img/location/hidden_palace_of_zhou_formula.png",
+        "image":"img/location/hidden_palace_of_zhou_formula.png",
         "region":"Liyue"
     },
     {
@@ -66,7 +66,7 @@
         "item2":"Scholar",
         "item3":"Bloodstained Chivalry",
         "item4":"Noblesse Oblige",
-        "image":"/img/location/clear_pool_and_mountain_cavern.png",
+        "image":"img/location/clear_pool_and_mountain_cavern.png",
         "region":"Liyue"
     },
     {
@@ -76,7 +76,7 @@
         "item2":"Tiny Miracle",
         "item3":"Shimenawa's Reminiscence",
         "item4":"Emblem of Severed Fate",
-        "image":"/img/location/momiji-dyed_court.png",
+        "image":"img/location/momiji-dyed_court.png",
         "region":"Inazuma"
     },
     {
@@ -86,7 +86,7 @@
         "item2":"Brave Heart",
         "item3":"Husk of Opulent Dreams",
         "item4":"Ocean-Hued Clam",
-        "image":"/img/location/slumbering_court.png",
+        "image":"img/location/slumbering_court.png",
         "region":"Inazuma"
     },
     {
@@ -95,7 +95,7 @@
         "item1":"Dvalin%27s Plume",
         "item2":"Dvalin%27s Claw",
         "item3":"Dvalin%27s Sigh",
-        "image":"/img/location/Confront_Stormterror.png",
+        "image":"img/location/Confront_Stormterror.png",
         "region":"Mondstadt"
     },
     {
@@ -104,7 +104,7 @@
         "item1":"Tail of Boreas",
         "item2":"Ring of Boreas",
         "item3":"Spirit Locket of Boreas",
-        "image":"/img/location/Lupus_Boreas.png",
+        "image":"img/location/Lupus_Boreas.png",
         "region":"Mondstadt"
     },
     {
@@ -113,7 +113,7 @@
         "item1":"Tusk of Monoceros Caeli",
         "item2":"Shard of a Foul Legacy",
         "item3":"Shadow of the Warrior",
-        "image":"/img/location/The_Golden_House.png",
+        "image":"img/location/The_Golden_House.png",
         "region":"Liyue"
     },
     {
@@ -122,7 +122,7 @@
         "item1":"Drangon Load%27s Crown",
         "item2":"Bloodjade Branch",
         "item3":"Gilded Scale",
-        "image":"/img/location/Beneath_the_Drangon-Queller.png",
+        "image":"img/location/Beneath_the_Drangon-Queller.png",
         "region":"Liyue"
     },
     {
@@ -131,7 +131,7 @@
         "item1":"Molten Moment",
         "item2":"Hellfire Butterfly",
         "item3":"Ashen Heart",
-        "image":"/img/location/Narukami_Island_Tenshukaku.png",
+        "image":"img/location/Narukami_Island_Tenshukaku.png",
         "region":"Inazuma"
     },
     {
@@ -140,7 +140,7 @@
         "item1":"Mudra of the Malefic General",
         "item2":"Tears of the Calamitous God",
         "item3":"The Meaning of Aeons",
-        "image":"/img/location/End_of_the_Oneiric_Euthymia.png",
+        "image":"img/location/End_of_the_Oneiric_Euthymia.png",
         "region":"Inazuma"
     },
     {
@@ -149,7 +149,7 @@
         "num_element":"1",
         "element1":"Anemo",
         "item":"Hurricane Seed",
-        "image":"/img/location/anemo_hypostasis.png",
+        "image":"img/location/anemo_hypostasis.png",
         "region":"Mondstadt"
     },
     {
@@ -158,7 +158,7 @@
         "num_element":"1",
         "element1":"Electro",
         "item":"Lightning Prism",
-        "image":"/img/location/electro_hypostasis.png",
+        "image":"img/location/electro_hypostasis.png",
         "region":"Mondstadt"
     },
     {
@@ -167,7 +167,7 @@
         "num_element":"1",
         "element1":"Cryo",
         "item":"Hoarfrost Core",
-        "image":"/img/location/cryo_regisvine.png",
+        "image":"img/location/cryo_regisvine.png",
         "region":"Mondstadt"
     },
     {
@@ -176,7 +176,7 @@
         "num_element":"1",
         "element1":"Cryo",
         "item":"Crystalline Bloom",
-        "image":"/img/location/cryo_hypostasis.png",
+        "image":"img/location/cryo_hypostasis.png",
         "region":"Mondstadt"
     },
     {
@@ -185,7 +185,7 @@
         "num_element":"1",
         "element1":"Hydro",
         "item":"Cleansing Heart",
-        "image":"/img/location/oceanid.png",
+        "image":"img/location/oceanid.png",
         "region":"Liyue"
     },
     {
@@ -194,7 +194,7 @@
         "num_element":"1",
         "element1":"Pyro",
         "item":"Everflame Seed",
-        "image":"/img/location/pyro_regisvine.png",
+        "image":"img/location/pyro_regisvine.png",
         "region":"Liyue"
     },
     {
@@ -203,7 +203,7 @@
         "num_element":"1",
         "element1":"Geo",
         "item":"Basalt Pillar",
-        "image":"/img/location/geo_hypostasis.png",
+        "image":"img/location/geo_hypostasis.png",
         "region":"Liyue"
     },
     {
@@ -216,7 +216,7 @@
         "element4":"Pyro",
         "element5":"Hydro",
         "item":"Juvenile Jade",
-        "image":"/img/location/primo_geovishap.png",
+        "image":"img/location/primo_geovishap.png",
         "region":"Liyue"
     },
     {
@@ -226,7 +226,7 @@
         "element1":"Anemo",
         "element2":"Cryo",
         "item":"Marionette Core",
-        "image":"/img/location/maguu_kenki.png",
+        "image":"img/location/maguu_kenki.png",
         "region":"Inazuma"
     },
     {
@@ -235,7 +235,7 @@
         "num_element":"1",
         "element1":"Pyro",
         "item":"Smoldering Pearl",
-        "image":"/img/location/pyro_hypostasis.png",
+        "image":"img/location/pyro_hypostasis.png",
         "region":"Inazuma"
     },
     {
@@ -245,7 +245,7 @@
         "element1":"Geo",
         "element2":"Cryo",
         "item":"Perpetual Heart",
-        "image":"/img/location/perpetual_mechanical_array.png",
+        "image":"img/location/perpetual_mechanical_array.png",
         "region":"Inazuma"
     },
     {
@@ -254,7 +254,7 @@
         "num_element":"1",
         "element1":"Hydro",
         "item":"Dew of Repudiation",
-        "image":"/img/location/hydro_hypostasis.png",
+        "image":"img/location/hydro_hypostasis.png",
         "region":"Inazuma"
     },
     {
@@ -263,7 +263,7 @@
         "num_element":"1",
         "element1":"Electro",
         "item":"Storm Beads",
-        "image":"/img/location/thunder_manifestation.png",
+        "image":"img/location/thunder_manifestation.png",
         "region":"Inazuma"
     },
     {
@@ -272,7 +272,7 @@
         "num_element":"1",
         "element1":"Geo",
         "item":"Riftborn Regalia",
-        "image":"/img/location/golden_wolflord.png",
+        "image":"img/location/golden_wolflord.png",
         "region":"Inazuma"
     },
     {
@@ -282,7 +282,7 @@
         "element1":"Electro",
         "element2":"Cryo",
         "item":"Dragonheir%27s False Fin",
-        "image":"/img/location/bathysmal_vishap_herd.png",
+        "image":"img/location/bathysmal_vishap_herd.png",
         "region":"Inazuma"
     },
     {
@@ -291,7 +291,7 @@
         "num_element":"1",
         "element1":"Geo",
         "item":"Runic Fang",
-        "image":"/img/location/Ruin_Serpent.png",
+        "image":"img/location/Ruin_Serpent.png",
         "region":"Liyue"
     },
     {
@@ -300,7 +300,7 @@
         "num_element":"1",
         "element1":"Dendro",
         "item":"Majestic Hooked Beak",
-        "image":"/img/location/Jadeplume_Terrorshroom.png",
+        "image":"img/location/Jadeplume_Terrorshroom.png",
         "region":"Sumeru"
     },
     {
@@ -309,7 +309,7 @@
         "num_element":"1",
         "element1":"Electro",
         "item":"Thunderclap Fruitcore",
-        "image":"/img/location/Electro_Regisvine.png",
+        "image":"img/location/Electro_Regisvine.png",
         "region":"Sumeru"
     },
     {
@@ -319,7 +319,7 @@
         "item2":"Gambler",
         "item3":"Vermillion Hereafter",
         "item4":"Echoes of an Offering",
-        "image":"/img/location/The_Lost_Valley.png",
+        "image":"img/location/The_Lost_Valley.png",
         "region":"Liyue"
     }   
 ]

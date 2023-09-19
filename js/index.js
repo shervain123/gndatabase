@@ -342,15 +342,15 @@ function search(id,filter_id){
       }
     if(value == "DEVIL" || value == "DEMON" || value == "SHINRARIN"){
         remove_easter()
-        teams_img("Rin Okumura","/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
-        teams_img("Shinra Kusakabe","/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+        teams_img("Rin Okumura","img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+        teams_img("Shinra Kusakabe","img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
     }else if(value == "SHINRA" || value == "KUSAKABE" || value == "SHINRA KUSAKABE"){
         remove_easter()
-        teams_img("Shinra Kusakabe","/img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
+        teams_img("Shinra Kusakabe","img/character/e/shinra.png","00","Tokoyo","??","Pyro","0")
 
     }else if(value == "RIN" || value == "OKUMURA" || value == "RIN OKUMURA"){
         remove_easter()
-        teams_img("Rin Okumura","/img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
+        teams_img("Rin Okumura","img/character/e/rin.png","00","Assiah","Katana","Pyro","0")
     }else{
         remove_easter()
     }
@@ -398,7 +398,7 @@ function teams_img(name,image,code,region,wepon,element,rare){
     var selected_container = document.createElement("div")
     var selected = document.createElement("img")
     var without_space = name.replaceAll(" ","_")
-    selected.src="/img/character/head/selected.png"
+    selected.src="img/character/head/selected.png"
     link.href = "javascript:void(0)"
     link.onclick = new Function("event", "select_team('"+without_space+"')")
     names.innerText = name
@@ -430,7 +430,7 @@ function teams_weapon_img(name,image,code,region,wepon,rare){
     var selected = document.createElement("img")
     name = decodeURIComponent(name)
     var without_space = name.replaceAll(" ","_")
-    selected.src="/img/character/head/selected.png"
+    selected.src="img/character/head/selected.png"
     link.href = "javascript:void(0)"
     link.onclick = new Function("event", "select_weapon('"+code+"')")
     names.innerText = name
