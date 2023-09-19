@@ -1,4 +1,4 @@
-var character = load_json("/json/characters.json")
+var character = load_json("json/characters.json")
 load()
 function create_image(name,image){
     var character_img_container = document.createElement("div")

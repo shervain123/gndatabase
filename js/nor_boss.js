@@ -1,6 +1,6 @@
-var item = load_json("/json/items.json")
-var domain = load_json("/json/domain.json")
-var item_group = load_json("/json/items_group.json")
+var item = load_json("json/items.json")
+var domain = load_json("json/domain.json")
+var item_group = load_json("json/items_group.json")
 domain_detail()
 function load_json(file){
     var request = new XMLHttpRequest();
